@@ -1,0 +1,12 @@
+/sessions/rcw-012xftisvaemgcmoq3bxjr9u/mnt/SPHERE/factory/tests/fb_binary.py:24: RuntimeWarning: All-NaN slice encountered
+  ms=(X[:,1,:2]+X[:,2,:2])/2;mh=(X[:,7,:2]+X[:,8,:2])/2;torso=np.nanmedian(np.linalg.norm(ms-mh,axis=1))
+windows 945 backhand 195
+[lr 2D take-back] n=945 bh=195 AUC 0.650 | forehand recall 0.63, backhand recall 0.61
+[lr depth take-back] n=945 bh=195 AUC 0.627 | forehand recall 0.60, backhand recall 0.62
+[lr both] n=945 bh=195 AUC 0.655 | forehand recall 0.63, backhand recall 0.58
+[gb 2D take-back] n=945 bh=195 AUC 0.708 | forehand recall 0.75, backhand recall 0.55
+[gb depth take-back] n=945 bh=195 AUC 0.658 | forehand recall 0.74, backhand recall 0.49
+[gb both] n=945 bh=195 AUC 0.712 | forehand recall 0.76, backhand recall 0.51
+[lr both, front/back views] n=574 bh=108 AUC 0.652 | forehand recall 0.66, backhand recall 0.60
+[lr both, side-on views] n=371 bh=87 AUC 0.618 | forehand recall 0.61, backhand recall 0.59
+[lr both, confidence>=2] n=424 bh=98 AUC 0.706 | forehand recall 0.68, backhand recall 0.64

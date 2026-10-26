@@ -1,0 +1,341 @@
+{
+  "activity_id": "tennis_overhead_smash",
+  "purpose": "Hit an incoming lob out of the air with a fast, steeply downward serve-like stroke at full reach, placing it into the court away from the opponent's reach.",
+  "search_queries": [
+    {
+      "query": "tennis overhead smash technique lesson",
+      "kind": "instruction"
+    },
+    {
+      "query": "how to hit a tennis overhead smash proper form",
+      "kind": "good_form"
+    },
+    {
+      "query": "tennis overhead smash common mistakes",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "tennis overhead smash slow motion side view",
+      "kind": "demonstration"
+    },
+    {
+      "query": "tennis smash footwork sidestep and trophy position drill",
+      "kind": "instruction"
+    },
+    {
+      "query": "overhead smash tennis practice no ball shadow swing",
+      "kind": "demonstration"
+    }
+  ],
+  "primary_features": [
+    "height.wrist.dom",
+    "angle.elbow.dom",
+    "angle.shoulder.dom",
+    "height.wrist.non",
+    "angle.shoulder_hip_twist",
+    "height.heel.dom"
+  ],
+  "attempt_events": [
+    {
+      "feature": "height.wrist.dom",
+      "direction": "rises",
+      "seconds": 1.3,
+      "peak_at_least": 0.8
+    }
+  ],
+  "phases": [
+    {
+      "id": "prepare",
+      "description": "Spot the lob, turn sideways and sidestep back; racket is taken up early."
+    },
+    {
+      "id": "trophy",
+      "description": "Trophy position: non-hitting arm points up at the ball, hitting elbow bent with racket up behind the head, weight loaded on the back leg."
+    },
+    {
+      "id": "swing",
+      "description": "Legs drive up, trunk uncoils, racket accelerates up and forward to contact with the arm extended above and in front of the body."
+    },
+    {
+      "id": "follow_through",
+      "description": "Racket continues down across the body, the non-hitting arm tucks in, and the player lands and recovers."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "turn_sideways",
+      "goal": "Turn the shoulders sideways to the net early so the body is coiled before the swing.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "trophy",
+        "at_point": "start"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Facing the net square with the shoulders, so there is little coil to uncoil into the swing and the arm does the work alone.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Shoulders over-rotated away from the hips, which leaves the body late and off balance.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Remind the player to turn sideways as soon as the lob is seen.",
+      "ask_if_unsure_intent": "Ask whether the player turned the shoulders or just reached with the arm.",
+      "fix_intent": "Have the player turn the shoulders and take the racket up early while stepping sideways."
+    },
+    {
+      "id": "non_arm_up",
+      "goal": "Point the non-hitting arm up toward the ball in the trophy position.",
+      "caused_by": [
+        "turn_sideways"
+      ],
+      "test": {
+        "feature": "height.wrist.non",
+        "at_phase": "trophy",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "The free hand stays low by the body, so the player loses balance and the ball is hard to track and judge.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Cue the player to point the free hand at the ball.",
+      "ask_if_unsure_intent": "Ask whether the player is using the free hand to track the ball.",
+      "fix_intent": "Shadow the trophy position with the free arm pointing up and held until the swing starts."
+    },
+    {
+      "id": "racket_up_early",
+      "goal": "Raise the hitting arm early, with the elbow bent and the hand up beside the head, in the trophy position.",
+      "caused_by": [
+        "turn_sideways"
+      ],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "trophy",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Elbow folded very tightly with the racket collapsed behind the head, which shortens the swing path.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "Arm already straight or still low, so the racket is late and the swing is rushed or short.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Cue the player to get the racket up and ready early.",
+      "ask_if_unsure_intent": "Ask whether the player felt rushed getting the racket back.",
+      "fix_intent": "Practise taking the racket straight up to the trophy position as the first move, before stepping."
+    },
+    {
+      "id": "reach_full_extension",
+      "goal": "Hit the ball with the hitting arm fully extended at the top of the swing.",
+      "caused_by": [
+        "non_arm_up",
+        "racket_up_early"
+      ],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Elbow still bent at contact, so the contact point is lower and weaker and the ball is hit with a cramped arm.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Cue the player to reach up and extend the arm to the ball.",
+      "ask_if_unsure_intent": "Ask whether the player was cramped or hit the ball too close to the body.",
+      "fix_intent": "Have the player move under the ball and reach up to hit at full extension."
+    },
+    {
+      "id": "high_contact",
+      "goal": "Meet the ball at the highest point of reach above the shoulder.",
+      "caused_by": [
+        "reach_full_extension",
+        "drive_with_legs"
+      ],
+      "test": {
+        "feature": "height.wrist.dom",
+        "at_phase": "swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Contact at a low height or the player is letting the ball drop, which flattens the angle and makes the smash easier to defend.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Cue the player to hit the ball at the top, not let it drop.",
+      "ask_if_unsure_intent": "Ask whether the player let the ball drop before hitting.",
+      "fix_intent": "Adjust the footwork so the player is under the ball and reaches up for it."
+    },
+    {
+      "id": "drive_with_legs",
+      "goal": "Push up from the legs through the swing so the heel rises and the body goes up into the ball.",
+      "caused_by": [
+        "turn_sideways"
+      ],
+      "test": {
+        "feature": "height.heel.dom",
+        "at_phase": "swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Feet flat and legs static at contact; the swing is all arm and the contact point is lower.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Cue the player to push up off the legs into the ball.",
+      "ask_if_unsure_intent": "Ask whether the player feels any leg push or only an arm swing.",
+      "fix_intent": "Add a small knee bend in the trophy position and a push upward through the swing."
+    },
+    {
+      "id": "contact_in_front",
+      "goal": "Keep the upper body moving up and slightly forward so contact is in front of the body, not behind.",
+      "caused_by": [
+        "turn_sideways"
+      ],
+      "test": {
+        "feature": "fwd.trunk_shift",
+        "at_phase": "swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Leaning back with the ball behind the head, so the smash goes up or long and the body falls backward.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Lunging too far forward, which is off balance and makes contact too early.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_placement"
+      ],
+      "cue_intent": "Cue the player to hit up and slightly in front, not lean back.",
+      "ask_if_unsure_intent": "Ask whether the player lost the ball behind the head.",
+      "fix_intent": "Use the sidestep to get behind the ball and then move through it rather than away from it."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "power_and_placement",
+      "description": "The smash is hit with power and steep downward direction into the court at a chosen spot.",
+      "requires_observable": [
+        "body",
+        "ball",
+        "landing_area"
+      ]
+    },
+    {
+      "id": "clean_form",
+      "description": "The smash is carried out with a coiled trophy position and a full, high reach.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "height.wrist.dom",
+      "at_phase": "swing",
+      "at_point": "end",
+      "outcome": "power_and_placement",
+      "effect": "higher_is_better",
+      "mechanism": "A higher contact point allows a steeper downward angle over the net and uses the full lever of the arm."
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at_phase": "swing",
+      "at_point": "end",
+      "outcome": "power_and_placement",
+      "effect": "higher_is_better",
+      "mechanism": "A straighter arm at contact lengthens the racket lever and raises the contact point so more speed goes into the ball."
+    },
+    {
+      "feature": "angle.shoulder_hip_twist",
+      "at_phase": "trophy",
+      "at_point": "start",
+      "outcome": "power_and_placement",
+      "effect": "mid_is_better",
+      "mechanism": "A good shoulder coil stores rotation to unwind into the swing while still leaving the body balanced."
+    },
+    {
+      "feature": "fwd.trunk_shift",
+      "at_phase": "swing",
+      "at_point": "end",
+      "outcome": "power_and_placement",
+      "effect": "mid_is_better",
+      "mechanism": "Contact slightly in front of the body lets the swing go forward and down; leaning back sends the ball up or long."
+    }
+  ],
+  "confusable_with": [
+    "tennis_serve",
+    "badminton_overhead_clear",
+    "volleyball_spike",
+    "tennis_forehand",
+    "overhead_throw"
+  ],
+  "session_ideas": [
+    "Shadow smash with no ball: sidestep, trophy position, hit up, then freeze at contact.",
+    "Self-fed or coach-fed lobs with a focus on early racket-up and the free arm pointing.",
+    "Footwork-only drill: sidestep or crossover back under lobs, then catch the ball overhead.",
+    "Target smashes into marked court zones after a lob feed."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Contact height and position relative to the body and the ball's landing spot cannot be judged from body features alone."
+    },
+    {
+      "kind": "measurement",
+      "name": "racket_head_height_or_drop",
+      "why": "Coaches mention the racket drop behind the head and the swing path; no registered feature shows the racket itself."
+    },
+    {
+      "kind": "feature",
+      "name": "contact_point_forward_of_head",
+      "why": "Contact in front of the body is a key point, but only the trunk shift can approximate it."
+    },
+    {
+      "kind": "feature",
+      "name": "footwork_step_pattern",
+      "why": "Sidesteps and crossover steps to get under the ball are named by coaches but are not a registered feature."
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 310,
+    "clips_with_attempts": 66,
+    "clips": 82,
+    "target_reached": false,
+    "rounds": 2
+  }
+}

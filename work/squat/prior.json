@@ -1,0 +1,256 @@
+{
+  "activity_id": "squat",
+  "purpose": "Bend at hips, knees and ankles to lower the body under control to a chosen depth (ideally thighs about parallel or lower) with the trunk braced, knees tracking over the feet and weight balanced over mid-foot, then stand fully back up.",
+  "search_queries": [
+    {
+      "query": "bodyweight squat proper form side view",
+      "kind": "good_form"
+    },
+    {
+      "query": "how to squat correctly full body front and side view",
+      "kind": "instruction"
+    },
+    {
+      "query": "squat common mistakes knees caving forward lean",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "air squat demonstration",
+      "kind": "demonstration"
+    },
+    {
+      "query": "goblet squat form tutorial",
+      "kind": "instruction"
+    },
+    {
+      "query": "barbell back squat technique side angle",
+      "kind": "good_form"
+    },
+    {
+      "query": "squat depth too shallow fix",
+      "kind": "common_mistakes"
+    }
+  ],
+  "primary_features": [
+    "height.hip",
+    "angle.knee.dom",
+    "angle.hip.dom",
+    "angle.trunk_lean"
+  ],
+  "defining_signal": {
+    "feature": "height.hip",
+    "direction": "falls"
+  },
+  "phases": [
+    {
+      "id": "descent",
+      "description": "From upright standing, hips and knees bend and hips lower under control until the lowest point."
+    },
+    {
+      "id": "bottom",
+      "description": "Brief transition at the lowest position where the movement reverses."
+    },
+    {
+      "id": "ascent",
+      "description": "Hips and knees extend, driving back up to full standing."
+    }
+  ],
+  "faults": [
+    {
+      "id": "insufficient_depth",
+      "description": "Hips do not lower far enough; the squat stops well above thigh-parallel.",
+      "severity": "medium",
+      "caused_by": [
+        "limited_mobility_or_balance_fear"
+      ],
+      "test": {
+        "feature": "height.hip",
+        "at_phase": "descent",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "depth_achieved"
+      ],
+      "cue_intent": "Tell the person they are stopping short of a full squat and should sit lower.",
+      "ask_if_unsure_intent": "Ask whether they are deliberately doing a partial squat or if something limits going lower.",
+      "fix_intent": "Suggest sitting down and back further, possibly with a box or counterweight to feel the target depth, keeping heels down."
+    },
+    {
+      "id": "knee_valgus",
+      "description": "The knee drifts inward toward the midline relative to the hip-ankle line during descent or bottom.",
+      "severity": "high",
+      "caused_by": [
+        "weak_hip_abductor_control"
+      ],
+      "test": {
+        "feature": "dev.knee_inward.dom",
+        "at_phase": "descent",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "knee_tracking"
+      ],
+      "cue_intent": "Point out the knee collapsing inward and ask them to push the knees out over the toes.",
+      "ask_if_unsure_intent": "Ask whether they feel the knee falling inward or tension in the outer hip.",
+      "fix_intent": "Cue spreading the floor with the feet, pushing knees out in line with toes; consider a light resistance band or slightly reduced load/depth."
+    },
+    {
+      "id": "excessive_forward_lean",
+      "description": "Trunk tips far forward at the bottom, turning the squat into a hip hinge.",
+      "severity": "medium",
+      "caused_by": [
+        "limited_ankle_mobility",
+        "weak_upright_bracing"
+      ],
+      "test": {
+        "feature": "angle.trunk_lean",
+        "at_phase": "descent",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "balance_over_midfoot",
+        "depth_achieved"
+      ],
+      "cue_intent": "Tell them the chest is dropping too far forward and ask them to keep the chest tall.",
+      "ask_if_unsure_intent": "Ask where they feel the effort and whether the heels or ankles feel tight.",
+      "fix_intent": "Cue chest up, knees travelling forward over toes, and a counterweight in front or heel elevation if ankle mobility limits."
+    },
+    {
+      "id": "incomplete_lockout",
+      "description": "At the top the hips are not fully extended, leaving the person partly bent between reps.",
+      "severity": "low",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.hip.dom",
+        "at_phase": "ascent",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "full_range_of_motion"
+      ],
+      "cue_intent": "Mention they are not standing fully tall at the top.",
+      "ask_if_unsure_intent": "Ask whether they are keeping continuous tension deliberately between reps.",
+      "fix_intent": "Cue squeezing glutes and standing all the way up before starting the next rep."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "form_quality",
+      "description": "The squat pattern itself is performed with controlled, well-aligned technique.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "depth_achieved",
+      "description": "Hips lower to about thigh-parallel or below.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "knee_tracking",
+      "description": "Knees stay aligned over the feet throughout the rep.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "balance_over_midfoot",
+      "description": "Body weight stays balanced over the mid-foot with a stable trunk.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "full_range_of_motion",
+      "description": "Rep starts and ends in full standing extension.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "height.hip",
+      "at_phase": "descent",
+      "at_point": "end",
+      "outcome": "depth_achieved",
+      "effect": "lower_is_better",
+      "mechanism": "A lower hip height at the bottom directly means greater squat depth."
+    },
+    {
+      "feature": "dev.knee_inward.dom",
+      "at_phase": "descent",
+      "at_point": "end",
+      "outcome": "knee_tracking",
+      "effect": "lower_is_better",
+      "mechanism": "Less inward knee deviation keeps the knee over the foot line."
+    },
+    {
+      "feature": "angle.trunk_lean",
+      "at_phase": "descent",
+      "at_point": "end",
+      "outcome": "balance_over_midfoot",
+      "effect": "mid_is_better",
+      "mechanism": "Some forward lean counterbalances hips moving back, but too much shifts load away from an upright squat pattern."
+    },
+    {
+      "feature": "angle.shin_lean",
+      "at_phase": "descent",
+      "at_point": "end",
+      "outcome": "depth_achieved",
+      "effect": "higher_is_better",
+      "mechanism": "More forward shin travel lets the hips go lower while the trunk stays more upright."
+    },
+    {
+      "feature": "angle.hip.dom",
+      "at_phase": "ascent",
+      "at_point": "end",
+      "outcome": "full_range_of_motion",
+      "effect": "higher_is_better",
+      "mechanism": "A more open hip angle at the top means full hip extension."
+    },
+    {
+      "feature": "dist.stance_width",
+      "at_phase": "descent",
+      "at_point": "start",
+      "outcome": "depth_achieved",
+      "effect": "mid_is_better",
+      "mechanism": "A stance around shoulder width suits most people's hip structure for reaching depth; very narrow or very wide limits it."
+    }
+  ],
+  "confusable_with": [
+    "lunge",
+    "deadlift",
+    "good_morning",
+    "sit_to_stand",
+    "step_up",
+    "wall_sit",
+    "leg_press",
+    "kettlebell_swing"
+  ],
+  "session_ideas": [
+    "Set of 8-10 bodyweight squats filmed from the side, then from the front",
+    "Tempo squats: 3 seconds down, 1 second pause, quick up",
+    "Box squat to a target depth",
+    "Goblet squat for chest-up practice",
+    "Banded squats for knee tracking"
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "feature",
+      "name": "height.hip_below_knee",
+      "why": "Thigh-parallel depth is conventionally judged as hip crease relative to knee height; a direct hip-minus-knee vertical feature would be more exact than normalised hip height alone."
+    },
+    {
+      "kind": "feature",
+      "name": "asymmetry.knee_angle_lr",
+      "why": "Detecting a lateral shift or uneven squat needs a left-right difference in knee angle, which is not expressible with signed dom/non features."
+    }
+  ]
+}

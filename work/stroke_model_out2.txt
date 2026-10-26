@@ -1,0 +1,27 @@
+racket hand known from the frames for 116 videos; the skeleton-only guess agrees on 72/113; right-handed 101, left-handed 15
+labelled windows usable: 1170 {'no_stroke': 403, 'forehand': 341, 'backhand': 77, 'serve': 312, 'other': 4, 'volley': 12, 'smash': 15, 'slice': 6}
+what the frames show, by the activity each video was collected for:
+   tennis_backhand {'no_stroke': 38, 'forehand': 65, 'backhand': 26, 'serve': 10}
+   tennis_drop_shot {'no_stroke': 37, 'serve': 5, 'forehand': 28, 'other': 1, 'backhand': 1}
+   tennis_forehand {'forehand': 118, 'volley': 3, 'no_stroke': 109, 'backhand': 19, 'serve': 23}
+   tennis_overhead_smash {'serve': 124, 'forehand': 23, 'no_stroke': 49, 'smash': 10, 'backhand': 4, 'other': 1}
+   tennis_serve {'serve': 119, 'no_stroke': 80, 'backhand': 9, 'other': 1, 'forehand': 25, 'smash': 1, 'volley': 2}
+   tennis_slice {'no_stroke': 64, 'backhand': 18, 'serve': 27, 'forehand': 67, 'volley': 1, 'smash': 2, 'slice': 6, 'other': 1}
+   tennis_volley {'no_stroke': 26, 'smash': 2, 'forehand': 15, 'serve': 4, 'volley': 6}
+classes: {'backhand': 61, 'forehand': 260, 'no_stroke': 392, 'serve': 297} | videos 417
+
+[windows anchored on the detected event] held-out accuracy 0.725 on 1010 windows
+  recall: {'backhand': 0.15, 'forehand': 0.68, 'no_stroke': 0.76, 'serve': 0.85}
+  rows = what the frames show, cols = predicted: ['backhand', 'forehand', 'no_stroke', 'serve']
+    backhand   [ 9 40  8  4]
+    forehand   [ 12 176  50  22]
+    no_stroke  [  5  40 296  51]
+    serve      [  1  13  32 251]
+
+[windows shifted 0.3-0.6 s either way (what a live sliding window sees)] held-out accuracy 0.714 on 4045 windows
+  recall: {'backhand': 0.14, 'forehand': 0.66, 'no_stroke': 0.75, 'serve': 0.83}
+  rows = what the frames show, cols = predicted: ['backhand', 'forehand', 'no_stroke', 'serve']
+    backhand   [ 34 145  47  18]
+    forehand   [ 56 689 207  91]
+    no_stroke  [  21  177 1183  191]
+    serve      [  4  63 135 984]

@@ -1,0 +1,29 @@
+racket hand known from the frames for 116 videos; the skeleton-only guess agrees on 72/114; right-handed 101, left-handed 15
+labelled windows usable: 1791 {'no_stroke': 671, 'forehand': 555, 'backhand': 141, 'serve': 331, 'other': 8, 'volley': 62, 'smash': 17, 'slice': 6}
+what the frames show, by the activity each video was collected for:
+   tennis_backhand {'no_stroke': 112, 'forehand': 176, 'backhand': 78, 'serve': 16, 'other': 1, 'volley': 3, 'smash': 1}
+   tennis_drop_shot {'no_stroke': 37, 'serve': 5, 'forehand': 28, 'other': 1, 'backhand': 1}
+   tennis_forehand {'forehand': 118, 'volley': 3, 'no_stroke': 109, 'backhand': 19, 'serve': 23}
+   tennis_overhead_smash {'serve': 124, 'forehand': 23, 'no_stroke': 49, 'smash': 10, 'backhand': 4, 'other': 1}
+   tennis_serve {'serve': 119, 'no_stroke': 80, 'backhand': 9, 'other': 1, 'forehand': 25, 'smash': 1, 'volley': 2}
+   tennis_slice {'no_stroke': 64, 'backhand': 18, 'serve': 27, 'forehand': 67, 'volley': 1, 'smash': 2, 'slice': 6, 'other': 1}
+   tennis_volley {'no_stroke': 220, 'smash': 3, 'forehand': 118, 'serve': 17, 'volley': 53, 'backhand': 12, 'other': 3}
+classes: {'backhand': 116, 'forehand': 406, 'no_stroke': 647, 'serve': 316, 'volley': 38} | videos 443
+
+[windows anchored on the detected event] held-out accuracy 0.695 on 1523 windows
+  recall: {'backhand': 0.29, 'forehand': 0.68, 'no_stroke': 0.76, 'serve': 0.81, 'volley': 0.03}
+  rows = what the frames show, cols = predicted: ['backhand', 'forehand', 'no_stroke', 'serve', 'volley']
+    backhand   [34 61 15  5  1]
+    forehand   [ 28 276  65  32   5]
+    no_stroke  [ 11  88 492  53   3]
+    serve      [  0  19  41 256   0]
+    volley     [ 3 25  9  0  1]
+
+[windows shifted 0.3-0.6 s either way (what a live sliding window sees)] held-out accuracy 0.683 on 6093 windows
+  recall: {'backhand': 0.25, 'forehand': 0.64, 'no_stroke': 0.77, 'serve': 0.79, 'volley': 0.01}
+  rows = what the frames show, cols = predicted: ['backhand', 'forehand', 'no_stroke', 'serve', 'volley']
+    backhand   [117 230  90  20   7]
+    forehand   [ 118 1049  328  110   22]
+    no_stroke  [  66  321 1993  202    8]
+    serve      [ 11  88 162 998   1]
+    volley     [14 98 36  2  2]

@@ -1,0 +1,951 @@
+{
+  "sources": [
+    {
+      "id": "BZ1TUVr4LFk",
+      "title": "NEVER DO SQUATS LIKE THIS! | 10 Most Common Mistakes!",
+      "channel": "ATHLEAN-X\u2122",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "U3HlEF_E9fo",
+      "title": "How To Squat Properly: 3 Mistakes Harming Your Lower Back (FIX THESE!)",
+      "channel": "Jeremy Ethier",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "k-0OYcoyASk",
+      "title": "I Couldn\u2019t SQUAT For Years...Until I Did This",
+      "channel": "Oscar Moves",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "ULz4PCu0o0I",
+      "title": "Fixing Common Squat Mistakes (Are You Squatting Wrong?)",
+      "channel": "Renew Medical Fitness",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "niWFDg6wyD0",
+      "title": "STOP Doing Squats Like This After 60 \u2013 Do THIS Instead",
+      "channel": "Will Harlow \u2013\u00a0Over-Fifties Specialist Physio",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "M6_dNPSP2dQ",
+      "title": "Incorrect Squat Technique | Number One Biggest Squat Mistake",
+      "channel": "Cavemantraining\u2122",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Y7QEmD5MgDQ",
+      "title": "Can\u2019t Deep Squat? Here's The Fix",
+      "channel": "Dr. Alyssa Lu  ",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "BqF90pMpjb4",
+      "title": "Increase Squat Mobility FOREVER!",
+      "channel": "FitnessFAQs",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "0KtrNQre5rQ",
+      "title": "Fix Your Squat | Correct Bodyweight Squat Technique // School of Calisthenics",
+      "channel": "School of Calisthenics",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "nhoikoUEI8U",
+      "title": "Learning to Squat | The Starting Strength Method",
+      "channel": "Starting Strength",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "pRacPxOvzho",
+      "title": "Bodyweight Fundaments - Bodyweight Squat",
+      "channel": "Mark Wildman",
+      "tier": "coach_demo"
+    }
+  ],
+  "notes": [
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Pick a stance width that suits your own hips rather than guessing; the speaker says the main points apply to any squat variation.",
+        "Turn the feet out slightly, with the knees turning out along with them, so the hip has more room at depth and the adductors help drive you up.",
+        "Let the knees travel forward over the toes naturally, because the shin has to move forward for you to reach depth.",
+        "Treat the chest and pelvis as one unit and move them together through the whole rep.",
+        "Keep the squat efficient with a straight bar path (the speaker's wording for a good squat)."
+      ],
+      "faults": [
+        {
+          "name": "Stance width not matched to your hips",
+          "kind": "form",
+          "looks_like": "Feet too narrow, too wide or at shoulder width by default, with no check on what suits you; the low back may round at the bottom.",
+          "why_it_matters": "To squat as well as you can, you need to know which width gives you the most comfortable hip flexion.",
+          "causes": [
+            "Not knowing which width suits your hips",
+            "Defaulting to a stance without testing it"
+          ],
+          "fixes": [
+            "Use the stance finder: lie on your back and pull your knees toward your chest.",
+            "Find the position with the most hip flexion that doesn't round the low back excessively. Narrower or more hip rotation may feel better.",
+            "Line your lower legs up with your femurs, stand up, then adjust the stance an inch or so in or out until it feels comfortable.",
+            "Squat down to confirm the stance is right."
+          ],
+          "outcome_effects": [
+            "Excessive low back rounding at the bottom of the squat",
+            "Less comfortable depth"
+          ]
+        },
+        {
+          "name": "Turning the feet out without turning the knees",
+          "kind": "safety",
+          "looks_like": "The foot points out but the knee stays pointing straight ahead and moves forward in that direction.",
+          "why_it_matters": "It creates torque at the knee and disrupts tracking, which causes problems for the patella.",
+          "causes": [
+            "Rotating only the foot and forgetting the rest of the leg"
+          ],
+          "fixes": [
+            "Think about rotating your knees outward instead of your feet.",
+            "If the knees move out, the foot and hip follow, so no torque builds up."
+          ],
+          "outcome_effects": [
+            "Disrupted knee tracking",
+            "Patella problems and pain"
+          ]
+        },
+        {
+          "name": "Stopping the knees from passing the toes",
+          "kind": "form",
+          "looks_like": "Holding the knees back so the shins can't travel forward over the toes.",
+          "why_it_matters": "The foot has to stay on the ground, so the only way to get the ankle dorsiflexion needed for depth is to let the shin move forward.",
+          "causes": [
+            "Having heard that knees shouldn't go past the toes"
+          ],
+          "fixes": [
+            "Let the tibia track forward toward the toes naturally as you go down."
+          ],
+          "outcome_effects": [
+            "Can't reach proper depth",
+            "Worse squat mechanics"
+          ]
+        },
+        {
+          "name": "Chest and pelvis not moving together",
+          "kind": "safety",
+          "looks_like": "At the bottom the hips move first, so the chest and pelvis lose their link. This turns the squat into a good morning.",
+          "why_it_matters": "It is less efficient and less powerful, and the speaker says it is quite bad for the back.",
+          "causes": [
+            "A tendency at the bottom of the squat to let the hips move first, which breaks the link between chest and pelvis"
+          ],
+          "fixes": [
+            "Think of the chest and pelvis as one unit and move them through space at the same time."
+          ],
+          "outcome_effects": [
+            "Less efficient, weaker squat",
+            "Squat turns into a good morning",
+            "Bar path is not straight"
+          ]
+        },
+        {
+          "name": "Hip shift from leg imbalance",
+          "kind": "safety",
+          "looks_like": "Sliding to one side at the bottom or while coming back up.",
+          "why_it_matters": "It can lead to hip impingement or even a labral tear, which the speaker says is preventable.",
+          "causes": [
+            "Strength differences between the right and left leg",
+            "Trying to shift onto the stronger leg"
+          ],
+          "fixes": [
+            "Step out of the squat now and then for unilateral work such as Bulgarian split squats, step-ups or lunges.",
+            "Use that work to identify imbalances and work on them."
+          ],
+          "outcome_effects": [
+            "Uneven loading toward the stronger leg"
+          ]
+        },
+        {
+          "name": "Skipping the warm-up",
+          "kind": "form",
+          "looks_like": "Going straight into squats with only a token warm-up, such as unzipping the gym bag.",
+          "why_it_matters": "The body needs to be prepared before it squats.",
+          "causes": [
+            "Being short on time",
+            "Ego"
+          ],
+          "fixes": [
+            "Take at least some time to prepare the body for squatting, for example with a proper squat warm-up routine."
+          ],
+          "outcome_effects": [
+            "Body not ready to squat"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Keep the pelvis as neutral as possible at the bottom of the squat rather than letting the lumbar spine round.",
+        "With adequate ankle mobility the knees can travel forward on the way down, so you reach depth without the lower back and pelvis compensating.",
+        "Coming out of the bottom, the chest and hips should rise at about the same rate in one fluid motion, so the bar travels straight up and down.",
+        "Keep the chest upright on the ascent and don't let the hips shoot back behind you, especially as you tire later in a set.",
+        "On heavy fatiguing sets, take a big breath into the abdomen and brace the core as if about to be punched.",
+        "Hold the breath and keep bracing through the descent and the ascent. Exhale and reset at the top.",
+        "Film yourself from the side to check for these mistakes."
+      ],
+      "faults": [
+        {
+          "name": "Butt wink",
+          "kind": "safety",
+          "looks_like": "Near the bottom of the squat the pelvis tilts backward and the tailbone tucks under, which rounds (flexes) the lumbar spine.",
+          "why_it_matters": "The speaker says this subtle lumbar rounding is associated with spinal disc injuries and can become a problem over time, especially when repeated with heavy loads.",
+          "causes": [
+            "Limited ankle mobility is the most common cause. The knees can't travel forward, so the body would fall backward at depth, and it rounds the pelvis to get depth without tipping back.",
+            "Hip anatomy, where the femur has limited range of motion, can also cause it. Some people can't change it and deep squats may not suit them."
+          ],
+          "fixes": [
+            "Film yourself, then try squatting with the heels raised on plates to see whether ankle mobility is the cause.",
+            "Do ankle mobility work daily and before squatting, such as weighted ankle stretches, wall ankle stretches and holding a deep squat.",
+            "Use a wider stance so the knees don't need to travel forward as far.",
+            "Wear lifting shoes, which give a heel lift.",
+            "Until it improves, limit depth on heavy squats to parallel, or as deep as you can go without excessive rounding."
+          ],
+          "outcome_effects": [
+            "Greater lumbar flexion and more lower back stress, as shown in studies that restricted ankle mobility."
+          ]
+        },
+        {
+          "name": "Good morning squat (hips rising faster than chest)",
+          "kind": "safety",
+          "looks_like": "Coming out of the bottom, the hips shoot up first and much faster than the chest. The upper body leans far forward and the bar shifts forward.",
+          "why_it_matters": "More forward lean and forward bar movement increase the lumbar forces and shear stress on the spine.",
+          "causes": [
+            "Weak quadriceps at the bottom, so the body relies more on the stronger glutes and lower back to carry the load.",
+            "Poor motor coordination.",
+            "Fatigue later in a set."
+          ],
+          "fixes": [
+            "Lighten the weight and use pause squats: pause at the bottom, rise to about halfway and pause again, then finish the rep.",
+            "Make sure the hips and chest rise at the same rate on every rep.",
+            "Use cues such as driving the chest up out of the bottom.",
+            "Return to normal squats and add load only once you can keep the new form."
+          ],
+          "outcome_effects": [
+            "The bar drifts forward instead of travelling straight up and down.",
+            "The upper body leans forward excessively out of the hole."
+          ]
+        },
+        {
+          "name": "Breathing in on the way down and out on the way up on heavy sets",
+          "kind": "safety",
+          "looks_like": "Inhaling during the descent and exhaling during the ascent on heavy, fatiguing barbell squats, instead of bracing and holding the breath.",
+          "why_it_matters": "It leads to instability. Raising intra-abdominal pressure stabilizes and protects the lower back by reducing spinal compression and lumbar load.",
+          "causes": [
+            "Following the common advice to breathe in on the way down and out on the way up, which the speaker says suits easier exercises and sets."
+          ],
+          "fixes": [
+            "Breathe as if going underwater: take a big breath into the abdomen and brace as if about to be punched.",
+            "Hold the breath and keep bracing down and back up, then exhale and reset at the top.",
+            "Practice it, since it takes time to get used to."
+          ],
+          "outcome_effects": [
+            "A lot of instability as you lift, and a less stable squat."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Keep your back fairly straight so there is no unnecessary tension in the lower back.",
+        "Squat differs person to person: shorter femurs and a longer torso stay more upright, while longer femurs and a shorter torso lean forward more, and neither is wrong.",
+        "Level 1: put plates or a rolled towel under the heels to reduce ankle restriction, hold onto a sturdy object, hold the bottom 10 seconds, then stand slowly, for 5 to 8 reps and gradually longer holds.",
+        "Level 2: same movement as level 1 but without holding on to anything.",
+        "Plant your feet actively and rotate your knees out so they track in line with your toes.",
+        "Brace your core before lowering, as if about to squat something heavy, for stability.",
+        "Level 3: hold a light weight at your chest, sink into the deep squat with feet grounded, hold 5 seconds, then stand, for 3 sets of 8 reps with control.",
+        "Start with a light weight, around 20 to 30% of bodyweight for the speaker, adjusted to your strength."
+      ],
+      "faults": [
+        {
+          "name": "Heels lift off the ground",
+          "kind": "form",
+          "looks_like": "Heels come up off the floor at the bottom of the deep squat.",
+          "why_it_matters": "It shows ankle mobility is limiting your squat; this tells you which progression level to start at.",
+          "causes": [
+            "Limited ankle mobility",
+            "Ankle restriction",
+            "Tibialis working too hard"
+          ],
+          "fixes": [
+            "Elevate the heels on plates or a rolled towel and hold on to something (level 1)",
+            "Build active mobility by holding the bottom position with light weight (level 3)"
+          ],
+          "outcome_effects": [
+            "Cannot squat as deep"
+          ]
+        },
+        {
+          "name": "Rounding the back",
+          "kind": "form",
+          "looks_like": "The spine rounds at the bottom of the squat.",
+          "why_it_matters": "The key is to keep the back fairly straight to avoid unnecessary lower-back tension; rounding with lifting heels shows spine, hip and ankle limits.",
+          "causes": [
+            "Limited spine and hip mobility",
+            "Forcing your way into depth without active range"
+          ],
+          "fixes": [
+            "Start with level 1 using heel elevation and support, and hold the bottom position",
+            "Add light weight and control to build active flexibility"
+          ],
+          "outcome_effects": [
+            "Unnecessary tension in the lower back"
+          ]
+        },
+        {
+          "name": "Knees caving in",
+          "kind": "safety",
+          "looks_like": "Knees collapse inward toward each other when squatting without support.",
+          "why_it_matters": "It places extra stress on the knee.",
+          "causes": [
+            "New challenge that appears when you stop holding on (level 2)"
+          ],
+          "fixes": [
+            "Actively plant your feet on the ground",
+            "Think about rotating your knees out to keep them in line with your toes"
+          ],
+          "outcome_effects": [
+            "Extra stress on the knee"
+          ]
+        },
+        {
+          "name": "Wobbling or losing balance",
+          "kind": "form",
+          "looks_like": "Feeling wobbly or like you will lose balance in the deep squat without support.",
+          "why_it_matters": "Instability undermines control in the movement.",
+          "causes": [
+            "Letting go of the support without core bracing"
+          ],
+          "fixes": [
+            "Brace your core before lowering, as if squatting something heavy"
+          ],
+          "outcome_effects": [
+            "Loss of balance"
+          ]
+        },
+        {
+          "name": "Forcing depth through passive stretching only",
+          "kind": "form",
+          "looks_like": "Pushing yourself into the deep position through long stretches without controlling the range.",
+          "why_it_matters": "It builds passive flexibility, not range you can control and use in sports, the gym, or life.",
+          "causes": [
+            "Relying on forcing into position and stretching rather than strength"
+          ],
+          "fixes": [
+            "Build active flexibility by using light weight in the deep squat and holding the bottom with control"
+          ],
+          "outcome_effects": [
+            "Heels pop up and back rounds despite stretching",
+            "Range is borrowed and not usable"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Set feet about shoulder width apart, with toes turned out slightly to open the hip joint (especially for beginners).",
+        "Press the whole foot into the floor.",
+        "Start the movement by hinging at the hips so the hips go back and drop before the knees bend.",
+        "Keep posture upright with chest up; the chest dips only slightly during the hinge and the upper body doesn't drop far.",
+        "Keep the shin bones (tibia and fibula) in a straight line from ankle to knee, which helps people with knee pain.",
+        "Squat as low as you can, aiming for thighs parallel to the floor; some can go lower.",
+        "Beginners can use partial squats, assisted squats holding a chair or countertop, or wall squats.",
+        "At low depth the knees moving past the toes is normal.",
+        "Push the knees outward throughout; a mini loop band above the knees gives tension and feedback.",
+        "Use the glutes as well as the quads to drive back up and extend the hips.",
+        "Without a band, imagine splitting the floor apart with your feet while pushing the knees out.",
+        "Brace the core as you go down and breathe out as you finish coming up."
+      ],
+      "faults": [
+        {
+          "name": "Knees bending first / no hip hinge",
+          "kind": "form",
+          "looks_like": "Squatting by bending the knees first instead of sending the hips back and down.",
+          "why_it_matters": "The speaker says the squat should start with the hips hinging, not the knees bending.",
+          "causes": [
+            "Believing the squat is mainly a knee-bending movement"
+          ],
+          "fixes": [
+            "Practice hinging at the hips",
+            "Get the hips back and dropping before the knees bend"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Chest dropping / leaning forward",
+          "kind": "form",
+          "looks_like": "The upper body drops forward far beyond the slight chest dip needed for the hinge.",
+          "why_it_matters": "Posture should stay upright with little upper body drop.",
+          "causes": [],
+          "fixes": [
+            "Keep chest up and posture upright; allow only a tiny chest drop for the hinge"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Knees travelling too far forward",
+          "kind": "safety",
+          "looks_like": "The knees shoot forward excessively over the toes, breaking the straight shin line.",
+          "why_it_matters": "The speaker says this is really bad on the knees. Knees passing the toes at a low depth is normal, though.",
+          "causes": [],
+          "fixes": [
+            "Hinge hips back and keep the shin bones in a line from ankle to knee"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Knees caving inward",
+          "kind": "form",
+          "looks_like": "The knees collapse inward during the squat.",
+          "why_it_matters": "The speaker calls avoiding this a really important point.",
+          "causes": [],
+          "fixes": [
+            "Use a mini loop band above the knees at shoulder width, with tension, and push the knees out against it",
+            "Without a band, imagine splitting the ground apart with your feet and push the knees out, including on the way up"
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Hold a small weight (or a bag of books) tight to your chest with both hands instead of reaching the arms out in front; it acts as a counterweight and keeps you balanced.",
+        "Holding a weight also makes the squat harder, so you get stronger without just adding reps.",
+        "Use a tripod foot: feet about shoulder width apart, pressing down through the big toe, the little toe and the heel on both feet.",
+        "Start standing tall, then push the hips back as if reaching for a chair behind you, with no knee or back movement at first.",
+        "Push the chest out as the hips go back, and only then bend the knees (hips back, chest out, then bend).",
+        "Keep your centre of gravity close to your body for better balance.",
+        "Be able to squat well without weight before adding weight.",
+        "Avoid this method if you have pain; it isn't suitable for everyone."
+      ],
+      "faults": [
+        {
+          "name": "Arms straight out in front with forward lean",
+          "kind": "form",
+          "looks_like": "Arms extended straight in front as a counterweight while the torso leans forward during the squat.",
+          "why_it_matters": "The forward lean moves load into the knees instead of the hips, which can be a problem with existing knee pain. It also teaches poor balance because the body never learns to stabilise itself, and it reduces glute activation, which works against staying strong and independent.",
+          "causes": [
+            "Arms out in front act as a counterweight to stop you falling backwards, which forces the body to lean forward.",
+            "Centre of gravity is brought far in front of the body."
+          ],
+          "fixes": [
+            "Hold a weight tight to the chest (goblet squat) in place of the outstretched arms.",
+            "Use the tripod foot setup and the hips-back, chest-tall sequence."
+          ],
+          "outcome_effects": [
+            "Off balance; you would fall back if you took your arms away.",
+            "Load shifts to the knees instead of the hips.",
+            "Weaker glute activation.",
+            "Poor balance is reinforced."
+          ]
+        },
+        {
+          "name": "Weight on the wrong part of the foot",
+          "kind": "safety",
+          "looks_like": "Pressure too far back on the heels or too far forward on the toes.",
+          "why_it_matters": "The feet are your foundation. Too much weight on the toes stresses the knees, and too much on the heels makes you fall back.",
+          "causes": [
+            "Not distributing weight through the three points of the foot."
+          ],
+          "fixes": [
+            "Use the tripod foot: press the big toe, then the little toe, then make sure weight goes through both heels, with feet about shoulder width apart."
+          ],
+          "outcome_effects": [
+            "Falling backwards when weight is on the heels.",
+            "Stress on the knees when weight is on the toes.",
+            "Wobble at the bottom of the squat."
+          ]
+        },
+        {
+          "name": "Tipping back or rounding in the squat",
+          "kind": "form",
+          "looks_like": "Falling backwards, or a rounded squat, when bending the knees without first setting the hips and chest.",
+          "why_it_matters": "The rounded kind of squat becomes problematic when weight is added, and you need to squat well without weight before progressing to weight.",
+          "causes": [
+            "Not sequencing the movement as hips back, chest out, then knee bend."
+          ],
+          "fixes": [
+            "Start tall, push the hips back as if reaching for a chair, and push the chest out at the same time.",
+            "Only then bend the knees."
+          ],
+          "outcome_effects": [
+            "Loss of balance backwards.",
+            "Rounded posture in the squat."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Set feet just outside hip width with toes turned out; find the exact width and angle that suits your own hips and gives balance and depth.",
+        "Avoid a sumo stance; use a narrow-wide stance that gives a solid base so you don't fall forward, back or sideways.",
+        "Bend the knees forward and send hips back, with knees continuing forward and hips continuing back and down while the shoulders stay high.",
+        "Hips go down first and shoulders follow; if hips stop descending, stop the shoulders too.",
+        "Keep pressing into the ground, pulling the knees out and pulling the shoulders back so the back stays active.",
+        "Keep ankle, knee and hip aligned.",
+        "Keep arms at the chest or overhead, not out in front for balance.",
+        "Let knees travel forward (over the toes if needed) so the hips move forward too and the center of gravity stays in the middle.",
+        "Go past the uncomfortable point to gain strength.",
+        "If you need counterbalance, stop at that point and work on finding balance without the hands, progressing step by step."
+      ],
+      "faults": [
+        {
+          "name": "Counterbalancing with the arms",
+          "kind": "form",
+          "looks_like": "Arms reach out in front to keep balance as you descend, with toes starting to lift and the body feeling like it falls backward.",
+          "why_it_matters": "The speaker says you won't progress in the squat if you rely on arm counterbalance, and it hides the real balance problem.",
+          "causes": [
+            "Hips going back while knees don't travel forward enough, so weight shifts back and toes come off the ground",
+            "Limited knee and ankle forward movement"
+          ],
+          "fixes": [
+            "Keep arms at the chest, down, or overhead, not out front",
+            "Stop at the point where you feel the need to counterbalance and adjust from there",
+            "Let the knees come forward to create the counterbalance at the knees and ankles, keeping the torso upright",
+            "Lie flat and drop a knee to test if it gets past the toes; work on that mobility if it doesn't",
+            "Find balance without the hands and progress step by step"
+          ],
+          "outcome_effects": [
+            "Toes come off the ground and you fall backward",
+            "Progress in the squat stalls"
+          ]
+        },
+        {
+          "name": "Leaning the shoulders forward with hips not descending",
+          "kind": "form",
+          "looks_like": "Shoulders drop and move forward while the hips stop going down.",
+          "why_it_matters": "It creates a fake range of motion from the shoulders rather than real depth from the hips.",
+          "causes": [
+            "Trying to counterbalance when the hips go back and the toes feel like lifting",
+            "Continuing to descend after the hips have stopped"
+          ],
+          "fixes": [
+            "Hips always go down first and shoulders follow",
+            "Stop the shoulders when the hips stop",
+            "Keep shoulders high and in the middle, with hips low and knees forward"
+          ],
+          "outcome_effects": [
+            "Fake range created by shoulders instead of hips"
+          ]
+        },
+        {
+          "name": "Feet too narrow (right under the hips)",
+          "kind": "form",
+          "looks_like": "Feet placed directly under the hips.",
+          "why_it_matters": "It makes the squat less stable and demands more flexibility and strength.",
+          "causes": [
+            "Starting with feet under the hips instead of slightly wider"
+          ],
+          "fixes": [
+            "Start with a narrow-wide stance just outside hip width, toes turned out, and feel comfortable"
+          ],
+          "outcome_effects": [
+            "Easy to fall sideways",
+            "Hip flexors need more flexibility",
+            "More thoracic extension and back strength required"
+          ]
+        },
+        {
+          "name": "Sumo squat stance",
+          "kind": "form",
+          "looks_like": "Feet set very wide with toes turned far out.",
+          "why_it_matters": "It targets glute medius and minimus rather than building the base for progressing to weighted or overhead squats.",
+          "causes": [
+            "Going too wide and too far out when experimenting with the stance"
+          ],
+          "fixes": [
+            "Use a stance only just outside hip width with moderate toe turnout"
+          ],
+          "outcome_effects": [
+            "Doesn't suit progression to weighted, overhead or rack squats"
+          ]
+        },
+        {
+          "name": "Knees not aligned with ankle and hip",
+          "kind": "safety",
+          "looks_like": "Knees drift out of line with the ankle and hip instead of being pulled out.",
+          "why_it_matters": "Knees and hips work like hinge joints that move in one direction, so alignment protects the knees.",
+          "causes": [
+            "Not actively pulling the knees out with the glute medius and minimus"
+          ],
+          "fixes": [
+            "Keep pulling the knees out while pressing into the ground",
+            "Maintain alignment of ankle, knee and hip"
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Adjust stance width and toe-out to your limb proportions so your balance stays over midfoot.",
+        "With long femurs, use a slightly wider stance with some toe-out so the pelvis drops between the thighs.",
+        "With shorter femurs, a narrower stance with less toe-out usually keeps you upright more easily.",
+        "Keep heels down, chest tall, and knees tracking over toes.",
+        "When using support on a pole, rack or door frame, use only enough to stay balanced so ankles and hips do the work.",
+        "Progress from a heel-elevated hold to a flat-footed hold, then a supported hold, then a goblet-style hold with a light weight at the chest.",
+        "In the loaded version, sink into the deep squat, pause 5 seconds, rise halfway, and repeat to build control at the bottom.",
+        "Spend time relaxing in the bottom, shifting side to side and breathing, and practice consistently."
+      ],
+      "faults": [
+        {
+          "name": "Falling backward in the deep squat",
+          "kind": "form",
+          "looks_like": "Dropping into a deep squat and feeling like you are about to tip backward, often with a narrow, straight-ahead stance.",
+          "why_it_matters": "It makes the squat unstable; the speaker says it is not that you are broken but a matter of body type and bone shape.",
+          "causes": [
+            "Long femurs combined with a super narrow, straight-footed stance",
+            "Limited hip flexion, external rotation, and adductor length",
+            "Limited ankle mobility"
+          ],
+          "fixes": [
+            "Use a slightly wider stance with some toe-out so the pelvis drops between the thighs and weight stays over midfoot",
+            "Prioritize hip mobility and stance width if you have long femurs",
+            "Raise heels on a book or rolled towel to reduce ankle demand",
+            "Do daily bottom-position holds for 30 days"
+          ],
+          "outcome_effects": [
+            "Center of mass shifts back and you tip backward"
+          ]
+        },
+        {
+          "name": "Heels lifting",
+          "kind": "form",
+          "looks_like": "Heels come off the floor in the deepest squat, with the torso staying upright if the ankles are the main limit.",
+          "why_it_matters": "It shows restricted ankle dorsiflexion, which is the main limiter for people with shorter femurs.",
+          "causes": [
+            "Insufficient ankle dorsiflexion"
+          ],
+          "fixes": [
+            "Place heels on a book or rolled towel and gradually lower the height over 30 days until flat",
+            "Hold the bottom for 60 seconds, shifting side to side and breathing",
+            "Use light support on a pole, rack or door frame while keeping heels down"
+          ],
+          "outcome_effects": [
+            "Cannot keep heel down and chest tall"
+          ]
+        },
+        {
+          "name": "Chest collapsing in the bottom",
+          "kind": "form",
+          "looks_like": "Chest drops and the torso collapses forward in the deepest squat, usually along with heels lifting.",
+          "why_it_matters": "The speaker says heels lifting plus a collapsing chest means both ankles and hips need work.",
+          "causes": [
+            "Limited mobility in both hips and ankles"
+          ],
+          "fixes": [
+            "Work on both ankle and hip mobility with the daily bottom-position progression",
+            "Keep chest tall while holding the bottom"
+          ],
+          "outcome_effects": [
+            "Loss of upright torso position"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Squatting to at least 90 degrees requires strong hip flexors.",
+        "Strong muscles around the hips and ankles make the squat comfortable; the speaker favors strengthening and stability work over static hip stretching.",
+        "Good hip internal rotation (thigh turning inward) lets the hip joint feel comfortable in the squat.",
+        "Good ankle dorsiflexion, with the knee travelling forward over the toes, is needed in the squat.",
+        "In the deep squat, spend time rocking back and forth and side to side (holding something in front for balance if needed) to build ankle range and stability.",
+        "Overhead squat practice: dynamic reps going as deep as possible, with a pause and deep breaths in the bottom on the last rep.",
+        "Stay present, put in real effort and breathe deeply during the drills."
+      ],
+      "faults": [
+        {
+          "name": "Butt wink",
+          "kind": "form",
+          "looks_like": "The lower back flexes at the bottom of the squat.",
+          "why_it_matters": "It is a squat problem the speaker wants minimized for a comfortable squat.",
+          "causes": [
+            "Weak hip flexors"
+          ],
+          "fixes": [
+            "Strengthen the hip flexors with the hip flexor march, lifting the knee straight up with a flat back (standing, or on the floor with the low back pressed down and the knee pulled toward the same-side nipple)."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Pinchy, tight hips in the squat",
+          "kind": "form",
+          "looks_like": "The hips feel pinchy, tight and uncomfortable, with tightness at the front of the hips.",
+          "why_it_matters": "It makes the squat uncomfortable, and the speaker says constant stretching is not the answer for most people.",
+          "causes": [
+            "Poor spine and core stability, which limits free hip movement",
+            "Limited hip internal rotation"
+          ],
+          "fixes": [
+            "Do side planks to activate the outer hip muscles and improve spine stability.",
+            "Practice hip internal rotation on the floor, first with the pelvis free and then with the pelvis facing forward.",
+            "Practice hip internal rotation in a squat position, moving slowly and breathing.",
+            "Do single-leg glute bridges, driving through the heel and extending the hip rather than arching the back."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Limited ankle mobility (knee can't travel over toes)",
+          "kind": "form",
+          "looks_like": "The knee cannot move forward over the toes in the squat.",
+          "why_it_matters": "Limited ankle dorsiflexion restricts the squat, and the speaker says lasting improvement is key.",
+          "causes": [
+            "Tight calf and Achilles",
+            "Weak tibialis anterior (front of the shins)"
+          ],
+          "fixes": [
+            "Stretch the calf for 1 to 1.5 minutes in the tightest foot position (forward, inward or outward), plus bent-leg work.",
+            "Do knee-to-wall drills: keep the foot flat, drive the knee over the middle to outer foot toward the wall, and slide the foot back as it gets easier.",
+            "Strengthen the tibialis anterior by rocking in a deep squat.",
+            "Practice overhead squats to combine hip and ankle mobility with spine stability."
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Start with feet about shoulder-width apart and pointing forward, since this matches running and daily function and calisthenics progressions like pistol squats.",
+        "Hands can go out in front as you squat down.",
+        "Keep the knees tracking in line over the toes, not collapsing inward.",
+        "Keep toes pointing forward throughout and reset each rep if they turn.",
+        "Keep the chest up.",
+        "Keep the spine neutral, reaching just past 90 degrees without losing control of the back.",
+        "Brace the core so the ribs stay stacked over the pelvis, as if about to take a punch.",
+        "Keep the torso angle parallel to the shin angle on the way down.",
+        "Film yourself or use a mirror to see where you are in space and what to work on."
+      ],
+      "faults": [
+        {
+          "name": "Knees collapsing inward",
+          "kind": "form",
+          "looks_like": "Seen from the front, the knees drift in toward each other as he squats down instead of staying over the toes.",
+          "why_it_matters": "It breaks the clean, stable squat pattern the speaker wants as a foundation.",
+          "causes": [
+            "The body takes the path of least resistance when it meets restrictions, tightness or lack of control.",
+            "Weak glutes and limited range in the hip flexors and abductors."
+          ],
+          "fixes": [
+            "Keep the knees pushed out over the toes.",
+            "Work on glute strength and on range of movement in the hip flexors and abductors.",
+            "Spend time on mobility if you can't hold the position."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Toes turning out or screwing",
+          "kind": "form",
+          "looks_like": "The feet rotate away from pointing forward during the squat, often along with the knees rotating inward.",
+          "why_it_matters": "It signals the body is compensating by putting the knee, ankle and hip in different positions to reach the bottom of the squat.",
+          "causes": [
+            "The body takes the path of least resistance because of restrictions, tightness or lack of control.",
+            "Joints at the knee, ankle and hip rotate to find the end shape of the squat."
+          ],
+          "fixes": [
+            "Reset the feet to face forward each rep.",
+            "Spend time on mobility if you can't keep the feet forward."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Arching the lower back",
+          "kind": "form",
+          "looks_like": "Seen from the side, the back extends into a big arch at the bottom instead of staying neutral.",
+          "why_it_matters": "The speaker says it is not good for controlling the squat and has to be addressed through mobility work.",
+          "causes": [
+            "Tension in the hip flexors and quads pulls the pelvis into an anterior tilt.",
+            "Loss of core control."
+          ],
+          "fixes": [
+            "Work hard through the core to keep the ribs over the pelvis, as if bracing for a punch.",
+            "Address hip flexor and quad tightness with mobility work."
+          ],
+          "outcome_effects": [
+            "Control of the squat is lost."
+          ]
+        },
+        {
+          "name": "Chest collapsing forward",
+          "kind": "form",
+          "looks_like": "The torso folds forward so the torso line and shin line come together instead of staying parallel.",
+          "why_it_matters": "It means control is lost and the squat position looks poor.",
+          "causes": [
+            "Limited calf range of movement or ankle dorsiflexion, so the shin can't travel forward enough."
+          ],
+          "fixes": [
+            "Keep the chest up and the torso parallel to the shin.",
+            "Improve calf and ankle dorsiflexion mobility."
+          ],
+          "outcome_effects": [
+            "The torso and shin angles converge and the squat position is lost."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Use a fairly neutral stance: heels about shoulder width apart, toes pointed out about 30 degrees, often more than feels natural.",
+        "Start by learning the bottom position unloaded: squat all the way down until the hip crease apex is just below the top of the kneecap.",
+        "In the bottom position, put the elbows against the knees, palms together, and shove the knees out.",
+        "At the bottom, feet are flat, knees are out in a line parallel to the feet and slightly in front of the toes.",
+        "Keep the back as flat as possible and inclined about 45 degrees, not vertical.",
+        "Eyes look down at the floor a few feet ahead (about four to five feet when squatting with the bar).",
+        "Come out of the bottom by driving the butt straight up, not forward or back, keeping weight over the whole foot; imagine a chain hooked to the hips pulling you up.",
+        "With the empty bar, do the same as unweighted, but push the knees out mentally and don't pause at the bottom, going straight back up.",
+        "Take a big breath and hold it before squatting.",
+        "Stay balanced over the whole foot, not on the heels or toes.",
+        "Sit back, lean forward, shove knees out, point the nipples at the floor, and let the hips do the squat rather than the legs.",
+        "Always squat to full depth.",
+        "Bar setup: rack at mid-sternum height, even grip, hands between the bar's markings with the narrowest grip you can manage, thumbs on top of the bar so wrists stay straight, elbows up but not high.",
+        "Bar sits below the spine of the scapula on a shelf of traps and rear delts, secured by lifting elbows and chest.",
+        "Unrack with torso and shoulders tight, chest and elbows up, head down and both feet under the bar; step back just enough to clear the rack and take the same stance.",
+        "Rerack by walking forward until the bar touches the uprights, so it is over the hooks."
+      ],
+      "faults": [
+        {
+          "name": "Toes pointed too far forward",
+          "kind": "form",
+          "looks_like": "Stance with the toes pointing more straight ahead than the 30 degrees out recommended.",
+          "why_it_matters": "The speaker says it is a common assumption and the stance needs correcting for the position to work.",
+          "causes": [
+            "Many people assume a forward-pointing toe stance by default."
+          ],
+          "fixes": [
+            "Point the toes out more than feels natural, to about 30 degrees."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Back too vertical",
+          "kind": "form",
+          "looks_like": "Torso held upright instead of inclined about 45 degrees.",
+          "why_it_matters": "It is the usual sign of balance problems at the bottom.",
+          "causes": [
+            "Not leaning forward or sitting back enough."
+          ],
+          "fixes": [
+            "Remember the back is not vertical at all.",
+            "Sit back, lean forward, and point the nipples at the floor."
+          ],
+          "outcome_effects": [
+            "Balance is lost at the bottom, with weight shifting off the middle of the foot."
+          ]
+        },
+        {
+          "name": "Knees not shoved out enough",
+          "kind": "form",
+          "looks_like": "Knees stay in rather than tracking out in line with the feet.",
+          "why_it_matters": "The speaker says most people who have squat problems do not push the knees out enough.",
+          "causes": [
+            "Not actively thinking about driving the knees out, especially without elbows to push them."
+          ],
+          "fixes": [
+            "Shove the knees out deliberately with the empty bar.",
+            "Practice the elbows-against-knees bottom position unloaded."
+          ],
+          "outcome_effects": [
+            "Failing to reach depth, staying high."
+          ]
+        },
+        {
+          "name": "Driving hips forward or back out of the bottom",
+          "kind": "form",
+          "looks_like": "The hips move forward or backward rather than straight up when rising.",
+          "why_it_matters": "Weight needs to stay over the whole foot rather than shifting to the toes.",
+          "causes": [],
+          "fixes": [
+            "Drive the butt straight up, not forward or back.",
+            "Imagine a chain hooked to the hips pulling you straight up."
+          ],
+          "outcome_effects": [
+            "Weight shifts onto the toes."
+          ]
+        },
+        {
+          "name": "Insufficient depth",
+          "kind": "form",
+          "looks_like": "Stopping high, with the hip crease not below the top of the kneecap.",
+          "why_it_matters": "The speaker says never accept anything less than full depth.",
+          "causes": [
+            "Knees not shoved out."
+          ],
+          "fixes": [
+            "Shove the knees out more.",
+            "Squat to full depth every rep."
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Squat low, since a deep squat links better into other movements.",
+        "Set feet about shoulder width apart, pointing straight ahead.",
+        "Raise arms straight in front at shoulder height or a bit higher, thumbs pointing to the sky, to help keep the chest up without a weight.",
+        "Keep heels on the ground at the bottom.",
+        "Sit back as far as you can and go lower as you warm up.",
+        "Drive the knees out as you descend.",
+        "Keep eyes up; the lower the tailbone gets, the more you pull the lats back and keep eyes up.",
+        "Finish at the top by pushing hips forward and squeezing the glutes.",
+        "Stand all the way up each rep; standing up is the point.",
+        "Arms can be lowered between reps to rest if doing many reps."
+      ],
+      "faults": [
+        {
+          "name": "Rocking forward and down",
+          "kind": "form",
+          "looks_like": "The body tips forward and down on the way into the squat, and the chest drops.",
+          "why_it_matters": "The speaker calls this the problem most people have, and it costs the upright chest position.",
+          "causes": [
+            "No weight such as a kettlebell or club to fight against and drive the knees out against",
+            "No arm position in front to encourage a lifted chest"
+          ],
+          "fixes": [
+            "Raise the arms to shoulder height or a little above, thumbs up",
+            "Drive the knees out",
+            "Keep eyes up and pull the lats back as you get lower",
+            "Sit back as far as you can"
+          ],
+          "outcome_effects": [
+            "Chest falls and the squat position is lost"
+          ]
+        },
+        {
+          "name": "Not finishing hips at the top",
+          "kind": "form",
+          "looks_like": "Doing small squats where the person doesn't fully stand up and the hips don't get all the way through.",
+          "why_it_matters": "Standing up fully is the point of the movement, and the speaker says he sees this a lot.",
+          "causes": [
+            "Cutting the squat short instead of standing all the way up"
+          ],
+          "fixes": [
+            "Push the hips forward and squeeze the glutes at the top",
+            "Stand all the way up on every rep"
+          ],
+          "outcome_effects": [
+            "Squats are small and incomplete"
+          ]
+        }
+      ]
+    }
+  ]
+}

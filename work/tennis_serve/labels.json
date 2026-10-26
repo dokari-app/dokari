@@ -1,0 +1,416 @@
+{
+ "model": "claude-sonnet-5-5",
+ "faults": [
+  "wrong_grip",
+  "fist_grip",
+  "flawed_toss_release",
+  "leg_timing_rhythm",
+  "open_up_too_early",
+  "toss_height_wrong",
+  "chopping_low_contact",
+  "contact_posture",
+  "forearm_pronation_not_used",
+  "low_elbow",
+  "poor_finish_and_recovery",
+  "tight_stiff_arm",
+  "toss_arm_misused",
+  "waiters_tray",
+  "wrist_powered",
+  "wrong_sequence",
+  "abbreviated_serve_shoulder",
+  "dropping_body_on_snap",
+  "power_position_too_early",
+  "slice_contact_wrong"
+ ],
+ "clips": {
+  "16KptrgtdDM": {
+   "attempts": [
+    {
+     "window": [
+      326.84,
+      331.28
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "6arnqtt0eT8": {
+   "attempts": [
+    {
+     "window": [
+      366.1,
+      370.5
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "open_up_too_early"
+     ]
+    }
+   ]
+  },
+  "9SXaq_cwvAI": {
+   "attempts": [
+    {
+     "window": [
+      103.37,
+      106.64
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "toss_arm_misused",
+      "poor_finish_and_recovery"
+     ]
+    },
+    {
+     "window": [
+      109.78,
+      113.61
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "toss_arm_misused",
+      "poor_finish_and_recovery"
+     ]
+    }
+   ]
+  },
+  "FQGEUsAqEgs": {
+   "attempts": [
+    {
+     "window": [
+      302.54,
+      305.24
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "JEsU4nTozSA": {
+   "attempts": [
+    {
+     "window": [
+      108.1,
+      114.47
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "Lq5ZF2VfEGk": {
+   "attempts": [
+    {
+     "window": [
+      175.87,
+      180.8
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      228.97,
+      232.2
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "flawed_toss_release"
+     ]
+    },
+    {
+     "window": [
+      287.63,
+      289.93
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "flawed_toss_release"
+     ]
+    },
+    {
+     "window": [
+      292.1,
+      300.1
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "MUg4UjW_JL4": {
+   "attempts": [
+    {
+     "window": [
+      170.43,
+      175.83
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      551.17,
+      554.53
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "Pmu29Uet23A": {
+   "attempts": [
+    {
+     "window": [
+      128.74,
+      132.11
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "tight_stiff_arm"
+     ],
+     "absent": [
+      "low_elbow"
+     ]
+    },
+    {
+     "window": [
+      132.28,
+      135.99
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "tight_stiff_arm"
+     ],
+     "absent": [
+      "low_elbow"
+     ]
+    },
+    {
+     "window": [
+      136.28,
+      139.83
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "tight_stiff_arm"
+     ],
+     "absent": [
+      "low_elbow"
+     ]
+    },
+    {
+     "window": [
+      300.55,
+      307.85
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "low_elbow"
+     ]
+    },
+    {
+     "window": [
+      482.75,
+      486.79
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "low_elbow"
+     ]
+    }
+   ]
+  },
+  "BUn0J2SeHwM": {
+   "attempts": [
+    {
+     "window": [
+      15.97,
+      19.7
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      307.9,
+      310.63
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "low_elbow",
+      "wrong_grip"
+     ]
+    }
+   ]
+  },
+  "CgEDaaV-Ba8": {
+   "attempts": [
+    {
+     "window": [
+      4.4,
+      10.43
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "wrong_grip"
+     ]
+    },
+    {
+     "window": [
+      21.13,
+      24.3
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "wrong_grip"
+     ]
+    },
+    {
+     "window": [
+      25.9,
+      29.0
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "wrong_grip"
+     ]
+    },
+    {
+     "window": [
+      44.6,
+      47.7
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "wrong_grip"
+     ]
+    },
+    {
+     "window": [
+      181.03,
+      188.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "FlZ1yNj1T3A": {
+   "attempts": [
+    {
+     "window": [
+      274.44,
+      280.38
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "JXXH3bvKjA4": {
+   "attempts": [
+    {
+     "window": [
+      220.13,
+      224.06
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      229.77,
+      237.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "Kkj6K29A8-s": {
+   "attempts": [
+    {
+     "window": [
+      108.33,
+      113.77
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "toss_arm_misused"
+     ]
+    }
+   ]
+  },
+  "Y3j0idcVtDs": {
+   "attempts": [
+    {
+     "window": [
+      53.06,
+      57.56
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "nbPFqP-kIuc": {
+   "attempts": [
+    {
+     "window": [
+      88.09,
+      95.16
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      198.23,
+      207.94
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      246.05,
+      256.69
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  }
+ }
+}

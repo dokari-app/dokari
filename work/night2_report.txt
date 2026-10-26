@@ -1,0 +1,32 @@
+== after labelling today's footage
+labelled windows usable: 2467 {'no_stroke': 953, 'forehand': 757, 'backhand': 219, 'serve': 406, 'other': 10, 'volley': 86, 'smash': 30, 'slice': 6}
+classes: {'backhand': 183, 'forehand': 550, 'no_stroke': 904, 'serve': 388, 'smash': 25, 'volley': 58} | videos 509
+[windows anchored on the detected event] held-out accuracy 0.685 on 2108 windows
+  recall: {'backhand': 0.37, 'forehand': 0.67, 'no_stroke': 0.78, 'serve': 0.79, 'smash': 0.0, 'volley': 0.0}
+[windows shifted 0.3-0.6 s either way (what a live sliding window sees)] held-out accuracy 0.675 on 8433 windows
+  recall: {'backhand': 0.34, 'forehand': 0.63, 'no_stroke': 0.78, 'serve': 0.79, 'smash': 0.0, 'volley': 0.02}
+-- replay of your clips:
+IMG_2935 3: 12 events
+  after merging: 10 strokes
+IMG_2935: 5 events
+  after merging: 5 strokes
+IMG_2935 2: 91 events
+  after merging: 89 strokes
+against what was filmed: 12/31 events correct
+
+== after the second round
+labelled windows usable: 2911 {'no_stroke': 1158, 'forehand': 860, 'backhand': 254, 'serve': 453, 'other': 14, 'volley': 106, 'smash': 51, 'slice': 11, 'lob': 4}
+classes: {'backhand': 211, 'forehand': 649, 'no_stroke': 1106, 'serve': 435, 'smash': 41, 'volley': 70} | videos 547
+[windows anchored on the detected event] held-out accuracy 0.682 on 2512 windows
+  recall: {'backhand': 0.41, 'forehand': 0.65, 'no_stroke': 0.78, 'serve': 0.77, 'smash': 0.02, 'volley': 0.09}
+[windows shifted 0.3-0.6 s either way (what a live sliding window sees)] held-out accuracy 0.657 on 10048 windows
+  recall: {'backhand': 0.39, 'forehand': 0.61, 'no_stroke': 0.77, 'serve': 0.74, 'smash': 0.01, 'volley': 0.06}
+-- replay of your clips:
+IMG_2935 3: 12 events
+  after merging: 11 strokes
+IMG_2935: 5 events
+  after merging: 5 strokes
+IMG_2935 2: 91 events
+  after merging: 90 strokes
+against what was filmed: 11/32 events correct
+

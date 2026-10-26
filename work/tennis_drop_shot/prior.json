@@ -1,0 +1,334 @@
+{
+  "activity_id": "tennis_drop_shot",
+  "purpose": "Hit a soft, short, underspun ball that clears the net and bounces twice near it before the opponent can reach it, using a groundstroke-like preparation to disguise the shot and a compact, controlled high-to-low swing with a slightly open racket face.",
+  "search_queries": [
+    {
+      "query": "how to hit a tennis drop shot forehand tutorial",
+      "kind": "instruction"
+    },
+    {
+      "query": "tennis drop shot technique slow motion side view",
+      "kind": "demonstration"
+    },
+    {
+      "query": "tennis drop shot common mistakes",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "perfect drop shot form backspin tennis lesson",
+      "kind": "good_form"
+    },
+    {
+      "query": "tennis drop shot practice drill one player baseline",
+      "kind": "demonstration"
+    },
+    {
+      "query": "how to disguise your drop shot tennis",
+      "kind": "instruction"
+    }
+  ],
+  "primary_features": [
+    "height.wrist.dom",
+    "reach.wrist.dom",
+    "angle.elbow.dom",
+    "angle.shoulder.dom",
+    "fwd.trunk_shift"
+  ],
+  "attempt_events": [
+    {
+      "feature": "height.wrist.dom",
+      "direction": "rises",
+      "seconds": 1.2,
+      "peak_at_least": -0.3
+    }
+  ],
+  "phases": [
+    {
+      "id": "prepare",
+      "description": "Ready position and approach to the ball, moving in as for a normal groundstroke."
+    },
+    {
+      "id": "backswing",
+      "description": "Shoulder turn and short racket take-back, racket set slightly above the intended contact height."
+    },
+    {
+      "id": "forward_swing",
+      "description": "Short, controlled high-to-low swing with an open racket face, ending at contact in front of the body."
+    },
+    {
+      "id": "finish",
+      "description": "Brief, soft follow-through and balanced recovery."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "contact_in_front",
+      "goal": "Meet the ball out in front of the body with the hitting arm comfortably extended away from the shoulder.",
+      "caused_by": [],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Ball is taken late and close to the body, arm cramped, shot lacks touch and control.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Overstretching for the ball, arm fully extended away from the body, losing touch and balance.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "short_soft_ball"
+      ],
+      "cue_intent": "Remind the player to make contact out in front, with room between body and racket.",
+      "ask_if_unsure_intent": "Ask whether they felt the ball was late or jammed against the body.",
+      "fix_intent": "Have them set up earlier and step toward the ball so contact happens in front."
+    },
+    {
+      "id": "bend_knees_low",
+      "goal": "Get down to the ball by bending the knees so the body lowers instead of bending over or reaching down with the arm.",
+      "caused_by": [],
+      "test": {
+        "feature": "height.hip",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Standing tall and stabbing down at a low ball, so the ball is hit into the net or too hard.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "clears_net",
+        "short_soft_ball"
+      ],
+      "cue_intent": "Cue the player to sink the hips and bend the knees to get under the ball.",
+      "ask_if_unsure_intent": "Ask whether they are bending at the waist or at the knees to reach low balls.",
+      "fix_intent": "Drill shadow drop shots focusing on dropping the hips and keeping the head level at contact."
+    },
+    {
+      "id": "high_to_low_start",
+      "goal": "Set the racket arm slightly higher than the planned contact point at the end of the backswing so the swing can travel high to low and slice under the ball.",
+      "caused_by": [],
+      "test": {
+        "feature": "height.wrist.dom",
+        "at_phase": "backswing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Racket starts low, swing goes low-to-high and the ball pops up and sits up for the opponent.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Overly large, high take-back that lengthens the swing and costs touch.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "short_soft_ball"
+      ],
+      "cue_intent": "Cue a short take-back with the racket set above contact height.",
+      "ask_if_unsure_intent": "Ask whether the ball is floating up after contact.",
+      "fix_intent": "Practise a compact take-back starting high and brushing down and under the ball."
+    },
+    {
+      "id": "soft_arm_at_contact",
+      "goal": "Keep the hitting arm relaxed with a slightly bent elbow at contact for a soft, controlled touch.",
+      "caused_by": [
+        "contact_in_front"
+      ],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Elbow tucked tight and cramped, restricting the swing and touch.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "Stiff, locked arm hitting the ball too firmly so it travels deep rather than dropping short.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "short_soft_ball"
+      ],
+      "cue_intent": "Cue a loose, slightly bent arm and a soft touch.",
+      "ask_if_unsure_intent": "Ask how firmly the racket was gripped and whether the arm felt stiff.",
+      "fix_intent": "Use a lighter grip and a slower, shorter swing to feel the touch."
+    },
+    {
+      "id": "disguise_turn",
+      "goal": "Turn the shoulders in the preparation as for a normal groundstroke so the drop shot is not telegraphed.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "backswing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Little shoulder turn, an obviously different preparation than the player's groundstrokes, giving the shot away.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "Exaggerated coil that suggests a hard drive and makes the change to a soft touch awkward.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "short_soft_ball"
+      ],
+      "cue_intent": "Cue the player to prepare exactly as for a regular forehand or backhand.",
+      "ask_if_unsure_intent": "Ask whether their preparation looks the same as for a normal groundstroke.",
+      "fix_intent": "Alternate drives and drop shots from the same preparation, changing only the swing after the turn."
+    },
+    {
+      "id": "balanced_forward_shift",
+      "goal": "Move into the shot with the body weight moving gently forward, staying balanced and under control through contact.",
+      "caused_by": [
+        "bend_knees_low"
+      ],
+      "test": {
+        "feature": "fwd.trunk_shift",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Leaning back and flicking at the ball with the arm alone, with poor control of length.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Lunging or falling forward past the ball, off balance and unable to recover.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "short_soft_ball",
+        "clears_net"
+      ],
+      "cue_intent": "Cue stepping toward the ball and staying balanced over the front leg.",
+      "ask_if_unsure_intent": "Ask whether they felt balanced or were reaching and off balance at contact.",
+      "fix_intent": "Practise stepping into the shot, then holding the finish position for a moment."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "short_soft_ball",
+      "description": "Ball is hit with soft pace and underspin so it bounces near the net, short in the opponent's court.",
+      "requires_observable": [
+        "ball",
+        "landing_area",
+        "net"
+      ]
+    },
+    {
+      "id": "clears_net",
+      "description": "Ball passes over the net with a small margin rather than being hit into the tape.",
+      "requires_observable": [
+        "ball",
+        "net"
+      ]
+    },
+    {
+      "id": "form_body",
+      "description": "The compact stroke shape and balance are performed correctly.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "height.hip",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "clears_net",
+      "effect": "lower_is_better",
+      "mechanism": "A lower body lets the racket get under the ball and brush up and over the net rather than stabbing down into it."
+    },
+    {
+      "feature": "height.wrist.dom",
+      "at_phase": "backswing",
+      "at_point": "end",
+      "outcome": "short_soft_ball",
+      "effect": "mid_is_better",
+      "mechanism": "A racket set slightly above contact allows a high-to-low cut that produces backspin and a soft, short landing, while a very large take-back adds pace."
+    },
+    {
+      "feature": "reach.wrist.dom",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "short_soft_ball",
+      "effect": "mid_is_better",
+      "mechanism": "Contact in front with moderate arm extension gives the best control of racket face angle and touch."
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "short_soft_ball",
+      "effect": "mid_is_better",
+      "mechanism": "A relaxed, slightly bent arm absorbs pace and cushions the ball, while a locked arm tends to hit it harder."
+    }
+  ],
+  "confusable_with": [
+    "tennis_forehand",
+    "tennis_slice_forehand",
+    "tennis_backhand_slice",
+    "tennis_volley",
+    "tennis_drop_volley",
+    "tennis_lob",
+    "pickleball_dink",
+    "badminton_drop_shot"
+  ],
+  "session_ideas": [
+    "Shadow swing drop shots from a baseline ready position focusing on the same preparation as a groundstroke.",
+    "Feed drill: coach feeds a ball and the player alternates a deep drive and a drop shot from the same preparation.",
+    "Target drill: place a towel or cones just inside the service line and aim to land the ball between the net and the target.",
+    "Low-ball drill: practise bending the knees to meet low balls while keeping the head level."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "trackable",
+      "name": "racket_head",
+      "why": "Racket face angle (open face) and racket path high-to-low are central to a drop shot and cannot be seen from body joints alone."
+    },
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Bounce position, spin and height over the net are the real outcomes of a drop shot."
+    },
+    {
+      "kind": "measurement",
+      "name": "ball_bounce_distance_from_net",
+      "why": "To judge whether the shot actually landed short."
+    },
+    {
+      "kind": "feature",
+      "name": "grip_pressure",
+      "why": "A relaxed, soft grip is widely coached but not observable with registered features."
+    },
+    {
+      "kind": "feature",
+      "name": "racket_face_angle",
+      "why": "Open face is needed for underspin and is not covered by current body features."
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 825,
+    "clips_with_attempts": 30,
+    "clips": 30,
+    "target_reached": false,
+    "rounds": 2
+  }
+}

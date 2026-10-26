@@ -1,0 +1,315 @@
+{
+  "activity_id": "tennis_forehand",
+  "purpose": "Hit the ball with a controlled, powerful groundstroke by turning the body, loading the legs, swinging the racket through contact in front of the body, and finishing balanced.",
+  "search_queries": [
+    {
+      "query": "tennis forehand technique slow motion side view",
+      "kind": "demonstration"
+    },
+    {
+      "query": "how to hit a forehand tennis lesson proper form",
+      "kind": "instruction"
+    },
+    {
+      "query": "tennis forehand good form baseline rally full body",
+      "kind": "good_form"
+    },
+    {
+      "query": "common forehand mistakes tennis and how to fix them",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "forehand unit turn and contact point tennis coaching",
+      "kind": "instruction"
+    },
+    {
+      "query": "tennis forehand shadow swing practice",
+      "kind": "demonstration"
+    }
+  ],
+  "primary_features": [
+    "height.wrist.dom",
+    "reach.wrist.dom",
+    "angle.shoulder_hip_twist",
+    "angle.elbow.dom",
+    "angle.shoulder.dom"
+  ],
+  "attempt_events": [
+    {
+      "feature": "angle.shoulder.dom",
+      "direction": "rises",
+      "peak_at_least": 55,
+      "seconds": 1
+    }
+  ],
+  "phases": [
+    {
+      "id": "ready_and_unit_turn",
+      "description": "From the ready position, shoulders and hips turn sideways and the racket is taken back."
+    },
+    {
+      "id": "backswing_and_load",
+      "description": "Racket drops and loops behind while weight loads onto the back leg and knees flex."
+    },
+    {
+      "id": "forward_swing_contact",
+      "description": "Legs and hips drive, trunk uncoils, and the racket accelerates up and forward to contact in front of the body."
+    },
+    {
+      "id": "follow_through",
+      "description": "Arm continues across and up the body, finishing over the non-dominant shoulder with balance, then recovers."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "turn_shoulders",
+      "goal": "Turn the shoulders well past the hips during the unit turn and backswing to coil the body.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "ready_and_unit_turn",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Shoulders stay square to the net with an arm-only takeback.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Over-rotated, trunk turned far back, hard to recover timing.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_control"
+      ],
+      "cue_intent": "Prompt turning the chest sideways with the racket takeback.",
+      "ask_if_unsure_intent": "Ask whether the player feels they turn their shoulders or just move the arm back.",
+      "fix_intent": "Use the non-dominant hand to push the racket back so the shoulders turn with it."
+    },
+    {
+      "id": "load_legs",
+      "goal": "Bend the knees and sink the hips to load the legs before swinging forward.",
+      "caused_by": [
+        "turn_shoulders"
+      ],
+      "test": {
+        "feature": "angle.knee.dom",
+        "at_phase": "backswing_and_load",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Standing tall with straight legs, hitting with the arm only.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "Very deep knee bend, slow to push up.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_control"
+      ],
+      "cue_intent": "Encourage a small sink into the legs on the backswing.",
+      "ask_if_unsure_intent": "Ask if the legs feel involved in the shot.",
+      "fix_intent": "Cue bending the knees to get under the ball and push up through the shot."
+    },
+    {
+      "id": "contact_in_front",
+      "goal": "Meet the ball with the arm extended comfortably in front of the body, not jammed or late.",
+      "caused_by": [
+        "turn_shoulders",
+        "load_legs"
+      ],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "forward_swing_contact",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Arm cramped close to the body, ball hit late or jammed.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Overreaching with the arm straight and stretched away from the body.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_control"
+      ],
+      "cue_intent": "Cue making contact out in front with room between body and racket.",
+      "ask_if_unsure_intent": "Ask whether the ball feels close to the body at contact.",
+      "fix_intent": "Prepare earlier and space from the ball so contact occurs in front."
+    },
+    {
+      "id": "rotate_through",
+      "goal": "Uncoil the trunk so shoulders rotate through toward the target during the forward swing.",
+      "caused_by": [
+        "turn_shoulders",
+        "load_legs"
+      ],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "forward_swing_contact",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Arm swings without body rotation, weak and arm-dominated stroke.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Shoulders lag far behind the hips.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_control"
+      ],
+      "cue_intent": "Cue turning the chest through to the target.",
+      "ask_if_unsure_intent": "Ask if the swing feels like it comes from the body or the arm.",
+      "fix_intent": "Drill hip and shoulder rotation with a controlled swing."
+    },
+    {
+      "id": "finish_high_balanced",
+      "goal": "Complete the swing with the racket arm high across the body and stay balanced.",
+      "caused_by": [
+        "contact_in_front",
+        "rotate_through"
+      ],
+      "test": {
+        "feature": "height.wrist.dom",
+        "at_phase": "follow_through",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Swing stops short or low, no full finish.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "Racket wraps very high behind the head.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_and_control"
+      ],
+      "cue_intent": "Cue finishing over the opposite shoulder.",
+      "ask_if_unsure_intent": "Ask whether the player lets the racket finish or stops it.",
+      "fix_intent": "Cue swinging all the way through and finishing high."
+    },
+    {
+      "id": "stay_upright_balance",
+      "goal": "Keep the trunk fairly upright and balanced over the feet through the stroke.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.trunk_lean",
+        "at_phase": "forward_swing_contact",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Leaning sideways or falling back or away, off-balance contact.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "power_and_control"
+      ],
+      "cue_intent": "Cue staying balanced and tall through contact.",
+      "ask_if_unsure_intent": "Ask if the player feels off balance at the finish.",
+      "fix_intent": "Improve footwork and base so the body stays stacked over the legs."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "power_and_control",
+      "description": "The ball is struck cleanly with pace and accuracy toward the target.",
+      "requires_observable": [
+        "body",
+        "ball",
+        "target"
+      ]
+    },
+    {
+      "id": "efficient_form",
+      "description": "The stroke is coordinated, balanced and repeatable.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.shoulder_hip_twist",
+      "at_phase": "ready_and_unit_turn",
+      "at_point": "end",
+      "outcome": "power_and_control",
+      "effect": "higher_is_better",
+      "mechanism": "A fuller coil stores rotational energy that is released into the swing."
+    },
+    {
+      "feature": "angle.knee.dom",
+      "at_phase": "backswing_and_load",
+      "at_point": "end",
+      "outcome": "power_and_control",
+      "effect": "mid_is_better",
+      "mechanism": "Leg flexion allows an upward drive that adds racket speed without losing stability."
+    },
+    {
+      "feature": "reach.wrist.dom",
+      "at_phase": "forward_swing_contact",
+      "at_point": "end",
+      "outcome": "power_and_control",
+      "effect": "mid_is_better",
+      "mechanism": "Contact with the arm comfortably extended in front gives leverage and clean ball timing."
+    }
+  ],
+  "confusable_with": [
+    "tennis_backhand",
+    "tennis_serve",
+    "golf_swing",
+    "baseball_swing",
+    "badminton_clear"
+  ],
+  "session_ideas": [
+    "Shadow swings from the side view, focusing on turn and finish.",
+    "Feed-ball drill with a consistent contact point in front.",
+    "Slow-motion forehands with a pause at the loaded position.",
+    "Compare repetitions to check consistency of the finish height."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "feature",
+      "name": "racket_head_speed",
+      "why": "Racket speed through contact cannot be tested with body-frame features alone."
+    },
+    {
+      "kind": "trackable",
+      "name": "racket",
+      "why": "Racket path and face angle are needed to judge contact and swing path."
+    },
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Contact point relative to the body and ball outcome need the ball."
+    },
+    {
+      "kind": "feature",
+      "name": "stance_openness",
+      "why": "Open versus neutral stance relative to the baseline is not captured by foot turnout alone."
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 6521,
+    "clips_with_attempts": 223,
+    "clips": 230,
+    "target_reached": true,
+    "rounds": 0
+  }
+}

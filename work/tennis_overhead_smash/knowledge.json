@@ -1,0 +1,1054 @@
+{
+  "n_sources": 12,
+  "good_form": [
+    {
+      "point": "Turn sideways early, with shoulders and hips (unit turn or quarterback-style turn), as soon as the ball goes up.",
+      "sources": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        11
+      ],
+      "n_sources": 7
+    },
+    {
+      "point": "Keep the non-hitting arm up, pointing at or tracking the ball, for balance and positioning.",
+      "sources": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Shuffle, crossover or scissor-kick back instead of backpedaling.",
+      "sources": [
+        0,
+        3,
+        6,
+        7,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Aim deep toward the baseline, especially when moving back or hitting from deep.",
+      "sources": [
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Get the racket up quickly and use an abbreviated, serve-like swing, not a full swing.",
+      "sources": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Make contact high and out in front of the shoulder so the ball goes down.",
+      "sources": [
+        0,
+        2,
+        6,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Extend fully and snap or pronate the wrist through the ball, like a throw or serve.",
+      "sources": [
+        0,
+        5,
+        6,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Use a continental grip for the overhead.",
+      "sources": [
+        0,
+        5,
+        8
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Get back quickly so you can stop and move forward with weight going through the ball, keeping it in front.",
+      "sources": [
+        3,
+        7,
+        11
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Keep head, chin and chest up and eyes on the ball through contact.",
+      "sources": [
+        1,
+        2,
+        11
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Lead with the elbow and raise both arms together before extending to the ball.",
+      "sources": [
+        9,
+        11
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Keep the feet moving and plant only once you are in position under the ball.",
+      "sources": [
+        1,
+        2
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Use a wide, balanced base and stay balanced when forced to hit backwards.",
+      "sources": [
+        6,
+        7
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Favor placement and consistency over raw power.",
+      "sources": [
+        0,
+        4
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Practise the smash a lot and anticipate lobs to build confidence.",
+      "sources": [
+        7,
+        11
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Stay sideways through the swing and hit side spin for accuracy.",
+      "sources": [
+        8
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "Go crosscourt for angle when near the sideline.",
+      "sources": [
+        6
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "Let steeply rising or high lobs bounce and hit them on the way down.",
+      "sources": [
+        7
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "Use an overhead only on a truly dropping ball; otherwise play a high volley.",
+      "sources": [
+        4
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "Recover after the smash: back to the baseline, or follow in to about halfway between net and service line.",
+      "sources": [
+        0
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "Line your shoulder up with the target; add disguise only once the shot is consistent.",
+      "sources": [
+        3
+      ],
+      "n_sources": 1
+    }
+  ],
+  "faults": [
+    {
+      "id": "facing_net_not_sideways",
+      "description": "Hitting with shoulders, hips, feet or chest open to the net instead of sideways.",
+      "kind": "form",
+      "sources": [
+        1,
+        3,
+        5,
+        6,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Shoulders, hips or feet are open or unwinding at contact.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "No unit turn or sideways turn when the ball goes up.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Turning only the shoulders while the hips stay forward.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Turn sideways as soon as you see the ball, with a unit turn of both hands.",
+          "type": "cue"
+        },
+        {
+          "idea": "Look over the non-hitting shoulder with that arm up.",
+          "type": "cue"
+        },
+        {
+          "idea": "Line the shoulder up with the target.",
+          "type": "cue"
+        },
+        {
+          "idea": "Cross the arms in a 'power X' to stop body rotation.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Timing is lost",
+        "Hard to get angle",
+        "Less power",
+        "Ball tends to go into the net"
+      ],
+      "disagreement": "",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "non_hitting_arm_down_or_unused",
+      "description": "Non-hitting arm is unused, bent or dropped, so tracking, balance and contact height suffer.",
+      "kind": "form",
+      "sources": [
+        0,
+        2,
+        3,
+        5,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Left arm bent, down, or not pointing at the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not holding the arm up through the swing.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Raise the non-hitting arm and point at the ball as long as possible.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use the pointing arm as a target to judge a ball going back, over you or short.",
+          "type": "cue"
+        },
+        {
+          "idea": "Aim for a high contact point and swing offensively.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Poor balance and collapsing down",
+        "Trouble tracking the ball",
+        "Low contact so the ball is just lobbed back",
+        "Ball goes into the net"
+      ],
+      "disagreement": "",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "slow_footwork_or_backpedaling",
+      "description": "Not moving the feet early or well, or backpedaling instead of turning and shuffling back.",
+      "kind": "form",
+      "sources": [
+        0,
+        3,
+        6,
+        7,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Backpedaling while facing the net.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Slow first step or slow move backward.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Relaxing or freezing when the slow lob goes up.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Split step, then drop step like a quarterback with the racket prepped.",
+          "type": "cue"
+        },
+        {
+          "idea": "Shuffle or crossover back instead of backpedaling.",
+          "type": "cue"
+        },
+        {
+          "idea": "Get hands up and start moving as soon as the ball goes up.",
+          "type": "cue"
+        },
+        {
+          "idea": "Turn and take 5 to 10 steps before hitting to feel how far to move.",
+          "type": "drill"
+        },
+        {
+          "idea": "Drill catching the ball with the left arm to learn positioning.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Ball gets behind you",
+        "Shanks, whiffs, nets and long balls",
+        "Unable to transfer weight forward",
+        "Possible fall"
+      ],
+      "disagreement": "",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "wrong_contact_point",
+      "description": "Meeting the ball behind you, dropping on you, or too far in front.",
+      "kind": "form",
+      "sources": [
+        0,
+        3,
+        6,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Ball gets behind or on top of you, with the racket laid back.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not going back early or first, so the ball is caught late.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Poor footwork.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Meet the ball out in front of the shoulder.",
+          "type": "cue"
+        },
+        {
+          "idea": "Step back first, then move forward with weight going forward as you hit.",
+          "type": "cue"
+        },
+        {
+          "idea": "Skip back without fear to keep the ball in front, as on a serve.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball goes up and long when contact is behind",
+        "Ball nets when contact is too far in front"
+      ],
+      "disagreement": "Sources 6 and 11 say contact behind the body sends the ball long. Source 0 warns that contact too far in front sends it into the net.",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "smashing_too_hard_or_wrong_moment",
+      "description": "Blasting the overhead at full power, or going for a winner from far back or short in the service box.",
+      "kind": "form",
+      "sources": [
+        0,
+        4,
+        5
+      ],
+      "causes": [
+        {
+          "cause": "Trying to hit as hard as possible, like 100 mph.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Treating the overhead as always a point-finishing shot.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hit at about half speed and place the ball to the side with slight angle.",
+          "type": "cue"
+        },
+        {
+          "idea": "Go for the kill only from inside the service box.",
+          "type": "cue"
+        },
+        {
+          "idea": "From further back, aim at the opponent's weakness and keep the ball alive.",
+          "type": "cue"
+        },
+        {
+          "idea": "Aim deep near the singles line and baseline, not the service box.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Consistency drops",
+        "Missed overheads",
+        "Opponent easily blocks, lobs or passes"
+      ],
+      "disagreement": "Source 4 says hit about half speed. Source 7 says go full on and aim for a winner, except when deep.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "wrong_grip_or_no_spin",
+      "description": "Using a frying-pan or forehand grip, or hitting flat with no side spin.",
+      "kind": "form",
+      "sources": [
+        0,
+        5,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Frying-pan or forehand grip instead of continental.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Switch to the continental grip.",
+          "type": "setup"
+        },
+        {
+          "idea": "Hit side spin on the overhead.",
+          "type": "cue"
+        },
+        {
+          "idea": "Choke up and spike down on the ball, leading with the racket edge.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Racket face goes up on balls slightly behind",
+        "Can't add spin",
+        "Less control and accuracy",
+        "Harder to get the ball into court"
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "dropping_head_and_chest",
+      "description": "Head and chest drop before the racket reaches the ball to see the result.",
+      "kind": "form",
+      "sources": [
+        2,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Looking down early to watch where the ball goes.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Impatience about the result.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep head, chest and chin up through contact.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hold the head up for one beat after contact before looking down.",
+          "type": "cue"
+        },
+        {
+          "idea": "Be patient; there is time to watch the ball land.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball not seen on the strings",
+        "Overhead dumped into the net"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "loss_of_balance",
+      "description": "Narrow base or falling back when hitting while moving backwards.",
+      "kind": "form",
+      "sources": [
+        6,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Feet close together.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Left arm drops and no pressure on the right leg when hitting backwards.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep feet at least shoulder-width apart.",
+          "type": "cue"
+        },
+        {
+          "idea": "Load pressure on the right leg and push up from it.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the left arm up and land with center of gravity mid-hips.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Loss of balance",
+        "Inefficient smash"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "misjudging_ball_for_overhead",
+      "description": "Hitting an overhead on a ball that is only a high volley, or smashing a ball as it rises after the bounce.",
+      "kind": "form",
+      "sources": [
+        4,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Treating any high ball as an overhead.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not judging how much the ball will drop or rise.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Reserve the overhead for balls that are truly dropping.",
+          "type": "cue"
+        },
+        {
+          "idea": "Play a high volley, racket high, with the other hand out front.",
+          "type": "cue"
+        },
+        {
+          "idea": "Let the ball bounce and peak, then hit it on the way down.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Arm scrunched at contact",
+        "Very difficult timing"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "netting_when_deep_or_moving_back",
+      "description": "Hitting into the net by aiming down or short when moving back or hitting from deep.",
+      "kind": "form",
+      "sources": [
+        10,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Trying to hit down from deep in the court.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Drifting away from the ball makes the racket angle steeper than usual.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "The brain doesn't register the small move backward.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Aim deep toward the baseline, not the service line.",
+          "type": "cue"
+        },
+        {
+          "idea": "Think out and deeper, not down.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball goes into the net or out",
+        "Aiming deep lands the ball shorter than expected"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "planting_feet_too_early",
+      "description": "Stopping and setting the feet before the ball is in position.",
+      "kind": "form",
+      "sources": [
+        1,
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Planting before you are in position under the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Club players stop extremely early after getting back, since the swing starts when the feet stop.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep moving, dancing underneath the ball with the racket up.",
+          "type": "cue"
+        },
+        {
+          "idea": "Plant only once you feel in position.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Thrown off balance",
+        "Nervousness and an overactive brain"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "pointing_without_turning",
+      "description": "Pointing at the ball, or leading with the non-hitting hand while the racket lags, without turning or coiling.",
+      "kind": "form",
+      "sources": [
+        8,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Chest stays square or about 45 degrees to the net.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Following the point-at-the-ball advice or the serve motion.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Turn the front shoulder back with both hands on the racket, like a quarterback.",
+          "type": "cue"
+        },
+        {
+          "idea": "Get the elbow up to the ball first, then straighten the arm.",
+          "type": "cue"
+        },
+        {
+          "idea": "Raise both arms together.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practise catching the ball while shuffling, with the elbow leading.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Not sideways or coiled",
+        "Poor positioning under the ball",
+        "Ball goes off to the side"
+      ],
+      "disagreement": "Sources 0, 3, 5 and 7 teach pointing at the ball with the non-hitting arm. Source 8 calls pointing an older beginner approach, and source 9 says pointing alone fails without the turn.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "poor_placement_choice",
+      "description": "Predictable placement, or an angled overhead down the line from near the sideline.",
+      "kind": "form",
+      "sources": [
+        6,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Favoring one side.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Choosing a same-side target when near the sideline.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Go crosscourt toward the far corner from near the sideline.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practise both sides and smash at a moving partner.",
+          "type": "drill"
+        },
+        {
+          "idea": "Watch the opponent while smashing.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Opponent anticipates the smash",
+        "Weak angle and easy return"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "arming_without_extension",
+      "description": "Arm-only swing without reaching up or snapping the wrist.",
+      "kind": "form",
+      "sources": [
+        6
+      ],
+      "causes": [
+        {
+          "cause": "Not realizing the overhead is basically a throw.",
+          "proximity": "fundamental"
+        },
+        {
+          "cause": "Not using the wrist snap as on a serve.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Throw a ball down from the kitchen line to bounce at the far kitchen line.",
+          "type": "drill"
+        },
+        {
+          "idea": "Hit with only wrist snap from an open stance with a basket of balls.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "decelerating_the_hand",
+      "description": "Slowing the hand through the ball instead of accelerating.",
+      "kind": "form",
+      "sources": [
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Fear of missing and not trusting the smash.",
+          "proximity": "fundamental"
+        },
+        {
+          "cause": "Hesitation, e.g. treating it like a first serve from behind the baseline.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Accelerate the hand once it lines up with the ball.",
+          "type": "cue"
+        },
+        {
+          "idea": "Pick a side and take a good margin over the net when deep.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practise until confident to hit full.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Ball escapes the player",
+        "Missed smashes",
+        "Hesitation about moving forward"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "disguising_overhead_too_early",
+      "description": "Faking one direction and hitting another before the shot is consistent.",
+      "kind": "form",
+      "sources": [
+        3
+      ],
+      "causes": [
+        {
+          "cause": "Adding disguise before the overhead is consistent and powerful.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Add disguise only once the overhead is second nature.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Worse execution through overthinking"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "going_up_into_trophy_position",
+      "description": "Going up into a trophy position instead of just doing the unit turn.",
+      "kind": "form",
+      "sources": [
+        5
+      ],
+      "causes": [
+        {
+          "cause": "Weight not staying on the back leg during the unit turn.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Just do the unit turn so everything falls into position.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the weight on the right leg.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Unstable, unclear hand positions"
+      ],
+      "disagreement": "Source 7 starts the swing from the trophy position.",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "not_recovering_after_smash",
+      "description": "Stopping after the smash or following in too close to the net.",
+      "kind": "form",
+      "sources": [
+        0
+      ],
+      "causes": [],
+      "fixes": [
+        {
+          "idea": "Go back to the baseline if moving backward.",
+          "type": "cue"
+        },
+        {
+          "idea": "Follow in and stop about halfway between net and service line if moving forward.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Out of position for the next ball",
+        "Opponent may smash back"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "oversized_swing_or_overusing_body",
+      "description": "Taking a full serve-like swing or using the whole body, especially under pressure.",
+      "kind": "form",
+      "sources": [
+        1
+      ],
+      "causes": [
+        {
+          "cause": "Thinking the smash is a full swing like the serve.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Pressure.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Get the racket up behind the head quickly and skip the big swing.",
+          "type": "cue"
+        },
+        {
+          "idea": "Once in position, let the racket do the work: snap, stay up, keep head still.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Not enough time to hit",
+        "Framing the ball",
+        "Losing the point"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "standing_straight_up_at_contact",
+      "description": "Being fully upright at contact with no angle to the side.",
+      "kind": "safety",
+      "sources": [
+        0
+      ],
+      "causes": [
+        {
+          "cause": "Lack of footwork, ending up under or reaching for the ball.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Allow a slight angle in the body.",
+          "type": "cue"
+        },
+        {
+          "idea": "Improve footwork so you don't need to make up for position.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Heavy stress on the shoulder"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    }
+  ],
+  "sources": [
+    {
+      "id": "WOjPM9GZsCs",
+      "title": "The 5 Most Common Tennis Overhead Mistakes & How To Fix Them",
+      "channel": "Meike Babel Tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "6lQguSBY1GY",
+      "title": "4 Overhead (smash) mistakes (and how to fix them)",
+      "channel": "Pieter Becker Tennis Coaching",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "K_EexG6l7E8",
+      "title": "Top 3 Overhead Mistakes | OVERHEAD",
+      "channel": "Daily Tennis Lesson",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "dZtZB8RoDA0",
+      "title": "Why Pros NEVER Miss Overheads (Do THIS First)",
+      "channel": "Road to Pro Tennis",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "feCB0-CYqrI",
+      "title": "Avoid These 3 Common Volley & Overhead Mistakes (Singles Strategy Explained)",
+      "channel": "2MinuteTennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Ij_KTJfTt0E",
+      "title": "Fix Your Tennis Overhead Fast With These Tips!",
+      "channel": "Patrik Broddfelt",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "lE8CFm_iY0A",
+      "title": "The Overhead: how to use ANGLES and PLACEMENT to FINISH POINTS",
+      "channel": "Ignatowich HQ",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "SUancsyW1HI",
+      "title": "The Smash: TENNIS MASTERCLASS by Patrick Mouratoglou, EPISODE 7",
+      "channel": "Patrick Mouratoglou",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "rzggh0YNlzQ",
+      "title": "5 Tips For Awesome Overheads (Tennis Technique Explained)",
+      "channel": "2MinuteTennis",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "NOMh7eK5HY4",
+      "title": "Tennis Overhead Smash Technique - How To Never Miss An Overhead Again",
+      "channel": "PlayYourCourt.com",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "c9bf9W0abhg",
+      "title": "Consistent Overheads When Moving Backwards",
+      "channel": "Feel Tennis Instruction",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "muFZqfmwhG0",
+      "title": "Tennis Overhead - How To Gain Confidence In Your Overhead Smash | Tom Avery Tennis 239.273-9204",
+      "channel": "Tom Avery Tennis - CTW Academy",
+      "tier": "coach_demo"
+    }
+  ]
+}

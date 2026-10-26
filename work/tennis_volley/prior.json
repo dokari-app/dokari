@@ -1,0 +1,363 @@
+{
+  "activity_id": "tennis_volley",
+  "purpose": "Intercept the ball before it bounces near the net with a short, compact, firm punch, stepping into the ball with a stable body so the ball is directed with control and depth, then recover ready for the next ball.",
+  "search_queries": [
+    {
+      "query": "tennis volley technique forehand volley lesson",
+      "kind": "instruction"
+    },
+    {
+      "query": "how to hit a perfect tennis volley form",
+      "kind": "good_form"
+    },
+    {
+      "query": "tennis volley common mistakes backswing too big",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "tennis forehand volley slow motion side view",
+      "kind": "demonstration"
+    },
+    {
+      "query": "tennis backhand volley technique tutorial",
+      "kind": "instruction"
+    },
+    {
+      "query": "volley drill at the net coach feeding single player",
+      "kind": "demonstration"
+    }
+  ],
+  "primary_features": [
+    "reach.wrist.dom",
+    "angle.elbow.dom",
+    "angle.shoulder.dom",
+    "fwd.trunk_shift",
+    "angle.shoulder_hip_twist",
+    "height.hip"
+  ],
+  "attempt_events": [
+    {
+      "feature": "reach.wrist.dom",
+      "direction": "rises",
+      "seconds": 0.7,
+      "peak_at_least": 0.7
+    }
+  ],
+  "phases": [
+    {
+      "id": "ready",
+      "description": "Ready position at the net: knees slightly bent, racket in front of the body, elbows in front, weight on the balls of the feet."
+    },
+    {
+      "id": "turn_and_step",
+      "description": "Split step then a small shoulder turn with a short racket take-back, stepping toward the ball with the opposite foot."
+    },
+    {
+      "id": "punch",
+      "description": "Short forward punch of the firm arm into the ball; contact is out in front of the body at the end of this phase."
+    },
+    {
+      "id": "recovery",
+      "description": "Short follow-through, then the arm returns in front and the feet reset to the ready position."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "compact_take_back",
+      "goal": "Keep the take-back short so the racket hand stays in front of the body instead of swinging behind it.",
+      "caused_by": [
+        "shoulder_turn"
+      ],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "turn_and_step",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Racket hand pulled back close to or behind the shoulder in a long groundstroke-style backswing, making timing late and contact soft.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "controlled_volley"
+      ],
+      "cue_intent": "Remind the player to keep the racket in front and the take-back short, almost no backswing.",
+      "ask_if_unsure_intent": "Ask whether the player feels they are swinging the racket back behind them before hitting.",
+      "fix_intent": "Have the player shorten the take-back so the hand stays in view, and practise by turning the shoulders rather than swinging the arm back."
+    },
+    {
+      "id": "shoulder_turn",
+      "goal": "Turn the shoulders slightly toward the ball side as the take-back, rather than hitting with the arm alone.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "turn_and_step",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Chest stays square to the net, arm-only volley with a hand-reaching, cramped motion.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Over-rotation of the shoulders, as if for a groundstroke, which makes the punch wide and late.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_volley"
+      ],
+      "cue_intent": "Cue a small shoulder turn so the chest points slightly to the side as the ball approaches.",
+      "ask_if_unsure_intent": "Ask whether the player turns the shoulders or just moves the arm.",
+      "fix_intent": "Use a shadow drill: turn the shoulders to put the racket in the take-back position, then punch."
+    },
+    {
+      "id": "stay_low",
+      "goal": "Bend the knees and stay low and balanced before the punch, getting down to the ball instead of reaching with the arm.",
+      "caused_by": [],
+      "test": {
+        "feature": "height.hip",
+        "at_phase": "turn_and_step",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Standing tall with straight legs, forcing the arm and back to reach for low balls.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "controlled_volley",
+        "depth_and_placement"
+      ],
+      "cue_intent": "Cue the player to bend the knees and get the body down to the ball.",
+      "ask_if_unsure_intent": "Ask whether the player feels stiff-legged or bending down for low balls.",
+      "fix_intent": "Practise split step then a lunge-and-bend to low volleys, keeping the head level."
+    },
+    {
+      "id": "step_into_ball",
+      "goal": "Step forward into the ball with the body moving toward the net so the contact is made with forward momentum.",
+      "caused_by": [
+        "stay_low"
+      ],
+      "test": {
+        "feature": "fwd.trunk_shift",
+        "at_phase": "punch",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Weight stays back or the player leans away, so the ball is hit late and without depth.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Lunging or falling forward past the base, losing balance and recovery.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "depth_and_placement",
+        "controlled_volley"
+      ],
+      "cue_intent": "Cue the player to step toward the ball with the opposite foot and move the weight forward.",
+      "ask_if_unsure_intent": "Ask whether the player feels they step forward or stay planted when hitting.",
+      "fix_intent": "Drill a step-and-punch with the opposite foot landing as contact is made."
+    },
+    {
+      "id": "firm_arm_in_front",
+      "goal": "Meet the ball out in front with a firm, moderately bent elbow, punching without fully straightening or collapsing the arm.",
+      "caused_by": [
+        "compact_take_back"
+      ],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "punch",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Elbow stays tightly bent, with the hand close to the body so the ball is jammed and contact is late.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Arm fully straightened, reaching, reducing control and the ability to adjust.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_volley",
+        "depth_and_placement"
+      ],
+      "cue_intent": "Cue a firm arm and punch out in front, with the elbow slightly bent at contact.",
+      "ask_if_unsure_intent": "Ask whether the player feels the ball is hitting near the body or at full stretch.",
+      "fix_intent": "Use catch-and-punch drills to find contact in front of the body with the elbow slightly bent."
+    },
+    {
+      "id": "contact_in_front",
+      "goal": "Make contact well in front of the body with the hand out away from the shoulder.",
+      "caused_by": [
+        "compact_take_back",
+        "step_into_ball"
+      ],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "punch",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Contact beside or behind the body, jammed and late, weak block.",
+          "severity": "high"
+        },
+        "above": {
+          "looks_like": "Overextended reach at maximum stretch, losing control.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_volley",
+        "depth_and_placement"
+      ],
+      "cue_intent": "Cue the player to meet the ball out in front of the body.",
+      "ask_if_unsure_intent": "Ask whether the ball is reaching the player before they hit it.",
+      "fix_intent": "Have the player begin the punch earlier and shift their body toward the ball to find contact out in front."
+    },
+    {
+      "id": "balanced_base",
+      "goal": "Keep a stable, moderately wide base so the body does not wobble during the punch.",
+      "caused_by": [],
+      "test": {
+        "feature": "dist.stance_width",
+        "at_phase": "turn_and_step",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Feet close together, narrow base, easily knocked off balance.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "Overly wide stance, restricting movement and recovery.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_volley"
+      ],
+      "cue_intent": "Cue the player to keep a balanced base with the feet about shoulder width apart.",
+      "ask_if_unsure_intent": "Ask whether the player feels off balance after the volley.",
+      "fix_intent": "Practise a split step to land in a balanced base before every volley."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "controlled_volley",
+      "description": "The ball is blocked back solidly with control, going over the net and into the court.",
+      "requires_observable": [
+        "ball",
+        "net",
+        "body"
+      ]
+    },
+    {
+      "id": "depth_and_placement",
+      "description": "The volley lands deep or in a chosen part of the opponent's court.",
+      "requires_observable": [
+        "ball",
+        "landing_area"
+      ]
+    },
+    {
+      "id": "volley_form",
+      "description": "The volley is compact and balanced in form.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "reach.wrist.dom",
+      "at_phase": "turn_and_step",
+      "at_point": "end",
+      "outcome": "controlled_volley",
+      "effect": "higher_is_better",
+      "mechanism": "A short take-back keeps the racket in front so timing and contact stay consistent."
+    },
+    {
+      "feature": "fwd.trunk_shift",
+      "at_phase": "punch",
+      "at_point": "end",
+      "outcome": "depth_and_placement",
+      "effect": "mid_is_better",
+      "mechanism": "Weight moving forward into the ball gives depth with a short punch, while excessive lunging costs balance."
+    },
+    {
+      "feature": "reach.wrist.dom",
+      "at_phase": "punch",
+      "at_point": "end",
+      "outcome": "controlled_volley",
+      "effect": "mid_is_better",
+      "mechanism": "Contact in front of the body lets the firm arm block the ball without being jammed or overstretched."
+    },
+    {
+      "feature": "height.hip",
+      "at_phase": "turn_and_step",
+      "at_point": "end",
+      "outcome": "controlled_volley",
+      "effect": "lower_is_better",
+      "mechanism": "Getting low with the legs lets the racket meet low balls with the arm still in front and the head steady."
+    }
+  ],
+  "confusable_with": [
+    "tennis_forehand_groundstroke",
+    "tennis_backhand_groundstroke",
+    "tennis_overhead_smash",
+    "tennis_serve",
+    "badminton_net_shot",
+    "table_tennis_forehand_block"
+  ],
+  "session_ideas": [
+    "Shadow volleys: split step, turn, short punch, recover, with the camera side-on.",
+    "Partner feeds easy balls to the forehand volley, then the backhand volley, from close range.",
+    "Wall volley drill standing about 3 metres away, keeping the racket in front.",
+    "Low-volley lunges: step and bend to balls fed at knee height.",
+    "Volley-to-volley rally from the service line, focusing on a short take-back."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "trackable",
+      "name": "racket_head",
+      "why": "Racket-head position and the angle of the racket face are central to a volley's control (open face for backspin, racket head above the wrist) but cannot be seen from the body features."
+    },
+    {
+      "kind": "measurement",
+      "name": "contact_point_forward_of_body",
+      "why": "Distance of the hand ahead of the front hip or shoulder line at contact would test 'contact in front' more directly than wrist reach from the shoulder."
+    },
+    {
+      "kind": "feature",
+      "name": "feet_off_ground (split step)",
+      "why": "The split step before the volley could be tested by both heels or ankles leaving the ground; the registered heel features track each foot separately."
+    },
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Ball position and flight are needed to judge the outcome (depth, placement) and the timing of the split step."
+    },
+    {
+      "kind": "feature",
+      "name": "angle.wrist_lay",
+      "why": "Wrist firmness (no wrist flick) is a coaching point on volleys, but needs a wrist/hand angle."
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 2338,
+    "clips_with_attempts": 75,
+    "clips": 75,
+    "target_reached": false,
+    "rounds": 2
+  }
+}

@@ -1,0 +1,33 @@
+windows 1291 Counter({'forehand': 760, 'backhand': 192, 'serve': 181, 'no_stroke': 158})
+
+[image-plane pose + racket hand known from the frames] n=1291 accuracy 0.668  recall: {np.str_('backhand'): 0.29, np.str_('forehand'): 0.86, np.str_('no_stroke'): 0.18, np.str_('serve'): 0.71}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [56, 107, 20, 9]
+   forehand   [47, 650, 40, 23]
+   no_stroke  [13, 96, 29, 20]
+   serve      [6, 40, 7, 128]
+   forehand-vs-backhand when both called a groundstroke: 0.821 (n=860)
+
+[same, confidence>=2 labels only] n=692 accuracy 0.695  recall: {np.str_('backhand'): 0.38, np.str_('forehand'): 0.8, np.str_('no_stroke'): 0.35, np.str_('serve'): 0.84}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [37, 49, 2, 9]
+   forehand   [24, 265, 23, 18]
+   no_stroke  [4, 36, 31, 17]
+   serve      [4, 21, 4, 148]
+   forehand-vs-backhand when both called a groundstroke: 0.805 (n=375)
+
+[same, front/back views only (shoulders wide)] n=615 accuracy 0.642  recall: {np.str_('backhand'): 0.23, np.str_('forehand'): 0.82, np.str_('no_stroke'): 0.25, np.str_('serve'): 0.65}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [17, 52, 3, 2]
+   forehand   [21, 309, 29, 18]
+   no_stroke  [4, 56, 23, 10]
+   serve      [2, 20, 3, 46]
+   forehand-vs-backhand when both called a groundstroke: 0.817 (n=399)
+
+[same, side-on views only] n=676 accuracy 0.663  recall: {np.str_('backhand'): 0.33, np.str_('forehand'): 0.84, np.str_('no_stroke'): 0.12, np.str_('serve'): 0.71}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [39, 68, 7, 4]
+   forehand   [33, 323, 12, 15]
+   no_stroke  [3, 44, 8, 10]
+   serve      [6, 20, 6, 78]
+   forehand-vs-backhand when both called a groundstroke: 0.782 (n=463)

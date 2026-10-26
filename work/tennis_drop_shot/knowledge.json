@@ -1,0 +1,1012 @@
+{
+  "n_sources": 12,
+  "good_form": [
+    {
+      "point": "Play it from an attacking position, stepping into the court, when the opponent is pushed back or has hit short.",
+      "sources": [
+        0,
+        4,
+        6,
+        8,
+        9,
+        11
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Go under or behind the ball with a slightly open face and a little backspin so it dies after landing.",
+      "sources": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Prepare like a normal forehand or backhand, or like the slice, and disguise the shot until the last moment.",
+      "sources": [
+        4,
+        8,
+        9,
+        10,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Change grip late to a continental or neutral grip, which helps you get under the ball.",
+      "sources": [
+        4,
+        8,
+        9,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Use a short, soft, simple swing with little or no backswing, like a volley.",
+      "sources": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Keep the ball low and have its peak on your side of the net, so it lands short.",
+      "sources": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "After the shot, follow it in or take a balanced position, covering the likely reply.",
+      "sources": [
+        3,
+        4,
+        7,
+        8
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Set it up first with deep, high or slice balls so the opponent is back near the baseline.",
+      "sources": [
+        5,
+        7,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Move quickly up to the short ball and hit it on the rise.",
+      "sources": [
+        4,
+        7,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Keep the hand soft and slow, with relaxed wrist and fingers, while the legs move fast.",
+      "sources": [
+        2,
+        6,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Absorb the ball into the strings and take pace off it rather than hitting hard.",
+      "sources": [
+        2,
+        5,
+        6
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Step into the ball and keep moving through the shot.",
+      "sources": [
+        4,
+        6,
+        8
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Wrong-footing the opponent, or hitting against their momentum, is very effective.",
+      "sources": [
+        0,
+        4,
+        7
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Stay calm and controlled, and read the opponent's movement.",
+      "sources": [
+        0,
+        4
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Keep the racket in front of you while running in.",
+      "sources": [
+        1,
+        5
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Aim for a spot between the net and the service line, to one side and not down the middle.",
+      "sources": [
+        8
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "When you reach the opponent's drop shot comfortably, reply deep down the line and cover the net.",
+      "sources": [
+        3
+      ],
+      "n_sources": 1
+    }
+  ],
+  "faults": [
+    {
+      "id": "wrong_tactical_moment",
+      "description": "Playing it when defending, unsure, tired or as a bailout, or overusing it.",
+      "kind": "form",
+      "sources": [
+        0,
+        6,
+        8,
+        9,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Hitting from a defensive position or against a strong ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Throwing it in when tired, unsure or wanting an easy point.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Seeing it as a bailout for a high ball.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Play it from inside the court when you could hit a winner.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use it when the opponent is on their heels, or after a big serve or shot.",
+          "type": "cue"
+        },
+        {
+          "idea": "Think of it aggressively and don't overuse it.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The shot loses its surprise and effectiveness.",
+        "The opponent starts to read it."
+      ],
+      "disagreement": "Source 0 allows a safer, longer version when the opponent is stretched wide, while 9 prefers a neutralising slice when defending.",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "hit_from_deep_or_unprepared",
+      "description": "The drop shot is played from far back, without forward momentum, or against an opponent who has not been pushed back.",
+      "kind": "form",
+      "sources": [
+        0,
+        5,
+        7,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Not moving the feet quickly up to the short ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not setting it up with a previous deep or high ball.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Opening a match with drop shots before showing deep balls.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hit a high, deep ball or deep slices first to push the opponent back.",
+          "type": "cue"
+        },
+        {
+          "idea": "From behind the baseline, slice deep and wait for a shorter ball.",
+          "type": "cue"
+        },
+        {
+          "idea": "Move forward with intensity and hit from about three-quarter court.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The ball hangs in the air longer and the opponent runs it down easily."
+      ],
+      "disagreement": "Source 0 says the drop shot can be played from around the baseline, while 7 says hitting it from the baseline is harder.",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "swinging_too_hard",
+      "description": "Taking a backswing or big swing and hitting through the ball with pace, as with a normal slice.",
+      "kind": "form",
+      "sources": [
+        5,
+        6,
+        7,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Using the hand too much or trying to hit harder.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Swinging as in a normal slice, or not thinking of it like a volley.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Taking the ball late instead of on the rise.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Use volley technique with a very short motion and no backswing.",
+          "type": "cue"
+        },
+        {
+          "idea": "Catch the underside of the ball with a J-shaped path.",
+          "type": "cue"
+        },
+        {
+          "idea": "Take the ball on the rise and bunt it with a slightly open face.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the hand slow and let the legs bring the ball over.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The ball carries too much pace and too far, and the opponent reaches it."
+      ],
+      "disagreement": "",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "telegraphing_shot",
+      "description": "The preparation or grip change shows the opponent a drop shot is coming.",
+      "kind": "form",
+      "sources": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Changing grip too early or running in with the racket set for the drop shot.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Backswing or racket face that differs from the normal shot or slice.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "A big backswing makes a late grip change hard.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Prepare as for a normal drive or slice and change grip at the last second.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the backswing position identical for the slice and the drop shot.",
+          "type": "drill"
+        },
+        {
+          "idea": "Use a compact swing so the free hand can help the grip change.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The opponent anticipates the drop shot and reaches it."
+      ],
+      "disagreement": "Source 1 suggests running in with a topspin grip and changing late, while 8 says to use the normal forehand or backhand grip until the last moment.",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "ball_flight_too_high",
+      "description": "The ball crosses the net high or peaks on the opponent's side.",
+      "kind": "form",
+      "sources": [
+        5,
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Cutting too much.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not picturing the ball peaking on your side and dropping over the net.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Aim to make the ball peak on your side of the net.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the ball as low as possible over the net.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The opponent gets time to run the ball down.",
+        "The ball lands too deep or barely clears the net."
+      ],
+      "disagreement": "Source 9 says to aim higher for more backspin, and 6 and 8 say to keep the ball low.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "waiting_on_ball",
+      "description": "The player waits for the ball and hits it as it drops, or reaches for it, instead of moving in and taking it early.",
+      "kind": "form",
+      "sources": [
+        4,
+        7,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Standing still instead of moving up to the short ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not moving up early or far enough.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Move up to the short ball at once and hit it on the rise.",
+          "type": "cue"
+        },
+        {
+          "idea": "Have a coach feed short balls so you take one or two steps in and hit on the rise.",
+          "type": "drill"
+        },
+        {
+          "idea": "Get close to the ball and extend through it.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The opponent has time to recover and reach the ball.",
+        "You are more likely to miss."
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "aim_too_short",
+      "description": "Trying to land the ball as close to the net as possible, or lofting it very short and high.",
+      "kind": "form",
+      "sources": [
+        0,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Aiming for the shortest possible drop shot.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "A higher flight that gives the shot away.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Aim in the middle of the zone between the net and service line.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hit from up to down so the ball travels low.",
+          "type": "cue"
+        },
+        {
+          "idea": "Play the longer, lower version off a normal-looking slice.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The ball floats high and the opponent reaches it.",
+        "The ball goes into the net or out."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "gripping_too_tight",
+      "description": "A tight, rigid grip and tense wrist and fingers during the touch shot.",
+      "kind": "form",
+      "sources": [
+        2,
+        9
+      ],
+      "causes": [],
+      "fixes": [
+        {
+          "idea": "Hold the grip looser with relaxed wrist and fingers.",
+          "type": "cue"
+        },
+        {
+          "idea": "Picture absorbing the ball in the strings.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "nervous_or_rushed",
+      "description": "Playing the drop shot while nervous, tight, excited or rushing.",
+      "kind": "form",
+      "sources": [
+        0,
+        4
+      ],
+      "causes": [
+        {
+          "cause": "Excitement and rushing the motion.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Stress at a close score.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Check how you feel before playing it.",
+          "type": "cue"
+        },
+        {
+          "idea": "Play it when ahead on the score.",
+          "type": "cue"
+        },
+        {
+          "idea": "Stay calm and make the motion slow and controlled.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The ball goes into the net, or too high and long, and the point is likely lost."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "no_footwork_through_shot",
+      "description": "The legs stop before or at contact, so there is no step into or after the shot.",
+      "kind": "form",
+      "sources": [
+        6,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Halting movement before contact.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not stepping into the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Leaving the work to the hand instead of the legs.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Take a small step into the ball as you hit.",
+          "type": "cue"
+        },
+        {
+          "idea": "Take at least one step after the shot.",
+          "type": "cue"
+        },
+        {
+          "idea": "Feel that the legs bring the ball over the net.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The ball is too soft and goes into the net, or flies.",
+        "You have less control."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "poor_direction_placement",
+      "description": "The ball goes down the middle, or the racket doesn't go toward the target.",
+      "kind": "form",
+      "sources": [
+        6,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Hand drifting from the intended line.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not deciding the direction before hitting.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Pick a side before hitting.",
+          "type": "cue"
+        },
+        {
+          "idea": "Point the racket head where you want the ball to go.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The opponent has less distance to run and reaches the ball.",
+        "Direction is less accurate."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "poor_recovery_after_shot",
+      "description": "Staying on the baseline or standing too centrally after the drop shot.",
+      "kind": "form",
+      "sources": [
+        7,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Not stepping through the shot, or treating it as a winner.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not planning what to do after the drop shot.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Follow the ball in like an approach shot, covering with diagonal movement.",
+          "type": "cue"
+        },
+        {
+          "idea": "Take a three-quarter court spot, shaded toward the side you hit to.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The opponent can drop shot you back or has the whole court to hit into."
+      ],
+      "disagreement": "Source 7 allows staying back at three-quarter court, while 8 says to follow the shot to the net.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "too_little_backspin",
+      "description": "The ball is hit too flat or comes over the ball, so it runs on or kicks forward after landing.",
+      "kind": "form",
+      "sources": [
+        6,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Not enough cut or backspin.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Coming over the ball and adding topspin.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not using a continental grip to get under the ball.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Cut under the ball with backspin so it kicks up and stops.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use the continental grip and come under the ball.",
+          "type": "setup"
+        },
+        {
+          "idea": "Practise with one ball and check that it stops after the net.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "The ball continues forward after landing and the opponent can reach it."
+      ],
+      "disagreement": "Source 0 prefers the ball to spin forward after the bounce, and 5 says only a little backspin is needed.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "too_much_backspin_open_face",
+      "description": "Chopping heavily under the ball or opening the racket face too wide.",
+      "kind": "form",
+      "sources": [
+        5,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Opening the face very wide, or chopping under the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Believing perfect Federer-style spin is needed.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the face only about 10 degrees open at contact.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use only a low to moderate amount of backspin.",
+          "type": "cue"
+        },
+        {
+          "idea": "Push the opponent back so little spin is needed.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The drop shot is less consistent."
+      ],
+      "disagreement": "Source 6 says to add more backspin even if the ball goes too high, and 9 says to aim higher for more backspin.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "unsuitable_incoming_ball",
+      "description": "Trying it off a slice, a dead ball, a high ball or a low contact point.",
+      "kind": "form",
+      "sources": [
+        0,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Hard to judge the force needed against a slice or dead ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Contact point too high, or well below chest height.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Standing further back.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Choose a flat or topspin ball with some pace.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use a high ball only when very close to the net.",
+          "type": "cue"
+        },
+        {
+          "idea": "Make contact around chest or shoulder height.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The shot is mis-hit.",
+        "The ball flies long, or has to lift first, giving the opponent time."
+      ],
+      "disagreement": "Source 0 says slice, dead and high balls are poor choices and 9 says contact should be around chest height, while 8 says to hit off a soft or slightly high ball and 10 builds the shot off a backhand slice.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "counter_drop_when_stretched",
+      "description": "Attempting a counter drop shot at full stretch or on the run, or hitting a weak one.",
+      "kind": "form",
+      "sources": [
+        3
+      ],
+      "causes": [
+        {
+          "cause": "Reaching the ball late, still running, in a difficult position.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Lacking the feel and precision, as the shot suits advanced players.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Try the counter drop shot only when you reach the ball fairly comfortably.",
+          "type": "cue"
+        },
+        {
+          "idea": "Otherwise hit the safer deep shot down the line.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Poor precision, and you become a sitting duck at the net."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "cross_court_reply_to_drop_shot",
+      "description": "Playing cross-court when close to the net after reaching the opponent's drop shot.",
+      "kind": "form",
+      "sources": [
+        3
+      ],
+      "causes": [
+        {
+          "cause": "Choosing cross-court from a position close to the net.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hit deep down the line, then cover the net.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "You can't cover the net after the shot."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "poor_absorption_control",
+      "description": "The ball bounces off the strings and the racket goes forward, or the hand is jerky.",
+      "kind": "form",
+      "sources": [
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Racket moving forward, or not in the same direction as the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Racket move too slow or too big against a fast ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Poor hand control.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Move the racket with the ball, slightly backward while going down and across.",
+          "type": "cue"
+        },
+        {
+          "idea": "Against a fast ball, use a quick small backward move.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practise bouncing and catching the ball on the strings, and mini tennis.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "The ball bounces off, or gets away from the player.",
+        "The ball doesn't get backspin and bounce back."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "racket_back_while_running",
+      "description": "Running toward the drop shot with the racket held behind the body.",
+      "kind": "form",
+      "sources": [
+        1
+      ],
+      "causes": [
+        {
+          "cause": "Taking the racket back early as you run to the short ball.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the racket in front of you as you run.",
+          "type": "cue"
+        },
+        {
+          "idea": "Pump your arms while running.",
+          "type": "cue"
+        },
+        {
+          "idea": "Run with the topspin grip and change grip late.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "You reach the ball more slowly.",
+        "You can only hit hard instead of soft."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "same_grip_through_shot",
+      "description": "Running around the ball with the usual forehand grip, so the shot feels unnatural and comes out badly.",
+      "kind": "form",
+      "sources": [
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Not changing grip as you come around the ball.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hold the disguise, then change to a weak continental grip like a forehand volley grip.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The first attempts looked bad and unnatural."
+      ],
+      "disagreement": "Sources 4 and 8 say to keep the normal forehand or backhand grip until the last moment.",
+      "n_sources": 1,
+      "support": "single"
+    }
+  ],
+  "sources": [
+    {
+      "id": "3gKK6TTrMro",
+      "title": "Drop Shot Tennis Tactics - 7 Dos And Don'ts",
+      "channel": "Feel Tennis Instruction",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "YRUam_aiJrA",
+      "title": "How To Win When Your Opponent Hits A Dropshot (Tennis Singles Strategy)",
+      "channel": "2MinuteTennis",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "BNu5o3bUT64",
+      "title": "How to Develop Feel in Tennis",
+      "channel": "Intuitive Tennis",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "bIRWsYHLc7I",
+      "title": "How To Return A Drop Shot In Tennis - Top 4 Tactical Plays",
+      "channel": "Feel Tennis Instruction",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "nPSJj2E1rWM",
+      "title": "DROPSHOT MASTERCLASS: How to master this shot!",
+      "channel": "Patrick Mouratoglou",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "FNvMbMrjs6s",
+      "title": "3 Tips For A Perfect Drop Shot (Tennis Technique & Strategy)",
+      "channel": "2MinuteTennis",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "No9kyIayAG0",
+      "title": "Dropshot Masterclass with Holger Rune! #TheCoachAndThePlayer Ep.1",
+      "channel": "Patrick Mouratoglou",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "no_CFeFvsYk",
+      "title": "How to DOMINATE your opponent with the drop shot #tennis",
+      "channel": "StokkeTennis",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "HYw-NmrLbx0",
+      "title": "Drop Shot Masterclass by ATP Coach Adri",
+      "channel": "Tennisnerd 2",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "-2Jn9sQxIxI",
+      "title": "Hit Your Tennis Drop Shot like Carlos Alcaraz",
+      "channel": "Top Tennis Training - Pro Tennis Lessons",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "q4cBh-fDDuY",
+      "title": "Slice vs Drop Shot Technique | DROP SHOTS",
+      "channel": "Daily Tennis Lesson",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "YbLKq_2yYxI",
+      "title": "TENNIS DROP SHOT | How To Hit A Drop Shot - Tennis Evolution",
+      "channel": "Tennis Evolution",
+      "tier": "coach_demo"
+    }
+  ]
+}

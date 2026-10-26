@@ -1,0 +1,115 @@
+
+IMG_2935 3: 12 events
+  after merging: 10 strokes
+  t=   1.7s over  -> serve     (0.72)  ok
+  t=   4.5s swing -> no_stroke (0.95)  WRONG (filmed: serve)
+  t=   7.8s over  -> serve     (0.69)  ok
+  t=  10.7s swing -> no_stroke (0.70)  WRONG (filmed: serve)
+  t=  12.2s swing -> no_stroke (0.51)  WRONG (filmed: serve)
+  t=  14.9s over  -> serve     (0.47)  ok
+  t=  17.7s swing -> no_stroke (0.90)  WRONG (filmed: serve)
+  t=  20.9s swing -> no_stroke (0.62)  WRONG (filmed: serve)
+  t=  25.6s swing -> serve     (0.55)  ok
+  t=  30.5s swing -> serve     (0.44)  ok
+
+IMG_2935: 5 events
+  after merging: 5 strokes
+  t=   1.8s swing -> backhand  (0.33)  WRONG (filmed: forehand)
+  t=   3.9s swing -> forehand  (0.53)  ok
+  t=   5.8s swing -> forehand  (0.65)  ok
+  t=   7.5s swing -> no_stroke (0.58)  WRONG (filmed: forehand)
+  t=   9.4s swing -> forehand  (0.55)  ok
+
+IMG_2935 2: 91 events
+  after merging: 89 strokes
+  t=   2.2s swing -> no_stroke (0.99)  WRONG (filmed: serve)
+  t=   9.7s over  -> serve     (0.77)  ok
+  t=  12.3s swing -> no_stroke (0.54)  WRONG (filmed: serve)
+  t=  16.1s over  -> serve     (0.82)  ok
+  t=  19.0s swing -> no_stroke (0.86)  WRONG (filmed: serve)
+  t=  22.3s over  -> serve     (0.83)  ok
+  t=  25.1s swing -> no_stroke (0.57)  WRONG (filmed: serve)
+  t=  26.6s swing -> no_stroke (0.46)  WRONG (filmed: serve)
+  t=  29.4s over  -> serve     (0.71)  ok
+  t=  32.2s swing -> no_stroke (0.80)  WRONG (filmed: serve)
+  t=  35.3s swing -> no_stroke (0.54)  WRONG (filmed: serve)
+  t=  40.1s swing -> forehand  (0.58)  WRONG (filmed: serve)
+  t=  42.5s swing -> forehand  (0.64)  WRONG (filmed: serve)
+  t=  45.0s swing -> forehand  (0.45)  WRONG (filmed: serve)
+  t=  46.8s swing -> no_stroke (0.55)  WRONG (filmed: serve)
+  t=  48.8s swing -> no_stroke (0.46)  WRONG (filmed: serve)
+  t=  52.6s swing -> forehand  (0.55)  
+  t=  55.3s swing -> forehand  (0.49)  
+  t=  57.3s swing -> no_stroke (0.98)  
+  t=  59.7s over  -> serve     (0.83)  
+  t=  64.1s swing -> no_stroke (0.78)  
+  t=  69.9s swing -> no_stroke (0.87)  
+  t=  74.0s swing -> forehand  (0.68)  
+  t=  75.9s swing -> backhand  (0.42)  
+  t=  77.6s swing -> forehand  (0.45)  
+  t=  79.7s swing -> no_stroke (0.35)  
+  t=  81.4s swing -> forehand  (0.78)  
+  t=  83.2s swing -> no_stroke (0.58)  
+  t=  93.7s swing -> forehand  (0.57)  
+  t=  96.0s swing -> no_stroke (0.85)  
+  t=  97.5s swing -> no_stroke (0.58)  
+  t= 100.3s swing -> forehand  (0.83)  
+  t= 102.2s swing -> no_stroke (0.90)  
+  t= 104.9s swing -> serve     (0.42)  
+  t= 109.0s swing -> no_stroke (0.84)  
+  t= 110.6s swing -> backhand  (0.35)  
+  t= 113.5s swing -> no_stroke (0.85)  
+  t= 116.5s swing -> forehand  (0.90)  
+  t= 118.6s swing -> no_stroke (0.46)  
+  t= 120.4s swing -> forehand  (0.66)  
+  t= 122.4s swing -> forehand  (0.73)  
+  t= 124.9s swing -> forehand  (0.54)  
+  t= 126.9s swing -> no_stroke (0.85)  
+  t= 128.8s swing -> forehand  (0.80)  
+  t= 130.7s swing -> forehand  (0.74)  
+  t= 132.9s swing -> forehand  (0.71)  
+  t= 135.6s swing -> forehand  (0.77)  
+  t= 142.9s swing -> no_stroke (0.90)  
+  t= 145.3s over  -> serve     (0.81)  
+  t= 148.9s swing -> no_stroke (0.87)  
+  t= 164.0s swing -> no_stroke (0.96)  
+  t= 167.0s swing -> no_stroke (0.55)  
+  t= 168.9s swing -> forehand  (0.39)  
+  t= 171.0s swing -> no_stroke (0.47)  
+  t= 173.0s swing -> forehand  (0.70)  
+  t= 174.7s swing -> no_stroke (0.50)  
+  t= 176.6s swing -> forehand  (0.55)  
+  t= 180.1s swing -> forehand  (0.48)  
+  t= 181.7s swing -> forehand  (0.34)  
+  t= 183.4s swing -> no_stroke (0.71)  
+  t= 185.4s swing -> no_stroke (0.98)  
+  t= 187.5s swing -> no_stroke (0.83)  
+  t= 189.6s swing -> forehand  (0.72)  
+  t= 191.4s swing -> no_stroke (0.60)  
+  t= 193.1s swing -> forehand  (0.86)  
+  t= 197.1s swing -> no_stroke (0.87)  
+  t= 198.8s swing -> no_stroke (0.91)  
+  t= 201.5s swing -> forehand  (0.72)  
+  t= 203.5s swing -> forehand  (0.78)  
+  t= 205.3s swing -> backhand  (0.55)  
+  t= 207.4s swing -> forehand  (0.70)  
+  t= 209.2s swing -> forehand  (0.73)  
+  t= 210.8s swing -> forehand  (0.54)  
+  t= 213.3s swing -> forehand  (0.60)  
+  t= 214.8s swing -> no_stroke (0.73)  
+  t= 216.8s swing -> no_stroke (0.69)  
+  t= 218.8s swing -> forehand  (0.51)  
+  t= 225.5s swing -> forehand  (0.91)  
+  t= 227.3s swing -> forehand  (0.85)  
+  t= 230.1s swing -> no_stroke (0.49)  
+  t= 232.7s swing -> forehand  (0.42)  
+  t= 234.7s swing -> no_stroke (0.72)  
+  t= 236.7s swing -> forehand  (0.62)  
+  t= 238.8s swing -> forehand  (0.47)  
+  t= 240.4s swing -> volley    (0.49)  
+  t= 243.0s swing -> no_stroke (0.40)  
+  t= 245.1s swing -> no_stroke (0.96)  
+  t= 246.8s swing -> no_stroke (0.98)  
+  t= 251.0s over  -> no_stroke (0.86)  
+
+against what was filmed: 12/31 events correct

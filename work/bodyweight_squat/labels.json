@@ -1,0 +1,2793 @@
+{
+ "model": "claude-sonnet-5-5",
+ "faults": [
+  "forward_chest_lean",
+  "knees_caving_in",
+  "lumbar_rounding_butt_wink",
+  "heels_lift_ankle_limit",
+  "stance_not_matched_to_hips",
+  "arm_counterbalance",
+  "falling_backward_weight_on_heels",
+  "hips_rise_first_good_morning",
+  "incomplete_range",
+  "poor_bracing_and_breathing",
+  "toe_angle_wrong",
+  "arching_lower_back",
+  "back_too_vertical",
+  "feet_out_knees_straight",
+  "forcing_depth_passively",
+  "hip_shift_leg_imbalance",
+  "knees_held_back",
+  "knees_too_far_forward",
+  "no_hip_hinge",
+  "pinchy_tight_hips"
+ ],
+ "clips": {
+  "0KtrNQre5rQ": {
+   "attempts": [
+    {
+     "window": [
+      124.56,
+      143.28
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "knees_caving_in"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      154.8,
+      157.6
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "forward_chest_lean",
+      "lumbar_rounding_butt_wink",
+      "arching_lower_back"
+     ]
+    },
+    {
+     "window": [
+      157.6,
+      160.52
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "lumbar_rounding_butt_wink"
+     ]
+    },
+    {
+     "window": [
+      160.64,
+      166.44
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arching_lower_back",
+      "lumbar_rounding_butt_wink"
+     ]
+    },
+    {
+     "window": [
+      166.44,
+      171.28
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      185.52,
+      189.96
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      192.56,
+      198.52
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arching_lower_back"
+     ]
+    },
+    {
+     "window": [
+      211.24,
+      229.68
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arching_lower_back",
+      "lumbar_rounding_butt_wink"
+     ]
+    }
+   ]
+  },
+  "1DY6gAVqLC0": {
+   "attempts": [
+    {
+     "window": [
+      84.38,
+      93.09
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "knees_caving_in",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      130.4,
+      147.51
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      154.69,
+      158.49
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in",
+      "forward_chest_lean",
+      "incomplete_range",
+      "arm_counterbalance"
+     ]
+    },
+    {
+     "window": [
+      158.49,
+      171.4
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "21ksLeoHL_4": {
+   "attempts": [
+    {
+     "window": [
+      76.24,
+      77.74
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      82.05,
+      86.69
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      107.77,
+      120.95
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      154.09,
+      156.39
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      156.39,
+      161.63
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      166.37,
+      170.54
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "hips_rise_first_good_morning",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      171.64,
+      173.01
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "hips_rise_first_good_morning",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      212.48,
+      222.26
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      222.92,
+      228.66
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      228.7,
+      232.7
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      249.25,
+      258.26
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      278.48,
+      281.55
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      288.82,
+      304.04
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      309.38,
+      314.51
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "3GTp-HYp4MY": {
+   "attempts": [
+    {
+     "window": [
+      6.8,
+      14.77
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "knees_caving_in"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      15.0,
+      18.57
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      19.17,
+      22.6
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      24.27,
+      28.87
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      30.13,
+      34.57
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      39.23,
+      44.27
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      45.9,
+      47.87
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      48.07,
+      51.43
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      51.43,
+      54.93
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      55.47,
+      59.13
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      59.13,
+      63.43
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      65.3,
+      74.13
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    }
+   ]
+  },
+  "45n9jUSY0Sg": {
+   "attempts": [
+    {
+     "window": [
+      49.33,
+      53.4
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      104.79,
+      111.26
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      139.39,
+      142.82
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      142.82,
+      148.32
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      169.19,
+      171.62
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      171.62,
+      176.89
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      208.65,
+      211.09
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      283.28,
+      286.22
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      301.71,
+      304.05
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      304.28,
+      305.88
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      307.95,
+      310.18
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      310.18,
+      311.48
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      321.98,
+      324.15
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      331.88,
+      337.98
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      351.48,
+      357.94
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "AhfgIM8YWBY": {
+   "attempts": [
+    {
+     "window": [
+      3.34,
+      17.28
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      17.28,
+      36.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      73.11,
+      90.76
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      118.65,
+      136.2
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      239.44,
+      242.61
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      251.68,
+      254.55
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    }
+   ]
+  },
+  "FvvuN7wZFlA": {
+   "attempts": [
+    {
+     "window": [
+      6.97,
+      15.33
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      20.17,
+      21.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      21.67,
+      29.53
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "GK84GSUGUW4": {
+   "attempts": [
+    {
+     "window": [
+      3.8,
+      4.75
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      5.13,
+      7.05
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      59.02,
+      61.81
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      87.88,
+      89.26
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      101.31,
+      105.27
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      132.63,
+      145.6
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      147.19,
+      156.74
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "HQfN0ddIpzg": {
+   "attempts": [
+    {
+     "window": [
+      34.63,
+      45.25
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean",
+      "incomplete_range"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      46.78,
+      50.65
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "heels_lift_ankle_limit",
+      "incomplete_range"
+     ]
+    }
+   ]
+  },
+  "Ihc9Gg5MrAk": {
+   "attempts": [
+    {
+     "window": [
+      71.7,
+      78.83
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      78.83,
+      85.21
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      131.3,
+      137.14
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "JTMFAYNoAxM": {
+   "attempts": [
+    {
+     "window": [
+      117.19,
+      119.96
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      121.63,
+      126.63
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      126.63,
+      130.59
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      130.96,
+      132.82
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      137.22,
+      139.02
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      139.66,
+      141.49
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      159.29,
+      160.96
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      198.79,
+      201.82
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      217.39,
+      218.95
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      219.12,
+      221.02
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "M6_dNPSP2dQ": {
+   "attempts": [
+    {
+     "window": [
+      20.6,
+      25.13
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      27.37,
+      30.8
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      35.57,
+      54.47
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      139.27,
+      144.5
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      145.07,
+      150.5
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      194.7,
+      211.5
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      211.67,
+      228.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      306.33,
+      307.97
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      324.5,
+      335.0
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      335.0,
+      339.63
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      349.53,
+      359.03
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      402.97,
+      416.0
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      440.33,
+      444.63
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance"
+     ]
+    },
+    {
+     "window": [
+      444.63,
+      455.83
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance"
+     ]
+    },
+    {
+     "window": [
+      469.23,
+      477.6
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "MnPuHBh48bA": {
+   "attempts": [
+    {
+     "window": [
+      42.7,
+      43.8
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      49.73,
+      51.73
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      79.3,
+      80.7
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      97.73,
+      102.07
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      102.07,
+      104.87
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      115.5,
+      124.6
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      128.57,
+      129.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      151.97,
+      158.47
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      163.3,
+      167.83
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      183.37,
+      189.17
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      202.3,
+      204.9
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      220.87,
+      225.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      236.37,
+      247.1
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      262.9,
+      268.67
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      287.93,
+      291.73
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "NU7ajbIFH58": {
+   "attempts": [
+    {
+     "window": [
+      2.1,
+      6.57
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "knees_caving_in",
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      38.23,
+      40.83
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      67.4,
+      72.83
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "knees_caving_in"
+     ]
+    }
+   ]
+  },
+  "QKKXd6celO0": {
+   "attempts": [
+    {
+     "window": [
+      9.28,
+      10.81
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      15.85,
+      19.09
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      98.2,
+      101.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      205.91,
+      209.14
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      227.99,
+      233.07
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      254.15,
+      259.79
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "heels_lift_ankle_limit",
+      "falling_backward_weight_on_heels"
+     ]
+    },
+    {
+     "window": [
+      263.46,
+      267.07
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      270.57,
+      273.94
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      299.43,
+      302.67
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      302.8,
+      305.57
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    }
+   ]
+  },
+  "U3HlEF_E9fo": {
+   "attempts": [
+    {
+     "window": [
+      33.07,
+      34.7
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      57.69,
+      60.56
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      69.94,
+      78.08
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "lumbar_rounding_butt_wink",
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      84.08,
+      86.82
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "lumbar_rounding_butt_wink",
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      200.33,
+      203.7
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "lumbar_rounding_butt_wink"
+     ]
+    },
+    {
+     "window": [
+      209.04,
+      212.11
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      242.04,
+      245.95
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      297.8,
+      304.34
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "hips_rise_first_good_morning",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      329.96,
+      337.94
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      379.01,
+      383.42
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      398.53,
+      402.34
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      415.35,
+      418.25
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      428.93,
+      436.07
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      519.92,
+      524.36
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      559.63,
+      566.1
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "Y7QEmD5MgDQ": {
+   "attempts": [
+    {
+     "window": [
+      30.17,
+      43.6
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      60.67,
+      77.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      82.37,
+      99.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      99.37,
+      108.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      109.93,
+      117.33
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      136.93,
+      150.33
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      150.33,
+      160.83
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      160.83,
+      176.07
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      196.07,
+      207.2
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      207.2,
+      212.3
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range",
+      "knees_caving_in",
+      "forward_chest_lean"
+     ]
+    },
+    {
+     "window": [
+      212.3,
+      223.03
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "knees_caving_in",
+      "forward_chest_lean"
+     ]
+    },
+    {
+     "window": [
+      247.27,
+      253.3
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "YN_XnIhEjQw": {
+   "attempts": [
+    {
+     "window": [
+      136.28,
+      147.48
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "falling_backward_weight_on_heels",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      149.56,
+      162.24
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "falling_backward_weight_on_heels",
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      187.52,
+      200.32
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      200.32,
+      208.64
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      229.6,
+      234.16
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      234.56,
+      240.08
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      240.08,
+      243.08
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "aOVC5wOPih0": {
+   "attempts": [
+    {
+     "window": [
+      15.62,
+      23.69
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      34.4,
+      40.11
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      43.48,
+      45.51
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      69.17,
+      80.85
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean"
+     ],
+     "absent": [
+      "falling_backward_weight_on_heels"
+     ]
+    },
+    {
+     "window": [
+      82.02,
+      85.85
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      92.63,
+      103.8
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      106.84,
+      118.72
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      203.67,
+      206.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      247.81,
+      256.76
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      259.23,
+      266.33
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      272.57,
+      283.15
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      283.15,
+      287.92
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      328.93,
+      331.66
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      341.44,
+      356.49
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      383.28,
+      398.46
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "ektFAcztVLc": {
+   "attempts": [
+    {
+     "window": [
+      72.45,
+      76.12
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range",
+      "falling_backward_weight_on_heels"
+     ]
+    },
+    {
+     "window": [
+      121.7,
+      128.67
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range",
+      "heels_lift_ankle_limit",
+      "arm_counterbalance"
+     ]
+    },
+    {
+     "window": [
+      129.67,
+      134.43
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      150.19,
+      152.78
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      153.07,
+      156.28
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "incomplete_range",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      157.41,
+      165.04
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "gCOKozKJpEY": {
+   "attempts": [
+    {
+     "window": [
+      129.71,
+      132.17
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "gsNoPYwWXeM": {
+   "attempts": [
+    {
+     "window": [
+      36.94,
+      41.57
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      44.71,
+      60.93
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      65.37,
+      71.04
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      80.15,
+      85.29
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      89.02,
+      97.06
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      99.53,
+      107.87
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      114.08,
+      121.15
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      164.86,
+      168.33
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      170.7,
+      182.55
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "niWFDg6wyD0": {
+   "attempts": [
+    {
+     "window": [
+      4.2,
+      6.48
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance",
+      "forward_chest_lean"
+     ],
+     "absent": [
+      "knees_caving_in",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      37.4,
+      43.8
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      84.6,
+      90.08
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      90.76,
+      93.2
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      97.36,
+      100.4
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      105.16,
+      108.12
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      108.12,
+      112.16
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      119.48,
+      128.0
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      162.6,
+      166.84
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      196.92,
+      201.08
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance",
+      "knees_caving_in",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      201.08,
+      204.2
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance",
+      "knees_caving_in",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      204.28,
+      207.04
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance",
+      "knees_caving_in",
+      "heels_lift_ankle_limit"
+     ]
+    },
+    {
+     "window": [
+      345.96,
+      356.88
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "arm_counterbalance"
+     ]
+    },
+    {
+     "window": [
+      376.52,
+      380.68
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean"
+     ],
+     "absent": [
+      "arm_counterbalance"
+     ]
+    },
+    {
+     "window": [
+      390.56,
+      395.56
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "o4D4LqdpYfQ": {
+   "attempts": [
+    {
+     "window": [
+      33.97,
+      37.94
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      56.89,
+      60.16
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      67.1,
+      69.74
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      76.38,
+      79.15
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "knees_caving_in"
+     ]
+    },
+    {
+     "window": [
+      117.95,
+      119.95
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      147.05,
+      149.65
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      183.38,
+      190.26
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      194.49,
+      196.76
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      205.84,
+      207.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      212.25,
+      213.41
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      215.95,
+      217.15
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      218.38,
+      219.29
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      231.86,
+      233.93
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      238.81,
+      241.71
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      315.85,
+      318.02
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "u0r0b6NK7HY": {
+   "attempts": [
+    {
+     "window": [
+      13.57,
+      15.97
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      22.93,
+      27.23
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      32.27,
+      37.5
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean",
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      44.2,
+      46.27
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean",
+      "hips_rise_first_good_morning",
+      "incomplete_range"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      52.97,
+      60.93
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      68.77,
+      73.47
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance",
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      83.07,
+      88.3
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      95.47,
+      101.43
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      119.93,
+      125.77
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range",
+      "forward_chest_lean"
+     ]
+    },
+    {
+     "window": [
+      133.8,
+      137.83
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      158.63,
+      163.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      164.57,
+      169.53
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range",
+      "forward_chest_lean"
+     ]
+    },
+    {
+     "window": [
+      173.67,
+      177.43
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      179.9,
+      182.97
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      189.0,
+      192.73
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "wUcbA9TKtmk": {
+   "attempts": [
+    {
+     "window": [
+      6.97,
+      11.04
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      45.75,
+      47.91
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      85.45,
+      86.79
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      124.29,
+      128.43
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      133.17,
+      143.51
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      155.05,
+      157.06
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      161.79,
+      165.03
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      233.03,
+      234.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      243.58,
+      248.35
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      258.26,
+      259.19
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      263.96,
+      266.57
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      300.5,
+      301.63
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      325.39,
+      328.93
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      346.38,
+      351.68
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      362.3,
+      363.96
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "x1FCpVZYrUs": {
+   "attempts": [
+    {
+     "window": [
+      31.83,
+      34.8
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "x921teWPTfM": {
+   "attempts": [
+    {
+     "window": [
+      21.37,
+      27.13
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      30.8,
+      33.57
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "forward_chest_lean"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      41.33,
+      42.23
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      46.43,
+      49.1
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "arm_counterbalance"
+     ],
+     "absent": [
+      "incomplete_range"
+     ]
+    },
+    {
+     "window": [
+      50.37,
+      55.63
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      57.03,
+      60.03
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  }
+ }
+}

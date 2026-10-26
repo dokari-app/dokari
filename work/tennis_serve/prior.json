@@ -1,0 +1,429 @@
+{
+  "activity_id": "tennis_serve",
+  "purpose": "Start a point by hitting the ball from above the head, at full reach, into the diagonal service box with controlled pace, spin and placement, using a coordinated kinetic chain (legs, hips, trunk, shoulder, arm) and a repeatable toss.",
+  "search_queries": [
+    {
+      "query": "tennis serve technique full speed side view slow motion",
+      "kind": "demonstration"
+    },
+    {
+      "query": "tennis serve back view slow motion single player",
+      "kind": "demonstration"
+    },
+    {
+      "query": "how to serve in tennis proper form lesson",
+      "kind": "instruction"
+    },
+    {
+      "query": "tennis serve trophy position knee bend leg drive tutorial",
+      "kind": "good_form"
+    },
+    {
+      "query": "tennis serve common mistakes and fixes",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "tennis serve toss mistakes how to fix inconsistent toss",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "beginner tennis serve fundamentals continental grip full motion",
+      "kind": "instruction"
+    }
+  ],
+  "primary_features": [
+    "height.wrist.dom",
+    "angle.elbow.dom",
+    "angle.shoulder.dom",
+    "angle.knee.dom",
+    "height.wrist.non",
+    "height.hip"
+  ],
+  "phases": [
+    {
+      "id": "setup",
+      "description": "Sideways-on stance, weight balanced, racket and ball held low in front; ends as the hands separate and the weight starts to move."
+    },
+    {
+      "id": "trophy_load",
+      "description": "Tossing arm lifts and extends upward while the knees bend and the hitting arm rises to the trophy position (hitting elbow around shoulder height, racket up); ends at deepest knee bend/trophy position."
+    },
+    {
+      "id": "racket_drop",
+      "description": "Racket drops behind the back (elbow bent) while the legs begin to push up; ends at lowest racket position just before the upward drive."
+    },
+    {
+      "id": "acceleration",
+      "description": "Legs drive up, trunk rotates and the arm extends up and forward to ball contact; ends at contact."
+    },
+    {
+      "id": "follow_through",
+      "description": "Arm decelerates across the body, the player lands and recovers balance; ends when the motion is complete."
+    }
+  ],
+  "faults": [
+    {
+      "id": "shallow_knee_bend",
+      "description": "Knees stay nearly straight at the trophy position, so little energy is stored from the legs.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.knee.dom",
+        "at_phase": "trophy_load",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "serve_power"
+      ],
+      "cue_intent": "Prompt the player to bend the knees and sit into the legs as the arms rise.",
+      "ask_if_unsure_intent": "Ask whether they feel their legs working in the serve or if it feels all arm.",
+      "fix_intent": "Teach a deliberate knee bend in the loading phase, e.g. serve in slow motion pausing at trophy with the knees bent."
+    },
+    {
+      "id": "low_hitting_elbow",
+      "description": "Hitting upper arm is well below shoulder height at the trophy position (dropped elbow), weakening the arm path and shoulder position.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder.dom",
+        "at_phase": "trophy_load",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "serve_power",
+        "contact_height"
+      ],
+      "cue_intent": "Cue lifting the hitting elbow up to about shoulder height at trophy.",
+      "ask_if_unsure_intent": "Ask whether the racket arm feels heavy or lazy going up.",
+      "fix_intent": "Drill the trophy position in front of a mirror, raising the elbow with the tossing arm."
+    },
+    {
+      "id": "short_toss_arm",
+      "description": "Tossing arm does not extend up and is pulled down early, which tends to make the toss inconsistent and the body collapse.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "height.wrist.non",
+        "at_phase": "trophy_load",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "toss_consistency"
+      ],
+      "cue_intent": "Cue keeping the tossing arm reaching up toward the ball.",
+      "ask_if_unsure_intent": "Ask where the ball tends to land relative to them and whether the toss varies.",
+      "fix_intent": "Practice tossing and holding the arm up until contact, aiming the toss to a repeatable spot."
+    },
+    {
+      "id": "no_racket_drop",
+      "description": "Arm remains fairly straight with little elbow bend during the racket drop, reducing the loop and racket lag.",
+      "severity": "low",
+      "caused_by": [
+        "low_hitting_elbow"
+      ],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "racket_drop",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "serve_power"
+      ],
+      "cue_intent": "Cue letting the racket fall behind the back with a relaxed, bent elbow.",
+      "ask_if_unsure_intent": "Ask whether the swing feels like a push or a throw.",
+      "fix_intent": "Use a relaxed throwing-style motion drill to get a loose racket drop."
+    },
+    {
+      "id": "no_leg_drive",
+      "description": "Hips do not rise up toward the ball by contact, so the body fails to extend and the contact is low and mostly arm-driven.",
+      "severity": "medium",
+      "caused_by": [
+        "shallow_knee_bend"
+      ],
+      "test": {
+        "feature": "height.hip",
+        "at_phase": "acceleration",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "serve_power",
+        "contact_height"
+      ],
+      "cue_intent": "Cue pushing up through the legs and reaching tall at contact.",
+      "ask_if_unsure_intent": "Ask whether they feel themselves leaving the ground or extending up into the ball.",
+      "fix_intent": "Drill an explosive push from a bent-knee trophy into full body extension."
+    },
+    {
+      "id": "bent_arm_at_contact",
+      "description": "Hitting elbow is still clearly bent at contact instead of reaching up with an extended arm.",
+      "severity": "medium",
+      "caused_by": [
+        "short_toss_arm",
+        "no_leg_drive"
+      ],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "acceleration",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "contact_height",
+        "serve_in"
+      ],
+      "cue_intent": "Cue reaching up to meet the ball with a long arm.",
+      "ask_if_unsure_intent": "Ask whether the ball is dropping before they hit it or they feel cramped at contact.",
+      "fix_intent": "Raise the toss and practise reaching up to contact at full extension."
+    },
+    {
+      "id": "low_contact_point",
+      "description": "Hitting wrist is not high above the shoulder at contact, so the ball is hit low, making it harder to clear the net and reach the box.",
+      "severity": "high",
+      "caused_by": [
+        "bent_arm_at_contact",
+        "no_leg_drive",
+        "short_toss_arm"
+      ],
+      "test": {
+        "feature": "height.wrist.dom",
+        "at_phase": "acceleration",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "contact_height",
+        "serve_in"
+      ],
+      "cue_intent": "Cue hitting the ball at the highest point you can reach.",
+      "ask_if_unsure_intent": "Ask where the ball is relative to them when they hit it (dropping or at the peak).",
+      "fix_intent": "Adjust the toss height and finish extension to meet the ball at the top of reach."
+    },
+    {
+      "id": "limited_shoulder_hip_separation",
+      "description": "Shoulders and hips turn together at the trophy position, with little trunk coil to store rotational power.",
+      "severity": "low",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "trophy_load",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "serve_power"
+      ],
+      "cue_intent": "Cue turning the shoulders further than the hips as the arms rise.",
+      "ask_if_unsure_intent": "Ask whether the body feels turned sideways during the toss.",
+      "fix_intent": "Use shadow serves with an exaggerated shoulder turn before the swing."
+    },
+    {
+      "id": "no_forward_drive",
+      "description": "Body does not move forward into the court by contact, so the weight stays back and the swing is more up than through the ball.",
+      "severity": "low",
+      "caused_by": [
+        "no_leg_drive"
+      ],
+      "test": {
+        "feature": "fwd.trunk_shift",
+        "at_phase": "acceleration",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "serve_power",
+        "serve_in"
+      ],
+      "cue_intent": "Cue transferring the weight up and forward into the shot.",
+      "ask_if_unsure_intent": "Ask whether they fall backward or sideways after the serve.",
+      "fix_intent": "Drill a forward weight transfer and landing inside the baseline."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "serve_in",
+      "description": "Ball clears the net and lands in the correct service box.",
+      "requires_observable": [
+        "ball",
+        "net",
+        "landing_area"
+      ]
+    },
+    {
+      "id": "serve_power",
+      "description": "Ball leaves the racket at high speed through efficient use of the kinetic chain.",
+      "requires_observable": [
+        "ball",
+        "body"
+      ]
+    },
+    {
+      "id": "toss_consistency",
+      "description": "The toss lands or peaks at a repeatable spot in front of the hitting shoulder.",
+      "requires_observable": [
+        "ball",
+        "body"
+      ]
+    },
+    {
+      "id": "contact_height",
+      "description": "Ball is struck at full upward reach with an extended arm.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "serve_form",
+      "description": "The serve motion follows the conventional sequence of trophy, racket drop, extension and follow-through.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.knee.dom",
+      "at_phase": "trophy_load",
+      "at_point": "end",
+      "outcome": "serve_power",
+      "effect": "mid_is_better",
+      "mechanism": "A moderate knee bend stores leg drive for the upward push, while too little gives no leg contribution and too much costs timing."
+    },
+    {
+      "feature": "angle.shoulder.dom",
+      "at_phase": "trophy_load",
+      "at_point": "end",
+      "outcome": "serve_power",
+      "effect": "mid_is_better",
+      "mechanism": "A hitting elbow near shoulder height sets a strong, repeatable arm path into the drop and extension."
+    },
+    {
+      "feature": "angle.shoulder_hip_twist",
+      "at_phase": "trophy_load",
+      "at_point": "end",
+      "outcome": "serve_power",
+      "effect": "higher_is_better",
+      "mechanism": "Greater shoulder-hip separation lets the trunk rotation stretch and then release, adding racket speed."
+    },
+    {
+      "feature": "height.hip",
+      "at_phase": "acceleration",
+      "at_point": "end",
+      "outcome": "contact_height",
+      "effect": "higher_is_better",
+      "mechanism": "Leg extension lifts the whole body so the contact point is higher."
+    },
+    {
+      "feature": "height.wrist.dom",
+      "at_phase": "acceleration",
+      "at_point": "end",
+      "outcome": "contact_height",
+      "effect": "higher_is_better",
+      "mechanism": "A higher hitting hand gives a steeper angle down over the net into the box."
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at_phase": "acceleration",
+      "at_point": "end",
+      "outcome": "serve_in",
+      "effect": "higher_is_better",
+      "mechanism": "A near-straight arm at contact maximizes the reach and keeps contact geometry consistent."
+    },
+    {
+      "feature": "height.wrist.non",
+      "at_phase": "trophy_load",
+      "at_point": "end",
+      "outcome": "toss_consistency",
+      "effect": "higher_is_better",
+      "mechanism": "A tossing arm extended up and held steady releases the ball vertically at a repeatable point."
+    },
+    {
+      "feature": "fwd.trunk_shift",
+      "at_phase": "acceleration",
+      "at_point": "end",
+      "outcome": "serve_power",
+      "effect": "higher_is_better",
+      "mechanism": "Moving the body forward into the shot adds linear momentum to the swing."
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at_phase": "racket_drop",
+      "at_point": "end",
+      "outcome": "serve_power",
+      "effect": "lower_is_better",
+      "mechanism": "A bent elbow in the drop lengthens the path and creates racket lag for greater speed."
+    }
+  ],
+  "confusable_with": [
+    "overhead_smash",
+    "badminton_overhead_clear",
+    "volleyball_overhead_serve",
+    "javelin_throw",
+    "baseball_overhand_throw",
+    "pickleball_serve"
+  ],
+  "session_ideas": [
+    "Film from the side at a fixed distance with the whole body in view, 10 serves, then review the trophy position and contact height.",
+    "Shadow serves without ball, pausing at trophy to check knee bend and elbow height.",
+    "Toss-only drill: toss ten balls and let them fall, aiming for the same spot each time.",
+    "Serve from a stationary start focusing on one cue per set (leg drive, then reach up, then follow-through)."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Toss consistency, contact and landing cannot be judged from body features alone."
+    },
+    {
+      "kind": "trackable",
+      "name": "racket",
+      "why": "Racket head position and speed define the drop and contact point more directly than the wrist."
+    },
+    {
+      "kind": "measurement",
+      "name": "racket_head_speed_at_contact",
+      "why": "A direct indicator of serve power, which body-only features approximate."
+    },
+    {
+      "kind": "measurement",
+      "name": "toss_apex_height_and_lateral_position",
+      "why": "Needed to judge toss consistency relative to the hitting shoulder and baseline."
+    },
+    {
+      "kind": "feature",
+      "name": "angle.upper_arm_elevation_relative_to_ear_line",
+      "why": "The tilt of the hitting arm and trunk at contact (lateral trunk tilt away from the hitting side) is not covered by angle.trunk_lean."
+    },
+    {
+      "kind": "measurement",
+      "name": "ball_landing_position",
+      "why": "Required to check whether the serve landed in the service box."
+    }
+  ],
+  "attempt_events": [
+    {
+      "feature": "height.wrist.non",
+      "direction": "rises",
+      "peak_at_least": 0.6,
+      "seconds": 1.5
+    },
+    {
+      "feature": "height.wrist.dom",
+      "direction": "rises",
+      "peak_at_least": 0.7,
+      "seconds": 1.0
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 840,
+    "clips_with_attempts": 203,
+    "clips": 383,
+    "target_reached": false,
+    "rounds": 1
+  }
+}

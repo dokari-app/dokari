@@ -1,0 +1,20 @@
+[14:02] done base seed 0
+[14:03] done A seed 0
+[14:04] done B seed 0
+[14:05] done C seed 0
+[14:06] done base seed 1
+[14:07] done A seed 1
+[14:08] done B seed 1
+[14:09] done C seed 1
+[14:10] done base seed 2
+[14:11] done A seed 2
+[14:12] done B seed 2
+[14:13] done C seed 2
+base  seeds 3 trained on ~1830 | human windows 195 | acc 0.595 | fh/bh side acc 0.757 (n=107) | recall {'fh': '28/38', 'bh': '53/89', 'serve': '9/11', 'none': '26/57'}
+A     seeds 3 trained on ~1228 | human windows 195 | acc 0.574 | fh/bh side acc 0.750 (n=108) | recall {'fh': '28/38', 'bh': '53/89', 'serve': '9/11', 'none': '22/57'}
+      vs base on the same 195 windows: -0.021 accuracy (a difference under about 0.05 is within the noise of 195 windows)
+B     seeds 3 trained on ~1269 | human windows 195 | acc 0.538 | fh/bh side acc 0.660 (n=103) | recall {'fh': '26/38', 'bh': '42/89', 'serve': '9/11', 'none': '28/57'}
+      vs base on the same 195 windows: -0.056 accuracy (a difference under about 0.05 is within the noise of 195 windows)
+C     seeds 3 trained on ~946 | human windows 195 | acc 0.559 | fh/bh side acc 0.695 (n=105) | recall {'fh': '28/38', 'bh': '45/89', 'serve': '9/11', 'none': '27/57'}
+      vs base on the same 195 windows: -0.036 accuracy (a difference under about 0.05 is within the noise of 195 windows)
+all finished

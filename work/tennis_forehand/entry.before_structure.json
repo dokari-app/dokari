@@ -1,0 +1,3763 @@
+{
+  "spec_version": "0.7",
+  "activity": "tennis_forehand",
+  "version": "0.1.0",
+  "purpose": "Hit the ball over the net to a chosen target with controlled pace, direction and spin. The legs and trunk rotation power a smooth swing. The racket arm extends up and out through contact and finishes in a full follow-through, then the player recovers to ready.",
+  "recognition": {
+    "signature": {
+      "features": [
+        "height.wrist.dom",
+        "height.wrist_mid",
+        "angle.shoulder.dom",
+        "height.wrist.non",
+        "reach.wrist.dom",
+        "angle.shoulder.non",
+        "angle.elbow.dom",
+        "angle.trunk_lean",
+        "reach.wrist.non",
+        "angle.ankle.non"
+      ],
+      "n_samples": 50,
+      "mean": [
+        [
+          -0.6901,
+          -0.6416,
+          28.6341,
+          -0.6248,
+          0.8422,
+          32.0724,
+          126.333,
+          9.1602,
+          0.8379,
+          112.2449
+        ],
+        [
+          -0.6847,
+          -0.6367,
+          28.6669,
+          -0.6251,
+          0.8428,
+          32.2385,
+          126.554,
+          9.07,
+          0.8355,
+          112.3015
+        ],
+        [
+          -0.6804,
+          -0.633,
+          29.0213,
+          -0.62,
+          0.8428,
+          32.0037,
+          126.256,
+          8.9809,
+          0.8332,
+          112.3781
+        ],
+        [
+          -0.6705,
+          -0.6275,
+          29.5563,
+          -0.6165,
+          0.8414,
+          32.102,
+          125.6377,
+          8.8476,
+          0.8353,
+          112.264
+        ],
+        [
+          -0.6569,
+          -0.6179,
+          30.1949,
+          -0.6122,
+          0.8405,
+          32.2033,
+          125.3588,
+          8.9009,
+          0.8355,
+          112.5595
+        ],
+        [
+          -0.6395,
+          -0.6084,
+          30.715,
+          -0.6075,
+          0.8416,
+          32.5436,
+          125.1229,
+          8.8033,
+          0.8327,
+          112.6936
+        ],
+        [
+          -0.6242,
+          -0.597,
+          31.4566,
+          -0.5994,
+          0.8359,
+          32.9382,
+          124.6485,
+          8.6544,
+          0.8324,
+          112.7283
+        ],
+        [
+          -0.5962,
+          -0.5838,
+          32.4206,
+          -0.594,
+          0.8331,
+          32.9293,
+          124.2985,
+          8.4973,
+          0.8273,
+          112.9293
+        ],
+        [
+          -0.5759,
+          -0.5701,
+          33.8448,
+          -0.5846,
+          0.8292,
+          33.5367,
+          123.7333,
+          8.3701,
+          0.8268,
+          112.9925
+        ],
+        [
+          -0.549,
+          -0.5463,
+          35.0524,
+          -0.5703,
+          0.8252,
+          34.0189,
+          123.3449,
+          8.2772,
+          0.8249,
+          113.0076
+        ],
+        [
+          -0.5172,
+          -0.5285,
+          36.6364,
+          -0.5555,
+          0.8203,
+          34.2041,
+          122.4932,
+          8.1855,
+          0.8214,
+          113.1816
+        ],
+        [
+          -0.4785,
+          -0.5045,
+          38.2986,
+          -0.5395,
+          0.8117,
+          34.6977,
+          121.4872,
+          8.0555,
+          0.8224,
+          113.3621
+        ],
+        [
+          -0.4365,
+          -0.4794,
+          40.3526,
+          -0.5225,
+          0.8037,
+          35.5962,
+          121.0754,
+          7.9439,
+          0.8208,
+          113.4484
+        ],
+        [
+          -0.3969,
+          -0.4546,
+          41.9762,
+          -0.5107,
+          0.8018,
+          36.3535,
+          120.1519,
+          7.8665,
+          0.8203,
+          113.552
+        ],
+        [
+          -0.3616,
+          -0.4285,
+          44.1503,
+          -0.4995,
+          0.7969,
+          37.0967,
+          119.7063,
+          7.7687,
+          0.8171,
+          113.7214
+        ],
+        [
+          -0.3308,
+          -0.4095,
+          45.8813,
+          -0.4899,
+          0.7964,
+          37.4081,
+          119.6626,
+          7.6745,
+          0.8164,
+          113.5026
+        ],
+        [
+          -0.3028,
+          -0.3888,
+          47.6488,
+          -0.4768,
+          0.7926,
+          38.7027,
+          119.5445,
+          7.6375,
+          0.816,
+          113.7747
+        ],
+        [
+          -0.28,
+          -0.3733,
+          48.5044,
+          -0.466,
+          0.7864,
+          39.0639,
+          119.1858,
+          7.5777,
+          0.8128,
+          113.9179
+        ],
+        [
+          -0.256,
+          -0.3584,
+          50.2094,
+          -0.4529,
+          0.7866,
+          39.5827,
+          118.7158,
+          7.4448,
+          0.8109,
+          113.8794
+        ],
+        [
+          -0.2373,
+          -0.3477,
+          51.5122,
+          -0.4406,
+          0.785,
+          40.1009,
+          118.3736,
+          7.4381,
+          0.8117,
+          114.0905
+        ],
+        [
+          -0.2238,
+          -0.3373,
+          52.0138,
+          -0.4302,
+          0.7852,
+          40.5802,
+          118.437,
+          7.408,
+          0.8087,
+          114.1081
+        ],
+        [
+          -0.2127,
+          -0.3274,
+          53.5781,
+          -0.4217,
+          0.7835,
+          40.3305,
+          118.048,
+          7.3852,
+          0.8094,
+          114.365
+        ],
+        [
+          -0.2117,
+          -0.3172,
+          53.9015,
+          -0.4172,
+          0.7832,
+          41.2066,
+          117.6178,
+          7.4731,
+          0.8103,
+          114.1193
+        ],
+        [
+          -0.2038,
+          -0.3147,
+          54.425,
+          -0.4074,
+          0.7836,
+          41.7141,
+          118.0039,
+          7.4965,
+          0.8121,
+          114.222
+        ],
+        [
+          -0.2006,
+          -0.3101,
+          54.713,
+          -0.4074,
+          0.7801,
+          41.6262,
+          117.7534,
+          7.5338,
+          0.8147,
+          114.2295
+        ],
+        [
+          -0.1966,
+          -0.3083,
+          55.3565,
+          -0.4095,
+          0.778,
+          42.115,
+          117.9732,
+          7.4545,
+          0.8161,
+          114.0527
+        ],
+        [
+          -0.1944,
+          -0.3068,
+          55.7344,
+          -0.412,
+          0.7805,
+          41.3886,
+          118.1819,
+          7.4728,
+          0.8167,
+          114.2224
+        ],
+        [
+          -0.2005,
+          -0.3091,
+          55.9587,
+          -0.4126,
+          0.7808,
+          41.6327,
+          117.5013,
+          7.4665,
+          0.8145,
+          114.2784
+        ],
+        [
+          -0.2032,
+          -0.3142,
+          55.7457,
+          -0.4178,
+          0.7804,
+          40.8231,
+          117.8435,
+          7.3258,
+          0.8133,
+          114.2945
+        ],
+        [
+          -0.2002,
+          -0.3183,
+          55.4431,
+          -0.4221,
+          0.7842,
+          40.2422,
+          117.6674,
+          7.2908,
+          0.8141,
+          114.2818
+        ],
+        [
+          -0.2013,
+          -0.3241,
+          54.6606,
+          -0.4302,
+          0.7852,
+          40.2689,
+          117.7307,
+          7.456,
+          0.8175,
+          114.1816
+        ],
+        [
+          -0.2201,
+          -0.3365,
+          54.0126,
+          -0.4402,
+          0.7871,
+          39.8022,
+          118.175,
+          7.444,
+          0.8203,
+          114.3114
+        ],
+        [
+          -0.2347,
+          -0.3481,
+          52.8375,
+          -0.4497,
+          0.7872,
+          39.523,
+          117.9278,
+          7.5186,
+          0.8194,
+          114.2696
+        ],
+        [
+          -0.2564,
+          -0.3566,
+          51.6595,
+          -0.4605,
+          0.7868,
+          38.7453,
+          118.7986,
+          7.5761,
+          0.8169,
+          113.9156
+        ],
+        [
+          -0.2778,
+          -0.3747,
+          49.5199,
+          -0.4679,
+          0.7893,
+          38.8059,
+          118.7901,
+          7.6819,
+          0.8197,
+          114.0601
+        ],
+        [
+          -0.3044,
+          -0.3937,
+          47.675,
+          -0.4688,
+          0.7931,
+          38.054,
+          119.1657,
+          7.6712,
+          0.8214,
+          113.9624
+        ],
+        [
+          -0.3412,
+          -0.4125,
+          46.0996,
+          -0.4844,
+          0.7968,
+          37.0164,
+          118.7573,
+          7.6201,
+          0.8214,
+          113.7798
+        ],
+        [
+          -0.3821,
+          -0.4353,
+          44.2181,
+          -0.5003,
+          0.7986,
+          36.0886,
+          119.1931,
+          7.7884,
+          0.8207,
+          113.6448
+        ],
+        [
+          -0.4157,
+          -0.463,
+          42.6008,
+          -0.5193,
+          0.8025,
+          35.3244,
+          119.7418,
+          7.8374,
+          0.8233,
+          113.4181
+        ],
+        [
+          -0.4625,
+          -0.4855,
+          39.8476,
+          -0.5338,
+          0.8082,
+          34.7401,
+          120.6434,
+          7.9549,
+          0.8267,
+          113.3887
+        ],
+        [
+          -0.4949,
+          -0.5083,
+          37.8635,
+          -0.5426,
+          0.8138,
+          33.8308,
+          121.1979,
+          8.0623,
+          0.8283,
+          113.2157
+        ],
+        [
+          -0.5316,
+          -0.5308,
+          36.4031,
+          -0.5554,
+          0.8236,
+          33.4153,
+          122.514,
+          8.1905,
+          0.8294,
+          113.175
+        ],
+        [
+          -0.5514,
+          -0.5475,
+          35.5153,
+          -0.5631,
+          0.8266,
+          33.1108,
+          123.7201,
+          8.2071,
+          0.8317,
+          113.2517
+        ],
+        [
+          -0.5684,
+          -0.5599,
+          34.4252,
+          -0.5756,
+          0.8295,
+          32.8686,
+          124.1877,
+          8.309,
+          0.8353,
+          113.0558
+        ],
+        [
+          -0.5902,
+          -0.5738,
+          33.5889,
+          -0.5835,
+          0.832,
+          32.5456,
+          124.256,
+          8.3751,
+          0.8391,
+          112.8326
+        ],
+        [
+          -0.6088,
+          -0.5879,
+          32.9875,
+          -0.5905,
+          0.8332,
+          32.3188,
+          124.6448,
+          8.3987,
+          0.8383,
+          112.7158
+        ],
+        [
+          -0.6255,
+          -0.6,
+          32.2066,
+          -0.5985,
+          0.8389,
+          32.1941,
+          124.9475,
+          8.5174,
+          0.8391,
+          112.7788
+        ],
+        [
+          -0.6426,
+          -0.6121,
+          31.9377,
+          -0.6027,
+          0.8424,
+          32.1742,
+          125.8938,
+          8.8244,
+          0.838,
+          112.7541
+        ],
+        [
+          -0.6539,
+          -0.6182,
+          31.1784,
+          -0.6074,
+          0.8446,
+          31.9049,
+          126.0703,
+          8.7206,
+          0.8375,
+          112.4596
+        ],
+        [
+          -0.6666,
+          -0.6262,
+          30.6473,
+          -0.612,
+          0.8475,
+          31.7696,
+          125.9926,
+          8.5748,
+          0.8374,
+          112.3221
+        ]
+      ],
+      "std": [
+        [
+          0.2201,
+          0.1828,
+          16.6586,
+          0.251,
+          0.1097,
+          19.3855,
+          17.8531,
+          7.6781,
+          0.1118,
+          13.3156
+        ],
+        [
+          0.2245,
+          0.186,
+          16.6874,
+          0.2541,
+          0.1102,
+          19.2069,
+          17.7248,
+          7.5696,
+          0.1092,
+          13.4051
+        ],
+        [
+          0.2398,
+          0.1957,
+          17.3874,
+          0.2583,
+          0.11,
+          19.1496,
+          17.6374,
+          7.4824,
+          0.1114,
+          13.5711
+        ],
+        [
+          0.2563,
+          0.2069,
+          18.5401,
+          0.2631,
+          0.1103,
+          19.2753,
+          17.58,
+          7.3942,
+          0.1117,
+          13.7071
+        ],
+        [
+          0.2755,
+          0.2222,
+          19.9408,
+          0.2708,
+          0.1102,
+          19.6444,
+          17.7227,
+          7.3232,
+          0.1112,
+          13.6896
+        ],
+        [
+          0.2935,
+          0.2375,
+          21.2629,
+          0.2788,
+          0.1095,
+          20.0595,
+          17.8904,
+          7.1936,
+          0.1132,
+          13.7821
+        ],
+        [
+          0.3111,
+          0.2522,
+          22.5055,
+          0.2872,
+          0.1101,
+          20.5246,
+          17.9978,
+          7.0725,
+          0.1164,
+          13.7531
+        ],
+        [
+          0.3279,
+          0.2668,
+          23.6383,
+          0.2955,
+          0.1112,
+          20.8658,
+          18.2902,
+          6.9404,
+          0.1151,
+          13.8724
+        ],
+        [
+          0.3378,
+          0.2776,
+          24.4814,
+          0.3039,
+          0.111,
+          21.3445,
+          18.0842,
+          6.8833,
+          0.1136,
+          14.2335
+        ],
+        [
+          0.3426,
+          0.2847,
+          25.0452,
+          0.3117,
+          0.1122,
+          21.7469,
+          18.2091,
+          6.7912,
+          0.1152,
+          14.3057
+        ],
+        [
+          0.3439,
+          0.2883,
+          25.6618,
+          0.3173,
+          0.112,
+          22.1407,
+          18.3652,
+          6.6522,
+          0.1183,
+          14.3333
+        ],
+        [
+          0.3446,
+          0.2918,
+          26.1681,
+          0.323,
+          0.1126,
+          22.7429,
+          18.3877,
+          6.5007,
+          0.1194,
+          14.306
+        ],
+        [
+          0.342,
+          0.2909,
+          26.5096,
+          0.3256,
+          0.1135,
+          22.9631,
+          18.7505,
+          6.6724,
+          0.1207,
+          14.438
+        ],
+        [
+          0.3386,
+          0.2904,
+          26.8946,
+          0.3296,
+          0.1128,
+          23.4172,
+          18.8833,
+          6.2676,
+          0.1211,
+          14.6866
+        ],
+        [
+          0.337,
+          0.2901,
+          27.1522,
+          0.3322,
+          0.1144,
+          23.6581,
+          19.2066,
+          6.1935,
+          0.1222,
+          14.7406
+        ],
+        [
+          0.3338,
+          0.2881,
+          27.2191,
+          0.3341,
+          0.1165,
+          23.9544,
+          19.3252,
+          6.1577,
+          0.1225,
+          14.7407
+        ],
+        [
+          0.3295,
+          0.2851,
+          27.1531,
+          0.3347,
+          0.117,
+          24.1421,
+          19.5018,
+          6.1264,
+          0.1226,
+          14.6838
+        ],
+        [
+          0.3263,
+          0.2825,
+          26.9919,
+          0.3349,
+          0.1185,
+          24.2041,
+          19.7388,
+          6.1515,
+          0.1233,
+          15.0333
+        ],
+        [
+          0.3229,
+          0.2799,
+          26.8464,
+          0.3341,
+          0.1186,
+          24.1846,
+          19.7463,
+          6.1652,
+          0.1227,
+          14.8504
+        ],
+        [
+          0.3189,
+          0.2766,
+          26.5727,
+          0.3338,
+          0.1181,
+          24.3094,
+          19.7343,
+          6.1311,
+          0.1246,
+          14.7698
+        ],
+        [
+          0.3157,
+          0.2745,
+          26.5772,
+          0.3343,
+          0.1185,
+          24.451,
+          19.875,
+          6.0671,
+          0.1266,
+          14.7487
+        ],
+        [
+          0.3118,
+          0.2713,
+          26.4241,
+          0.3344,
+          0.1185,
+          24.6,
+          19.9397,
+          6.0604,
+          0.1282,
+          14.7446
+        ],
+        [
+          0.31,
+          0.2701,
+          26.4498,
+          0.3343,
+          0.1189,
+          24.8732,
+          20.1002,
+          5.9854,
+          0.1294,
+          14.7746
+        ],
+        [
+          0.3078,
+          0.2697,
+          26.5054,
+          0.3364,
+          0.118,
+          25.2242,
+          20.1187,
+          5.9422,
+          0.129,
+          14.9774
+        ],
+        [
+          0.3064,
+          0.2696,
+          26.4871,
+          0.337,
+          0.1193,
+          25.3901,
+          20.1008,
+          5.9256,
+          0.1306,
+          14.9607
+        ],
+        [
+          0.3073,
+          0.2706,
+          26.5251,
+          0.3371,
+          0.1182,
+          25.5585,
+          20.0799,
+          5.9444,
+          0.1309,
+          14.7468
+        ],
+        [
+          0.3076,
+          0.2704,
+          26.7302,
+          0.3363,
+          0.1176,
+          25.7459,
+          20.0698,
+          5.932,
+          0.1315,
+          14.9127
+        ],
+        [
+          0.3085,
+          0.2714,
+          26.8844,
+          0.3375,
+          0.1176,
+          25.9329,
+          20.0726,
+          5.8875,
+          0.1324,
+          15.0093
+        ],
+        [
+          0.3115,
+          0.2737,
+          27.2931,
+          0.3383,
+          0.1194,
+          26.2415,
+          20.1724,
+          5.8598,
+          0.131,
+          15.082
+        ],
+        [
+          0.3132,
+          0.274,
+          27.3427,
+          0.3372,
+          0.1196,
+          26.4386,
+          20.1244,
+          5.8887,
+          0.1316,
+          15.1252
+        ],
+        [
+          0.3144,
+          0.274,
+          27.2735,
+          0.3357,
+          0.1184,
+          26.4704,
+          19.8986,
+          5.9381,
+          0.1306,
+          15.1855
+        ],
+        [
+          0.316,
+          0.2746,
+          27.3008,
+          0.3352,
+          0.1186,
+          26.5768,
+          19.9029,
+          5.9462,
+          0.1272,
+          15.1714
+        ],
+        [
+          0.3184,
+          0.276,
+          27.3712,
+          0.3332,
+          0.1185,
+          26.6105,
+          19.6172,
+          5.9783,
+          0.1255,
+          15.2975
+        ],
+        [
+          0.3224,
+          0.2777,
+          27.6071,
+          0.3306,
+          0.1183,
+          26.5185,
+          19.5501,
+          6.0343,
+          0.1252,
+          15.2106
+        ],
+        [
+          0.3242,
+          0.2774,
+          27.7441,
+          0.3264,
+          0.1175,
+          26.3767,
+          19.4483,
+          6.0437,
+          0.1245,
+          15.0502
+        ],
+        [
+          0.3246,
+          0.2773,
+          27.6078,
+          0.3233,
+          0.1168,
+          26.2551,
+          19.4387,
+          6.1087,
+          0.1244,
+          14.9065
+        ],
+        [
+          0.3263,
+          0.2773,
+          27.5224,
+          0.3191,
+          0.1169,
+          26.1888,
+          19.6317,
+          6.1261,
+          0.1249,
+          14.8142
+        ],
+        [
+          0.3277,
+          0.2779,
+          27.3693,
+          0.3155,
+          0.117,
+          25.9004,
+          19.4859,
+          6.1209,
+          0.1237,
+          14.7784
+        ],
+        [
+          0.3281,
+          0.2768,
+          27.0555,
+          0.3118,
+          0.1172,
+          25.6738,
+          19.5603,
+          6.155,
+          0.1235,
+          14.4797
+        ],
+        [
+          0.3271,
+          0.2743,
+          26.5928,
+          0.308,
+          0.1171,
+          25.4398,
+          19.604,
+          6.2187,
+          0.1226,
+          14.263
+        ],
+        [
+          0.3258,
+          0.2711,
+          26.1077,
+          0.3037,
+          0.1159,
+          25.0231,
+          19.474,
+          6.29,
+          0.1225,
+          14.231
+        ],
+        [
+          0.3238,
+          0.2673,
+          25.5643,
+          0.2992,
+          0.1164,
+          24.5168,
+          19.4733,
+          6.3365,
+          0.1209,
+          14.1492
+        ],
+        [
+          0.3184,
+          0.2618,
+          24.8436,
+          0.2933,
+          0.1171,
+          24.0275,
+          19.4701,
+          6.454,
+          0.1182,
+          14.204
+        ],
+        [
+          0.3096,
+          0.2552,
+          24.0367,
+          0.2879,
+          0.1162,
+          23.6217,
+          19.4851,
+          6.5783,
+          0.1155,
+          14.0771
+        ],
+        [
+          0.2975,
+          0.2459,
+          22.9533,
+          0.2813,
+          0.1138,
+          23.1848,
+          19.3162,
+          6.7477,
+          0.115,
+          13.9839
+        ],
+        [
+          0.2844,
+          0.2362,
+          21.964,
+          0.2762,
+          0.1114,
+          22.7699,
+          19.2643,
+          6.8768,
+          0.114,
+          14.2056
+        ],
+        [
+          0.2717,
+          0.2262,
+          21.0057,
+          0.2705,
+          0.1127,
+          22.0826,
+          19.1835,
+          6.9956,
+          0.1135,
+          14.0339
+        ],
+        [
+          0.2613,
+          0.2189,
+          20.0459,
+          0.2667,
+          0.1122,
+          21.5734,
+          19.0148,
+          7.0715,
+          0.1132,
+          14.2523
+        ],
+        [
+          0.2526,
+          0.2116,
+          19.2016,
+          0.2633,
+          0.1127,
+          21.2956,
+          19.0789,
+          7.1828,
+          0.1133,
+          14.2642
+        ],
+        [
+          0.2493,
+          0.2072,
+          18.7728,
+          0.2612,
+          0.1126,
+          20.7643,
+          19.1072,
+          7.2013,
+          0.1131,
+          14.3918
+        ]
+      ],
+      "threshold": 2.6407,
+      "required_events": [
+        {
+          "feature": "height.wrist.dom",
+          "direction": "rises",
+          "peak_at_least": -0.3,
+          "seconds": 1.0
+        }
+      ]
+    },
+    "accuracy": {
+      "recall": 0.9613699721226603,
+      "recall_mode": "leave-one-clip-out",
+      "false_accept_rate_vs_other_activities": 0.17054714784633296,
+      "false_accept_rate_shape_only": 0.31839348079161817,
+      "recall_by_view": {
+        "front/back (<30)": 0.9684343434343434,
+        "oblique (30-60)": 0.9487179487179487,
+        "side (>60)": 0.9666666666666667
+      },
+      "n_attempts": 2511,
+      "n_clips": 216
+    },
+    "confusable_with": [
+      "tennis_backhand",
+      "tennis_serve",
+      "badminton_forearm_clear",
+      "golf_swing",
+      "baseball_swing",
+      "table_tennis_forehand"
+    ]
+  },
+  "context_rules": [
+    {
+      "when": {
+        "field": "activity.match_confidence",
+        "op": "LESS_THAN",
+        "value": 0.6
+      },
+      "hint": "ask_to_confirm_activity"
+    },
+    {
+      "when": {
+        "field": "session_state",
+        "op": "IN",
+        "value": [
+          "rest",
+          "conversation"
+        ]
+      },
+      "hint": "hold_coaching_until_break"
+    }
+  ],
+  "movement_model": {
+    "signals": [
+      "angle.ankle.non",
+      "angle.elbow.dom",
+      "angle.shoulder.dom",
+      "angle.shoulder.non",
+      "angle.shoulder_hip_twist",
+      "angle.trunk_lean",
+      "fwd.trunk_shift",
+      "height.wrist.dom",
+      "height.wrist.non",
+      "height.wrist_mid",
+      "reach.wrist.dom",
+      "reach.wrist.non"
+    ],
+    "landmarks": [
+      {
+        "id": "L0",
+        "t": 0.0
+      },
+      {
+        "id": "L1",
+        "t": 0.4898
+      },
+      {
+        "id": "L2",
+        "t": 1.0
+      }
+    ],
+    "phases": [
+      {
+        "id": "swing_to_finish",
+        "start": "L0",
+        "end": "L1",
+        "description": "From the ready position (hitting wrist low, arm near the trunk, L0) through the unit turn and takeback, the forward swing and contact, to the end of the follow-through. At that point the hitting wrist and shoulder angle are at their highest (L1)."
+      },
+      {
+        "id": "recovery",
+        "start": "L1",
+        "end": "L2",
+        "description": "From the end of the follow-through the arm drops and the player returns to the ready position (wrist low, arm near the trunk, L2), set for the next ball."
+      }
+    ],
+    "key_poses": {
+      "L0": {
+        "height.wrist.dom": {
+          "median": -0.6876,
+          "sigma": 0.191,
+          "p5": -0.9521,
+          "p95": -0.2522
+        },
+        "height.wrist_mid": {
+          "median": -0.6389,
+          "sigma": 0.1597,
+          "p5": -0.8871,
+          "p95": -0.2801
+        },
+        "angle.shoulder.dom": {
+          "median": 28.7889,
+          "sigma": 13.1336,
+          "p5": 11.5404,
+          "p95": 63.0881
+        },
+        "height.wrist.non": {
+          "median": -0.6261,
+          "sigma": 0.2098,
+          "p5": -0.9463,
+          "p95": -0.0958
+        },
+        "reach.wrist.dom": {
+          "median": 0.843,
+          "sigma": 0.1061,
+          "p5": 0.6602,
+          "p95": 1.0128
+        },
+        "angle.shoulder.non": {
+          "median": 32.3116,
+          "sigma": 14.6407,
+          "p5": 13.0943,
+          "p95": 77.3399
+        },
+        "angle.elbow.dom": {
+          "median": 126.5572,
+          "sigma": 18.55,
+          "p5": 96.5693,
+          "p95": 153.9226
+        },
+        "angle.trunk_lean": {
+          "median": 9.137,
+          "sigma": 6.1706,
+          "p5": 2.3432,
+          "p95": 25.5674
+        },
+        "reach.wrist.non": {
+          "median": 0.8372,
+          "sigma": 0.1011,
+          "p5": 0.6603,
+          "p95": 1.0185
+        },
+        "angle.ankle.non": {
+          "median": 112.3347,
+          "sigma": 7.9069,
+          "p5": 96.8087,
+          "p95": 140.4918
+        }
+      },
+      "L1": {
+        "height.wrist.dom": {
+          "median": -0.2015,
+          "sigma": 0.3129,
+          "p5": -0.707,
+          "p95": 0.3028
+        },
+        "height.wrist_mid": {
+          "median": -0.3113,
+          "sigma": 0.276,
+          "p5": -0.7079,
+          "p95": 0.1706
+        },
+        "angle.shoulder.dom": {
+          "median": 54.6872,
+          "sigma": 29.3834,
+          "p5": 19.4634,
+          "p95": 103.3073
+        },
+        "height.wrist.non": {
+          "median": -0.4095,
+          "sigma": 0.358,
+          "p5": -0.919,
+          "p95": 0.1955
+        },
+        "reach.wrist.dom": {
+          "median": 0.7808,
+          "sigma": 0.1121,
+          "p5": 0.5844,
+          "p95": 0.9625
+        },
+        "angle.shoulder.non": {
+          "median": 41.8199,
+          "sigma": 26.2736,
+          "p5": 14.0352,
+          "p95": 93.4379
+        },
+        "angle.elbow.dom": {
+          "median": 117.9657,
+          "sigma": 21.7321,
+          "p5": 86.7251,
+          "p95": 151.7653
+        },
+        "angle.trunk_lean": {
+          "median": 7.5491,
+          "sigma": 4.6892,
+          "p5": 1.9684,
+          "p95": 19.6487
+        },
+        "reach.wrist.non": {
+          "median": 0.8132,
+          "sigma": 0.1251,
+          "p5": 0.5983,
+          "p95": 1.0154
+        },
+        "angle.ankle.non": {
+          "median": 114.2178,
+          "sigma": 9.2308,
+          "p5": 99.8271,
+          "p95": 149.9191
+        }
+      },
+      "L2": {
+        "height.wrist.dom": {
+          "median": -0.6596,
+          "sigma": 0.2122,
+          "p5": -0.9546,
+          "p95": -0.1369
+        },
+        "height.wrist_mid": {
+          "median": -0.6202,
+          "sigma": 0.1823,
+          "p5": -0.9033,
+          "p95": -0.2097
+        },
+        "angle.shoulder.dom": {
+          "median": 30.9201,
+          "sigma": 14.811,
+          "p5": 11.4536,
+          "p95": 74.2024
+        },
+        "height.wrist.non": {
+          "median": -0.6081,
+          "sigma": 0.2315,
+          "p5": -0.945,
+          "p95": -0.072
+        },
+        "reach.wrist.dom": {
+          "median": 0.8461,
+          "sigma": 0.1121,
+          "p5": 0.6582,
+          "p95": 1.02
+        },
+        "angle.shoulder.non": {
+          "median": 31.7842,
+          "sigma": 15.2363,
+          "p5": 12.2721,
+          "p95": 80.1274
+        },
+        "angle.elbow.dom": {
+          "median": 125.972,
+          "sigma": 20.9062,
+          "p5": 96.1795,
+          "p95": 156.6416
+        },
+        "angle.trunk_lean": {
+          "median": 8.654,
+          "sigma": 5.7155,
+          "p5": 2.2657,
+          "p95": 24.721
+        },
+        "reach.wrist.non": {
+          "median": 0.8376,
+          "sigma": 0.108,
+          "p5": 0.6455,
+          "p95": 1.017
+        },
+        "angle.ankle.non": {
+          "median": 112.3747,
+          "sigma": 8.2063,
+          "p5": 97.1191,
+          "p95": 145.5826
+        }
+      }
+    },
+    "view_coverage": {
+      "yaw_min": 3.1,
+      "yaw_max": 66.0,
+      "n_clips_by_view": {
+        "front/back (<30)": 128,
+        "oblique (30-60)": 83,
+        "side (>60)": 5
+      }
+    }
+  },
+  "outcomes": [
+    {
+      "id": "ball_control_and_pace",
+      "description": "The ball clears the net and lands in the target area with the intended pace and depth.",
+      "measure": "M19",
+      "requires_observable": [
+        "body",
+        "ball",
+        "net",
+        "landing_area"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "efficient_swing_form",
+      "description": "The player makes a balanced, rotation-driven swing with a full finish and recovers to ready. This can be judged from the body alone.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.shoulder_hip_twist",
+      "at": "L1",
+      "outcome": "ball_control_and_pace",
+      "effect": "mid_is_better",
+      "mechanism": "Trunk rotation through the shot transfers energy from the legs and hips to the racket, which gives pace and a consistent direction.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "reach.wrist.dom",
+      "at": "L1",
+      "outcome": "ball_control_and_pace",
+      "effect": "mid_is_better",
+      "mechanism": "A comfortable arm extension at contact means the ball is met at the right distance, so the player is neither jammed nor stretched.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "height.wrist.dom",
+      "at": "L1",
+      "outcome": "ball_control_and_pace",
+      "effect": "mid_is_better",
+      "mechanism": "A full follow-through shows the racket has accelerated through contact instead of decelerating early, which gives control of pace and direction.",
+      "evidence": "prior_only"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "rotation_late_or_blocked",
+      "goal": "Rotate the hips and shoulders through the shot so the shoulder line has turned fully toward the target by the finish.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 1,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The trunk is blocked or turns late and the swing comes from the arm alone, so the shoulders are still behind at the finish.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The shoulders over-rotate relative to the hips and the body spins off balance.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.shoulder_hip_twist",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": -24.0181,
+            "high": 26.3318
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.1,
+            "yaw_max": 66.0
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "ball_control_and_pace"
+      ],
+      "cue_intent": "Cue the player to turn the whole body through the shot and finish with the chest facing the target.",
+      "ask_if_unsure_intent": "Ask whether the player feels the hips and shoulders turning or only the arm swinging.",
+      "fix_intent": "Use a medicine-ball throw or a shadow swing led by the hips. Then add an early unit turn so there is time to rotate.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 5,
+        "n_bad": 4,
+        "n_reference_attempts": 364,
+        "n_reference_clips": 40,
+        "low": -24.018137906641293,
+        "high": 26.33181763393967,
+        "basis": "good_form_demonstrations",
+        "labelled": {
+          "n_good": 5,
+          "n_bad": 4,
+          "n_good_clips": 2,
+          "n_bad_clips": 3,
+          "auc": 0.65,
+          "held_out_accuracy": 0.5,
+          "validated": false
+        }
+      }
+    },
+    {
+      "id": "poor_spacing_to_ball",
+      "goal": "Stand at a distance from the ball that lets the hitting arm extend comfortably out and up through contact.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 2,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The player is crowded or jammed by the ball, and the arm stays folded close to the body.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The player overreaches and the arm is stretched far from the body.",
+          "severity": "medium"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M03",
+          "feature": "reach.wrist.dom",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": 0.5491,
+            "high": 1.0146
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.1,
+            "yaw_max": 66.0
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "ball_control_and_pace"
+      ],
+      "cue_intent": "Cue the player to adjust their steps early so the ball arrives at a comfortable arm's length.",
+      "ask_if_unsure_intent": "Ask whether the ball usually feels too close or too far at contact.",
+      "fix_intent": "Use a split step and small adjustment steps before each ball. Mark a hitting zone and have the player find it with their feet.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 3,
+        "n_bad": 15,
+        "n_reference_attempts": 364,
+        "n_reference_clips": 40,
+        "low": 0.5490996852054888,
+        "high": 1.014561875017839,
+        "basis": "good_form_demonstrations",
+        "labelled": {
+          "n_good": 3,
+          "n_bad": 15,
+          "n_good_clips": 2,
+          "n_bad_clips": 4,
+          "auc": 0.9333333333333333,
+          "held_out_accuracy": null,
+          "validated": false
+        }
+      }
+    },
+    {
+      "id": "arm_pulling_in_on_acceleration",
+      "goal": "Let the hitting arm travel up and out away from the body through the swing, not bend and pull in toward the body.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 3,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The elbow collapses and the arm folds in toward the body instead of extending out and up.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The arm is locked straight and stiff at the finish.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.elbow.dom",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": 78.9943,
+            "high": 157.6997
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.1,
+            "yaw_max": 66.0
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "ball_control_and_pace"
+      ],
+      "cue_intent": "Cue the player to extend the racket arm away from the body and up through contact.",
+      "ask_if_unsure_intent": "Ask whether the arm feels tight or tucked in during the swing.",
+      "fix_intent": "Use shadow swings that reach out toward the target and finish up. Then feed slow balls with the cue 'extend through the ball'.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 364,
+        "n_reference_clips": 40,
+        "low": 78.99430017815752,
+        "high": 157.6997264783781,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "short_or_stopped_follow_through",
+      "goal": "Swing all the way through contact and finish with the hitting arm lifted and extended up and across, with the wrist near shoulder height.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 4,
+      "caused_by": [
+        "arm_pulling_in_on_acceleration"
+      ],
+      "sides": {
+        "below": {
+          "looks_like": "The swing stops early or finishes low, with the racket arm cut off at the waist or chest.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The racket finishes very high over the shoulder or head. This is a style difference and a smaller error.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M01",
+          "feature": "height.wrist.dom",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": -0.7743,
+            "high": 0.3723
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.1,
+            "yaw_max": 66.0
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "ball_control_and_pace"
+      ],
+      "cue_intent": "Remind the player to keep swinging through the ball and let the arm finish up and across the body.",
+      "ask_if_unsure_intent": "Ask whether the player is thinking about stopping the racket after contact, or whether the swing feels rushed.",
+      "fix_intent": "Have the player shadow-swing in slow motion and hold the finish for a count. Then feed easy balls and ask for the same held finish.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 66,
+        "n_bad": 16,
+        "n_reference_attempts": 364,
+        "n_reference_clips": 40,
+        "low": -0.7743181784394395,
+        "high": 0.3722854844617576,
+        "basis": "good_form_demonstrations",
+        "labelled": {
+          "n_good": 66,
+          "n_bad": 16,
+          "n_good_clips": 37,
+          "n_bad_clips": 11,
+          "auc": 0.5814393939393939,
+          "held_out_accuracy": 0.651,
+          "validated": false
+        }
+      }
+    },
+    {
+      "id": "non_hitting_hand_misuse",
+      "goal": "Use the non-hitting arm for balance. Extend it forward in the preparation, then fold it in toward the chest in the finish, instead of letting it dangle or split away.",
+      "severity": "medium",
+      "kind": "safety",
+      "priority": 5,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The arm hugs the body or dangles at the side with no counterbalance.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The arm flies out to the side early, which pulls the shoulders open and unbalances the body.",
+          "severity": "medium"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.shoulder.non",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": 0.6781,
+            "high": 98.7687
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.1,
+            "yaw_max": 66.0
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "ball_control_and_pace"
+      ],
+      "cue_intent": "Cue the player to use the free hand to balance and to tuck it in as the swing finishes.",
+      "ask_if_unsure_intent": "Ask what the free hand is doing during the swing.",
+      "fix_intent": "Have the player point the free hand at the ball in the preparation, then bring it into the chest at the finish. Repeat in shadow swings.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 33,
+        "n_bad": 27,
+        "n_reference_attempts": 364,
+        "n_reference_clips": 40,
+        "low": 0.6781462257323767,
+        "high": 98.76869280854288,
+        "basis": "good_form_demonstrations",
+        "labelled": {
+          "n_good": 33,
+          "n_bad": 27,
+          "n_good_clips": 15,
+          "n_bad_clips": 10,
+          "auc": 0.47362514029180697,
+          "held_out_accuracy": 0.434,
+          "validated": false
+        }
+      }
+    },
+    {
+      "id": "ball_behind_body_when_pushed_back",
+      "goal": "Keep the body weight moving forward or staying neutral through the shot, not falling backward, even when the ball is deep.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 6,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The trunk and weight lean back over the rear foot, with the ball behind the body at contact.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The trunk lunges too far forward over the front foot.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M01",
+          "feature": "fwd.trunk_shift",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": -0.3674,
+            "high": 0.7179
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.1,
+            "yaw_max": 66.0
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "ball_control_and_pace"
+      ],
+      "cue_intent": "Cue the player to move the weight into the shot and not drift backward.",
+      "ask_if_unsure_intent": "Ask whether the player is being pushed back by deep balls, or leaning back out of habit.",
+      "fix_intent": "Practise with deep feeds. Work on moving the feet early and transferring weight toward the target. Accept a neutral stance when the ball is high.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 3,
+        "n_reference_attempts": 364,
+        "n_reference_clips": 40,
+        "low": -0.36743181739178304,
+        "high": 0.7179094882406056,
+        "basis": "good_form_demonstrations"
+      }
+    }
+  ],
+  "session_ideas": [
+    "Shadow swings in slow motion, holding the finish for a count.",
+    "Drop-feed forehands from a coach, with a focus on early preparation and a unit turn.",
+    "Cooperative crosscourt rally with a target zone marked on the court.",
+    "Split-step and spacing drill, adjusting steps so the ball arrives at arm's length.",
+    "Medicine-ball rotational throws to feel hip and shoulder rotation."
+  ],
+  "proposals": [
+    {
+      "kind": "measurement",
+      "name": "phase boundary at end of takeback",
+      "why": "Late preparation, arm-only takeback, take-back size and arm path all show at the end of the unit turn, which falls inside the 'swing_to_finish' phase. A separate landmark there would let tests be placed on it."
+    },
+    {
+      "kind": "measurement",
+      "name": "phase boundary at ball contact",
+      "why": "Contact is the key moment for spacing, shoulder rotation and elbow angle. The two landmarks in this data do not mark it."
+    },
+    {
+      "kind": "feature",
+      "name": "racket face angle at contact",
+      "why": "Coaches cite a wrong face angle as a fault, but no registered feature shows the racket or the angle of the hand or wrist."
+    },
+    {
+      "kind": "trackable",
+      "name": "racket head / racket path",
+      "why": "Needed to see loops in the takeback and the racket drop. It would also show the timing of the swing."
+    },
+    {
+      "kind": "trackable",
+      "name": "ball position",
+      "why": "Timing, spacing, waiting for the bounce, shot choice and target outcomes need the ball and its landing point."
+    },
+    {
+      "kind": "feature",
+      "name": "racket-arm elbow angle relative to the trunk in the unit turn",
+      "why": "Used to judge a bent or straight arm in the takeback, which coaches disagree on."
+    }
+  ],
+  "metadata": {
+    "feasibility": {
+      "verdict": "experimental",
+      "reason": "built by the factory; not yet validated in real sessions"
+    },
+    "provenance": {
+      "sources": [
+        "-Eu80hGbgVA",
+        "-V9fRDexnPM",
+        "-XEk39hZzzo",
+        "-pfEfb63tZ4",
+        "0-yol2xtr_E",
+        "0GN5BTx-ups",
+        "0O391AzKX6Q",
+        "0t4qsd6LeJg",
+        "1AY-2Cc3LJU",
+        "1l4ZC4047is",
+        "1meRp15WlKQ",
+        "2GYxGHFKD5E",
+        "2J8q7sn4JLc",
+        "2pr4Xb-_B38",
+        "2uuk8nZ8W_8",
+        "33ffZPw9y-c",
+        "3ja7tvQFbQQ",
+        "4PnKAIKuypI",
+        "4ak0XepJYA0",
+        "4myNhYHhJFY",
+        "4sr1wD_-r1s",
+        "56Tzj_Ie7l0",
+        "5_vJU8XJOTs",
+        "5arVdubK9Pg",
+        "5mtw69jSZAY",
+        "5t_zAmaON_g",
+        "5wdrcvQQJMg",
+        "6_CAfr0mQ-A",
+        "6pe6DfGtOAM",
+        "75SDa52tY1c",
+        "784lVNd-apU",
+        "7HvlDrYpWEQ",
+        "7xdQDqILnSI",
+        "8VAT46jqJA0",
+        "8r6F0MgBbz0",
+        "96i30WAkwUM",
+        "9L9narLQj9M",
+        "9NKtOSzeIIM",
+        "9O_3QibgbRE",
+        "9v3NfhfJD5Q",
+        "A2CdXZ-Ct-c",
+        "A9e-LtL7IaI",
+        "AAIc7Li2WbA",
+        "AEn2acwAQ7Y",
+        "AWs09rEo_v0",
+        "Ai1wvW13HOc",
+        "Aifm8Ssxibw",
+        "Ap0qSdyx9H4",
+        "BPLFRhnkziY",
+        "Bm8QljKE9MM",
+        "BnmVSa9dWz0",
+        "Bun_Ouz5-bs",
+        "BwYS96dRFM0",
+        "CxLVAuZLAMs",
+        "D0IQYtGQHKE",
+        "D6C0g7zPaGk",
+        "DA8sM2ilEsc",
+        "DiXCMYwvw-8",
+        "DivLvT5R_JA",
+        "E0g3LNBhJeU",
+        "E5F6qmT2XCk",
+        "EEHaZ4PrUFI",
+        "EZuZTjn8I08",
+        "F-yNBm8loyk",
+        "F3qUPNxUGgo",
+        "FssCtZEWBH4",
+        "FuinI7uw8hQ",
+        "GgvWLeest9I",
+        "GztttGCA1pY",
+        "IWj5qhSHnL0",
+        "Ib7DmMuqPiE",
+        "IpoTbr5XINI",
+        "J929_RFF32E",
+        "JQXdqMXUfJM",
+        "KAK5a9Qs12w",
+        "KAyZ1uH5plI",
+        "K_bqRpOU6rA",
+        "KcHbjatv8yU",
+        "LCKk0N4p2_A",
+        "LCtYngOwfsw",
+        "LSqVp9QHERQ",
+        "Le0dgmeL-LE",
+        "M5mhUjZd22s",
+        "NaP7RiVXz2E",
+        "NfyrO92yMTc",
+        "NlGP2PaZ5HA",
+        "NuepcSzH44o",
+        "O21f-6kaIwk",
+        "OBZaRtH7OQY",
+        "OMvRlIlLa_8",
+        "OSkioIwXEYM",
+        "OaBuo8jBgJU",
+        "PeEkclg6SKE",
+        "PkiZmPZBdw8",
+        "PsPQWDKw7Zo",
+        "Pv5kymKGQEA",
+        "QQTpd0z9C1k",
+        "QrDWirGkue8",
+        "RVnHEcORqqI",
+        "RXsu2NlL2kE",
+        "RwEF_Mty7Ps",
+        "S5N0ASybB7g",
+        "SHB7xsIPv5E",
+        "Sb2Cm_KmwPU",
+        "T1FuyfTHsmQ",
+        "TeYKveJ1NS4",
+        "TgCZr6aRa1Q",
+        "U2dKyI_2lWQ",
+        "UaPuZ5HIU1U",
+        "UdLFwBicq8E",
+        "UnEUw4jVrEY",
+        "V26ifGuICIE",
+        "V9QMvLauAls",
+        "VC4_qolv6mk",
+        "VLNuqgjf4-4",
+        "W-v8U7K0_m0",
+        "We-nHWaJ2Ig",
+        "WlQLN5mJ7Xg",
+        "XA34mJgU0ks",
+        "XVs_p57iNLE",
+        "X_eg2H8Fa3Q",
+        "XeJyEfMVp5E",
+        "YGZrgFsQCjg",
+        "YpPCRn5czWM",
+        "ZBJfWvONORw",
+        "ZDPAINbsTI4",
+        "ZI-r1-3-6X4",
+        "_nIDNlOp7yo",
+        "_yJNVtqOvHw",
+        "_z_60MokjvI",
+        "aMMtit2VFTc",
+        "anl7snB3TAI",
+        "bDl4mWTJrg0",
+        "b_kWKaTz_aQ",
+        "bpUwrIMGh7A",
+        "cIqEpKRczJ4",
+        "cK8Rb-clu6o",
+        "cu_h1trboKk",
+        "dCWA2Gr98ZY",
+        "dPOmMMObcn4",
+        "dQLfd9ogDQ0",
+        "dnxe6t97xzo",
+        "dxr99mLfUXE",
+        "dzAIDEiFBv4",
+        "e_nKX3QcU04",
+        "eu0Kym_vs1E",
+        "f3yz0WZ8NOs",
+        "fDiJW1OYxac",
+        "fRjwYp_t0OE",
+        "fn7ty-cPv4U",
+        "g4_PTWXDY_I",
+        "gA4mDtJlPF0",
+        "gC26cC9N1VU",
+        "gWTvbXyg2HM",
+        "gbXgoKc2NIc",
+        "gky0Lktyt_0",
+        "hdVnB1t6ZUM",
+        "hsnd8zfiROs",
+        "ht_vOk4Idcs",
+        "iXvWh-xMSd0",
+        "jBjuY3eZ8mg",
+        "jf2vpi4GG3A",
+        "kB3aP3vMEeU",
+        "kFRYXXm8ZM0",
+        "lQxFiUhgj8k",
+        "lhumU9wqWls",
+        "ljqBTn1jZbU",
+        "lpFI1yxeok8",
+        "lqB5CjbU2-k",
+        "lrNPyAyprTk",
+        "mO6XiArAjPI",
+        "mbx0ZebdPAQ",
+        "nh8NLQwcqZU",
+        "nn3-xPK-fzw",
+        "nuqjhrjqcd0",
+        "nxht8qbaWu8",
+        "o_ZZFk-pB3A",
+        "ohupLT98G4c",
+        "p9ggFteqtpY",
+        "pZIBqmv4By8",
+        "pbuUnesx7Ls",
+        "pfvYK7xbSIQ",
+        "pgJ2nT4_pU0",
+        "q4A9i-RFTvY",
+        "qU5OxAgpE1A",
+        "qfMVnQ07pcI",
+        "r1KRhB4QeCg",
+        "scD84O4afpk",
+        "sw2_HmjgqpI",
+        "tTkRZz3P4WM",
+        "tdnrLAzyriA",
+        "u0NvVbKVG4I",
+        "uDwKji3EC6M",
+        "uXF4jhDcX2A",
+        "uXGwWhOj6P4",
+        "ubFJi2M3AMM",
+        "ucEw3C6Zpc8",
+        "ukNZF2Q9ki0",
+        "uzPSqM3nj0A",
+        "v4oUVVlM1JA",
+        "v9Oe1avJf2o",
+        "v9n_EbpIWNI",
+        "vI4mperPhj0",
+        "vX_xBFeAIcg",
+        "v_Z-f5KHcNY",
+        "wQX8B7wYip4",
+        "x7VPW17Rew0",
+        "xeGZAHe4BAE",
+        "xwFVcyt8P_M",
+        "yEly5ZJw5ng",
+        "yPCY1PNAYqE",
+        "yYLrp-15Ao0",
+        "yZ0-We5d0jQ",
+        "zPbtp0WtHA4",
+        "zTxLiZaSDbQ",
+        "ziWEgWm4FkQ"
+      ],
+      "n_clips": 216,
+      "n_attempts": 2511,
+      "runs": 5,
+      "agreement": 0.623,
+      "primary_features": [
+        "height.wrist.dom",
+        "angle.shoulder.dom",
+        "reach.wrist.dom",
+        "angle.shoulder_hip_twist",
+        "height.wrist_mid"
+      ],
+      "calibration_basis": {
+        "good_form_demonstrations": 6
+      },
+      "objectives_without_usable_range": [],
+      "attempt_events": [
+        {
+          "feature": "height.wrist.dom",
+          "direction": "rises",
+          "peak_at_least": -0.3,
+          "seconds": 1.0
+        }
+      ],
+      "footage": {
+        "attempts": 6521,
+        "clips_with_attempts": 223,
+        "clips": 230,
+        "target_reached": true,
+        "rounds": 0
+      },
+      "objective_support": {
+        "runs": 5,
+        "per_objective": {
+          "short_or_stopped_follow_through": 4,
+          "rotation_late_or_blocked": 5,
+          "poor_spacing_to_ball": 5,
+          "arm_pulling_in_on_acceleration": 4,
+          "non_hitting_hand_misuse": 4,
+          "ball_behind_body_when_pushed_back": 3
+        },
+        "dropped": []
+      },
+      "labels": {
+        "videos": 173,
+        "attempts": 2328,
+        "not_attempts": 1262,
+        "per_fault": {
+          "arm_only_takeback": {
+            "present": 13,
+            "absent": 238,
+            "videos_present": 3,
+            "videos_absent": 66
+          },
+          "arm_started_swing_no_leg_drive": {
+            "present": 9,
+            "absent": 4,
+            "videos_present": 3,
+            "videos_absent": 2
+          },
+          "arm_style_in_unit_turn": {
+            "present": 2,
+            "absent": 2,
+            "videos_present": 2,
+            "videos_absent": 2
+          },
+          "ball_behind_body_when_pushed_back": {
+            "present": 3,
+            "absent": 0,
+            "videos_present": 1,
+            "videos_absent": 0
+          },
+          "conscious_wrist_action": {
+            "present": 4,
+            "absent": 1,
+            "videos_present": 3,
+            "videos_absent": 1
+          },
+          "late_or_mistimed_preparation": {
+            "present": 12,
+            "absent": 39,
+            "videos_present": 8,
+            "videos_absent": 13
+          },
+          "non_hitting_hand_misuse": {
+            "present": 27,
+            "absent": 33,
+            "videos_present": 10,
+            "videos_absent": 15
+          },
+          "over_relying_on_legs": {
+            "present": 1,
+            "absent": 1,
+            "videos_present": 1,
+            "videos_absent": 1
+          },
+          "poor_shot_choice_and_target": {
+            "present": 1,
+            "absent": 0,
+            "videos_present": 1,
+            "videos_absent": 0
+          },
+          "poor_spacing_to_ball": {
+            "present": 15,
+            "absent": 3,
+            "videos_present": 4,
+            "videos_absent": 2
+          },
+          "racket_face_not_closed_backswing": {
+            "present": 1,
+            "absent": 2,
+            "videos_present": 1,
+            "videos_absent": 2
+          },
+          "rotation_late_or_blocked": {
+            "present": 5,
+            "absent": 5,
+            "videos_present": 4,
+            "videos_absent": 2
+          },
+          "short_or_stopped_follow_through": {
+            "present": 16,
+            "absent": 69,
+            "videos_present": 11,
+            "videos_absent": 38
+          },
+          "take_back_too_big": {
+            "present": 7,
+            "absent": 26,
+            "videos_present": 3,
+            "videos_absent": 7
+          },
+          "takeback_arm_path": {
+            "present": 15,
+            "absent": 3,
+            "videos_present": 7,
+            "videos_absent": 3
+          },
+          "wrist_flexed_arm_cramped_at_contact": {
+            "present": 1,
+            "absent": 0,
+            "videos_present": 1,
+            "videos_absent": 0
+          }
+        }
+      },
+      "footage_sources": {
+        "pro_footage": {
+          "clips": 22,
+          "attempts": 168,
+          "shows": {
+            "good_form": 168
+          }
+        },
+        "coach_demo": {
+          "clips": 51,
+          "attempts": 541,
+          "shows": {
+            "good_form": 200,
+            "mixed": 341
+          }
+        },
+        "mistake_analysis": {
+          "clips": 137,
+          "attempts": 1690,
+          "shows": {
+            "mixed": 1631,
+            "mistakes": 59
+          }
+        },
+        "instruction_talk": {
+          "clips": 2,
+          "attempts": 12,
+          "shows": {
+            "mixed": 8,
+            "good_form": 4
+          }
+        },
+        "practice_session": {
+          "clips": 9,
+          "attempts": 105,
+          "shows": {
+            "unknown": 51,
+            "mixed": 23,
+            "good_form": 31
+          }
+        }
+      },
+      "reference_clips": [
+        "-Eu80hGbgVA",
+        "-V9fRDexnPM",
+        "-pfEfb63tZ4",
+        "0GN5BTx-ups",
+        "0O391AzKX6Q",
+        "1AY-2Cc3LJU",
+        "1meRp15WlKQ",
+        "2pr4Xb-_B38",
+        "33ffZPw9y-c",
+        "4ak0XepJYA0",
+        "4myNhYHhJFY",
+        "4sr1wD_-r1s",
+        "5arVdubK9Pg",
+        "6pe6DfGtOAM",
+        "8r6F0MgBbz0",
+        "9NKtOSzeIIM",
+        "Bm8QljKE9MM",
+        "DA8sM2ilEsc",
+        "E5F6qmT2XCk",
+        "J929_RFF32E",
+        "KcHbjatv8yU",
+        "M5mhUjZd22s",
+        "NlGP2PaZ5HA",
+        "QrDWirGkue8",
+        "V26ifGuICIE",
+        "X_eg2H8Fa3Q",
+        "_nIDNlOp7yo",
+        "_yJNVtqOvHw",
+        "g4_PTWXDY_I",
+        "gWTvbXyg2HM",
+        "jf2vpi4GG3A",
+        "lQxFiUhgj8k",
+        "lhumU9wqWls",
+        "lrNPyAyprTk",
+        "pgJ2nT4_pU0",
+        "qU5OxAgpE1A",
+        "ubFJi2M3AMM",
+        "v9n_EbpIWNI",
+        "xeGZAHe4BAE",
+        "xwFVcyt8P_M"
+      ],
+      "coaching_sources": [
+        {
+          "id": "05Ueg1vsMeM",
+          "title": "How To FIX - 5 Most COMMON Tennis Forehand Mistakes & Gain Massive Forehand Power \u2014 Tennis Forehand",
+          "channel": "Grant VanderHayden",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "E-Cb30zgsfA",
+          "title": "5 Common Forehand Mistakes & How To Fix Them",
+          "channel": "Grant VanderHayden",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "RlXameSV4kQ",
+          "title": "THE FOREHAND - 3 Common Mistakes And How To Fix Them",
+          "channel": "The Tennis Mentor",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "0MeYx4hXm0Y",
+          "title": "5 BIGGEST Forehand Mistakes (& How To Fix Them)",
+          "channel": "The Tennis Mentor",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "bkzwo1gwrdU",
+          "title": "Why You Struggle With Topspin On Your Forehand, & How To FIX It FOREVER (W/Real Examples)",
+          "channel": "Tennis Forehand Blueprint",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "BPLFRhnkziY",
+          "title": "How to Avoid the Most Common Forehand Rotation Traps",
+          "channel": "Intuitive Tennis",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "N3p7mLYcN9Y",
+          "title": "Avoid These 5 Common Forehand Mistakes (Tennis Technique Explained)",
+          "channel": "2MinuteTennis",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "z2byEtPuRBw",
+          "title": "You'll never have a good forehand until your understand this!",
+          "channel": "Tennis Hacker",
+          "tier": "instruction_talk"
+        },
+        {
+          "id": "fRjwYp_t0OE",
+          "title": "Modern Forehand Problems at the Recreational Level",
+          "channel": "Intuitive Tennis",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "ICv_Qwk9o1w",
+          "title": "How to Fix Your Forehand in 15 Minutes",
+          "channel": "Tennis University",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "8hD07kia6sQ",
+          "title": "Stop Fixing Your Forehand Swing\u2026 Do THIS Instead (3 Hidden Forehand Fixes)",
+          "channel": "Total Tennis Domination",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "5arVdubK9Pg",
+          "title": "Perfect Forehand in 3 Easy Steps - Tennis Forehand Technique Lesson",
+          "channel": "Top Tennis Training - Pro Tennis Lessons",
+          "tier": "coach_demo"
+        }
+      ]
+    },
+    "confidence_tier": "low",
+    "requires": {
+      "features": [
+        "angle.ankle.non",
+        "angle.elbow.dom",
+        "angle.shoulder.dom",
+        "angle.shoulder.non",
+        "angle.shoulder_hip_twist",
+        "angle.trunk_lean",
+        "fwd.trunk_shift",
+        "height.wrist.dom",
+        "height.wrist.non",
+        "height.wrist_mid",
+        "reach.wrist.dom",
+        "reach.wrist.non"
+      ],
+      "measures": [
+        "M01",
+        "M02",
+        "M03"
+      ]
+    },
+    "weak_check": {
+      "rotation_late_or_blocked": {
+        "good": {
+          "attempts": 364,
+          "clips": 40,
+          "flagged": 0.082,
+          "flagged_per_clip": 0.094
+        },
+        "other": {
+          "attempts": 2147,
+          "clips": 176,
+          "flagged": 0.071,
+          "flagged_per_clip": 0.072
+        },
+        "verdict": "no_difference"
+      },
+      "poor_spacing_to_ball": {
+        "good": {
+          "attempts": 364,
+          "clips": 40,
+          "flagged": 0.058,
+          "flagged_per_clip": 0.075
+        },
+        "other": {
+          "attempts": 2147,
+          "clips": 176,
+          "flagged": 0.042,
+          "flagged_per_clip": 0.043
+        },
+        "verdict": "no_difference"
+      },
+      "arm_pulling_in_on_acceleration": {
+        "good": {
+          "attempts": 364,
+          "clips": 40,
+          "flagged": 0.038,
+          "flagged_per_clip": 0.053
+        },
+        "other": {
+          "attempts": 2147,
+          "clips": 176,
+          "flagged": 0.032,
+          "flagged_per_clip": 0.03
+        },
+        "verdict": "no_difference"
+      },
+      "short_or_stopped_follow_through": {
+        "good": {
+          "attempts": 364,
+          "clips": 40,
+          "flagged": 0.074,
+          "flagged_per_clip": 0.077
+        },
+        "other": {
+          "attempts": 2147,
+          "clips": 176,
+          "flagged": 0.055,
+          "flagged_per_clip": 0.054
+        },
+        "verdict": "no_difference"
+      },
+      "non_hitting_hand_misuse": {
+        "good": {
+          "attempts": 364,
+          "clips": 40,
+          "flagged": 0.058,
+          "flagged_per_clip": 0.064
+        },
+        "other": {
+          "attempts": 2147,
+          "clips": 176,
+          "flagged": 0.027,
+          "flagged_per_clip": 0.03
+        },
+        "verdict": "no_difference"
+      },
+      "ball_behind_body_when_pushed_back": {
+        "good": {
+          "attempts": 364,
+          "clips": 40,
+          "flagged": 0.069,
+          "flagged_per_clip": 0.077
+        },
+        "other": {
+          "attempts": 2147,
+          "clips": 176,
+          "flagged": 0.027,
+          "flagged_per_clip": 0.033
+        },
+        "verdict": "no_difference"
+      }
+    },
+    "checks": [
+      {
+        "id": 1,
+        "name": "format",
+        "status": "pass",
+        "detail": "valid against the v0.7 schema"
+      },
+      {
+        "id": 2,
+        "name": "vocabulary",
+        "status": "pass",
+        "detail": "all features and measurements are registered and active"
+      },
+      {
+        "id": 3,
+        "name": "time budget",
+        "status": "pass",
+        "detail": "every test's time budget can be met by its path"
+      },
+      {
+        "id": 4,
+        "name": "recognition",
+        "status": "fail",
+        "detail": "false-accept rate 0.17 against other activities is above 0.15"
+      },
+      {
+        "id": 5,
+        "name": "plausibility",
+        "status": "pass",
+        "detail": "all thresholds and key poses are inside plausible ranges"
+      },
+      {
+        "id": 6,
+        "name": "discrimination",
+        "status": "fail",
+        "detail": "0/4 objectives with enough labelled examples separate good from faulty on videos left out (AUC>=0.75); do not: ['rotation_late_or_blocked', 'short_or_stopped_follow_through', 'non_hitting_hand_misuse']; too few wrong examples in different videos to test: ['poor_spacing_to_ball']; 2 without enough labels"
+      },
+      {
+        "id": 7,
+        "name": "outcome links",
+        "status": "pass",
+        "detail": "3 links, 3 prior-only (no data to test them yet)"
+      },
+      {
+        "id": 8,
+        "name": "agreement",
+        "status": "pass",
+        "detail": "agreement 0.62 across 5 runs"
+      },
+      {
+        "id": 9,
+        "name": "cross-references",
+        "status": "pass",
+        "detail": "ids, landmarks, priorities and requires are consistent"
+      },
+      {
+        "id": 10,
+        "name": "principles",
+        "status": "pass",
+        "detail": "4 principles; sound"
+      }
+    ]
+  },
+  "coaching": {
+    "n_sources": 12,
+    "good_form": [
+      {
+        "point": "Accelerate as a kinetic chain from the ground up: legs, hips, trunk, then arm.",
+        "n_sources": 5
+      },
+      {
+        "point": "Stay balanced with weight moving forward or neutral, and keep enough space from the ball.",
+        "n_sources": 5
+      },
+      {
+        "point": "Take the racket back by turning the whole body, with the racket going along.",
+        "n_sources": 4
+      },
+      {
+        "point": "Start the take-back early, as soon as you read the ball, without waiting for the bounce.",
+        "n_sources": 4
+      },
+      {
+        "point": "Use the non-hitting hand to help the racket back, stay coiled, and catch the racket at the finish.",
+        "n_sources": 4
+      },
+      {
+        "point": "Make contact out in front of the body with the arm in front and the wrist extended.",
+        "n_sources": 4
+      },
+      {
+        "point": "Keep the wrist and grip loose and passive through contact, and don't tense.",
+        "n_sources": 4
+      },
+      {
+        "point": "Finish with a smooth, continuous, full follow-through and never stop the racket.",
+        "n_sources": 4
+      },
+      {
+        "point": "Let the racket drop fluidly on the hitting side and keep it moving without stopping.",
+        "n_sources": 3
+      },
+      {
+        "point": "At the end of the backswing the tip is up with the strings angled down, so the face is closed.",
+        "n_sources": 3
+      },
+      {
+        "point": "Rotation is a main power source, and the dominant shoulder should be in front at contact.",
+        "n_sources": 3
+      },
+      {
+        "point": "Use a compact take-back with a long follow-through for timing and control.",
+        "n_sources": 3
+      },
+      {
+        "point": "Match footwork to the ball so you can rotate: set the feet, or hit off the back foot when pushed back.",
+        "n_sources": 3
+      },
+      {
+        "point": "In the unit turn the right elbow is bent about 90 degrees, or roughly in line with the shoulders.",
+        "n_sources": 2
+      },
+      {
+        "point": "Load the hips and release them like a slingshot so the upper body keeps rotating.",
+        "n_sources": 2
+      },
+      {
+        "point": "Swing up an incline with the racket face tilted slightly forward to create topspin.",
+        "n_sources": 2
+      },
+      {
+        "point": "Pull the arm away from the body in acceleration to create the racket flip.",
+        "n_sources": 2
+      },
+      {
+        "point": "Aim at a specific target and play crosscourt in rally and defense.",
+        "n_sources": 2
+      },
+      {
+        "point": "Bent-arm and straight-arm forehands both work.",
+        "n_sources": 2
+      },
+      {
+        "point": "Check the grip so the contact angle is right.",
+        "n_sources": 1
+      }
+    ],
+    "faults": [
+      {
+        "id": "late_or_mistimed_preparation",
+        "description": "Late racket and foot preparation or mistimed swing, including waiting for the bounce.",
+        "kind": "form",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Waiting for the bounce before taking the racket back",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Misreading the ball's height, speed, depth or spin",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Ready position that doesn't suit the forehand, or no split step",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Trying advanced pro technique beyond current skill",
+            "proximity": "fundamental"
+          },
+          {
+            "cause": "Slow footwork habits",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Begin the take-back as soon as the ball leaves the opponent's racket.",
+            "type": "cue"
+          },
+          {
+            "idea": "Work one feed at a time on a ball machine, a few hundred reps each.",
+            "type": "drill"
+          },
+          {
+            "idea": "Time hip drive to the bounce.",
+            "type": "cue"
+          },
+          {
+            "idea": "Simplify to unit turn, racket set, then swing through.",
+            "type": "cue"
+          },
+          {
+            "idea": "Hold the racket mostly horizontal in the ready position with the off hand on the neck.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Late contact, not out in front",
+          "Inconsistent hitting",
+          "Trouble with fast or deep balls"
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_tracker",
+        "note": "Timing relative to ball bounce needs ball detection (and racket tracking); pose alone cannot show ball position or bounce."
+      },
+      {
+        "id": "short_or_stopped_follow_through",
+        "description": "The finish is short, rushed, too low, or the arm stops and bends across the body.",
+        "kind": "form",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Not finishing all the way through or finishing too quickly",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Catching the ball late and stopping to control it",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Make the motion smooth and continuous, finishing over the shoulder.",
+            "type": "cue"
+          },
+          {
+            "idea": "Keep the arm extending forward and out through the ball.",
+            "type": "cue"
+          },
+          {
+            "idea": "Finish around the tricep, deltoid or over the trap.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Loss of power and accuracy",
+          "No effortless pop",
+          "A lower finish sends the ball lower"
+        ],
+        "disagreement": "Source 11 finishes over the shoulder. Source 8 finishes across the body, and source 1 says follow-throughs vary on tour.",
+        "objective": "short_or_stopped_follow_through",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "arm_only_takeback",
+        "description": "The racket is taken back by the arm alone with no body turn.",
+        "kind": "safety",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Hitting with the dominant arm instead of turning the whole body",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Trying to hit hard",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Rotate the core smoothly so the body takes the racket back.",
+            "type": "cue"
+          },
+          {
+            "idea": "Self feeds: hold a ball in the spare hand, turn sideways, drop and hit.",
+            "type": "drill"
+          },
+          {
+            "idea": "Hit a double-handed forehand to force the upper-body turn.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Tension in the arm and extra arm workload, which can lead to injury",
+          "Less control",
+          "Less power from the body turn"
+        ],
+        "disagreement": "",
+        "objective": "rotation_late_or_blocked",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "arm_style_in_unit_turn",
+        "description": "The arm is too straight in the unit turn, or a bent-arm player forces a straight arm.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Taking the racket back with too much arm energy",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Copying the straight-arm style of Nadal and Federer",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Check the elbow is bent about 90 degrees, or in line with the shoulders, in the unit turn.",
+            "type": "cue"
+          },
+          {
+            "idea": "Film your stroke and compare it with top players.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Forehand feels tight, rushed or late",
+          "Extra unnecessary motion in the backswing"
+        ],
+        "disagreement": "Sources 0 and 1 want a bent or in-line elbow in the unit turn. Source 8 says bent or straight doesn't matter, so don't force a straight arm.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "angle.elbow.dom shows arm straightness in the unit turn, but no objective tests it because the right value depends on player style."
+      },
+      {
+        "id": "contact_face_angle_wrong",
+        "description": "The racket face angle at contact is wrong: vertical, too closed, or turned toward the body.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Thinking only of down-to-up and ignoring the forward plane",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Brushing up with a closed angle when lacking strength",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Imagining hitting up a vertical wall",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Keep a slightly forward-tilted face and imagine swinging up a steep slope.",
+            "type": "cue"
+          },
+          {
+            "idea": "Use an open contact angle if weak, adjusting it with the shoulder.",
+            "type": "cue"
+          },
+          {
+            "idea": "Keep the palm and racquet face pointing away from the body through the finish.",
+            "type": "cue"
+          },
+          {
+            "idea": "Shadow strokes and ball-on-racket-bag incline drill.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Shanks and balls into the net",
+          "Little or no topspin",
+          "Poor direction"
+        ],
+        "disagreement": "Source 4 says tilt the face forward, and source 9 says beginners should use an open angle.",
+        "objective": null,
+        "measurable": "needs_new_tracker",
+        "note": "Racket detection (racket face orientation) and hand/forearm landmarks needed."
+      },
+      {
+        "id": "non_hitting_hand_misuse",
+        "description": "The non-hitting hand dangles, splits away early, or hugs the body.",
+        "kind": "safety",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Pulling the off hand away or opening the chest before contact",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Pointing at the ball and then hugging yourself",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Letting the off arm hang at the side",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Stay coiled and drive the off-hand elbow back, tucking it to the chest as the hips move.",
+            "type": "cue"
+          },
+          {
+            "idea": "Turn with both hands and catch the racket at the finish for a second.",
+            "type": "drill"
+          },
+          {
+            "idea": "Catch-drop-hit with the spare hand.",
+            "type": "drill"
+          },
+          {
+            "idea": "Imagine handcuffs: keep the hands together until the ball bounces.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Ball sprays or is dragged across",
+          "Hips can't turn and the racket can't come through freely",
+          "Less control and spin",
+          "The hitting arm works harder, which can lead to injuries"
+        ],
+        "disagreement": "",
+        "objective": "non_hitting_hand_misuse",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "poor_spacing_to_ball",
+        "description": "Standing too close or too far from the ball, including stepping into a closed stance on every ball.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Stepping into closed stance on every ball",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Poor spacing habits and late reading",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Lack of practiced footwork patterns",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Stay in open stance and use swing and gallop to fix the distance.",
+            "type": "cue"
+          },
+          {
+            "idea": "Practice staying farther from the ball on each feed type.",
+            "type": "drill"
+          },
+          {
+            "idea": "One-legged tennis to feel when you are too close or far.",
+            "type": "drill"
+          },
+          {
+            "idea": "Practice footwork patterns off court.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Cramped arm, wrist bending or snatching",
+          "Bending over or losing balance",
+          "Inefficient biomechanics"
+        ],
+        "disagreement": "Source 9 says stay open and don't step into every ball. Sources 7 and 10 say step in for neutral stance and step into the ball.",
+        "objective": "poor_spacing_to_ball",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "rotation_late_or_blocked",
+        "description": "Rotation is late, too large, or blocked by footwork or stance, so the shoulder is behind at contact.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Rotation not started before the racket goes forward",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Turn too large, with the off hand past the middle of the body",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Sideways momentum or planted feet locking the torso",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Choosing a stance for the ball's position instead of balance and rotation",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Contact at the end of the arm's range",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Start rotation slightly before the racket moves forward, around the racket drop.",
+            "type": "cue"
+          },
+          {
+            "idea": "Release the off hand at the middle of the body, using the lace line.",
+            "type": "cue"
+          },
+          {
+            "idea": "Hit off the non-dominant foot or set the outside foot to break momentum.",
+            "type": "cue"
+          },
+          {
+            "idea": "Turn the toe out when stepping forward.",
+            "type": "cue"
+          },
+          {
+            "idea": "Work on rotation, footwork and arm range before the swing.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Contact with the dominant shoulder behind",
+          "Arm-only, tight swing",
+          "Weak or sprayed shots"
+        ],
+        "disagreement": "",
+        "objective": "rotation_late_or_blocked",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "take_back_too_big",
+        "description": "The take-back is too big, with a short follow-through, so contact is late.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Trying for power",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Big swing against fast balls with little time",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Not aware of the real swing size",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Shorten the backswing and lengthen the follow-through.",
+            "type": "cue"
+          },
+          {
+            "idea": "Video your forehand to see the real take-back size.",
+            "type": "drill"
+          },
+          {
+            "idea": "Stand sideways to a fence so a big take-back hits it.",
+            "type": "drill"
+          },
+          {
+            "idea": "Pair the short backswing with coiling and leg drive.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Catching the ball late",
+          "Contact point not in front",
+          "Less control, consistency and power"
+        ],
+        "disagreement": "Source 11 says to take the racquet all the way back behind you while staying compact. Sources 2 and 3 push a smaller take-back.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "angle.shoulder.dom, reach.wrist.dom or height.wrist.dom in the backswing show take-back size, but no objective tests it."
+      },
+      {
+        "id": "takeback_arm_path",
+        "description": "The arm lifts up and back, loops, or the racket drops twice on the way back.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Dropping the racket on the way back before the normal drop behind the body",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Not trusting a simple fluid drop",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Judging arm action by watching the racket instead of the arm",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Keep the racket up on the way back and let it drop once, behind you.",
+            "type": "cue"
+          },
+          {
+            "idea": "Swing in a C shape so the racket never stops.",
+            "type": "cue"
+          },
+          {
+            "idea": "Push the arm back with the body turn instead of looping it.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Lost fluid momentum and racket flip position",
+          "The racket stops and struggles against hard hitters"
+        ],
+        "disagreement": "Source 9 says don't loop the arm. Sources 5 and 6 recommend a loop or circle path for the racket.",
+        "objective": null,
+        "measurable": "needs_new_tracker",
+        "note": "Racket path/loop and racket drop need racket detection; wrist trajectory from pose is only coarse."
+      },
+      {
+        "id": "arm_pulling_in_on_acceleration",
+        "description": "The arm bends or travels down and in toward the body instead of away and up.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Flexing the bicep and wrist to swing",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Not having the proper backswing position",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Pull the arm away from the body, down-and-away or up-and-away.",
+            "type": "cue"
+          },
+          {
+            "idea": "Accelerate with shoulder flexion, horizontal adduction and external rotation.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "No racket flip",
+          "Less topspin"
+        ],
+        "disagreement": "",
+        "objective": "arm_pulling_in_on_acceleration",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "arm_started_swing_no_leg_drive",
+        "description": "The swing is started and powered by the arm instead of the legs driving and rotating.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Not starting the swing from the ground up",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Not focusing on footwork or leg force",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Drive with the legs first, then rotate the trunk, then let the arm move.",
+            "type": "cue"
+          },
+          {
+            "idea": "Use footwork such as the transfer move, lateral hop or front-foot hop.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Less power and spin"
+        ],
+        "disagreement": "Source 9 disagrees: legs are complementary and the arm leads.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "angle.knee.dom and height.hip show leg drive, and sequencing from the time series, but no objective tests it."
+      },
+      {
+        "id": "ball_behind_body_when_pushed_back",
+        "description": "The ball gets behind the body, or weight travels backward, when pushed back.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Standing too close to a heavy or deep ball",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Not moving the feet fast enough",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Poor reading of the ball's depth",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Stand farther back against big hitters so you can step in.",
+            "type": "setup"
+          },
+          {
+            "idea": "Widen the base against balls at the feet.",
+            "type": "cue"
+          },
+          {
+            "idea": "Keep the body behind the ball and hit off the back foot, letting the other foot swing back.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Leaning back with reduced stability",
+          "Weak moonball or sprayed shot"
+        ],
+        "disagreement": "Source 3 says weight should go forward or stay neutral. Source 5 says keep the body behind the ball and hit off the back foot.",
+        "objective": "ball_behind_body_when_pushed_back",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "poor_shot_choice_and_target",
+        "description": "Choosing the wrong shot for the phase of play or hitting with no target over the net.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Favoring the forehand tempts players into risky shots",
+            "proximity": "direct"
+          },
+          {
+            "cause": "No specific target chosen before the shot",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Stick to crosscourt in defense and rally, and save down the line for attack.",
+            "type": "cue"
+          },
+          {
+            "idea": "Pick an air target over the net on every shot, higher the farther back you are.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Unforced errors",
+          "Easy passing shots",
+          "Less control of depth and net clearance"
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "not_visible",
+        "note": ""
+      },
+      {
+        "id": "racket_face_not_closed_backswing",
+        "description": "The racket is pre-flipped, open, or held straight up and down in the backswing, so the swing goes flat.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Arm travelling too far back with an open face",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Racket held vertical instead of closed below contact",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Finish the backswing with the tip up at about 45 degrees and the strings angled down.",
+            "type": "cue"
+          },
+          {
+            "idea": "Close the face below contact and swing up the back of the ball.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Racket not closed on acceleration, losing easy shoulder power",
+          "Can't dip the ball or hit topspin lobs"
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_tracker",
+        "note": "Racket detection for face orientation in the backswing, plus hand landmarks for wrist/forearm position."
+      },
+      {
+        "id": "tension_in_grip_and_contact",
+        "description": "The grip is too tight or the body tenses at contact.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Natural urge to tense at contact",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Worn overgrip makes you grip hard",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Let go and let the racquet and rotation do the work.",
+            "type": "cue"
+          },
+          {
+            "idea": "Breathe out as you hit.",
+            "type": "cue"
+          },
+          {
+            "idea": "Replace the overgrip often.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Less power and accuracy",
+          "Swipe across the body with no topspin roll"
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "not_visible",
+        "note": ""
+      },
+      {
+        "id": "wrist_flexed_arm_cramped_at_contact",
+        "description": "The wrist flexes at contact with the arm too close to the body or too bent.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Trying to generate power from the wrist",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Arm too close to the trunk or abducted",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Tight wrist",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Contact with the arm in front of the body, wrist extended, palm to the net.",
+            "type": "cue"
+          },
+          {
+            "idea": "Stop shadow swings at contact, then fed balls at contact, then build to full power.",
+            "type": "drill"
+          },
+          {
+            "idea": "Grip with only the index and middle fingers and shadow swing with a loose wrist.",
+            "type": "drill"
+          },
+          {
+            "idea": "Let the wrist make a windshield-wiper motion in the follow-through.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Ball sails long",
+          "Tension, weakness and lost consistency",
+          "Less topspin and less power"
+        ],
+        "disagreement": "",
+        "objective": "arm_pulling_in_on_acceleration",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "conscious_wrist_action",
+        "description": "Faking wrist lag or actively flicking the wrist at contact.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Consciously thinking about the wrist",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Not realizing lag comes from torso rotation and acceleration",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Don't think about the wrist and let lag happen from rotation.",
+            "type": "cue"
+          },
+          {
+            "idea": "Think about finishing strongly across the body.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Hitchy, slowed stroke",
+          "Loss of power and control",
+          "Framed balls"
+        ],
+        "disagreement": "Source 1 wants an active windshield-wiper wrist, and source 0 wants a flip. Source 8 wants the wrist passive at contact.",
+        "objective": null,
+        "measurable": "needs_new_tracker",
+        "note": "Wrist flick and lag need hand landmarks and racket tracking; the body skeleton wrist point is too coarse."
+      },
+      {
+        "id": "over_relying_on_legs",
+        "description": "Driving with the legs while the arm is still, or keeping the legs locked.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Belief that most power comes from the legs",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Let the arm lead and use squat, right lunge, then calf raise in sync with the swing.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [],
+        "disagreement": "Sources 0, 1 and 3 teach leg drive first as the power source.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "angle.knee.dom and height.hip show leg drive, and angle.elbow.dom/height.wrist.dom show arm activity, but no objective tests it."
+      },
+      {
+        "id": "wrong_grip",
+        "description": "The grip is rotated wrongly in the hand or the wrong size.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Wrong rotation angle of the racket in the hand",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Put the middle and ring fingertips on a short side followed by an open medium side.",
+            "type": "setup"
+          },
+          {
+            "idea": "Check the grip size fits the hand.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Contact angle is wrong and the ball is missed"
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_tracker",
+        "note": "Hand landmarks (and racket detection) needed to see grip rotation and size."
+      }
+    ],
+    "objectives_no_coach_names": []
+  },
+  "principles": [
+    {
+      "id": "turn_the_body_to_drive_the_arm",
+      "statement": "Power builds from the ground and trunk and passes out to the arm and racket. When the hips and shoulders turn early and keep turning through the shot, the arm is carried along by that turn instead of generating the swing alone.",
+      "mechanism": [
+        "kinetic_chain",
+        "rotation",
+        "force_transfer"
+      ],
+      "applies_to": [
+        "swing_to_finish"
+      ],
+      "explains": [
+        "rotation_late_or_blocked",
+        "arm_only_takeback",
+        "arm_started_swing_no_leg_drive",
+        "over_relying_on_legs"
+      ],
+      "handle_intent": "Let the turn of the body whip the racket through the ball, so the swing feels pulled rather than pushed.",
+      "offer_when": [
+        "warm_up",
+        "on_request"
+      ],
+      "basis": "contested",
+      "alternatives": [
+        "Sources 0, 1 and 3 teach leg drive and rotation first as the main power source.",
+        "Source 9 says the legs are complementary and the arm leads the swing."
+      ],
+      "transfer_group": "kinetic_chain_ground_up",
+      "support": 3
+    },
+    {
+      "id": "room_to_extend_through_contact",
+      "statement": "Contact is strongest when the arm has room to travel up and out away from the body. Good spacing and an arm that keeps extending stop it from bending and pulling in. That keeps the racket moving along the line of the shot for longer.",
+      "mechanism": [
+        "lever_and_torque",
+        "projectile_motion",
+        "base_of_support"
+      ],
+      "applies_to": [
+        "swing_to_finish"
+      ],
+      "explains": [
+        "poor_spacing_to_ball",
+        "arm_pulling_in_on_acceleration",
+        "wrist_flexed_arm_cramped_at_contact",
+        "contact_face_angle_wrong"
+      ],
+      "handle_intent": "Create space so the racket keeps travelling out and up through the ball.",
+      "offer_when": [
+        "warm_up",
+        "rest",
+        "on_request"
+      ],
+      "basis": "contested",
+      "alternatives": [
+        "Sources 7 and 10 say step in toward a neutral stance and step into the ball to set the distance.",
+        "Source 9 says stay open and don't step into every ball."
+      ],
+      "transfer_group": "extension_through_contact",
+      "support": 3
+    },
+    {
+      "id": "finish_what_the_swing_started",
+      "statement": "A swing that keeps accelerating to a full finish keeps the racket speed through the ball instead of slowing before contact. The finish also shows whether the body kept turning. Its exact shape varies between players.",
+      "mechanism": [
+        "kinetic_chain",
+        "rotation",
+        "timing_and_rhythm"
+      ],
+      "applies_to": [
+        "swing_to_finish",
+        "recovery"
+      ],
+      "explains": [
+        "short_or_stopped_follow_through",
+        "take_back_too_big",
+        "late_or_mistimed_preparation"
+      ],
+      "handle_intent": "Keep the racket speeding up all the way through the ball and out into the finish.",
+      "offer_when": [
+        "rest",
+        "wrap_up",
+        "on_request"
+      ],
+      "basis": "contested",
+      "alternatives": [
+        "Source 11 finishes over the shoulder.",
+        "Source 8 finishes across the body.",
+        "Source 1 says follow-throughs vary on tour."
+      ],
+      "transfer_group": "accelerate_through_contact",
+      "support": 3
+    },
+    {
+      "id": "free_arm_steadies_the_turn",
+      "statement": "The non-hitting arm acts as a counterweight. Reaching it forward in the preparation and folding it in at the finish helps keep the body balanced and the turn controlled. It also helps the body rotate as one unit.",
+      "mechanism": [
+        "balance_and_centre_of_mass",
+        "rotation"
+      ],
+      "applies_to": [
+        "swing_to_finish",
+        "recovery"
+      ],
+      "explains": [
+        "non_hitting_hand_misuse",
+        "rotation_late_or_blocked"
+      ],
+      "handle_intent": "Use the free side to steady the turn and keep the body balanced from start to finish.",
+      "offer_when": [
+        "warm_up",
+        "rest",
+        "on_request"
+      ],
+      "basis": "coaching_consensus",
+      "transfer_group": "counterbalance_free_arm",
+      "support": 2
+    }
+  ]
+}

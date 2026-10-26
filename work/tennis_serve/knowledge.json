@@ -1,0 +1,1072 @@
+{
+  "n_sources": 12,
+  "good_form": [
+    {
+      "point": "Use a continental-style grip with a small gap between index finger and hand, not a fist.",
+      "sources": [
+        3,
+        5,
+        6,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Stand sideways with the front shoulder toward the target and keep shoulders closed as long as possible.",
+      "sources": [
+        6,
+        9,
+        10,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Tilt the shoulders with the tossing shoulder higher (trophy position), then swap shoulders like a seesaw.",
+      "sources": [
+        1,
+        2,
+        6,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Time the leg bend with the toss, then drive up into contact.",
+      "sources": [
+        3,
+        6,
+        9,
+        10
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Make contact high, in front and slightly to the side so the arm is extended and the forearm can pronate.",
+      "sources": [
+        3,
+        6,
+        9,
+        10
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Place the toss rather than throw it: ball in the fingers, straight loose arm, still wrist, release near eye level.",
+      "sources": [
+        1,
+        9,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Lift the toss from the shoulder only, with no elbow or wrist movement.",
+      "sources": [
+        1,
+        9,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Toss high enough to reach up and hit at full extension, but not so high you wait.",
+      "sources": [
+        6,
+        9,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Get the elbow up into the trophy position before the racket drops behind.",
+      "sources": [
+        5,
+        7,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Let the racket drop behind only after the shoulders rotate and the elbow rises, which creates racket-head lag.",
+      "sources": [
+        2,
+        7,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Bring the racket up on its edge in a circular motion, not palm-up like a tray.",
+      "sources": [
+        3,
+        8,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Pronate through contact and keep turning afterwards without braking.",
+      "sources": [
+        3,
+        4,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Beginners may start from an eastern grip to feel pronation, then move toward continental.",
+      "sources": [
+        9,
+        10
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Start the toss arm low and lift it gradually; keep it up while loading, then let it drop as the hitting arm rises.",
+      "sources": [
+        1,
+        7
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Point the front foot at the net post and keep the back foot in line behind it.",
+      "sources": [
+        9,
+        10
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Keep the arm loose and continuous like a pendulum, without stopping or pausing.",
+      "sources": [
+        9,
+        11
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Power comes from shoulder internal rotation with a slightly radially deviated wrist at contact.",
+      "sources": [
+        0,
+        2
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Lean the trunk forward into the court at contact via lateral tilt, with the arm near shoulder line.",
+      "sources": [
+        0,
+        2
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "For slice, hit the side of the ball, stay under it, and toss to the right.",
+      "sources": [
+        3,
+        11
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Finish by pulling the tossing arm in and landing inside the court, then recover ready.",
+      "sources": [
+        3,
+        10
+      ],
+      "n_sources": 2
+    }
+  ],
+  "faults": [
+    {
+      "id": "wrong_grip",
+      "description": "Serving with a forehand, western or frying-pan grip instead of continental or eastern.",
+      "kind": "form",
+      "sources": [
+        3,
+        5,
+        6,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Forehand grip flips the racket face open as it rises.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Habit: the forehand grip feels comfortable and lets you serve quickly.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Switch to a continental grip with the strings slightly open at the start.",
+          "type": "setup"
+        },
+        {
+          "idea": "Rotate toward the chopper grip even though it feels strange.",
+          "type": "cue"
+        },
+        {
+          "idea": "Film yourself to check the grip.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Low ceiling and weak second serves.",
+        "No snap, spin or accuracy.",
+        "Poor racket drop and a push swing."
+      ],
+      "disagreement": "Sources 3, 5 and 6 say continental; source 10 recommends an eastern grip, and source 9 allows eastern for beginners.",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "fist_grip",
+      "description": "Clenching the handle with no space between the index finger and the hand.",
+      "kind": "form",
+      "sources": [
+        6,
+        9,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Gripping the handle like a fist.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Leave a small gap between index finger and hand, like holding a hammer.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Less reach.",
+        "Harder grip rotation and release.",
+        "Less power."
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "flawed_toss_release",
+      "description": "The toss is squeezed in the palm, or the elbow or wrist bends or flicks on release.",
+      "kind": "form",
+      "sources": [
+        1,
+        9,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Flicking the wrist or bending the elbow to add force.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Squeezing the ball in the palm.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hold the ball in the fingertips like an ice cream cone.",
+          "type": "cue"
+        },
+        {
+          "idea": "Lift from the shoulder only with a straight, loose arm.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practise the toss in isolation and check that the ball barely spins.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Toss lands in a different place each time.",
+        "Ball spins and is too quick for the swing.",
+        "You chase the ball and lose balance."
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "leg_timing_rhythm",
+      "description": "Bending the knees before the toss, using legs to toss, or forcing a serve rhythm that does not suit the player.",
+      "kind": "form",
+      "sources": [
+        3,
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Bending the knees first, or dipping the legs to toss.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not realising the timing is wrong, or not checking the player's natural throwing rhythm.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Toss first, then bend as the racket rises, then explode up.",
+          "type": "cue"
+        },
+        {
+          "idea": "Toss with the arm only, starting on the back foot.",
+          "type": "cue"
+        },
+        {
+          "idea": "Watch the player throw a heavy ball to find their natural rhythm.",
+          "type": "drill"
+        },
+        {
+          "idea": "Film yourself to check.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Lost racket speed.",
+        "Inconsistent toss and nowhere left to go in the motion."
+      ],
+      "disagreement": "Source 3 says toss then bend; source 6 says bend as the ball leaves the hand; source 9 says bend as the ball rises.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "open_up_too_early",
+      "description": "The stance or shoulders open too early, with the back foot misplaced or stepping too far.",
+      "kind": "form",
+      "sources": [
+        2,
+        9,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Back foot crossing the net-post line or sitting too far forward.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Stepping past the toes or starting with the back foot far from the front foot.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Stepping back too wide, so the heel goes over the middle line (foot fault).",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Point the front toe at the net post and keep the back foot on its line.",
+          "type": "setup"
+        },
+        {
+          "idea": "Start the back foot right behind the front foot and step only to the toes.",
+          "type": "setup"
+        },
+        {
+          "idea": "Keep the shoulders closed as long as possible.",
+          "type": "cue"
+        },
+        {
+          "idea": "Shift position right if the stance is wide.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "Less wind-up rotation and power.",
+        "Loss of disguise and control; wild serves.",
+        "Foot fault."
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "toss_height_wrong",
+      "description": "The toss is too high, so you wait and hitch, or too low, so contact is cramped.",
+      "kind": "form",
+      "sources": [
+        6,
+        9,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Too high: crouching and waiting for the ball to drop.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Too low: arm not extended and the wrist cannot open the face.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Toss to where the arm is fully extended at contact.",
+          "type": "cue"
+        },
+        {
+          "idea": "Time the leg bend with the toss and keep a down-then-up rhythm.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use a slightly lower toss for the abbreviated serve.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "Timing breaks down under pressure.",
+        "Low toss gives slicing or nets.",
+        "Loss of dynamic energy."
+      ],
+      "disagreement": "Source 10 says hit at the apex; source 6 says contact just as the ball begins to drop.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "chopping_low_contact",
+      "description": "Chopping at the ball with only part of the strings, from a low contact point.",
+      "kind": "form",
+      "sources": [
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Contact too low or not far enough in front and to the side.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Toss too low, so the wrist cannot pronate.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Lack of pronation.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Stand sideways and toss higher to contact high above the shoulder.",
+          "type": "cue"
+        },
+        {
+          "idea": "Show the full strings to the ball.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use a temporary eastern grip to feel pronation.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "Unwanted slice off the right side of the ball.",
+        "Poor contact and nets."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "contact_posture",
+      "description": "At contact the chest is upright or leaning back, the arm is raised too high, or the trunk goes sideways and back.",
+      "kind": "form",
+      "sources": [
+        0,
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Lifting the arm instead of tilting the trunk laterally.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not shifting weight forward, or contact too far back.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Do the wide-stance weight-shift drill with an exaggerated 50-60 degree tilt.",
+          "type": "drill"
+        },
+        {
+          "idea": "Lift the elbow only slightly and tilt about 45 degrees.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hit down the line or straight down to force contact in front.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Less force and back tension.",
+        "Big muscles cannot contribute."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "forearm_pronation_not_used",
+      "description": "The forearm does not stretch into supination and snap through pronation, or you carve around the ball.",
+      "kind": "form",
+      "sources": [
+        3,
+        4
+      ],
+      "causes": [
+        {
+          "cause": "Jackknifing the racket up from the back scratch position.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Braking the forearm turn after contact.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Focusing on max shoulder stretch and not realising the forearm hits the ball.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Drill forearm pronation and supination in front, then above the head.",
+          "type": "drill"
+        },
+        {
+          "idea": "Toss to land on your head and bop it with the forearm.",
+          "type": "drill"
+        },
+        {
+          "idea": "Pronate on every serve and keep turning after contact.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Less racket speed and spin control.",
+        "Weaker serve stuck at the back scratch position."
+      ],
+      "disagreement": "Sources 0 and 2 call shoulder internal rotation the main power source; source 4 says the forearm is the last link that hits the ball.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "low_elbow",
+      "description": "The elbow tucks down or the hitting arm sits too low, with no trophy position or 90-degree set.",
+      "kind": "safety",
+      "sources": [
+        5,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Racket face opens and the player pushes at the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Forehand-leaning grip.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Starting from a full swing, so the arms move at the wrong pace.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Body limitations such as hip or shoulder restriction.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Use a true continental grip.",
+          "type": "setup"
+        },
+        {
+          "idea": "Start from a three-quarter or half motion with the elbow already up.",
+          "type": "drill"
+        },
+        {
+          "idea": "Pretend to throw a football or baseball.",
+          "type": "cue"
+        },
+        {
+          "idea": "Serve into a fence with an exaggerated high elbow.",
+          "type": "drill"
+        },
+        {
+          "idea": "Film yourself and find the position with eyes closed.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Stress on the arm and possible elbow or shoulder problems.",
+        "Loss of power and consistency.",
+        "Effortful catapult swing with limited racket drop."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "poor_finish_and_recovery",
+      "description": "The tossing arm is thrown back, or you stand admiring the serve instead of recovering.",
+      "kind": "form",
+      "sources": [
+        3,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Believing the arm out back helps balance, or liking the look.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Coaches teaching it.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Finish with a power X, tossing arm in against the body.",
+          "type": "cue"
+        },
+        {
+          "idea": "Film from behind: the tossing hand waves to the camera.",
+          "type": "drill"
+        },
+        {
+          "idea": "Land inside the court past the baseline and recover at once.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Less hitting-arm acceleration.",
+        "Slower recovery, so you are caught unready for the return."
+      ],
+      "disagreement": "Source 3 says serves with the arm held back can still be good, just not your best.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "tight_stiff_arm",
+      "description": "The arm is stiff, or the racket is stopped or tight at the bottom of the swing.",
+      "kind": "form",
+      "sources": [
+        9,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Manufacturing the loop.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Tense, restricted arm.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the arm relaxed like a pendulum and let the loop happen.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the motion continuous.",
+          "type": "cue"
+        },
+        {
+          "idea": "Feel the arm completely free, as in a throw.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Lost racket speed and power.",
+        "No crisp contact sound."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "toss_arm_misused",
+      "description": "The tossing arm drops too fast or points at the net instead of along the baseline.",
+      "kind": "form",
+      "sources": [
+        1,
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Quick, jerky toss-and-drop motion.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Starting the toss with the arm aimed at the net.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the tossing arm up through loading and drop it only as you unload.",
+          "type": "cue"
+        },
+        {
+          "idea": "Line the arm up along the baseline and release at eye level.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Toss too high, with timing and rhythm lost.",
+        "You collapse into the serve.",
+        "Less accurate toss and no lateral tilt."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "waiters_tray",
+      "description": "The racket opens palm and strings up right after the toss and pushes at the ball.",
+      "kind": "form",
+      "sources": [
+        3,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Opening the racket immediately after the toss.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "A flat-serve mentality of swinging toward the target.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Lift to chest height with the palm and strings down, as if a ball sat in the throat.",
+          "type": "drill"
+        },
+        {
+          "idea": "Salute with the strings down the whole way.",
+          "type": "drill"
+        },
+        {
+          "idea": "Wear a birthday hat on the front of the head and hit it; at the back it gives no feedback.",
+          "type": "setup"
+        },
+        {
+          "idea": "Bring the racket up on edge and hit some side spin.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "The ball is pushed instead of hit with a circular motion.",
+        "No spin, and the racket does not pass over the head."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "wrist_powered",
+      "description": "Power comes from the wrist and forearm instead of shoulder internal rotation, with the racket open or over the hand at contact.",
+      "kind": "form",
+      "sources": [
+        0,
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Racket directly above the hand instead of slightly off to the non-hitting side.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Racket stays open instead of on edge during acceleration.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Contact not in line with the shoulder and head.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Put the wrist slightly radially deviated and raise the next finger.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practise from inside the court and back up gradually.",
+          "type": "drill"
+        },
+        {
+          "idea": "Hit down the line so the shoulder rotates and finishes out to the side.",
+          "type": "drill"
+        },
+        {
+          "idea": "Do shadow swings with two rackets, the tip on edge.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Lower power ceiling.",
+        "Arm drops straight down after the swing.",
+        "Pro drop position lost."
+      ],
+      "disagreement": "Source 10 teaches a wrist snap to bring the ball down; source 2 says wrist power is small.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "wrong_sequence",
+      "description": "The kinetic chain fires in the wrong order or is wasted by an arched spine.",
+      "kind": "form",
+      "sources": [
+        2,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Tilting before driving the legs.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Leading with the legs instead of the hand.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Keeping an arched spine at the end of the wind-up.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Practise leg drive, then trunk rotation, then the edge coming in.",
+          "type": "drill"
+        },
+        {
+          "idea": "Finish the wind-up with head, chest and knees in a straight line.",
+          "type": "cue"
+        },
+        {
+          "idea": "Lead with the hand and let the legs follow.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Less pop and whip.",
+        "Less downward racket-head speed."
+      ],
+      "disagreement": "Source 2 says drive the legs first; source 11 says lead with the hand and let the legs follow.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "abbreviated_serve_shoulder",
+      "description": "Using the compact abbreviated serve despite shoulder problems.",
+      "kind": "safety",
+      "sources": [
+        9
+      ],
+      "causes": [],
+      "fixes": [
+        {
+          "idea": "Learn the full, relaxed motion, which is more forgiving on the arm.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [],
+      "disagreement": "Source 9 also praises the abbreviated serve as compact, with lots of snap and power.",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "dropping_body_on_snap",
+      "description": "Bowing the body and letting the shoulders drop as the wrist snaps.",
+      "kind": "form",
+      "sources": [
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Bringing the body down along with the wrist snap.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hit up first, then snap with only the wrist.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the shoulders and chest up.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball goes into the net."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "power_position_too_early",
+      "description": "The racket collapses behind the back before the shoulders rotate, skipping the trophy position.",
+      "kind": "form",
+      "sources": [
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Racket arm moves too fast and collapses.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "A rushed toss makes the racket arm speed up too.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Lift the racket arm slower than the toss arm so the racket stays tall.",
+          "type": "cue"
+        },
+        {
+          "idea": "Start the toss arm low and lift it gradually.",
+          "type": "cue"
+        },
+        {
+          "idea": "Swing a ball in a sock to feel the flow and rhythm.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Racket head speed can be halved.",
+        "Loss of power, spin and consistency."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "slice_contact_wrong",
+      "description": "On a slice, going over the top of the ball or contacting it too far toward the middle.",
+      "kind": "form",
+      "sources": [
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Racket passes over the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Toss not far enough right.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Stay under the ball and exaggerate hitting its side.",
+          "type": "cue"
+        },
+        {
+          "idea": "Toss so the ball crosses the right line before the racket arrives.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Net errors.",
+        "Less sidespin and an easier return."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    }
+  ],
+  "sources": [
+    {
+      "id": "FmnrYtbQzBA",
+      "title": "3 Common Tennis Serve Mistakes (And How To Fix Them)",
+      "channel": "Grant VanderHayden",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Lq5ZF2VfEGk",
+      "title": "The Ball Toss Mistakes That Ruin 90% of Tennis Serves (& How to Fix Them!)",
+      "channel": "GemTennis ",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "bOXptZQsixI",
+      "title": "How To FIX- 4 Most COMMON Tennis Serve Mistakes & Gain Massive Serve Power | Tennis Serve Lesson",
+      "channel": "Grant VanderHayden",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "VWKpp0DiaJg",
+      "title": "Avoid These 5 Common Serve Mistakes (Pro Tennis Technique Explained)",
+      "channel": "2MinuteTennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "cIIEYn42o4g",
+      "title": "The #1 Backscratch Mistake \u2014 and How to Fix It",
+      "channel": "Fault Tolerant Tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "eYaIOC8KMlk",
+      "title": "The Low Elbow Serve MISTAKE - Tennis Serve Online Lessons 2018",
+      "channel": "Tennis Evolution",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "-aFZNbALuvU",
+      "title": "Pt 1 - Tennis Serve Fix in 10 Minutes Lesson!",
+      "channel": "Top Tennis Training - Pro Tennis Lessons",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "BEoEc_47Tc8",
+      "title": "Fix Your Power Position | Tennis Serve Technique",
+      "channel": "James Armstrong",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "zdNWH66tr5M",
+      "title": "Fix Your Waiter\u2019s Tray Serve (3 Easy Tennis Drills)",
+      "channel": "2MinuteTennis",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "IiRGdagtOKE",
+      "title": "Simple Tennis Serve Technique Masterclass for Beginners",
+      "channel": "Top Tennis Training - Pro Tennis Lessons",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "bRCQwLgEs9M",
+      "title": "How To Hit A Basic Tennis Serve with Venus Williams",
+      "channel": "Venus Williams",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "mOlf4pcvUxM",
+      "title": "9 Tips to Serve Like a Pro",
+      "channel": "Patrick Mouratoglou",
+      "tier": "coach_demo"
+    }
+  ]
+}

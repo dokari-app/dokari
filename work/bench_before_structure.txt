@@ -1,0 +1,19 @@
+entries                     clip                          expected found right wrong missed  wrong labels
+serve + forehand            IMG_2935 3 (5 serves)          5 serve     6     5     1      0  tennis_forehand
+serve + forehand            IMG_2935 (5 forehands)      5 forehand     5     5     0      0  
+serve + forehand            IMG_2935 2 (long)              5 serve     7     5     2      0  tennis_forehand
+serve + forehand            IMG_2935 2 (long)        some forehand    45    44     1      -  tennis_serve
+serve + forehand            swings that count (5+5+5)            15          15     3      0
+
+as the coach loads tennis   IMG_2935 3 (5 serves)          5 serve     6     5     1      0  tennis_forehand
+as the coach loads tennis   IMG_2935 (5 forehands)      5 forehand     5     5     0      0  
+as the coach loads tennis   IMG_2935 2 (long)              5 serve     7     5     2      0  tennis_forehand
+as the coach loads tennis   IMG_2935 2 (long)        some forehand    45    43     2      -  tennis_overhead_smash, tennis_serve
+as the coach loads tennis   swings that count (5+5+5)            15          15     3      0
+
+all seven, drafts included  IMG_2935 3 (5 serves)          5 serve     8     2     6      3  tennis_forehand, tennis_volley
+all seven, drafts included  IMG_2935 (5 forehands)      5 forehand     5     3     2      2  tennis_slice, tennis_volley
+all seven, drafts included  IMG_2935 2 (long)              5 serve    10     2     8      3  tennis_forehand, tennis_volley
+all seven, drafts included  IMG_2935 2 (long)        some forehand    50    34    16      -  tennis_drop_shot, tennis_overhead_smash, tennis_serve, tennis_slice, tennis_volley
+all seven, drafts included  swings that count (5+5+5)            15           7    16      8
+

@@ -1,0 +1,16 @@
+[21:31] waiting for racket test
+[21:33] done tta seed 0
+[21:34] done mix seed 0
+[21:36] done mixtta seed 0
+[21:37] done tta seed 1
+[21:38] done mix seed 1
+[21:40] done mixtta seed 1
+[21:41] done tta seed 2
+[21:42] done mix seed 2
+[21:44] done mixtta seed 2
+scored on 195 human windows (identical for every row)
+base (old labels)  seeds 3 | acc 0.595 | side acc 0.757 (n=107) | recall {'fh': '28/38', 'bh': '53/89', 'serve': '9/11', 'none': '26/57'}
+tta                seeds 3 | acc 0.579 | side acc 0.726 (n=106) | recall {'fh': '28/38', 'bh': '49/89', 'serve': '9/11', 'none': '27/57'}
+mix                seeds 3 | acc 0.631 | side acc 0.791 (n=110) | recall {'fh': '28/38', 'bh': '59/89', 'serve': '9/11', 'none': '27/57'}
+mixtta             seeds 3 | acc 0.626 | side acc 0.768 (n=112) | recall {'fh': '29/38', 'bh': '57/89', 'serve': '9/11', 'none': '27/57'}
+all finished

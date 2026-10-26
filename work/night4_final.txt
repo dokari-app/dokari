@@ -1,0 +1,7 @@
+windows 2288 Counter({'forehand': 797, 'no_stroke': 720, 'serve': 573, 'backhand': 198}) | hand mode: none | channels: 3d | arch: conv | PRE 2.4
+  saved model 1 of 5
+  saved model 2 of 5
+  saved model 3 of 5
+  saved model 4 of 5
+  saved model 5 of 5
+final models saved

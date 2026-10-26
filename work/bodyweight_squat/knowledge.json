@@ -1,0 +1,964 @@
+{
+  "n_sources": 11,
+  "good_form": [
+    {
+      "point": "Set feet about shoulder width, or just outside hip width, and tune the width to your own hips and limb proportions.",
+      "sources": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "n_sources": 8
+    },
+    {
+      "point": "Turn the toes out slightly to open the hips, with knees tracking the same way (one coach prefers toes straight ahead).",
+      "sources": [
+        0,
+        3,
+        5,
+        8,
+        9,
+        10
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Push the knees out so they track in line with the toes and do not cave in.",
+      "sources": [
+        2,
+        3,
+        5,
+        8,
+        9,
+        10
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Hold a light weight at the chest or raise the arms to aid balance and chest position, and build depth gradually, e.g. with heel elevation or support.",
+      "sources": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Keep the whole foot grounded, with weight balanced over the midfoot and not on the heels or toes.",
+      "sources": [
+        3,
+        4,
+        6,
+        9,
+        10
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Let the knees travel forward over the toes as needed for depth and balance.",
+      "sources": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Keep the chest tall and posture upright, with the torso roughly parallel to the shins.",
+      "sources": [
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Squat as deep as you can control, to at least parallel.",
+      "sources": [
+        1,
+        3,
+        8,
+        9,
+        10
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Start by sending the hips back, with the chest staying up, before or as the knees bend.",
+      "sources": [
+        3,
+        4,
+        5,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Keep the spine and pelvis neutral and avoid rounding or arching at the bottom.",
+      "sources": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Brace the core before descending, as if about to be punched, and hold the breath on heavy sets.",
+      "sources": [
+        1,
+        2,
+        8,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Move the chest and hips together out of the bottom so the bar path stays straight.",
+      "sources": [
+        0,
+        1,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Finish by standing fully and squeezing the glutes.",
+      "sources": [
+        3,
+        10
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Film yourself from the side or use a mirror to check your form.",
+      "sources": [
+        1,
+        8
+      ],
+      "n_sources": 2
+    }
+  ],
+  "faults": [
+    {
+      "id": "forward_chest_lean",
+      "description": "The chest drops and the torso folds or rocks forward.",
+      "kind": "form",
+      "sources": [
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "No arm position or weight to encourage a lifted chest.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Trying to counterbalance when the hips go back and the toes lift.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Limited ankle, calf and hip mobility.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the chest up and the torso parallel to the shin.",
+          "type": "cue"
+        },
+        {
+          "idea": "Raise the arms to shoulder height, thumbs up.",
+          "type": "cue"
+        },
+        {
+          "idea": "Stop the shoulders when the hips stop descending.",
+          "type": "cue"
+        },
+        {
+          "idea": "Improve ankle and hip mobility.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Squat position and control are lost.",
+        "Fake range comes from the shoulders instead of the hips."
+      ],
+      "disagreement": "",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "knees_caving_in",
+      "description": "Knees collapse inward or drift out of line with the ankle and hip.",
+      "kind": "safety",
+      "sources": [
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Not actively pushing the knees out.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Letting go of support without actively planting the feet.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Weak glutes and limited hip flexor and abductor range.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Push the knees out over the toes, using elbows against the knees at the bottom.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use a mini loop band above the knees and push out against it.",
+          "type": "setup"
+        },
+        {
+          "idea": "Imagine splitting the floor apart with your feet.",
+          "type": "cue"
+        },
+        {
+          "idea": "Build glute strength and hip mobility.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Extra stress on the knee.",
+        "Staying high and failing to reach depth."
+      ],
+      "disagreement": "",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "lumbar_rounding_butt_wink",
+      "description": "The pelvis tucks under and the lower back rounds at the bottom.",
+      "kind": "safety",
+      "sources": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Forcing depth beyond your active range.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Limited ankle mobility stopping the knees travelling forward.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Limited hip or spine mobility, or hip anatomy.",
+          "proximity": "fundamental"
+        },
+        {
+          "cause": "Weak hip flexors.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Film yourself and test with heels raised on plates.",
+          "type": "drill"
+        },
+        {
+          "idea": "Do ankle mobility work and use a wider stance.",
+          "type": "drill"
+        },
+        {
+          "idea": "Strengthen the hip flexors with hip flexor marches.",
+          "type": "drill"
+        },
+        {
+          "idea": "Limit depth to parallel until it improves.",
+          "type": "setup"
+        },
+        {
+          "idea": "Wear lifting shoes with a heel lift.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "More lumbar flexion and lower back stress, with disc injury risk under heavy load.",
+        "Unnecessary lower back tension."
+      ],
+      "disagreement": "",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "heels_lift_ankle_limit",
+      "description": "Heels rise or the knee can't travel forward because of limited ankle dorsiflexion.",
+      "kind": "form",
+      "sources": [
+        2,
+        6,
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Insufficient ankle dorsiflexion.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Tight calf and Achilles, and weak tibialis anterior.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Raise the heels on plates or a rolled towel and lower them gradually.",
+          "type": "setup"
+        },
+        {
+          "idea": "Do knee-to-wall drills and calf stretches.",
+          "type": "drill"
+        },
+        {
+          "idea": "Rock in a deep squat to strengthen the tibialis.",
+          "type": "drill"
+        },
+        {
+          "idea": "Hold the bottom position daily, with light support if needed.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Cannot squat as deep.",
+        "Cannot keep the heels down and chest tall."
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "stance_not_matched_to_hips",
+      "description": "Stance width does not suit your hips: too narrow, too wide, or sumo.",
+      "kind": "form",
+      "sources": [
+        0,
+        5,
+        6
+      ],
+      "causes": [
+        {
+          "cause": "Defaulting to a stance without testing it.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Long femurs with a narrow straight-footed stance.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Limited hip flexion and rotation.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Find your stance by pulling the knees toward the chest on your back, then adjust and test.",
+          "type": "drill"
+        },
+        {
+          "idea": "Use a slightly wider stance with some toe-out for long femurs.",
+          "type": "setup"
+        },
+        {
+          "idea": "Stay just outside hip width and avoid a sumo stance.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "Low back rounding or tipping back.",
+        "Instability and falling sideways.",
+        "A sumo stance doesn't suit progression to weighted or overhead squats."
+      ],
+      "disagreement": "Source 5 rejects wide sumo stances, while source 6 recommends a wider stance for long femurs; all agree the width should suit the individual.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "arm_counterbalance",
+      "description": "Reaching the arms out in front to stay balanced.",
+      "kind": "form",
+      "sources": [
+        4,
+        5
+      ],
+      "causes": [
+        {
+          "cause": "Hips go back without the knees travelling forward, so weight shifts back.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Limited knee and ankle forward movement.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hold a weight at the chest (goblet squat) or keep the arms at the chest or overhead.",
+          "type": "setup"
+        },
+        {
+          "idea": "Stop where you feel the need to counterbalance and work from there.",
+          "type": "drill"
+        },
+        {
+          "idea": "Use hips back, chest out, then bend the knees.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Poor balance is reinforced and progress stalls.",
+        "Load shifts to the knees, with less glute use."
+      ],
+      "disagreement": "Sources 8 and 10 put the arms out in front as part of normal technique.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "falling_backward_weight_on_heels",
+      "description": "Tipping backward, with weight too far on the heels or toes.",
+      "kind": "safety",
+      "sources": [
+        4,
+        6
+      ],
+      "causes": [
+        {
+          "cause": "Pressure too far back on the heels or toes rather than the whole foot.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not sequencing hips back and chest out before the knees bend.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Long femurs with a narrow stance, or limited hip and ankle mobility.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Use the tripod foot: big toe, little toe and heel.",
+          "type": "setup"
+        },
+        {
+          "idea": "Widen the stance with some toe-out and raise the heels.",
+          "type": "setup"
+        },
+        {
+          "idea": "Do daily bottom-position holds.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "The centre of mass shifts back and you tip over.",
+        "Toe pressure stresses the knees."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "hips_rise_first_good_morning",
+      "description": "The hips rise or move first and the chest lags, turning the squat into a good morning.",
+      "kind": "safety",
+      "sources": [
+        0,
+        1
+      ],
+      "causes": [
+        {
+          "cause": "Letting the hips move first at the bottom, breaking the chest-pelvis link.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Fatigue later in a set and poor coordination.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Weak quads relative to glutes and lower back.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Move chest and pelvis as one unit so they rise at the same rate.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use pause squats with lighter weight, pausing halfway up.",
+          "type": "drill"
+        },
+        {
+          "idea": "Drive the chest up out of the bottom.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Bar drifts forward and the torso leans far forward.",
+        "More lumbar and shear stress, and a weaker, less efficient squat."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "incomplete_range",
+      "description": "Stopping high at the bottom or not standing fully at the top.",
+      "kind": "form",
+      "sources": [
+        9,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Knees not shoved out.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Cutting the squat short instead of standing all the way up.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Shove the knees out more and squat to full depth every rep.",
+          "type": "cue"
+        },
+        {
+          "idea": "Push the hips forward and squeeze the glutes at the top.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Squats are small and incomplete."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "poor_bracing_and_breathing",
+      "description": "Not bracing the core, or breathing out on the way up during heavy sets, causing wobble.",
+      "kind": "safety",
+      "sources": [
+        1,
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Following the advice to breathe in on the way down and out on the way up.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Letting go of support without bracing.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Take a big breath into the abdomen, brace and hold it down and up, then exhale at the top.",
+          "type": "cue"
+        },
+        {
+          "idea": "Brace the core before lowering.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Instability and a less stable squat.",
+        "Less protection for the lower back."
+      ],
+      "disagreement": "Source 3 says to brace on the way down and breathe out as you finish coming up.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "toe_angle_wrong",
+      "description": "Foot angle is wrong: toes screw out mid-rep, or point straight ahead when they should turn out.",
+      "kind": "form",
+      "sources": [
+        8,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Assuming a forward-pointing stance by default.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "The body takes the path of least resistance when restricted or tight.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Point the toes out about 30 degrees.",
+          "type": "cue"
+        },
+        {
+          "idea": "Reset the feet forward each rep and work on mobility.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [],
+      "disagreement": "Source 8 treats toes turning out as a compensation and wants them forward. Source 9 says toes straight ahead is the fault and wants about 30 degrees out.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "arching_lower_back",
+      "description": "The lower back extends into a big arch at the bottom.",
+      "kind": "form",
+      "sources": [
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Loss of core control.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Hip flexor and quad tension pulling the pelvis into anterior tilt.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the ribs stacked over the pelvis, as if bracing for a punch.",
+          "type": "cue"
+        },
+        {
+          "idea": "Do mobility work for the hip flexors and quads.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Control of the squat is lost."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "back_too_vertical",
+      "description": "Torso held upright instead of inclined at about 45 degrees.",
+      "kind": "form",
+      "sources": [
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Not leaning forward or sitting back enough.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Sit back, lean forward and point the nipples at the floor.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Balance is lost at the bottom."
+      ],
+      "disagreement": "Source 9 wants a torso inclined about 45 degrees, but sources 3, 6, 8 and 10 want an upright torso and chest.",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "feet_out_knees_straight",
+      "description": "The feet turn out but the knees stay pointing straight ahead.",
+      "kind": "safety",
+      "sources": [
+        0
+      ],
+      "causes": [
+        {
+          "cause": "Rotating only the foot and forgetting the rest of the leg.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Think about rotating the knees outward instead of the feet.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Torque at the knee and disrupted tracking.",
+        "Patella problems and pain."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "forcing_depth_passively",
+      "description": "Forcing depth through passive stretching instead of controlled range.",
+      "kind": "form",
+      "sources": [
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Relying on stretching rather than strength.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hold the bottom with light weight to build active flexibility.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Heels pop up and the back rounds.",
+        "The range is not usable."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "hip_shift_leg_imbalance",
+      "description": "Sliding to one side at the bottom or on the way up.",
+      "kind": "safety",
+      "sources": [
+        0
+      ],
+      "causes": [
+        {
+          "cause": "Trying to shift onto the stronger leg.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Strength differences between the legs.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Add unilateral work such as Bulgarian split squats, step-ups or lunges.",
+          "type": "drill"
+        },
+        {
+          "idea": "Use that work to find and fix imbalances.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Uneven loading toward the stronger leg, with a risk of hip impingement or labral tear."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "knees_held_back",
+      "description": "Holding the knees back so they can't pass the toes.",
+      "kind": "form",
+      "sources": [
+        0
+      ],
+      "causes": [
+        {
+          "cause": "Having heard that knees shouldn't go past the toes.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Let the shins track forward over the toes naturally.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Can't reach proper depth."
+      ],
+      "disagreement": "Source 3 calls knees shooting far past the toes bad for the knees, though it accepts this at low depth. Sources 0, 1, 5 and 7 want the knees to travel forward.",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "knees_too_far_forward",
+      "description": "Knees shoot forward excessively over the toes, breaking the straight shin line.",
+      "kind": "safety",
+      "sources": [
+        3
+      ],
+      "causes": [],
+      "fixes": [
+        {
+          "idea": "Hinge the hips back and keep the shins in a straight line.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Stress on the knees."
+      ],
+      "disagreement": "Source 0 says holding the knees back is the fault, and sources 1, 5 and 7 want the knees travelling forward.",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "no_hip_hinge",
+      "description": "Starting the squat by bending the knees instead of hinging the hips back.",
+      "kind": "form",
+      "sources": [
+        3
+      ],
+      "causes": [
+        {
+          "cause": "Believing the squat is mainly a knee-bending movement.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Practise hinging so the hips go back and down before the knees bend.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "pinchy_tight_hips",
+      "description": "Hips feel pinchy and tight at the front in the squat.",
+      "kind": "form",
+      "sources": [
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Limited hip internal rotation.",
+          "proximity": "fundamental"
+        },
+        {
+          "cause": "Poor spine and core stability.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Do side planks for the outer hip muscles and spine stability.",
+          "type": "drill"
+        },
+        {
+          "idea": "Practise hip internal rotation on the floor and in a squat.",
+          "type": "drill"
+        },
+        {
+          "idea": "Do single-leg glute bridges.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "An uncomfortable squat."
+      ],
+      "disagreement": "Source 7 says constant hip stretching is not the answer for most people.",
+      "n_sources": 1,
+      "support": "single"
+    }
+  ],
+  "sources": [
+    {
+      "id": "BZ1TUVr4LFk",
+      "title": "NEVER DO SQUATS LIKE THIS! | 10 Most Common Mistakes!",
+      "channel": "ATHLEAN-X\u2122",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "U3HlEF_E9fo",
+      "title": "How To Squat Properly: 3 Mistakes Harming Your Lower Back (FIX THESE!)",
+      "channel": "Jeremy Ethier",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "k-0OYcoyASk",
+      "title": "I Couldn\u2019t SQUAT For Years...Until I Did This",
+      "channel": "Oscar Moves",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "ULz4PCu0o0I",
+      "title": "Fixing Common Squat Mistakes (Are You Squatting Wrong?)",
+      "channel": "Renew Medical Fitness",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "niWFDg6wyD0",
+      "title": "STOP Doing Squats Like This After 60 \u2013 Do THIS Instead",
+      "channel": "Will Harlow \u2013\u00a0Over-Fifties Specialist Physio",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "M6_dNPSP2dQ",
+      "title": "Incorrect Squat Technique | Number One Biggest Squat Mistake",
+      "channel": "Cavemantraining\u2122",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Y7QEmD5MgDQ",
+      "title": "Can\u2019t Deep Squat? Here's The Fix",
+      "channel": "Dr. Alyssa Lu  ",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "BqF90pMpjb4",
+      "title": "Increase Squat Mobility FOREVER!",
+      "channel": "FitnessFAQs",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "0KtrNQre5rQ",
+      "title": "Fix Your Squat | Correct Bodyweight Squat Technique // School of Calisthenics",
+      "channel": "School of Calisthenics",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "nhoikoUEI8U",
+      "title": "Learning to Squat | The Starting Strength Method",
+      "channel": "Starting Strength",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "pRacPxOvzho",
+      "title": "Bodyweight Fundaments - Bodyweight Squat",
+      "channel": "Mark Wildman",
+      "tier": "coach_demo"
+    }
+  ]
+}

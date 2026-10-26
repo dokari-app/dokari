@@ -1,0 +1,10 @@
+[17:03] done old seed 0
+[17:03] done new seed 0
+[17:04] done old seed 1
+[17:04] done new seed 1
+[17:04] done old seed 2
+[17:05] done new seed 2
+old  labels | seeds 3 | trained on ~455 windows | scored 195 human windows | acc 0.472 | side acc 0.620 (n=100) | recall {'fh': '23/38', 'bh': '39/89', 'serve': '10/11', 'none': '20/57'}
+new  labels | seeds 3 | trained on ~455 windows | scored 195 human windows | acc 0.513 | side acc 0.667 (n=111) | recall {'fh': '18/38', 'bh': '56/89', 'serve': '8/11', 'none': '18/57'}
+new minus old on the same 195 windows: +0.041 accuracy (decision rule: continue to the full relabel only if this is at least +0.07)
+all finished

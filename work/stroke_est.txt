@@ -1,0 +1,2 @@
+{'tennis_backhand': 200, 'tennis_drop_shot': 112, 'tennis_forehand': 450, 'tennis_overhead_smash': 249, 'tennis_serve': 450, 'tennis_slice': 279, 'tennis_volley': 198} | swings 1938 | still to label 1938
+estimate: about 4.1 M input tokens, 388 calls (roughly $12 at $3 per million input tokens, approximate; output is small)

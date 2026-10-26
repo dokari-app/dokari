@@ -1,0 +1,279 @@
+{
+  "activity_id": "push_up",
+  "purpose": "Lower the body as one rigid straight line from a front-support plank position by bending the elbows until the chest is near the floor, then press back up to full arm extension, training chest, shoulder and triceps strength with a stable trunk.",
+  "search_queries": [
+    {
+      "query": "how to do a perfect push-up form side view",
+      "kind": "good_form"
+    },
+    {
+      "query": "push-up technique tutorial full body side angle",
+      "kind": "instruction"
+    },
+    {
+      "query": "push-up demonstration side view",
+      "kind": "demonstration"
+    },
+    {
+      "query": "push-up common mistakes sagging hips flared elbows",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "push up form mistakes and fixes",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "standard push-up proper form coach explains",
+      "kind": "instruction"
+    }
+  ],
+  "primary_features": [
+    "angle.elbow.dom",
+    "angle.elbow.non",
+    "height.wrist.dom",
+    "angle.shoulder.dom",
+    "reach.wrist.dom"
+  ],
+  "phases": [
+    {
+      "id": "top_support",
+      "description": "Start in high plank with arms extended, body in a straight line from head to heels."
+    },
+    {
+      "id": "lowering",
+      "description": "Bend the elbows and lower the body as one unit toward the floor under control."
+    },
+    {
+      "id": "bottom",
+      "description": "Chest near the floor, elbows bent to roughly 90 degrees or deeper, body still straight."
+    },
+    {
+      "id": "pressing",
+      "description": "Push the floor away, extending the elbows back to the top with the body staying rigid."
+    }
+  ],
+  "faults": [
+    {
+      "id": "hips_sagging",
+      "description": "Hips drop below the shoulder-ankle line so the lower back arches and the body is not a straight line.",
+      "severity": "high",
+      "caused_by": [
+        "weak_core_fatigue"
+      ],
+      "test": {
+        "feature": "angle.hip.dom",
+        "at_phase": "bottom",
+        "at_point": "start",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "straight_body_line",
+        "full_range_rep"
+      ],
+      "cue_intent": "Prompt the person to squeeze the abs and glutes to keep hips level with shoulders and heels.",
+      "ask_if_unsure_intent": "Ask whether the lower back feels like it is dipping or whether they feel the core tiring.",
+      "fix_intent": "Suggest bracing the core and glutes, or an easier variation such as incline push-ups, to hold a straight line."
+    },
+    {
+      "id": "weak_core_fatigue",
+      "description": "Loss of trunk tension, typically late in a set, which lets the hips drift out of line.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.hip.dom",
+        "at_phase": "pressing",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "straight_body_line"
+      ],
+      "cue_intent": "Remind to stay tight from head to heels through the whole rep.",
+      "ask_if_unsure_intent": "Ask how many reps they have done and whether they are tiring.",
+      "fix_intent": "Reduce rep count or switch to an easier variation and rest before continuing with good form."
+    },
+    {
+      "id": "hips_piked",
+      "description": "Hips rise above the shoulder-ankle line, forming an inverted V that reduces chest loading.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.hip.dom",
+        "at_phase": "top_support",
+        "at_point": "start",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "straight_body_line"
+      ],
+      "cue_intent": "Prompt the person to lower the hips into one line from shoulders to ankles.",
+      "ask_if_unsure_intent": "Ask whether they are shifting the hips up to make the movement easier.",
+      "fix_intent": "Reset the plank with the body in one straight line, then lower while keeping that line."
+    },
+    {
+      "id": "shallow_depth",
+      "description": "Elbows do not bend enough at the bottom, so the chest stays far from the floor and the rep is partial.",
+      "severity": "high",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "bottom",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "full_range_rep"
+      ],
+      "cue_intent": "Encourage lowering until the elbows reach about 90 degrees or the chest nears the floor.",
+      "ask_if_unsure_intent": "Ask whether the full depth feels too hard or they are stopping early on purpose.",
+      "fix_intent": "Lower more deeply under control, or use an incline variation to reach full depth with good form."
+    },
+    {
+      "id": "incomplete_lockout",
+      "description": "Elbows are not fully extended at the top of the rep.",
+      "severity": "low",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.elbow.dom",
+        "at_phase": "pressing",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "full_range_rep"
+      ],
+      "cue_intent": "Cue pressing all the way up until the arms are straight.",
+      "ask_if_unsure_intent": "Ask whether they are stopping short to keep tension or because of fatigue.",
+      "fix_intent": "Finish each rep by fully extending the elbows before starting the next lowering."
+    },
+    {
+      "id": "elbows_flared",
+      "description": "Upper arms point out far from the body at the bottom, approaching a 90-degree shoulder angle, instead of angled about 45 degrees from the trunk.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder.dom",
+        "at_phase": "bottom",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "efficient_pressing_path"
+      ],
+      "cue_intent": "Cue tucking the elbows to roughly 45 degrees from the body.",
+      "ask_if_unsure_intent": "Ask whether they feel strain in the front of the shoulders.",
+      "fix_intent": "Bring the hands slightly lower and the elbows closer to the ribs while lowering."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "straight_body_line",
+      "description": "Head, hips and heels remain in one straight line throughout the rep.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "full_range_rep",
+      "description": "The rep goes from full arm extension to the chest near the floor and back.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "efficient_pressing_path",
+      "description": "The arms and shoulders move through a stable, efficient pressing path.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.hip.dom",
+      "at_phase": "bottom",
+      "at_point": "start",
+      "outcome": "straight_body_line",
+      "effect": "higher_is_better",
+      "mechanism": "A hip angle near 180 degrees means the trunk and thighs are collinear, so the body acts as a rigid plank."
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "full_range_rep",
+      "effect": "lower_is_better",
+      "mechanism": "A deeper elbow bend brings the chest closer to the floor, completing the full range of motion."
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at_phase": "pressing",
+      "at_point": "end",
+      "outcome": "full_range_rep",
+      "effect": "higher_is_better",
+      "mechanism": "Full elbow extension at the top completes the range of motion."
+    },
+    {
+      "feature": "angle.shoulder.dom",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "efficient_pressing_path",
+      "effect": "mid_is_better",
+      "mechanism": "A moderate shoulder angle (elbows about 45 degrees from the trunk) balances chest and triceps loading versus excessive shoulder abduction."
+    },
+    {
+      "feature": "dist.wrist_width",
+      "at_phase": "top_support",
+      "at_point": "start",
+      "outcome": "efficient_pressing_path",
+      "effect": "mid_is_better",
+      "mechanism": "Hands about shoulder width apart set the elbow path; much wider or narrower shifts load between chest and triceps."
+    }
+  ],
+  "confusable_with": [
+    "plank",
+    "bench_press",
+    "burpee",
+    "tricep_dip",
+    "mountain_climber",
+    "squat"
+  ],
+  "session_ideas": [
+    "Set of 5-10 standard push-ups filmed from the side, with feedback on depth and body line.",
+    "Incline push-ups on a bench to practise a straight body line, then progress to the floor.",
+    "Tempo push-ups: 3 seconds down, 1 second up, to check control and depth."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "feature",
+      "name": "angle.shoulder_hip_ankle_line",
+      "why": "A direct body-line deviation angle (shoulder-hip-ankle) would assess sagging or piking more robustly than hip angle on the dominant side alone."
+    },
+    {
+      "kind": "feature",
+      "name": "height.chest_above_floor",
+      "why": "Chest-to-floor distance would measure push-up depth directly rather than inferring it from elbow angle."
+    },
+    {
+      "kind": "feature",
+      "name": "angle.elbow_flare_from_trunk_frontal",
+      "why": "Elbow flare is best seen from the front; the registry has only a sagittal shoulder angle."
+    }
+  ],
+  "attempt_events": [
+    {
+      "feature": "angle.elbow.dom",
+      "direction": "falls",
+      "peak_at_least": 105,
+      "seconds": 2.5
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 860,
+    "clips_with_attempts": 41,
+    "clips": 45,
+    "target_reached": true,
+    "rounds": 2
+  }
+}

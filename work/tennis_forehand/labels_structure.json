@@ -1,0 +1,4971 @@
+{
+ "model": "claude-sonnet-5-5",
+ "faults": [
+  "late_or_mistimed_preparation",
+  "short_or_stopped_follow_through",
+  "arm_only_takeback",
+  "arm_style_in_unit_turn",
+  "contact_face_angle_wrong",
+  "non_hitting_hand_misuse",
+  "poor_spacing_to_ball",
+  "rotation_late_or_blocked",
+  "take_back_too_big",
+  "takeback_arm_path",
+  "arm_pulling_in_on_acceleration",
+  "arm_started_swing_no_leg_drive",
+  "ball_behind_body_when_pushed_back",
+  "poor_shot_choice_and_target",
+  "racket_face_not_closed_backswing",
+  "tension_in_grip_and_contact",
+  "wrist_flexed_arm_cramped_at_contact",
+  "conscious_wrist_action",
+  "over_relying_on_legs",
+  "wrong_grip"
+ ],
+ "clips": {
+  "3ja7tvQFbQQ": {
+   "attempts": [
+    {
+     "window": [
+      27.17,
+      40.73
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      55.2,
+      67.73
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      73.0,
+      74.23
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      89.03,
+      93.77
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      105.53,
+      108.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      113.0,
+      116.9
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      116.9,
+      120.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      124.83,
+      126.17
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      133.03,
+      137.23
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      137.37,
+      145.67
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      155.77,
+      158.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      163.03,
+      165.1
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      169.67,
+      170.63
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      171.53,
+      174.0
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      178.97,
+      181.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "other"
+    }
+   ]
+  },
+  "4PnKAIKuypI": {
+   "attempts": [
+    {
+     "window": [
+      22.3,
+      25.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      46.87,
+      51.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      73.3,
+      74.83
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      95.43,
+      96.73
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      129.53,
+      130.63
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      146.13,
+      150.33
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      180.8,
+      182.3
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      187.87,
+      189.67
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      198.27,
+      199.37
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      238.2,
+      240.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      249.37,
+      252.1
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "rotation_late_or_blocked"
+     ],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      265.83,
+      270.17
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "rotation_late_or_blocked"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      298.77,
+      302.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "arm_style_in_unit_turn"
+     ],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      328.0,
+      328.9
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "short_or_stopped_follow_through"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      342.6,
+      345.4
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "short_or_stopped_follow_through",
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    }
+   ]
+  },
+  "7xdQDqILnSI": {
+   "attempts": [
+    {
+     "window": [
+      11.1,
+      18.97
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      34.63,
+      46.87
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      65.77,
+      70.1
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      107.3,
+      108.37
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      150.43,
+      151.87
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      173.83,
+      177.67
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      203.33,
+      205.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      219.1,
+      220.07
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      248.4,
+      252.67
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      278.63,
+      286.2
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      305.93,
+      312.77
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      346.47,
+      347.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      364.2,
+      365.97
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      379.6,
+      381.87
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      392.27,
+      394.4
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    }
+   ]
+  },
+  "D6C0g7zPaGk": {
+   "attempts": [
+    {
+     "window": [
+      5.57,
+      6.87
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      71.7,
+      73.0
+     ],
+     "not_an_attempt": false,
+     "stroke": "shadow swing",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      86.57,
+      87.93
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      101.97,
+      105.7
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      129.23,
+      130.63
+     ],
+     "not_an_attempt": false,
+     "stroke": "shadow swing",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      146.1,
+      147.87
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      169.37,
+      171.97
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      176.5,
+      177.67
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      184.1,
+      185.57
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      204.33,
+      205.97
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      217.83,
+      218.97
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      226.97,
+      228.27
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      238.83,
+      240.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      245.07,
+      246.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      263.83,
+      266.57
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    }
+   ]
+  },
+  "E0g3LNBhJeU": {
+   "attempts": [
+    {
+     "window": [
+      0.0,
+      4.67
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    },
+    {
+     "window": [
+      16.03,
+      22.97
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    },
+    {
+     "window": [
+      28.97,
+      30.63
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "take_back_too_big",
+      "arm_only_takeback"
+     ],
+     "segment": "other"
+    },
+    {
+     "window": [
+      60.03,
+      63.2
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "take_back_too_big",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      97.37,
+      99.27
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      104.0,
+      105.2
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "take_back_too_big",
+      "takeback_arm_path"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      108.63,
+      113.3
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      120.83,
+      121.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "take_back_too_big"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      127.03,
+      128.67
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "take_back_too_big",
+      "takeback_arm_path"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      130.33,
+      133.57
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "take_back_too_big",
+      "takeback_arm_path"
+     ],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      139.03,
+      140.4
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "take_back_too_big",
+      "takeback_arm_path"
+     ],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      170.23,
+      173.77
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      178.8,
+      179.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "take_back_too_big",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      181.8,
+      182.73
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "take_back_too_big",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      201.87,
+      205.43
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    }
+   ]
+  },
+  "EZuZTjn8I08": {
+   "attempts": [
+    {
+     "window": [
+      0.0,
+      3.57
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      30.53,
+      34.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      65.03,
+      66.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [
+      "short_or_stopped_follow_through"
+     ],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      100.8,
+      103.5
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      140.2,
+      142.17
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      176.47,
+      178.07
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      216.23,
+      218.47
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      254.43,
+      258.3
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      303.8,
+      306.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      335.57,
+      338.73
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "short_or_stopped_follow_through"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      362.03,
+      364.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      386.2,
+      387.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      415.4,
+      419.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [
+      "short_or_stopped_follow_through"
+     ],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      442.93,
+      444.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "short_or_stopped_follow_through"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      485.73,
+      489.9
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    }
+   ]
+  },
+  "V9QMvLauAls": {
+   "attempts": [
+    {
+     "window": [
+      23.2,
+      24.52
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "late_or_mistimed_preparation",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      24.52,
+      26.16
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      26.2,
+      27.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "late_or_mistimed_preparation",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      31.12,
+      32.64
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      32.64,
+      35.24
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "late_or_mistimed_preparation",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      37.04,
+      38.8
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      137.72,
+      146.76
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "late_or_mistimed_preparation",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      211.64,
+      213.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "late_or_mistimed_preparation"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      213.8,
+      222.52
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "late_or_mistimed_preparation",
+      "arm_only_takeback"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    }
+   ]
+  },
+  "YGZrgFsQCjg": {
+   "attempts": [
+    {
+     "window": [
+      12.35,
+      13.21
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    },
+    {
+     "window": [
+      18.85,
+      20.72
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    },
+    {
+     "window": [
+      47.28,
+      50.95
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      60.56,
+      61.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      74.77,
+      78.08
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      94.16,
+      97.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      108.64,
+      110.58
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      121.65,
+      123.82
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      135.6,
+      139.47
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      170.24,
+      184.85
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      217.58,
+      223.19
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      238.44,
+      242.14
+     ],
+     "not_an_attempt": false,
+     "stroke": "backhand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      257.86,
+      260.76
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      270.54,
+      273.44
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      292.76,
+      297.86
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    }
+   ]
+  },
+  "aMMtit2VFTc": {
+   "attempts": [
+    {
+     "window": [
+      1.47,
+      3.2
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      35.53,
+      38.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      73.33,
+      76.47
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      109.1,
+      112.83
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      141.67,
+      144.7
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      183.93,
+      189.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      223.37,
+      225.8
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      257.63,
+      258.93
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      301.6,
+      303.4
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      331.4,
+      337.0
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      369.87,
+      372.07
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      397.27,
+      399.87
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      429.43,
+      431.0
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      456.3,
+      461.57
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      488.47,
+      491.83
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "other"
+    }
+   ]
+  },
+  "gA4mDtJlPF0": {
+   "attempts": [
+    {
+     "window": [
+      15.31,
+      18.64
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      19.23,
+      20.81
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      28.03,
+      41.25
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      61.35,
+      62.94
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      63.73,
+      67.32
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      68.19,
+      70.86
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      70.99,
+      74.45
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      131.59,
+      139.51
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      191.44,
+      194.19
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback",
+      "take_back_too_big"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      223.85,
+      235.15
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    }
+   ]
+  },
+  "iXvWh-xMSd0": {
+   "attempts": [
+    {
+     "window": [
+      18.24,
+      22.72
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      37.6,
+      42.64
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      85.96,
+      95.04
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      104.28,
+      108.56
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      118.48,
+      137.28
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      137.28,
+      150.28
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      152.96,
+      154.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      175.84,
+      194.56
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "late_or_mistimed_preparation"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      356.4,
+      362.36
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      366.08,
+      370.4
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      381.68,
+      393.72
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      458.0,
+      459.56
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      502.04,
+      505.2
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      518.56,
+      521.48
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      533.64,
+      536.28
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    }
+   ]
+  },
+  "q4A9i-RFTvY": {
+   "attempts": [
+    {
+     "window": [
+      3.37,
+      4.57
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      31.17,
+      32.93
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      60.13,
+      61.93
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      82.37,
+      84.5
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      118.13,
+      120.23
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      200.8,
+      201.9
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      224.77,
+      226.37
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      247.07,
+      248.53
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      279.63,
+      281.9
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      325.73,
+      327.63
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      344.0,
+      346.37
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [
+      "takeback_arm_path"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      385.83,
+      388.17
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      425.67,
+      426.7
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      446.0,
+      448.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      463.57,
+      465.6
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    }
+   ]
+  },
+  "qfMVnQ07pcI": {
+   "attempts": [
+    {
+     "window": [
+      1.33,
+      12.97
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      40.43,
+      41.23
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      47.47,
+      48.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback",
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      62.17,
+      70.37
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      122.57,
+      124.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      150.37,
+      151.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "non_hitting_hand_misuse"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      176.17,
+      184.2
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      222.43,
+      225.73
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      244.03,
+      248.57
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "late_or_mistimed_preparation"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      298.23,
+      304.03
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      346.07,
+      347.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "late_or_mistimed_preparation",
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      361.7,
+      369.1
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      378.43,
+      387.1
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      421.8,
+      425.97
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      435.33,
+      436.7
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "talking"
+    }
+   ]
+  },
+  "tTkRZz3P4WM": {
+   "attempts": [
+    {
+     "window": [
+      16.42,
+      23.69
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      57.89,
+      62.13
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      219.72,
+      230.16
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      246.28,
+      249.95
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      288.69,
+      298.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      334.57,
+      339.47
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      374.61,
+      379.71
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      429.93,
+      431.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      441.64,
+      449.12
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "poor_spacing_to_ball"
+     ],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      471.9,
+      476.01
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      507.87,
+      509.21
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      518.05,
+      519.02
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      527.06,
+      528.86
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      550.08,
+      553.55
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      571.97,
+      573.27
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    }
+   ]
+  },
+  "uDwKji3EC6M": {
+   "attempts": [
+    {
+     "window": [
+      33.41,
+      38.87
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      59.23,
+      62.15
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      62.15,
+      63.81
+     ],
+     "not_an_attempt": true,
+     "stroke": "serve",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      104.56,
+      118.45
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      118.45,
+      126.25
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      126.25,
+      132.97
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      138.26,
+      153.57
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      154.07,
+      167.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      187.56,
+      198.11
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      198.74,
+      206.66
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      214.59,
+      231.9
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      231.9,
+      247.0
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      316.4,
+      335.25
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    }
+   ]
+  },
+  "uXF4jhDcX2A": {
+   "attempts": [
+    {
+     "window": [
+      47.7,
+      49.1
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      56.3,
+      59.37
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      70.2,
+      79.93
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      87.37,
+      95.9
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      111.17,
+      118.8
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      120.87,
+      125.3
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "takeback_arm_path"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      125.33,
+      126.6
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      126.97,
+      129.27
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      173.83,
+      179.37
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      194.3,
+      199.37
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      216.27,
+      218.07
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      239.17,
+      241.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      241.97,
+      243.9
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      244.2,
+      246.67
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      252.63,
+      256.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    }
+   ]
+  },
+  "uXGwWhOj6P4": {
+   "attempts": [
+    {
+     "window": [
+      14.97,
+      21.6
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      92.17,
+      95.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "serve",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      102.87,
+      107.27
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      195.8,
+      203.63
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      205.2,
+      209.37
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      266.43,
+      270.3
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      273.4,
+      280.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      323.0,
+      328.3
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      332.2,
+      335.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      335.13,
+      337.87
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      361.17,
+      371.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      377.53,
+      381.87
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      388.67,
+      391.33
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      398.2,
+      401.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      479.63,
+      483.87
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [
+      "poor_spacing_to_ball"
+     ],
+     "absent": [],
+     "segment": "right_demo"
+    }
+   ]
+  },
+  "ukNZF2Q9ki0": {
+   "attempts": [
+    {
+     "window": [
+      5.91,
+      7.07
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "other"
+    },
+    {
+     "window": [
+      10.11,
+      22.29
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      62.93,
+      73.47
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      73.51,
+      75.64
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      76.44,
+      80.28
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      80.28,
+      85.45
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      86.72,
+      89.89
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      93.66,
+      100.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      101.13,
+      111.48
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "match_play"
+    },
+    {
+     "window": [
+      111.48,
+      120.35
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      124.96,
+      127.39
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      131.2,
+      140.34
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      154.25,
+      161.29
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      161.29,
+      166.97
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      167.67,
+      168.94
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    }
+   ]
+  },
+  "vX_xBFeAIcg": {
+   "attempts": [
+    {
+     "window": [
+      11.8,
+      14.9
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      55.87,
+      59.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      66.33,
+      67.5
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      75.77,
+      77.03
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      97.53,
+      100.73
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      109.03,
+      110.77
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      117.5,
+      118.53
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "talking"
+    },
+    {
+     "window": [
+      130.33,
+      131.67
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      150.13,
+      168.63
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "mixed_demo"
+    },
+    {
+     "window": [
+      183.03,
+      184.87
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      191.87,
+      197.2
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      203.5,
+      204.47
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      211.97,
+      212.83
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback",
+      "short_or_stopped_follow_through"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      217.53,
+      218.8
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      241.73,
+      243.73
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    }
+   ]
+  },
+  "zPbtp0WtHA4": {
+   "attempts": [
+    {
+     "window": [
+      16.78,
+      24.92
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": false,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      33.83,
+      36.9
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      102.74,
+      115.32
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      115.32,
+      119.89
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      124.16,
+      128.66
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "arm_only_takeback",
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      157.82,
+      161.06
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      161.06,
+      164.9
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      169.37,
+      170.77
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      170.87,
+      174.34
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      174.34,
+      182.12
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      189.26,
+      196.26
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "wrong_demo"
+    },
+    {
+     "window": [
+      198.5,
+      207.07
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      213.81,
+      223.62
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      232.6,
+      235.13
+     ],
+     "not_an_attempt": false,
+     "stroke": "forehand",
+     "view_clean": true,
+     "present": [],
+     "absent": [
+      "non_hitting_hand_misuse"
+     ],
+     "segment": "right_demo"
+    },
+    {
+     "window": [
+      235.13,
+      238.64
+     ],
+     "not_an_attempt": true,
+     "stroke": "none",
+     "view_clean": true,
+     "present": [],
+     "absent": [],
+     "segment": "right_demo"
+    }
+   ]
+  }
+ },
+ "aliases": {},
+ "structure": {
+  "3ja7tvQFbQQ": [
+   {
+    "start": 0.0,
+    "end": 47.0,
+    "kind": "talking",
+    "note": "Coach introduces the off-hand/off-arm; explains the fault of the off arm dropping right before the swing"
+   },
+   {
+    "start": 47.0,
+    "end": 57.0,
+    "kind": "other",
+    "note": "Text card: keep off arm up around shoulder level, use it to assist rotation"
+   },
+   {
+    "start": 57.0,
+    "end": 78.0,
+    "kind": "talking",
+    "note": "Coach says pros keep the arm steady and introduces Max for wrong and right demos"
+   },
+   {
+    "start": 78.0,
+    "end": 100.0,
+    "kind": "talking",
+    "note": "Coach and Max set up the demo; the off-hand dropping before contact is the fault"
+   },
+   {
+    "start": 100.0,
+    "end": 120.0,
+    "kind": "wrong_demo",
+    "note": "Max hits with the off-hand dropping early, so the body is disconnected and he just swings with his arm"
+   },
+   {
+    "start": 120.0,
+    "end": 128.0,
+    "kind": "talking",
+    "note": "Coach says the next demo will keep the off-hand up and steady"
+   },
+   {
+    "start": 128.0,
+    "end": 175.0,
+    "kind": "right_demo",
+    "note": "Max keeps the off-hand at shoulder height and uses it to help core rotation"
+   },
+   {
+    "start": 175.0,
+    "end": 195.0,
+    "kind": "other",
+    "note": "Wrap-up and outro; Max stands after hitting"
+   }
+  ],
+  "4PnKAIKuypI": [
+   {
+    "start": 0.0,
+    "end": 20.0,
+    "kind": "talking",
+    "note": "Intro: title card, five forehand mistakes"
+   },
+   {
+    "start": 20.0,
+    "end": 44.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 1: left arm stuck and not helping, body stuck"
+   },
+   {
+    "start": 44.0,
+    "end": 70.0,
+    "kind": "right_demo",
+    "note": "Left arm up to the ball, swing through, catch racket behind head"
+   },
+   {
+    "start": 70.0,
+    "end": 100.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 2: not getting under the ball, wrist breaks"
+   },
+   {
+    "start": 100.0,
+    "end": 150.0,
+    "kind": "mixed_demo",
+    "note": "Turn so racket butt faces ball; Federer example; dropping racket alone is not enough"
+   },
+   {
+    "start": 150.0,
+    "end": 160.0,
+    "kind": "mixed_demo",
+    "note": "Wrong one again, then correct way"
+   },
+   {
+    "start": 160.0,
+    "end": 195.0,
+    "kind": "talking",
+    "note": "Mistake 3: hitting without bending legs, explained"
+   },
+   {
+    "start": 195.0,
+    "end": 260.0,
+    "kind": "right_demo",
+    "note": "Bent legs, low center of gravity on forehand (green check)"
+   },
+   {
+    "start": 260.0,
+    "end": 275.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 4: opening the left shoulder early, body pulls open"
+   },
+   {
+    "start": 275.0,
+    "end": 330.0,
+    "kind": "right_demo",
+    "note": "Set up, rack it all the way through, then body follows; hips"
+   },
+   {
+    "start": 330.0,
+    "end": 345.0,
+    "kind": "mixed_demo",
+    "note": "Mistake 5: straightening arm at back and racket crossing body, then correct way with bent elbow"
+   },
+   {
+    "start": 345.0,
+    "end": 360.0,
+    "kind": "talking",
+    "note": "Wrap-up and outro, subscribe"
+   }
+  ],
+  "7xdQDqILnSI": [
+   {
+    "start": 0.0,
+    "end": 55.0,
+    "kind": "talking",
+    "note": "Intro: falling back vs pulling back; narrow/closed stance causes loss of balance; coach explains the setup with small stance demos"
+   },
+   {
+    "start": 55.0,
+    "end": 100.0,
+    "kind": "right_demo",
+    "note": "Wide base, back leg behind, non-dominant side pulls back while hitting moving backwards"
+   },
+   {
+    "start": 100.0,
+    "end": 120.0,
+    "kind": "wrong_demo",
+    "note": "Mistake: spinning in a circle, shortens the stroke"
+   },
+   {
+    "start": 120.0,
+    "end": 150.0,
+    "kind": "mixed_demo",
+    "note": "Closed stance, front foot lifts and falling back, then separating feet with dominant leg outside and behind"
+   },
+   {
+    "start": 150.0,
+    "end": 205.0,
+    "kind": "mixed_demo",
+    "note": "Student tries the drill, still falls backwards; coach corrects to stay on the outside"
+   },
+   {
+    "start": 205.0,
+    "end": 235.0,
+    "kind": "wrong_demo",
+    "note": "Coach shows falling back and gentle hitting as compensation"
+   },
+   {
+    "start": 235.0,
+    "end": 290.0,
+    "kind": "right_demo",
+    "note": "Pulling back, not falling back: rotated with full finish, wide feet, dominant leg outside"
+   },
+   {
+    "start": 290.0,
+    "end": 320.0,
+    "kind": "wrong_demo",
+    "note": "Don't spin in a circle, reduces range of motion; demo of small spinning swing"
+   },
+   {
+    "start": 320.0,
+    "end": 345.0,
+    "kind": "right_demo",
+    "note": "Maintain wide base for bigger radius and a longer finish"
+   },
+   {
+    "start": 345.0,
+    "end": 397.0,
+    "kind": "match_play",
+    "note": "Student practices on the run with fed balls, coach encourages; ends with falling back vs pulling back comparison"
+   }
+  ],
+  "D6C0g7zPaGk": [
+   {
+    "start": 0.0,
+    "end": 24.0,
+    "kind": "talking",
+    "note": "Intro: eastern forehand grip and common mistakes"
+   },
+   {
+    "start": 24.0,
+    "end": 59.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 1: turning flat/down with eastern grip, old school"
+   },
+   {
+    "start": 59.0,
+    "end": 70.0,
+    "kind": "talking",
+    "note": "Explains still need to turn up with the elbow for spin and power"
+   },
+   {
+    "start": 70.0,
+    "end": 103.0,
+    "kind": "right_demo",
+    "note": "Correct turn: make space, elbow up, spin and power like Federer"
+   },
+   {
+    "start": 103.0,
+    "end": 135.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 2: slow forward follow-through, just placing the ball"
+   },
+   {
+    "start": 135.0,
+    "end": 157.0,
+    "kind": "talking",
+    "note": "Use the wrist, lag at contact, strings close over the ball"
+   },
+   {
+    "start": 157.0,
+    "end": 200.0,
+    "kind": "right_demo",
+    "note": "Correct: wrist cocked, brush over ball, release, racquet speed"
+   },
+   {
+    "start": 200.0,
+    "end": 230.0,
+    "kind": "talking",
+    "note": "Mistake 3: thinking racket head speed is only for western grips; don't guide"
+   },
+   {
+    "start": 230.0,
+    "end": 263.0,
+    "kind": "right_demo",
+    "note": "Demo swinging as quick as possible with eastern grip, elbow up, racket edge"
+   },
+   {
+    "start": 263.0,
+    "end": 275.0,
+    "kind": "talking",
+    "note": "Wrap-up and promo for western forehand video"
+   }
+  ],
+  "E0g3LNBhJeU": [
+   {
+    "start": 0.0,
+    "end": 34.0,
+    "kind": "other",
+    "note": "Intro and sponsor plugs over Khachanov match footage, then setting up the lesson"
+   },
+   {
+    "start": 34.0,
+    "end": 70.0,
+    "kind": "right_demo",
+    "note": "Khachanov's forehand: racket stays on the chest/hitting side of the body, filmed from behind"
+   },
+   {
+    "start": 70.0,
+    "end": 85.0,
+    "kind": "other",
+    "note": "Switch to the TopspinPro and its affiliate link, saying what he'll demonstrate"
+   },
+   {
+    "start": 85.0,
+    "end": 117.0,
+    "kind": "wrong_demo",
+    "note": "Big backswing with the racket going behind the body, on the back side; leads to being late and rushed"
+   },
+   {
+    "start": 117.0,
+    "end": 128.0,
+    "kind": "talking",
+    "note": "Explains the problem: you must stand farther back. Says to keep the swing on the hitting side"
+   },
+   {
+    "start": 128.0,
+    "end": 143.0,
+    "kind": "right_demo",
+    "note": "Split step, then a circular swing with the racket kept on the hitting side"
+   },
+   {
+    "start": 143.0,
+    "end": 166.0,
+    "kind": "talking",
+    "note": "A bigger swing doesn't give more power. A compact swing is easier to time and can be faster"
+   },
+   {
+    "start": 166.0,
+    "end": 190.0,
+    "kind": "right_demo",
+    "note": "Split, circular swing, racket kept on the chest side"
+   },
+   {
+    "start": 190.0,
+    "end": 210.0,
+    "kind": "talking",
+    "note": "Wrap-up: film yourself, review the footage, keep the racket on the hitting side. Sign-off"
+   }
+  ],
+  "EZuZTjn8I08": [
+   {
+    "start": 0.0,
+    "end": 24.0,
+    "kind": "talking",
+    "note": "Intro: too much topspin thinking ruins forehand; drill progression preview"
+   },
+   {
+    "start": 24.0,
+    "end": 78.0,
+    "kind": "mixed_demo",
+    "note": "Why topspin; steep vertical swing causes frame shots, with swings shown"
+   },
+   {
+    "start": 78.0,
+    "end": 96.0,
+    "kind": "talking",
+    "note": "Lack of depth from vertical swing; today's focus: less vertical forward swing"
+   },
+   {
+    "start": 96.0,
+    "end": 143.0,
+    "kind": "right_demo",
+    "note": "Step 1 washing machine drill: loose arms rotating at same height, no racket"
+   },
+   {
+    "start": 143.0,
+    "end": 207.0,
+    "kind": "right_demo",
+    "note": "Step 2 shadow swings with chest rotation, long forward line"
+   },
+   {
+    "start": 207.0,
+    "end": 243.0,
+    "kind": "right_demo",
+    "note": "Step 3 drop and feed, brushing forward and upward at contact"
+   },
+   {
+    "start": 243.0,
+    "end": 292.0,
+    "kind": "right_demo",
+    "note": "Step 3 on the move and Step 4 live rally application, horizontal motion"
+   },
+   {
+    "start": 292.0,
+    "end": 335.0,
+    "kind": "mixed_demo",
+    "note": "Trap: flattening swing completely into net or long; keep gradual rise"
+   },
+   {
+    "start": 335.0,
+    "end": 393.0,
+    "kind": "wrong_demo",
+    "note": "Steep vertical swing explained: frame shots, weak short ball, loss of point control"
+   },
+   {
+    "start": 393.0,
+    "end": 440.0,
+    "kind": "mixed_demo",
+    "note": "Side-by-side before (steep upward) and after (rotation, long path) forms"
+   },
+   {
+    "start": 440.0,
+    "end": 493.0,
+    "kind": "talking",
+    "note": "Key words advice and outro"
+   }
+  ],
+  "V9QMvLauAls": [
+   {
+    "start": 0.0,
+    "end": 12.0,
+    "kind": "talking",
+    "note": "Intro: exercise showing early vs late preparation (black screen then coach)"
+   },
+   {
+    "start": 12.0,
+    "end": 35.0,
+    "kind": "right_demo",
+    "note": "Real-speed early preparation: split step and unit turn at opponent's contact"
+   },
+   {
+    "start": 35.0,
+    "end": 147.0,
+    "kind": "right_demo",
+    "note": "Super slow motion of early preparation: split step, shoulders turn, racket drops late, low-to-high"
+   },
+   {
+    "start": 147.0,
+    "end": 157.0,
+    "kind": "talking",
+    "note": "Transition to exaggerated late preparation comparison"
+   },
+   {
+    "start": 157.0,
+    "end": 238.0,
+    "kind": "wrong_demo",
+    "note": "Late preparation: no unit turn, open chin-over-chest, arm-only swing, linear path"
+   },
+   {
+    "start": 238.0,
+    "end": 258.0,
+    "kind": "talking",
+    "note": "Coach summarizes: body does the talking, not the arm; visual for the court"
+   },
+   {
+    "start": 258.0,
+    "end": 283.0,
+    "kind": "other",
+    "note": "Outro and private lesson promotion"
+   },
+   {
+    "start": 283.0,
+    "end": 303.0,
+    "kind": "other",
+    "note": "End screen"
+   }
+  ],
+  "YGZrgFsQCjg": [
+   {
+    "start": 0.0,
+    "end": 20.0,
+    "kind": "other",
+    "note": "Title/intro graphic"
+   },
+   {
+    "start": 20.0,
+    "end": 45.0,
+    "kind": "talking",
+    "note": "Intro on court, serve/feed shown, topic is non-hitting arm"
+   },
+   {
+    "start": 45.0,
+    "end": 125.0,
+    "kind": "wrong_demo",
+    "note": "Non-hitting arm failure resulting in error, forehand swings shown"
+   },
+   {
+    "start": 125.0,
+    "end": 150.0,
+    "kind": "mixed_demo",
+    "note": "Forehand swings from behind, unclear if mistake or fix"
+   },
+   {
+    "start": 150.0,
+    "end": 215.0,
+    "kind": "wrong_demo",
+    "note": "More examples of non-hitting arm failure resulting in error"
+   },
+   {
+    "start": 215.0,
+    "end": 240.0,
+    "kind": "mixed_demo",
+    "note": "Swings with non-hitting arm, transition"
+   },
+   {
+    "start": 240.0,
+    "end": 262.0,
+    "kind": "talking",
+    "note": "Transition graphic and explanation of non-hitting arm"
+   },
+   {
+    "start": 262.0,
+    "end": 301.0,
+    "kind": "right_demo",
+    "note": "Correct use of non-hitting arm on forehand"
+   }
+  ],
+  "aMMtit2VFTc": [
+   {
+    "start": 0.0,
+    "end": 24.0,
+    "kind": "mixed_demo",
+    "note": "Intro: forehand swings shown while describing reaching arm vs stepping into heavy ball"
+   },
+   {
+    "start": 24.0,
+    "end": 80.0,
+    "kind": "talking",
+    "note": "Principle: adjust distance with feet, keep arm structure locked; arm adjustment is a trap"
+   },
+   {
+    "start": 80.0,
+    "end": 96.0,
+    "kind": "other",
+    "note": "Title card: 4 drills"
+   },
+   {
+    "start": 96.0,
+    "end": 125.0,
+    "kind": "right_demo",
+    "note": "Step one: contact freeze shadow swing, pause at 45\u00b0 contact point"
+   },
+   {
+    "start": 125.0,
+    "end": 220.0,
+    "kind": "right_demo",
+    "note": "Step two: anchor foot placed 2/3 racket length from bounce marker, then forward step and shadow swing"
+   },
+   {
+    "start": 220.0,
+    "end": 275.0,
+    "kind": "right_demo",
+    "note": "Step three: semicircle drill, anchor foot pinned, stance step to points on semicircle"
+   },
+   {
+    "start": 275.0,
+    "end": 330.0,
+    "kind": "match_play",
+    "note": "Step four: stable arm long rally, legs do the adjusting"
+   },
+   {
+    "start": 330.0,
+    "end": 380.0,
+    "kind": "talking",
+    "note": "Caveats: emergency balls, lazy feet, arm tries to save the shot; subscribe plug"
+   },
+   {
+    "start": 380.0,
+    "end": 425.0,
+    "kind": "wrong_demo",
+    "note": "Why the habit happens: frozen feet, flailing arm, jammed (black and white footage)"
+   },
+   {
+    "start": 425.0,
+    "end": 470.0,
+    "kind": "mixed_demo",
+    "note": "Side-by-side before (static feet, frantic arm) vs after (quiet upper body, legs working)"
+   },
+   {
+    "start": 470.0,
+    "end": 494.0,
+    "kind": "other",
+    "note": "Outro: save video, channel sign-off"
+   }
+  ],
+  "gA4mDtJlPF0": [
+   {
+    "start": 0.0,
+    "end": 20.0,
+    "kind": "match_play",
+    "note": "Intro clip of forehand rally/hitting indoors"
+   },
+   {
+    "start": 20.0,
+    "end": 45.0,
+    "kind": "talking",
+    "note": "Coach Vincent Simone introduces himself and the lesson"
+   },
+   {
+    "start": 45.0,
+    "end": 100.0,
+    "kind": "talking",
+    "note": "Step 1: ready position, grip and stance explained"
+   },
+   {
+    "start": 100.0,
+    "end": 125.0,
+    "kind": "mixed_demo",
+    "note": "Step 2: unit turn shown, starting the demo"
+   },
+   {
+    "start": 125.0,
+    "end": 150.0,
+    "kind": "right_demo",
+    "note": "Unit turn with shoulders and racket turned together"
+   },
+   {
+    "start": 150.0,
+    "end": 180.0,
+    "kind": "right_demo",
+    "note": "Step 3: the jab, racket pointing back with a step into the shot"
+   },
+   {
+    "start": 180.0,
+    "end": 235.0,
+    "kind": "talking",
+    "note": "Explaining the jab and its purpose, with few swings"
+   },
+   {
+    "start": 235.0,
+    "end": 293.0,
+    "kind": "mixed_demo",
+    "note": "Jab demonstrated and recapped with racket movements"
+   }
+  ],
+  "iXvWh-xMSd0": [
+   {
+    "start": 0.0,
+    "end": 20.0,
+    "kind": "other",
+    "note": "Intro title/blank screen"
+   },
+   {
+    "start": 20.0,
+    "end": 95.0,
+    "kind": "talking",
+    "note": "Coach introduces the topic standing on court"
+   },
+   {
+    "start": 95.0,
+    "end": 140.0,
+    "kind": "match_play",
+    "note": "Rallying from behind the coach, forehand hitting shown"
+   },
+   {
+    "start": 140.0,
+    "end": 195.0,
+    "kind": "talking",
+    "note": "Coach explains at the net-side of court"
+   },
+   {
+    "start": 195.0,
+    "end": 300.0,
+    "kind": "mixed_demo",
+    "note": "Woman player hitting forehands, practice swings with unclear fault/correction"
+   },
+   {
+    "start": 300.0,
+    "end": 400.0,
+    "kind": "talking",
+    "note": "Coach explains grip/racket with little swinging"
+   },
+   {
+    "start": 400.0,
+    "end": 450.0,
+    "kind": "mixed_demo",
+    "note": "Before/After split-screen comparison of forehand"
+   },
+   {
+    "start": 450.0,
+    "end": 510.0,
+    "kind": "talking",
+    "note": "Coach summarizes on court"
+   },
+   {
+    "start": 510.0,
+    "end": 565.0,
+    "kind": "match_play",
+    "note": "Coach rallies forehands with partner"
+   },
+   {
+    "start": 565.0,
+    "end": 578.0,
+    "kind": "other",
+    "note": "End card FeelTennis.net"
+   }
+  ],
+  "q4A9i-RFTvY": [
+   {
+    "start": 0.0,
+    "end": 33.0,
+    "kind": "talking",
+    "note": "Intro and overview of four things to avoid in the forehand"
+   },
+   {
+    "start": 33.0,
+    "end": 78.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 1: wrist and racket angle too open, with errors and lack of control"
+   },
+   {
+    "start": 78.0,
+    "end": 125.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 2: wrist closed too much, shots hit the net and are predictable"
+   },
+   {
+    "start": 125.0,
+    "end": 200.0,
+    "kind": "right_demo",
+    "note": "Fix: neutral grip, arm at 90 degrees, follow through to the forehead"
+   },
+   {
+    "start": 200.0,
+    "end": 290.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 3: hitting with just the arm, with its consequences"
+   },
+   {
+    "start": 290.0,
+    "end": 340.0,
+    "kind": "right_demo",
+    "note": "Fix: rotate shoulders and upper body, then follow through"
+   },
+   {
+    "start": 340.0,
+    "end": 430.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 4: arm or racket dropping by itself"
+   },
+   {
+    "start": 430.0,
+    "end": 462.0,
+    "kind": "right_demo",
+    "note": "Fix: keep the racket above the hips and bend with legs and core"
+   },
+   {
+    "start": 462.0,
+    "end": 487.0,
+    "kind": "other",
+    "note": "Outro and subscribe request, black screen"
+   }
+  ],
+  "qfMVnQ07pcI": [
+   {
+    "start": 0.0,
+    "end": 31.0,
+    "kind": "mixed_demo",
+    "note": "Teaser preview clips of wrong vs correct swings (open, fast, no drop)"
+   },
+   {
+    "start": 31.0,
+    "end": 66.0,
+    "kind": "talking",
+    "note": "Intro: Milan introduces channel and the three mistakes plus bonus"
+   },
+   {
+    "start": 66.0,
+    "end": 115.0,
+    "kind": "talking",
+    "note": "Mistake 1: non-dominant arm not used properly, explanation"
+   },
+   {
+    "start": 115.0,
+    "end": 150.0,
+    "kind": "mixed_demo",
+    "note": "Left arm stays in front (wrong) vs following the arms close for coil (right)"
+   },
+   {
+    "start": 150.0,
+    "end": 200.0,
+    "kind": "talking",
+    "note": "Mistake 2: timing of swing, split step, late or early start"
+   },
+   {
+    "start": 200.0,
+    "end": 245.0,
+    "kind": "mixed_demo",
+    "note": "Correct timing: early start, power position at bounce; demonstrations"
+   },
+   {
+    "start": 245.0,
+    "end": 278.0,
+    "kind": "wrong_demo",
+    "note": "Wrong timing: rushed, broken swing"
+   },
+   {
+    "start": 278.0,
+    "end": 295.0,
+    "kind": "right_demo",
+    "note": "Good timing demonstrated"
+   },
+   {
+    "start": 295.0,
+    "end": 325.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 3: no racket drop, swinging directly from power position"
+   },
+   {
+    "start": 325.0,
+    "end": 357.0,
+    "kind": "right_demo",
+    "note": "Correct racket drop: drop the arm from handle, lag"
+   },
+   {
+    "start": 357.0,
+    "end": 400.0,
+    "kind": "mixed_demo",
+    "note": "Bonus mistake: balance, head moving, moving too early vs staying balanced"
+   },
+   {
+    "start": 400.0,
+    "end": 452.0,
+    "kind": "talking",
+    "note": "Recap of four mistakes with short demos"
+   },
+   {
+    "start": 452.0,
+    "end": 471.0,
+    "kind": "other",
+    "note": "Outro and black screen"
+   }
+  ],
+  "tTkRZz3P4WM": [
+   {
+    "start": 0.0,
+    "end": 220.0,
+    "kind": "talking",
+    "note": "Intro: sideways distance, strike zone, grip effects, footwork and 'get behind the ball' cue explained"
+   },
+   {
+    "start": 220.0,
+    "end": 276.0,
+    "kind": "talking",
+    "note": "Spacing leg concept, starting with closed stance"
+   },
+   {
+    "start": 276.0,
+    "end": 330.0,
+    "kind": "mixed_demo",
+    "note": "Closed stance spacing: balanced setup vs too far away with head toppling"
+   },
+   {
+    "start": 330.0,
+    "end": 400.0,
+    "kind": "mixed_demo",
+    "note": "Too far and too close on closed stance (jammed, stepping away), versus balanced"
+   },
+   {
+    "start": 400.0,
+    "end": 470.0,
+    "kind": "mixed_demo",
+    "note": "Open/semi-open stance spacing with outside leg; too close jammed, leaning"
+   },
+   {
+    "start": 470.0,
+    "end": 520.0,
+    "kind": "talking",
+    "note": "How to practice slowly with ball machine; balance and weight transfer"
+   },
+   {
+    "start": 520.0,
+    "end": 600.0,
+    "kind": "mixed_demo",
+    "note": "Increase movement distance, big explosive first steps, adjustment steps, long last stride; outro"
+   }
+  ],
+  "uDwKji3EC6M": [
+   {
+    "start": 0.0,
+    "end": 24.0,
+    "kind": "talking",
+    "note": "Intro: Jeff introduces Yuri and the footwork topic, asks for a like"
+   },
+   {
+    "start": 24.0,
+    "end": 53.0,
+    "kind": "match_play",
+    "note": "Full point played through with no commentary"
+   },
+   {
+    "start": 53.0,
+    "end": 69.0,
+    "kind": "talking",
+    "note": "Setting up the shot-by-shot breakdown"
+   },
+   {
+    "start": 69.0,
+    "end": 126.0,
+    "kind": "wrong_demo",
+    "note": "First ball: late split step, drop step instead of moving up, short ball"
+   },
+   {
+    "start": 126.0,
+    "end": 160.0,
+    "kind": "mixed_demo",
+    "note": "Shot selection inside-in vs inside-out; praises the finish over the shoulder"
+   },
+   {
+    "start": 160.0,
+    "end": 224.0,
+    "kind": "wrong_demo",
+    "note": "Run-around forehand: shuffle okay but too sideways, should face net more with shoulder turn"
+   },
+   {
+    "start": 224.0,
+    "end": 286.0,
+    "kind": "wrong_demo",
+    "note": "Approach shot from poor position, hits inside-in and goes in, leaving cross court open"
+   },
+   {
+    "start": 286.0,
+    "end": 311.0,
+    "kind": "talking",
+    "note": "Summary of three mistakes: split step, drop step, sideways run-around, shot selection"
+   },
+   {
+    "start": 311.0,
+    "end": 351.0,
+    "kind": "other",
+    "note": "Outro, call to action, subscribe, end screen"
+   }
+  ],
+  "uXF4jhDcX2A": [
+   {
+    "start": 0.0,
+    "end": 10.0,
+    "kind": "other",
+    "note": "Title/music intro"
+   },
+   {
+    "start": 10.0,
+    "end": 32.0,
+    "kind": "talking",
+    "note": "Coach introduces himself and the topic of common forehand mistakes, grip and ready position"
+   },
+   {
+    "start": 32.0,
+    "end": 78.0,
+    "kind": "right_demo",
+    "note": "Pro-style forehand: straight racket take-back, non-dominant hand leads, loop, butt cap to ball"
+   },
+   {
+    "start": 78.0,
+    "end": 88.0,
+    "kind": "right_demo",
+    "note": "Hand travels to contact and wraps up after contact"
+   },
+   {
+    "start": 88.0,
+    "end": 112.0,
+    "kind": "wrong_demo",
+    "note": "Mistakes: full Western grip, closed stance, contact too far in front"
+   },
+   {
+    "start": 112.0,
+    "end": 136.0,
+    "kind": "wrong_demo",
+    "note": "Wrong take-back: racket stays down or goes straight back, no loop, no racket-head speed"
+   },
+   {
+    "start": 136.0,
+    "end": 156.0,
+    "kind": "right_demo",
+    "note": "Correct diagonal preparation with the loop; racket back before ball crosses the net"
+   },
+   {
+    "start": 156.0,
+    "end": 168.0,
+    "kind": "wrong_demo",
+    "note": "Late preparation, frantic hurry-up swing when ball arrives"
+   },
+   {
+    "start": 168.0,
+    "end": 200.0,
+    "kind": "wrong_demo",
+    "note": "Wrist breaks at contact, rolling the racket head over the ball; contrast with staying on plane (Connors)"
+   },
+   {
+    "start": 200.0,
+    "end": 232.0,
+    "kind": "wrong_demo",
+    "note": "Misapplied weight: stepping with the wrong foot, body alignment bad before strike, roll the head on follow-through"
+   },
+   {
+    "start": 232.0,
+    "end": 262.0,
+    "kind": "right_demo",
+    "note": "Correct balance over front leg, contact in front of left foot, back foot steps around, weight transfers to target"
+   },
+   {
+    "start": 262.0,
+    "end": 285.0,
+    "kind": "talking",
+    "note": "Wrong: hitting off the back foot, head pulls off ball. Summary: grip, stance, preparation, contact point, follow-through, weight transfer"
+   }
+  ],
+  "uXGwWhOj6P4": [
+   {
+    "start": 0.0,
+    "end": 78.0,
+    "kind": "talking",
+    "note": "Intro: footwork pattern after serve into forehand, coach introduces himself"
+   },
+   {
+    "start": 78.0,
+    "end": 110.0,
+    "kind": "match_play",
+    "note": "Point shown of player serving and hitting forehand, no teaching yet"
+   },
+   {
+    "start": 110.0,
+    "end": 200.0,
+    "kind": "talking",
+    "note": "Analysis of the serve and positioning for first-ball forehand over footage"
+   },
+   {
+    "start": 200.0,
+    "end": 340.0,
+    "kind": "wrong_demo",
+    "note": "Player drops step, takes individual steps toward ball, gets jammed; coach explains mistake"
+   },
+   {
+    "start": 340.0,
+    "end": 412.0,
+    "kind": "wrong_demo",
+    "note": "Coach explains what he should have done (shuffle left), plus the resulting too-close forehand and lost point"
+   },
+   {
+    "start": 412.0,
+    "end": 455.0,
+    "kind": "talking",
+    "note": "Introduces own example of better footwork"
+   },
+   {
+    "start": 455.0,
+    "end": 495.0,
+    "kind": "right_demo",
+    "note": "Coach shuffles around ball with feet moving together like a boxer"
+   },
+   {
+    "start": 495.0,
+    "end": 520.0,
+    "kind": "wrong_demo",
+    "note": "Compares to player who loads, steps, steps with no shuffle"
+   },
+   {
+    "start": 520.0,
+    "end": 576.0,
+    "kind": "other",
+    "note": "Wrap-up, subscribe, free membership offer and end screen"
+   }
+  ],
+  "ukNZF2Q9ki0": [
+   {
+    "start": 0.0,
+    "end": 8.0,
+    "kind": "other",
+    "note": "Black intro/title before coach appears"
+   },
+   {
+    "start": 8.0,
+    "end": 13.0,
+    "kind": "talking",
+    "note": "Introduces importance of non-hitting hand on forehand"
+   },
+   {
+    "start": 13.0,
+    "end": 34.0,
+    "kind": "wrong_demo",
+    "note": "Mistake: throwing/pulling the non-hitting arm out of the way, over-rotating, cutting across the body"
+   },
+   {
+    "start": 34.0,
+    "end": 58.0,
+    "kind": "right_demo",
+    "note": "Keep non-hitting arm straight and parallel to baseline, hold it long, set up and turn"
+   },
+   {
+    "start": 58.0,
+    "end": 92.0,
+    "kind": "right_demo",
+    "note": "Uncoil rear hip so trunk rotates and shoulder moves hand away naturally; hand ends by left chest"
+   },
+   {
+    "start": 92.0,
+    "end": 108.0,
+    "kind": "match_play",
+    "note": "Pro player footage hitting forehands, catching racquet with non-hitting hand while warming up"
+   },
+   {
+    "start": 108.0,
+    "end": 128.0,
+    "kind": "talking",
+    "note": "Catching the racquet high to train left arm"
+   },
+   {
+    "start": 128.0,
+    "end": 158.0,
+    "kind": "right_demo",
+    "note": "Flight-of-stairs image: hands go up stairs toward target, preventing over-rotation, then catch the racket"
+   },
+   {
+    "start": 158.0,
+    "end": 172.0,
+    "kind": "wrong_demo",
+    "note": "Pulling hand across body shortens hitting zone, inconsistent and loses power"
+   },
+   {
+    "start": 172.0,
+    "end": 181.0,
+    "kind": "talking",
+    "note": "Wrap-up"
+   },
+   {
+    "start": 181.0,
+    "end": 184.0,
+    "kind": "other",
+    "note": "End card: post questions or comments"
+   }
+  ],
+  "vX_xBFeAIcg": [
+   {
+    "start": 0.0,
+    "end": 12.0,
+    "kind": "talking",
+    "note": "Coach sets up the circle drill; player stands outside the circle, ball in the middle"
+   },
+   {
+    "start": 12.0,
+    "end": 36.0,
+    "kind": "right_demo",
+    "note": "Swings from outside the circle with contact above the ball, keeping distance from the ball"
+   },
+   {
+    "start": 36.0,
+    "end": 62.0,
+    "kind": "wrong_demo",
+    "note": "Getting too close to the ball, which affects the swing pattern"
+   },
+   {
+    "start": 62.0,
+    "end": 88.0,
+    "kind": "mixed_demo",
+    "note": "Player hits fed balls with the coach; swings shown with no clear commentary"
+   },
+   {
+    "start": 88.0,
+    "end": 120.0,
+    "kind": "talking",
+    "note": "Coach explains the extra space and finishing position, working near the wall"
+   },
+   {
+    "start": 120.0,
+    "end": 145.0,
+    "kind": "right_demo",
+    "note": "Player hits balls staying away from the ball and finishing; coach says nice, good job"
+   },
+   {
+    "start": 145.0,
+    "end": 175.0,
+    "kind": "mixed_demo",
+    "note": "Coach drills the racket path back and forward; swings with coaching"
+   },
+   {
+    "start": 175.0,
+    "end": 200.0,
+    "kind": "wrong_demo",
+    "note": "Pulling the ball across with the racket instead of brushing up; coach shows it"
+   },
+   {
+    "start": 200.0,
+    "end": 252.0,
+    "kind": "right_demo",
+    "note": "Brushing the ball up, using the wrist at the top; player swings"
+   }
+  ],
+  "zPbtp0WtHA4": [
+   {
+    "start": 0.0,
+    "end": 12.0,
+    "kind": "talking",
+    "note": "Intro: three common forehand takeback mistakes; turn shoulders then move"
+   },
+   {
+    "start": 12.0,
+    "end": 25.0,
+    "kind": "right_demo",
+    "note": "Turn shoulders first then move to the ball, racket already to the side, like pros"
+   },
+   {
+    "start": 25.0,
+    "end": 37.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 1: run to ball then turn shoulders, late and contact too far back"
+   },
+   {
+    "start": 37.0,
+    "end": 61.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 2: racket taken back too far, awkward, wrist stretched, no control"
+   },
+   {
+    "start": 61.0,
+    "end": 83.0,
+    "kind": "right_demo",
+    "note": "Keep racket in front position as you turn shoulders"
+   },
+   {
+    "start": 83.0,
+    "end": 106.0,
+    "kind": "wrong_demo",
+    "note": "Variant: racket drops down instead of back, shortens backswing"
+   },
+   {
+    "start": 106.0,
+    "end": 146.0,
+    "kind": "right_demo",
+    "note": "Start racket up to use gravity for acceleration; higher for more"
+   },
+   {
+    "start": 146.0,
+    "end": 200.0,
+    "kind": "wrong_demo",
+    "note": "Mistake 3: left arm goes forward opening chest, arms cross, shoulder-only power"
+   },
+   {
+    "start": 200.0,
+    "end": 245.0,
+    "kind": "right_demo",
+    "note": "Left arm perpendicular to baseline or further back for more rotation"
+   },
+   {
+    "start": 245.0,
+    "end": 253.0,
+    "kind": "other",
+    "note": "Sign-off and Armstrong Tennis logo"
+   }
+  ]
+ }
+}

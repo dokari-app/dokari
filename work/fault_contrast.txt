@@ -1,0 +1,30 @@
+attempts 748
+fault: positives (videos) / negatives (videos)
+  late_or_mistimed_preparation                22 (13) / 271 (73)
+  short_or_stopped_follow_through             11 ( 9) / 321 (79)
+  arm_only_takeback                            3 ( 2) / 395 (91)
+  arm_style_in_unit_turn                       4 ( 3) / 256 (70)
+  contact_face_angle_wrong                     5 ( 2) / 256 (70)
+  non_hitting_hand_misuse                     26 ( 9) / 264 (71)
+  poor_spacing_to_ball                        27 (11) / 258 (72)
+  rotation_late_or_blocked                    10 ( 6) / 257 (70)
+  take_back_too_big                           10 ( 5) / 257 (70)
+  takeback_arm_path                           13 ( 8) / 256 (70)
+  arm_pulling_in_on_acceleration               3 ( 2) / 256 (70)
+  arm_started_swing_no_leg_drive              11 ( 5) / 256 (70)
+  ball_behind_body_when_pushed_back            1 ( 1) / 257 (70)
+  poor_shot_choice_and_target                  2 ( 1) / 256 (70)
+  racket_face_not_closed_backswing             5 ( 5) / 256 (70)
+  tension_in_grip_and_contact                  2 ( 2) / 256 (70)
+  wrist_flexed_arm_cramped_at_contact          0 ( 0) / 257 (70)
+  conscious_wrist_action                       3 ( 3) / 258 (70)
+  over_relying_on_legs                         5 ( 3) / 256 (70)
+  wrong_grip                                   0 ( 0) / 256 (70)
+late_or_mistimed_preparation: held-out AUC 0.513 (shuffled-label null 0.500 +/- 0.075); n 22/271; biggest cells (phase, joint, axis, effect): [(np.float64(0.48), 'r_ankle', 'z', 0.73), (np.float64(0.5), 'r_ankle', 'z', 0.71), (np.float64(0.68), 'r_ankle', 'z', 0.7), (np.float64(0.65), 'r_ankle', 'z', 0.69)]
+short_or_stopped_follow_through: held-out AUC 0.483 (shuffled-label null 0.526 +/- 0.103); n 11/321; biggest cells (phase, joint, axis, effect): [(np.float64(0.28), 'r_wrist', 'z', -1.12), (np.float64(0.25), 'r_wrist', 'z', -1.07), (np.float64(0.22), 'r_wrist', 'z', -1.06), (np.float64(0.98), 'l_ankle', 'x', -1.04)]
+non_hitting_hand_misuse: held-out AUC 0.380 (shuffled-label null 0.462 +/- 0.065); n 26/264; biggest cells (phase, joint, axis, effect): [(np.float64(0.52), 'l_ankle', 'x', -0.6), (np.float64(0.02), 'l_wrist', 'x', -0.59), (np.float64(0.4), 'l_wrist', 'x', -0.58), (np.float64(0.38), 'nose', 'x', -0.58)]
+poor_spacing_to_ball: held-out AUC 0.524 (shuffled-label null 0.495 +/- 0.077); n 27/258; biggest cells (phase, joint, axis, effect): [(np.float64(0.7), 'l_wrist', 'y', -0.87), (np.float64(0.72), 'l_wrist', 'y', -0.81), (np.float64(0.68), 'r_elbow', 'y', -0.8), (np.float64(0.65), 'r_elbow', 'y', -0.8)]
+rotation_late_or_blocked: held-out AUC 0.686 (shuffled-label null 0.460 +/- 0.110); n 10/257; biggest cells (phase, joint, axis, effect): [(np.float64(0.4), 'r_wrist', 'z', -1.17), (np.float64(0.42), 'r_wrist', 'z', -1.16), (np.float64(0.3), 'r_wrist', 'z', -1.14), (np.float64(0.38), 'r_wrist', 'z', -1.11)]
+take_back_too_big: held-out AUC 0.326 (shuffled-label null 0.499 +/- 0.094); n 10/257; biggest cells (phase, joint, axis, effect): [(np.float64(0.2), 'r_wrist', 'y', -1.11), (np.float64(0.22), 'r_wrist', 'y', -1.11), (np.float64(0.52), 'r_ankle', 'y', -1.1), (np.float64(0.5), 'r_ankle', 'y', -1.08)]
+takeback_arm_path: held-out AUC 0.262 (shuffled-label null 0.465 +/- 0.119); n 13/256; biggest cells (phase, joint, axis, effect): [(np.float64(0.28), 'r_wrist', 'y', -0.97), (np.float64(0.3), 'r_wrist', 'y', -0.92), (np.float64(0.25), 'r_wrist', 'y', -0.92), (np.float64(0.22), 'r_wrist', 'y', -0.91)]
+arm_started_swing_no_leg_drive: held-out AUC 0.491 (shuffled-label null 0.531 +/- 0.109); n 11/256; biggest cells (phase, joint, axis, effect): [(np.float64(0.15), 'r_wrist', 'y', -0.99), (np.float64(0.12), 'r_wrist', 'y', -0.97), (np.float64(0.18), 'r_wrist', 'y', -0.96), (np.float64(0.38), 'l_elbow', 'x', -0.94)]

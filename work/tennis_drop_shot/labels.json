@@ -1,0 +1,1077 @@
+{
+ "model": "claude-sonnet-5-5",
+ "faults": [
+  "wrong_tactical_moment",
+  "hit_from_deep_or_unprepared",
+  "swinging_too_hard",
+  "telegraphing_shot",
+  "ball_flight_too_high",
+  "waiting_on_ball",
+  "aim_too_short",
+  "gripping_too_tight",
+  "nervous_or_rushed",
+  "no_footwork_through_shot",
+  "poor_direction_placement",
+  "poor_recovery_after_shot",
+  "too_little_backspin",
+  "too_much_backspin_open_face",
+  "unsuitable_incoming_ball",
+  "counter_drop_when_stretched",
+  "cross_court_reply_to_drop_shot",
+  "poor_absorption_control",
+  "racket_back_while_running",
+  "same_grip_through_shot"
+ ],
+ "clips": {
+  "5wdrcvQQJMg": {
+   "attempts": [
+    {
+     "window": [
+      0.1,
+      2.03
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      17.7,
+      18.87
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      59.13,
+      60.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      72.97,
+      73.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      102.9,
+      104.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      123.43,
+      127.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      142.9,
+      143.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      162.13,
+      164.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      176.5,
+      177.73
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      183.9,
+      185.63
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      209.07,
+      210.87
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      227.27,
+      228.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      243.67,
+      245.8
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      263.83,
+      265.1
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      286.3,
+      287.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "7QsGRqgADsA": {
+   "attempts": [
+    {
+     "window": [
+      50.15,
+      53.49
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      58.36,
+      63.4
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      92.93,
+      94.63
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      94.93,
+      96.1
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      103.4,
+      107.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      119.05,
+      121.25
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      121.25,
+      125.23
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      127.16,
+      134.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      138.1,
+      139.94
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      160.89,
+      163.06
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      163.06,
+      165.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      166.47,
+      167.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      180.91,
+      184.52
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      209.44,
+      210.54
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      210.54,
+      213.75
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "JXMXLy82_Ng": {
+   "attempts": [
+    {
+     "window": [
+      1.92,
+      4.63
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      26.23,
+      29.99
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      48.17,
+      53.97
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      55.68,
+      57.39
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      63.02,
+      66.73
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      67.73,
+      70.49
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      84.46,
+      89.71
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      103.52,
+      106.11
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      109.86,
+      113.36
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      131.09,
+      134.26
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      135.22,
+      136.76
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      137.76,
+      141.31
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      142.85,
+      145.31
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      159.28,
+      161.04
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      190.19,
+      191.69
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "ObJQ7R9Koi8": {
+   "attempts": [
+    {
+     "window": [
+      2.34,
+      3.94
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      73.81,
+      80.48
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      82.78,
+      87.65
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      89.49,
+      98.7
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      147.08,
+      151.42
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      158.06,
+      166.73
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      198.36,
+      216.72
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "TVdBFrYW-es": {
+   "attempts": [
+    {
+     "window": [
+      0.27,
+      1.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      53.1,
+      55.07
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      78.2,
+      80.33
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      86.7,
+      87.5
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      103.63,
+      105.57
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      126.63,
+      128.47
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      140.43,
+      141.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      145.33,
+      146.47
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      152.53,
+      154.07
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      164.23,
+      165.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      172.03,
+      173.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      180.93,
+      182.57
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      187.37,
+      188.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      199.0,
+      201.77
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      236.43,
+      238.8
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "gh_GAi0F2nM": {
+   "attempts": [
+    {
+     "window": [
+      21.15,
+      23.59
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      59.26,
+      60.89
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      78.48,
+      82.18
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      90.32,
+      100.17
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      113.51,
+      115.18
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      118.25,
+      120.72
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      128.53,
+      135.1
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      155.96,
+      157.52
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      177.21,
+      180.58
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      196.56,
+      205.81
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      218.89,
+      220.15
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "swinging_too_hard"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      231.97,
+      236.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      240.61,
+      241.74
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "swinging_too_hard",
+      "poor_recovery_after_shot"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      247.58,
+      251.45
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      254.59,
+      255.89
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "swinging_too_hard"
+     ],
+     "absent": []
+    }
+   ]
+  },
+  "mO6XiArAjPI": {
+   "attempts": [
+    {
+     "window": [
+      2.57,
+      3.83
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      9.87,
+      10.97
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      14.83,
+      16.47
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      19.03,
+      20.03
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "racket_back_while_running"
+     ]
+    },
+    {
+     "window": [
+      37.9,
+      43.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      60.43,
+      61.97
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      67.8,
+      68.97
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      73.1,
+      75.33
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      78.77,
+      81.57
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      92.5,
+      94.4
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      99.77,
+      100.8
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      104.93,
+      106.03
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      110.87,
+      111.97
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      121.63,
+      123.87
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      128.97,
+      130.2
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "wQX8B7wYip4": {
+   "attempts": [
+    {
+     "window": [
+      13.71,
+      15.32
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      20.99,
+      23.42
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      37.44,
+      41.24
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      46.91,
+      54.69
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      70.4,
+      75.51
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      101.97,
+      107.11
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      124.46,
+      128.09
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      134.3,
+      135.94
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      151.25,
+      156.22
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      177.04,
+      181.95
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      186.49,
+      190.42
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      224.19,
+      230.53
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      272.11,
+      278.01
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      289.09,
+      290.99
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      325.39,
+      327.29
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  }
+ },
+ "aliases": {}
+}

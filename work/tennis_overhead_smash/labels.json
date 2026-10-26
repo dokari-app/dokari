@@ -1,0 +1,1146 @@
+{
+ "model": "claude-sonnet-5-5",
+ "faults": [
+  "facing_net_not_sideways",
+  "non_hitting_arm_down_or_unused",
+  "slow_footwork_or_backpedaling",
+  "wrong_contact_point",
+  "smashing_too_hard_or_wrong_moment",
+  "wrong_grip_or_no_spin",
+  "dropping_head_and_chest",
+  "loss_of_balance",
+  "misjudging_ball_for_overhead",
+  "netting_when_deep_or_moving_back",
+  "planting_feet_too_early",
+  "pointing_without_turning",
+  "poor_placement_choice",
+  "arming_without_extension",
+  "decelerating_the_hand",
+  "disguising_overhead_too_early",
+  "going_up_into_trophy_position",
+  "not_recovering_after_smash",
+  "oversized_swing_or_overusing_body",
+  "standing_straight_up_at_contact"
+ ],
+ "clips": {
+  "ASPvxu5R0Bs": {
+   "attempts": [
+    {
+     "window": [
+      29.23,
+      32.4
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      59.6,
+      72.93
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "facing_net_not_sideways",
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      73.7,
+      75.5
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      76.83,
+      81.4
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "facing_net_not_sideways",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      291.3,
+      295.23
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "En56zLkbIPs": {
+   "attempts": [
+    {
+     "window": [
+      150.23,
+      152.1
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "going_up_into_trophy_position"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      176.47,
+      180.1
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "IYitGxUK8MM": {
+   "attempts": [
+    {
+     "window": [
+      2.8,
+      3.9
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "going_up_into_trophy_position"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      151.78,
+      155.52
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      186.62,
+      188.25
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      241.67,
+      246.51
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    }
+   ]
+  },
+  "K_EexG6l7E8": {
+   "attempts": [
+    {
+     "window": [
+      91.22,
+      95.8
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      151.99,
+      156.12
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "MCjWyI2M_Ew": {
+   "attempts": [
+    {
+     "window": [
+      0.0,
+      1.97
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      10.93,
+      11.83
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      39.67,
+      42.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      119.7,
+      123.6
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      124.6,
+      125.73
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      127.3,
+      131.0
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      142.57,
+      143.73
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      153.7,
+      155.73
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      157.4,
+      158.43
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      176.77,
+      180.4
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      247.9,
+      250.53
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "going_up_into_trophy_position"
+     ],
+     "absent": [
+      "facing_net_not_sideways"
+     ]
+    },
+    {
+     "window": [
+      294.5,
+      301.1
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "oversized_swing_or_overusing_body"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      303.6,
+      305.73
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "oversized_swing_or_overusing_body"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      359.0,
+      362.13
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "oversized_swing_or_overusing_body"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      390.9,
+      393.7
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "facing_net_not_sideways"
+     ]
+    }
+   ]
+  },
+  "NzoLPWvWcbs": {
+   "attempts": [
+    {
+     "window": [
+      7.41,
+      10.24
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      10.44,
+      12.48
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      12.98,
+      15.05
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      47.38,
+      49.18
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      58.53,
+      61.29
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "not_recovering_after_smash"
+     ]
+    },
+    {
+     "window": [
+      61.49,
+      64.43
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      64.43,
+      67.27
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      68.1,
+      71.84
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      71.84,
+      74.77
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      74.77,
+      77.61
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      77.84,
+      80.71
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      83.62,
+      85.52
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      86.85,
+      89.12
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "TXSlHCVfXj0": {
+   "attempts": [
+    {
+     "window": [
+      146.83,
+      148.4
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      176.93,
+      179.03
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      179.03,
+      181.1
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      199.33,
+      200.57
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      231.63,
+      232.87
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      239.13,
+      241.23
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      241.23,
+      243.4
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      251.13,
+      253.3
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      281.9,
+      284.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      285.2,
+      289.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      290.83,
+      292.53
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      419.1,
+      421.17
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      436.07,
+      438.07
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      442.33,
+      443.67
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      446.7,
+      448.97
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "UlU4UCuFgms": {
+   "attempts": [
+    {
+     "window": [
+      51.62,
+      54.55
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "facing_net_not_sideways",
+      "standing_straight_up_at_contact"
+     ],
+     "absent": []
+    }
+   ]
+  },
+  "WOjPM9GZsCs": {
+   "attempts": [
+    {
+     "window": [
+      83.68,
+      85.02
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      86.55,
+      88.56
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      89.16,
+      90.06
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      99.03,
+      101.67
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      136.77,
+      140.14
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      170.97,
+      175.14
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      176.18,
+      179.15
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      179.15,
+      182.02
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "non_hitting_arm_down_or_unused"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      301.67,
+      305.71
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "pointing_without_turning"
+     ]
+    }
+   ]
+  },
+  "beAkcxGGKsA": {
+   "attempts": [
+    {
+     "window": [
+      60.6,
+      65.6
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    }
+   ]
+  },
+  "ebjjbl_yafg": {
+   "attempts": [
+    {
+     "window": [
+      89.37,
+      93.67
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "non_hitting_arm_down_or_unused",
+      "oversized_swing_or_overusing_body"
+     ],
+     "absent": []
+    },
+    {
+     "window": [
+      270.53,
+      272.5
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      278.87,
+      286.87
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      367.7,
+      374.23
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    }
+   ]
+  },
+  "feCB0-CYqrI": {
+   "attempts": [
+    {
+     "window": [
+      183.77,
+      186.9
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      342.37,
+      344.1
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      344.7,
+      346.6
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      353.93,
+      357.37
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      357.83,
+      361.83
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      362.4,
+      365.1
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      366.37,
+      369.07
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      370.37,
+      373.1
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      381.7,
+      385.1
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      386.17,
+      389.57
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      390.43,
+      393.03
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      393.77,
+      396.8
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "smashing_too_hard_or_wrong_moment"
+     ]
+    },
+    {
+     "window": [
+      455.8,
+      460.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    }
+   ]
+  },
+  "m8NpygZi44Q": {
+   "attempts": [
+    {
+     "window": [
+      7.74,
+      16.08
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      21.09,
+      26.19
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      38.13,
+      40.37
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      41.34,
+      44.27
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      57.62,
+      61.75
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "dropping_head_and_chest"
+     ]
+    }
+   ]
+  },
+  "o05HRLcPigQ": {
+   "attempts": [
+    {
+     "window": [
+      155.57,
+      158.87
+     ],
+     "not_an_attempt": false,
+     "present": [
+      "facing_net_not_sideways",
+      "standing_straight_up_at_contact"
+     ],
+     "absent": []
+    }
+   ]
+  },
+  "xfi2hg11eS0": {
+   "attempts": [
+    {
+     "window": [
+      79.73,
+      82.43
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      114.06,
+      117.46
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      118.1,
+      123.36
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      123.43,
+      128.06
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      194.36,
+      199.03
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      199.03,
+      203.13
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused",
+      "dropping_head_and_chest"
+     ]
+    },
+    {
+     "window": [
+      203.89,
+      205.39
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      208.13,
+      210.59
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      220.93,
+      224.46
+     ],
+     "not_an_attempt": true,
+     "present": [],
+     "absent": []
+    },
+    {
+     "window": [
+      232.89,
+      234.16
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      238.23,
+      242.36
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    },
+    {
+     "window": [
+      242.36,
+      246.23
+     ],
+     "not_an_attempt": false,
+     "present": [],
+     "absent": [
+      "non_hitting_arm_down_or_unused"
+     ]
+    }
+   ]
+  }
+ },
+ "aliases": {}
+}

@@ -1,0 +1,370 @@
+{
+  "activity_id": "tennis_backhand",
+  "purpose": "Hit the ball back over the net with a controlled, repeatable groundstroke on the backhand side: turn the shoulders early, load the legs, meet the ball in front of the body with a stable base, and swing through to a full finish, so the ball lands in the target area with pace and control.",
+  "search_queries": [
+    {
+      "query": "two handed backhand tennis technique full speed side view",
+      "kind": "demonstration"
+    },
+    {
+      "query": "tennis backhand slow motion side view one person baseline",
+      "kind": "demonstration"
+    },
+    {
+      "query": "how to hit a perfect backhand tennis lesson",
+      "kind": "good_form"
+    },
+    {
+      "query": "tennis backhand fundamentals unit turn contact point follow through",
+      "kind": "instruction"
+    },
+    {
+      "query": "common backhand mistakes tennis and how to fix them",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "backhand footwork and balance drill tennis coach",
+      "kind": "instruction"
+    },
+    {
+      "query": "one handed backhand tennis technique tutorial",
+      "kind": "good_form"
+    }
+  ],
+  "primary_features": [
+    "height.wrist_mid",
+    "angle.shoulder_hip_twist",
+    "angle.shoulder.dom",
+    "reach.wrist.dom",
+    "angle.knee.dom"
+  ],
+  "attempt_events": [
+    {
+      "feature": "height.wrist_mid",
+      "direction": "rises",
+      "seconds": 1.0,
+      "peak_at_least": 0.0
+    }
+  ],
+  "phases": [
+    {
+      "id": "ready",
+      "description": "Ready position at the start of the point: knees slightly bent, racket in front, weight on the balls of the feet."
+    },
+    {
+      "id": "unit_turn",
+      "description": "Shoulders and hips turn together as the racket is taken back; the player steps and loads the legs."
+    },
+    {
+      "id": "forward_swing",
+      "description": "Legs drive, hips then shoulders unwind and the racket accelerates up and forward to contact in front of the body."
+    },
+    {
+      "id": "follow_through",
+      "description": "Racket continues across and up to a full finish while the body stays balanced."
+    },
+    {
+      "id": "recovery",
+      "description": "Return to a balanced ready position for the next ball."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "full_shoulder_turn",
+      "goal": "Turn the shoulders well past the hips on the takeback so the chest is turned away from the net.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "unit_turn",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Arm-only takeback with the chest still facing the net; the swing is cramped and relies on the arm.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Over-rotated, shoulders turned far past the hips, which makes the swing longer and harder to time.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Remind the player to turn the chest and show their back to the net early.",
+      "ask_if_unsure_intent": "Ask whether they feel their shoulders turn or mostly just take the racket back with the arm.",
+      "fix_intent": "Have the player turn the shoulders as soon as the ball is read, with the racket going back as a result of the turn."
+    },
+    {
+      "id": "stay_low_load",
+      "goal": "Bend the front knee and sit into the legs at the end of the turn to load for the swing.",
+      "caused_by": [
+        "wide_base"
+      ],
+      "test": {
+        "feature": "angle.knee.dom",
+        "at_phase": "unit_turn",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Standing tall on straight legs, so the swing comes from the arm and the player cannot get under or drive through the ball.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "Sitting very deep, which slows the recovery and drive.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Cue the player to bend the knees and get low before swinging.",
+      "ask_if_unsure_intent": "Ask whether they feel their legs working or if they stand up as they hit.",
+      "fix_intent": "Use a shadow swing that starts with a pause in a lowered, loaded position."
+    },
+    {
+      "id": "wide_base",
+      "goal": "Set a stable, shoulder-width or wider base as the swing begins.",
+      "caused_by": [],
+      "test": {
+        "feature": "dist.stance_width",
+        "at_phase": "unit_turn",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Feet close together, narrow and unbalanced base that makes the player lose balance in the swing.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Feet very far apart, restricting rotation and the weight transfer.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Cue the player to step out and set the feet wider before hitting.",
+      "ask_if_unsure_intent": "Ask whether they were on the move or had time to set their feet.",
+      "fix_intent": "Practise a split step followed by an open step into a stable base."
+    },
+    {
+      "id": "weight_forward_at_contact",
+      "goal": "Transfer weight forward into the shot so the body moves toward the target at contact.",
+      "caused_by": [
+        "stay_low_load"
+      ],
+      "test": {
+        "feature": "fwd.trunk_shift",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Leaning back on the heels at contact, producing short, weak or floating balls.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Lunging forward too far, jamming the swing and losing balance.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Cue the player to step and move the body into the ball.",
+      "ask_if_unsure_intent": "Ask whether they feel they fall back or stay on the back foot when hitting.",
+      "fix_intent": "Drill stepping into the ball with feeds, finishing with the weight on the front foot."
+    },
+    {
+      "id": "contact_arm_extension",
+      "goal": "Meet the ball with the hitting arm comfortably extended out in front, neither cramped nor stretched.",
+      "caused_by": [
+        "full_shoulder_turn",
+        "wide_base"
+      ],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Arm jammed against the body because the ball is too close or the contact is late.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Overreaching with a fully stretched arm, reducing control.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Cue the player to give the ball space and hit it out in front.",
+      "ask_if_unsure_intent": "Ask whether the ball tends to feel too close or too far away at contact.",
+      "fix_intent": "Adjust spacing with the feet before the swing so the ball is met at a comfortable arm's length."
+    },
+    {
+      "id": "upright_trunk_at_contact",
+      "goal": "Keep the trunk steady, not collapsing sideways, through contact.",
+      "caused_by": [
+        "wide_base"
+      ],
+      "test": {
+        "feature": "angle.trunk_lean",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Trunk tilting or falling away to the side, causing mistimed contact and loss of balance.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "Overly rigid upright posture with no bend to reach low balls.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Cue the player to keep the head and chest steady through contact.",
+      "ask_if_unsure_intent": "Ask whether they feel off balance after hitting.",
+      "fix_intent": "Practise holding the finish on balance for a count after each stroke."
+    },
+    {
+      "id": "full_finish",
+      "goal": "Swing through to a full, high finish with the racket across and over the shoulder.",
+      "caused_by": [
+        "weight_forward_at_contact"
+      ],
+      "test": {
+        "feature": "height.wrist_mid",
+        "at_phase": "follow_through",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Abbreviated swing that stops at or just after contact, with the arms staying low.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "power_control"
+      ],
+      "cue_intent": "Cue the player to swing all the way through to a high finish.",
+      "ask_if_unsure_intent": "Ask whether they are stopping the racket after hitting the ball.",
+      "fix_intent": "Use shadow swings that hold a full finish for a count."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "power_control",
+      "description": "The ball is struck cleanly with pace and control and lands in the target area of the court.",
+      "requires_observable": [
+        "body",
+        "ball",
+        "landing_area"
+      ]
+    },
+    {
+      "id": "stroke_form",
+      "description": "The backhand is performed with sound, balanced technique, judged from the body alone.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.shoulder_hip_twist",
+      "at_phase": "unit_turn",
+      "at_point": "end",
+      "outcome": "power_control",
+      "effect": "mid_is_better",
+      "mechanism": "A full coil stores rotational energy that unwinds into the racket, while too little leaves only arm power."
+    },
+    {
+      "feature": "angle.knee.dom",
+      "at_phase": "unit_turn",
+      "at_point": "end",
+      "outcome": "power_control",
+      "effect": "mid_is_better",
+      "mechanism": "A bent, loaded leg lets the player drive upward and forward through the ball and adjust to low balls."
+    },
+    {
+      "feature": "fwd.trunk_shift",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "power_control",
+      "effect": "mid_is_better",
+      "mechanism": "Moving the body forward into the ball adds momentum and keeps contact in front."
+    },
+    {
+      "feature": "reach.wrist.dom",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "power_control",
+      "effect": "mid_is_better",
+      "mechanism": "The distance of the hand from the body at contact sets the contact point, affecting both racket speed and control."
+    },
+    {
+      "feature": "height.wrist_mid",
+      "at_phase": "follow_through",
+      "at_point": "end",
+      "outcome": "power_control",
+      "effect": "higher_is_better",
+      "mechanism": "A full finish shows the racket accelerated through the ball and promotes topspin and clearing the net."
+    }
+  ],
+  "confusable_with": [
+    "tennis_forehand",
+    "table_tennis_backhand",
+    "badminton_backhand",
+    "golf_swing",
+    "baseball_swing"
+  ],
+  "session_ideas": [
+    "Shadow-swing backhands in front of the camera from the side, five at a time, holding the finish.",
+    "Feed-and-hit drill with a partner or ball machine feeding to the backhand side.",
+    "Shadow swings pausing at the end of the unit turn to check shoulder turn and knee bend.",
+    "Drop-feed backhands focused on stepping into the ball."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "trackable",
+      "name": "racket",
+      "why": "Racket head position and path are central to contact point, swing path and racket speed, but cannot be measured from body features."
+    },
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Ball position is needed to judge contact point and where the shot lands."
+    },
+    {
+      "kind": "measurement",
+      "name": "contact_point_in_front",
+      "why": "Distance of the wrist ahead of the front hip at contact, a key coaching point not directly in the registry."
+    },
+    {
+      "kind": "feature",
+      "name": "grip_type_one_or_two_hand",
+      "why": "Whether one- or two-handed changes the expected wrist spacing and finish; dist.wrist_width only partly captures it."
+    },
+    {
+      "kind": "feature",
+      "name": "head_stability",
+      "why": "Coaches often say to keep the head still at contact, which requires a head-position feature."
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 1411,
+    "clips_with_attempts": 73,
+    "clips": 75,
+    "target_reached": false,
+    "rounds": 2
+  }
+}

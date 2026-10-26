@@ -1,0 +1,276 @@
+{
+  "activity_id": "bodyweight_squat",
+  "purpose": "Lower the hips under control by bending knees and hips to a adequate depth, then stand back up to full extension, keeping the trunk stable, feet flat and knees tracking over the toes, using body weight only.",
+  "search_queries": [
+    {
+      "query": "bodyweight squat proper form side view",
+      "kind": "good_form"
+    },
+    {
+      "query": "how to do a bodyweight squat tutorial",
+      "kind": "instruction"
+    },
+    {
+      "query": "air squat demonstration full body",
+      "kind": "demonstration"
+    },
+    {
+      "query": "bodyweight squat common mistakes",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "squat knees caving in fix",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "squat butt wink and forward lean mistakes bodyweight",
+      "kind": "common_mistakes"
+    }
+  ],
+  "primary_features": [
+    "angle.knee.dom",
+    "angle.hip.dom",
+    "height.hip",
+    "angle.ankle.dom"
+  ],
+  "phases": [
+    {
+      "id": "descent",
+      "description": "Standing start; hips move back and down while knees and hips flex until the bottom position."
+    },
+    {
+      "id": "bottom",
+      "description": "Brief lowest position with maximum knee and hip flexion."
+    },
+    {
+      "id": "ascent",
+      "description": "Drive up through the feet, extending knees and hips back to standing."
+    }
+  ],
+  "faults": [
+    {
+      "id": "shallow_depth",
+      "description": "Does not squat deep enough; hips stay well above knee level and knees stay relatively extended at the bottom.",
+      "severity": "medium",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.knee.dom",
+        "at_phase": "bottom",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "full_range_depth"
+      ],
+      "cue_intent": "Encourage sitting the hips lower toward at least thigh-parallel.",
+      "ask_if_unsure_intent": "Ask whether the person is limited by balance, tightness or just chose a partial range.",
+      "fix_intent": "Suggest slowing the descent, widening stance slightly or holding support to practise going deeper."
+    },
+    {
+      "id": "knee_cave",
+      "description": "Knee collapses inward relative to the hip-ankle line during the squat.",
+      "severity": "high",
+      "caused_by": [],
+      "test": {
+        "feature": "dev.knee_inward.dom",
+        "at_phase": "bottom",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "knee_tracking_form"
+      ],
+      "cue_intent": "Cue pushing the knees out in line with the toes.",
+      "ask_if_unsure_intent": "Ask whether the knees feel like they drift inward when standing up.",
+      "fix_intent": "Suggest a slightly wider stance with toes turned out and actively spreading the floor with the feet."
+    },
+    {
+      "id": "excess_forward_lean",
+      "description": "Trunk leans excessively forward from vertical at the bottom, turning the squat into a hip hinge.",
+      "severity": "medium",
+      "caused_by": [
+        "heels_rising"
+      ],
+      "test": {
+        "feature": "angle.trunk_lean",
+        "at_phase": "bottom",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "balanced_upright_posture"
+      ],
+      "cue_intent": "Cue keeping the chest up and torso more upright.",
+      "ask_if_unsure_intent": "Ask whether the person feels pitched forward or on their toes.",
+      "fix_intent": "Suggest raising the chest, reaching arms forward as a counterbalance, and working on ankle mobility."
+    },
+    {
+      "id": "heels_rising",
+      "description": "Shins lean far forward with the ankle closing excessively, a sign weight shifts to the toes and heels may lift.",
+      "severity": "low",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shin_lean",
+        "at_phase": "bottom",
+        "at_point": "end",
+        "direction": "above"
+      },
+      "outcome_links": [
+        "balanced_upright_posture"
+      ],
+      "cue_intent": "Cue keeping weight over the whole foot, heels down.",
+      "ask_if_unsure_intent": "Ask whether the heels feel like they lift or the weight drifts to the toes.",
+      "fix_intent": "Suggest sitting hips back more and, if needed, a small heel elevation while ankle mobility improves."
+    },
+    {
+      "id": "narrow_stance",
+      "description": "Feet placed very close together relative to hip width, limiting depth and stability.",
+      "severity": "low",
+      "caused_by": [],
+      "test": {
+        "feature": "dist.stance_width",
+        "at_phase": "descent",
+        "at_point": "start",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "full_range_depth"
+      ],
+      "cue_intent": "Cue setting feet about shoulder width.",
+      "ask_if_unsure_intent": "Ask whether this narrow stance is intentional.",
+      "fix_intent": "Suggest stepping feet to shoulder width with toes slightly out."
+    },
+    {
+      "id": "incomplete_lockout",
+      "description": "Does not return to a fully extended standing position at the end of the ascent.",
+      "severity": "low",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.hip.dom",
+        "at_phase": "ascent",
+        "at_point": "end",
+        "direction": "below"
+      },
+      "outcome_links": [
+        "full_range_depth"
+      ],
+      "cue_intent": "Cue standing fully tall and squeezing the glutes at the top.",
+      "ask_if_unsure_intent": "Ask whether the person is stopping early to keep tension or to go faster.",
+      "fix_intent": "Suggest finishing each rep upright with hips and knees extended before starting the next."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "full_range_depth",
+      "description": "Complete range of motion: reaching adequate depth and returning to full standing.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "knee_tracking_form",
+      "description": "Knees track in line with the toes through the whole rep.",
+      "requires_observable": [
+        "body"
+      ]
+    },
+    {
+      "id": "balanced_upright_posture",
+      "description": "Stays balanced over mid-foot with a reasonably upright trunk throughout.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.knee.dom",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "full_range_depth",
+      "effect": "lower_is_better",
+      "mechanism": "More knee flexion at the bottom indicates greater squat depth."
+    },
+    {
+      "feature": "angle.hip.dom",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "full_range_depth",
+      "effect": "lower_is_better",
+      "mechanism": "More hip flexion at the bottom shows the hips have descended further."
+    },
+    {
+      "feature": "dev.knee_inward.dom",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "knee_tracking_form",
+      "effect": "lower_is_better",
+      "mechanism": "Less inward knee deviation keeps the knee aligned over the foot."
+    },
+    {
+      "feature": "angle.trunk_lean",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "balanced_upright_posture",
+      "effect": "mid_is_better",
+      "mechanism": "Some forward lean is needed to keep balance over the feet, but too much shifts load and loses the upright squat pattern."
+    },
+    {
+      "feature": "dist.stance_width",
+      "at_phase": "descent",
+      "at_point": "start",
+      "outcome": "full_range_depth",
+      "effect": "mid_is_better",
+      "mechanism": "A stance near shoulder width gives room for the hips to descend between the knees."
+    },
+    {
+      "feature": "fwd.knee_over_toe.dom",
+      "at_phase": "bottom",
+      "at_point": "end",
+      "outcome": "balanced_upright_posture",
+      "effect": "mid_is_better",
+      "mechanism": "Some forward knee travel lets the trunk stay upright, while too little forces more lean."
+    }
+  ],
+  "confusable_with": [
+    "lunge",
+    "deadlift",
+    "sit_to_stand",
+    "goblet_squat",
+    "jump_squat",
+    "wall_sit"
+  ],
+  "session_ideas": [
+    "Set up a side-on camera and do 10 slow squats focusing on depth.",
+    "Do a set of 8 squats with a front-facing camera to check knee tracking.",
+    "Compare a normal-stance set with a slightly wider stance set."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "feature",
+      "name": "height.hip_relative_to_knee",
+      "why": "Direct measure of whether hips reach thigh-parallel depth, which hip height over ankle only approximates."
+    },
+    {
+      "kind": "feature",
+      "name": "heel_lift",
+      "why": "Heel rising from the ground cannot be tested directly with current features."
+    }
+  ],
+  "attempt_events": [
+    {
+      "feature": "angle.knee.dom",
+      "direction": "falls",
+      "peak_at_least": 105,
+      "seconds": 3
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 872,
+    "clips_with_attempts": 40,
+    "clips": 43,
+    "target_reached": true,
+    "rounds": 2
+  }
+}

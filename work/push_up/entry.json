@@ -1,0 +1,3130 @@
+{
+  "spec_version": "0.7",
+  "activity": "push_up",
+  "version": "0.1.0",
+  "purpose": "Build pressing strength in the chest, shoulders and triceps through a full controlled range of motion. The body stays in one straight line from head to heels, the elbows track at a moderate angle, and the chest lowers close to the floor before pressing back up.",
+  "recognition": {
+    "signature": {
+      "features": [
+        "height.wrist_mid",
+        "height.wrist.non",
+        "angle.elbow.non",
+        "height.wrist.dom",
+        "angle.elbow.dom",
+        "reach.wrist.non",
+        "reach.wrist.dom",
+        "angle.shoulder.non",
+        "height.hip",
+        "angle.shoulder.dom"
+      ],
+      "n_samples": 50,
+      "mean": [
+        [
+          -0.933,
+          -0.9453,
+          153.9928,
+          -0.9197,
+          148.9841,
+          0.9692,
+          0.9427,
+          67.2599,
+          0.4085,
+          63.1499
+        ],
+        [
+          -0.934,
+          -0.9433,
+          153.5112,
+          -0.9216,
+          148.4457,
+          0.972,
+          0.9422,
+          67.4359,
+          0.404,
+          63.509
+        ],
+        [
+          -0.9309,
+          -0.9445,
+          153.6437,
+          -0.9236,
+          148.0835,
+          0.9709,
+          0.9464,
+          67.036,
+          0.4007,
+          62.9362
+        ],
+        [
+          -0.9289,
+          -0.943,
+          153.9182,
+          -0.9212,
+          148.2139,
+          0.9668,
+          0.94,
+          66.5736,
+          0.401,
+          62.1714
+        ],
+        [
+          -0.9204,
+          -0.9343,
+          152.734,
+          -0.9163,
+          147.2263,
+          0.9605,
+          0.942,
+          65.7529,
+          0.4016,
+          62.062
+        ],
+        [
+          -0.918,
+          -0.9355,
+          152.4302,
+          -0.9125,
+          146.9185,
+          0.9515,
+          0.9378,
+          65.9175,
+          0.3947,
+          61.2206
+        ],
+        [
+          -0.9104,
+          -0.9227,
+          150.3179,
+          -0.9076,
+          146.0152,
+          0.9394,
+          0.9255,
+          64.6489,
+          0.3863,
+          60.6676
+        ],
+        [
+          -0.8978,
+          -0.91,
+          149.0693,
+          -0.8894,
+          145.0513,
+          0.9316,
+          0.9153,
+          62.9567,
+          0.3737,
+          59.3864
+        ],
+        [
+          -0.8775,
+          -0.8857,
+          146.5819,
+          -0.8694,
+          143.1323,
+          0.916,
+          0.9033,
+          61.4723,
+          0.3584,
+          57.8584
+        ],
+        [
+          -0.859,
+          -0.8671,
+          141.1939,
+          -0.8449,
+          140.596,
+          0.8972,
+          0.8821,
+          59.8505,
+          0.3312,
+          56.044
+        ],
+        [
+          -0.8213,
+          -0.8356,
+          135.0327,
+          -0.8144,
+          136.2617,
+          0.8689,
+          0.8627,
+          56.2796,
+          0.2989,
+          53.3344
+        ],
+        [
+          -0.7861,
+          -0.7927,
+          130.478,
+          -0.777,
+          131.7056,
+          0.8486,
+          0.8348,
+          52.6866,
+          0.2704,
+          50.6101
+        ],
+        [
+          -0.7411,
+          -0.752,
+          125.0842,
+          -0.7209,
+          127.872,
+          0.8166,
+          0.8082,
+          49.9115,
+          0.2316,
+          48.3946
+        ],
+        [
+          -0.7007,
+          -0.7085,
+          119.9616,
+          -0.6821,
+          122.8923,
+          0.7851,
+          0.7812,
+          46.5738,
+          0.2014,
+          46.3415
+        ],
+        [
+          -0.6589,
+          -0.6677,
+          114.4663,
+          -0.6539,
+          119.5023,
+          0.7568,
+          0.7592,
+          44.6169,
+          0.1694,
+          44.0628
+        ],
+        [
+          -0.616,
+          -0.6243,
+          110.2781,
+          -0.6022,
+          114.3146,
+          0.7343,
+          0.7297,
+          41.24,
+          0.1339,
+          41.5373
+        ],
+        [
+          -0.5706,
+          -0.5824,
+          106.0574,
+          -0.5576,
+          110.5972,
+          0.7065,
+          0.7122,
+          38.6701,
+          0.098,
+          39.1326
+        ],
+        [
+          -0.5328,
+          -0.5489,
+          102.2237,
+          -0.5211,
+          107.4792,
+          0.6889,
+          0.7074,
+          35.7594,
+          0.0704,
+          38.5951
+        ],
+        [
+          -0.4973,
+          -0.5169,
+          99.3469,
+          -0.4877,
+          103.1834,
+          0.6756,
+          0.6944,
+          33.8928,
+          0.0432,
+          38.548
+        ],
+        [
+          -0.457,
+          -0.4762,
+          96.0107,
+          -0.4378,
+          99.9003,
+          0.6623,
+          0.6825,
+          31.517,
+          0.0239,
+          38.6015
+        ],
+        [
+          -0.4266,
+          -0.4482,
+          92.7536,
+          -0.4057,
+          98.6842,
+          0.6503,
+          0.6761,
+          29.9794,
+          0.0056,
+          38.5508
+        ],
+        [
+          -0.4082,
+          -0.4252,
+          91.1602,
+          -0.3902,
+          96.8932,
+          0.643,
+          0.6721,
+          28.9648,
+          -0.0142,
+          38.9475
+        ],
+        [
+          -0.3875,
+          -0.4071,
+          89.2303,
+          -0.367,
+          96.2327,
+          0.6304,
+          0.6588,
+          28.2284,
+          -0.0222,
+          39.0901
+        ],
+        [
+          -0.3663,
+          -0.391,
+          87.9476,
+          -0.3458,
+          94.0306,
+          0.6245,
+          0.6568,
+          27.6649,
+          -0.0291,
+          39.2711
+        ],
+        [
+          -0.3553,
+          -0.3804,
+          86.9429,
+          -0.326,
+          92.7118,
+          0.6137,
+          0.6534,
+          26.8704,
+          -0.0296,
+          39.2935
+        ],
+        [
+          -0.3425,
+          -0.372,
+          86.3982,
+          -0.3111,
+          92.2501,
+          0.613,
+          0.6492,
+          27.13,
+          -0.0379,
+          39.0242
+        ],
+        [
+          -0.3403,
+          -0.3716,
+          86.5736,
+          -0.3152,
+          92.3191,
+          0.6105,
+          0.6458,
+          27.1855,
+          -0.0409,
+          38.6192
+        ],
+        [
+          -0.3464,
+          -0.3703,
+          86.4351,
+          -0.3247,
+          94.1778,
+          0.6131,
+          0.6556,
+          27.9872,
+          -0.0408,
+          39.0019
+        ],
+        [
+          -0.3612,
+          -0.3838,
+          86.8509,
+          -0.345,
+          95.348,
+          0.6192,
+          0.66,
+          28.5426,
+          -0.0402,
+          38.7573
+        ],
+        [
+          -0.3805,
+          -0.4077,
+          89.9416,
+          -0.3692,
+          97.0218,
+          0.6351,
+          0.6686,
+          29.2884,
+          -0.0348,
+          38.8255
+        ],
+        [
+          -0.408,
+          -0.4338,
+          91.0822,
+          -0.4026,
+          99.02,
+          0.6487,
+          0.6745,
+          29.6274,
+          -0.0119,
+          38.4357
+        ],
+        [
+          -0.4377,
+          -0.4606,
+          93.3537,
+          -0.4321,
+          101.7482,
+          0.6527,
+          0.6846,
+          31.1545,
+          0.0112,
+          39.4862
+        ],
+        [
+          -0.4704,
+          -0.4944,
+          95.7761,
+          -0.4549,
+          103.5087,
+          0.6663,
+          0.691,
+          32.8014,
+          0.0381,
+          40.2964
+        ],
+        [
+          -0.5091,
+          -0.5235,
+          97.9707,
+          -0.4945,
+          106.1548,
+          0.6826,
+          0.7077,
+          34.4159,
+          0.0591,
+          41.7701
+        ],
+        [
+          -0.5548,
+          -0.5719,
+          101.284,
+          -0.542,
+          109.0146,
+          0.7011,
+          0.7225,
+          35.9045,
+          0.0834,
+          41.9868
+        ],
+        [
+          -0.6071,
+          -0.6194,
+          107.331,
+          -0.5937,
+          113.4596,
+          0.7323,
+          0.7388,
+          38.6444,
+          0.1324,
+          42.0926
+        ],
+        [
+          -0.6589,
+          -0.6666,
+          115.0158,
+          -0.6453,
+          119.2315,
+          0.7574,
+          0.7541,
+          41.6522,
+          0.1647,
+          44.5557
+        ],
+        [
+          -0.7121,
+          -0.7168,
+          122.6324,
+          -0.6984,
+          125.0258,
+          0.785,
+          0.7766,
+          46.1567,
+          0.1946,
+          47.081
+        ],
+        [
+          -0.7595,
+          -0.7697,
+          128.7928,
+          -0.7497,
+          129.7063,
+          0.8231,
+          0.8099,
+          51.6198,
+          0.2312,
+          50.1778
+        ],
+        [
+          -0.7937,
+          -0.8113,
+          133.881,
+          -0.787,
+          135.0695,
+          0.8467,
+          0.8379,
+          55.267,
+          0.2636,
+          53.5747
+        ],
+        [
+          -0.83,
+          -0.8432,
+          138.0055,
+          -0.8281,
+          138.9527,
+          0.8843,
+          0.8642,
+          57.1292,
+          0.2895,
+          55.2265
+        ],
+        [
+          -0.8653,
+          -0.8781,
+          142.9712,
+          -0.8583,
+          142.8164,
+          0.909,
+          0.8879,
+          60.7004,
+          0.3227,
+          57.7682
+        ],
+        [
+          -0.8999,
+          -0.9041,
+          145.9395,
+          -0.8954,
+          145.8557,
+          0.9305,
+          0.9151,
+          62.3115,
+          0.3447,
+          58.8502
+        ],
+        [
+          -0.9196,
+          -0.9267,
+          149.8269,
+          -0.9114,
+          146.8295,
+          0.9472,
+          0.9293,
+          64.5144,
+          0.3667,
+          59.9865
+        ],
+        [
+          -0.9287,
+          -0.9369,
+          152.3021,
+          -0.9193,
+          147.9061,
+          0.958,
+          0.9432,
+          65.5928,
+          0.3711,
+          60.3717
+        ],
+        [
+          -0.9316,
+          -0.9408,
+          152.6575,
+          -0.9192,
+          148.2941,
+          0.9657,
+          0.9402,
+          66.1023,
+          0.3743,
+          61.3572
+        ],
+        [
+          -0.9325,
+          -0.9443,
+          153.0352,
+          -0.9192,
+          148.4964,
+          0.9678,
+          0.9384,
+          66.3388,
+          0.3833,
+          61.8742
+        ],
+        [
+          -0.9332,
+          -0.9462,
+          153.5148,
+          -0.919,
+          148.8275,
+          0.9711,
+          0.943,
+          67.058,
+          0.3887,
+          61.6531
+        ],
+        [
+          -0.9316,
+          -0.9444,
+          154.1787,
+          -0.9176,
+          148.891,
+          0.9734,
+          0.9436,
+          66.7362,
+          0.3936,
+          62.4984
+        ],
+        [
+          -0.9316,
+          -0.9443,
+          154.0656,
+          -0.9191,
+          149.2258,
+          0.9705,
+          0.9556,
+          66.7922,
+          0.3949,
+          62.8764
+        ]
+      ],
+      "std": [
+        [
+          0.1205,
+          0.1319,
+          11.9908,
+          0.1334,
+          10.9388,
+          0.086,
+          0.0912,
+          21.3384,
+          0.2161,
+          21.7333
+        ],
+        [
+          0.1197,
+          0.1254,
+          11.766,
+          0.1348,
+          10.9206,
+          0.0796,
+          0.0914,
+          20.4997,
+          0.2151,
+          21.1265
+        ],
+        [
+          0.1144,
+          0.1276,
+          12.1496,
+          0.1229,
+          10.8908,
+          0.0812,
+          0.0856,
+          19.7546,
+          0.2126,
+          20.4943
+        ],
+        [
+          0.1164,
+          0.1309,
+          13.5908,
+          0.1266,
+          11.6744,
+          0.0833,
+          0.0882,
+          19.5455,
+          0.2127,
+          20.174
+        ],
+        [
+          0.1189,
+          0.1387,
+          14.7354,
+          0.1277,
+          11.9846,
+          0.0926,
+          0.0926,
+          19.1922,
+          0.2131,
+          19.8534
+        ],
+        [
+          0.1241,
+          0.1442,
+          15.6664,
+          0.133,
+          12.3964,
+          0.0986,
+          0.0986,
+          18.9049,
+          0.2137,
+          19.3977
+        ],
+        [
+          0.1311,
+          0.1478,
+          16.7758,
+          0.143,
+          13.1648,
+          0.1031,
+          0.0994,
+          18.6924,
+          0.2143,
+          18.9024
+        ],
+        [
+          0.136,
+          0.1489,
+          17.6836,
+          0.1511,
+          13.8006,
+          0.1057,
+          0.1019,
+          18.5442,
+          0.2143,
+          18.6369
+        ],
+        [
+          0.1358,
+          0.1482,
+          18.4807,
+          0.1488,
+          14.1736,
+          0.106,
+          0.1021,
+          18.4785,
+          0.2149,
+          18.3152
+        ],
+        [
+          0.1321,
+          0.1427,
+          18.3902,
+          0.1441,
+          14.6261,
+          0.1002,
+          0.0992,
+          18.4175,
+          0.2156,
+          18.2123
+        ],
+        [
+          0.1338,
+          0.1387,
+          18.6267,
+          0.1498,
+          14.7904,
+          0.0983,
+          0.0997,
+          18.4475,
+          0.2129,
+          17.8721
+        ],
+        [
+          0.1384,
+          0.1382,
+          19.0462,
+          0.156,
+          15.408,
+          0.0983,
+          0.0981,
+          18.436,
+          0.2116,
+          17.6877
+        ],
+        [
+          0.1414,
+          0.1398,
+          19.2991,
+          0.1597,
+          15.39,
+          0.0965,
+          0.0959,
+          18.3034,
+          0.2127,
+          17.2347
+        ],
+        [
+          0.1447,
+          0.1418,
+          19.4061,
+          0.1637,
+          15.5171,
+          0.0968,
+          0.0939,
+          18.0209,
+          0.2078,
+          16.837
+        ],
+        [
+          0.1422,
+          0.1395,
+          18.7065,
+          0.1611,
+          15.5319,
+          0.0984,
+          0.0935,
+          17.5506,
+          0.2041,
+          16.1853
+        ],
+        [
+          0.1407,
+          0.1414,
+          18.5905,
+          0.157,
+          14.944,
+          0.0996,
+          0.0952,
+          17.0388,
+          0.2049,
+          15.9099
+        ],
+        [
+          0.1382,
+          0.1383,
+          18.4105,
+          0.1556,
+          15.1224,
+          0.0988,
+          0.0976,
+          16.6208,
+          0.1936,
+          15.8571
+        ],
+        [
+          0.1369,
+          0.1375,
+          18.0321,
+          0.1554,
+          15.5849,
+          0.0994,
+          0.1029,
+          16.3938,
+          0.1937,
+          15.8536
+        ],
+        [
+          0.1354,
+          0.1379,
+          17.6392,
+          0.1516,
+          15.2866,
+          0.1012,
+          0.1051,
+          16.0278,
+          0.191,
+          15.6368
+        ],
+        [
+          0.1368,
+          0.1378,
+          17.4515,
+          0.1556,
+          15.6212,
+          0.1024,
+          0.1087,
+          16.1219,
+          0.1924,
+          15.3615
+        ],
+        [
+          0.1376,
+          0.1389,
+          17.2867,
+          0.1564,
+          16.1294,
+          0.1044,
+          0.1103,
+          16.2372,
+          0.1936,
+          14.9231
+        ],
+        [
+          0.137,
+          0.1388,
+          17.5568,
+          0.1542,
+          16.0234,
+          0.1065,
+          0.1097,
+          16.1396,
+          0.1933,
+          14.6538
+        ],
+        [
+          0.1374,
+          0.1399,
+          17.7281,
+          0.1537,
+          15.4686,
+          0.1064,
+          0.1058,
+          16.276,
+          0.2,
+          14.4166
+        ],
+        [
+          0.1358,
+          0.14,
+          17.5878,
+          0.1513,
+          15.0922,
+          0.1077,
+          0.1085,
+          16.286,
+          0.2066,
+          14.4252
+        ],
+        [
+          0.1319,
+          0.1376,
+          16.6969,
+          0.1472,
+          14.7663,
+          0.109,
+          0.1059,
+          16.1408,
+          0.2128,
+          14.5998
+        ],
+        [
+          0.1282,
+          0.1342,
+          16.1119,
+          0.1446,
+          15.375,
+          0.1079,
+          0.1126,
+          15.8926,
+          0.2095,
+          14.5105
+        ],
+        [
+          0.1278,
+          0.1348,
+          16.6078,
+          0.1428,
+          15.4365,
+          0.1083,
+          0.1105,
+          15.9023,
+          0.2055,
+          14.5147
+        ],
+        [
+          0.1287,
+          0.1333,
+          17.0159,
+          0.1456,
+          15.6034,
+          0.1092,
+          0.1067,
+          15.9807,
+          0.2051,
+          14.5015
+        ],
+        [
+          0.1307,
+          0.1335,
+          17.2276,
+          0.1501,
+          15.4819,
+          0.1092,
+          0.1037,
+          16.1371,
+          0.2029,
+          14.2513
+        ],
+        [
+          0.1355,
+          0.1378,
+          17.4478,
+          0.1551,
+          14.7293,
+          0.1069,
+          0.1017,
+          16.3231,
+          0.2028,
+          14.3385
+        ],
+        [
+          0.1433,
+          0.1445,
+          17.6666,
+          0.1638,
+          14.7325,
+          0.1074,
+          0.0997,
+          16.6274,
+          0.202,
+          14.5481
+        ],
+        [
+          0.1512,
+          0.1526,
+          18.0924,
+          0.1707,
+          14.9306,
+          0.1094,
+          0.0992,
+          17.1501,
+          0.2014,
+          14.8048
+        ],
+        [
+          0.1592,
+          0.158,
+          18.5475,
+          0.1809,
+          15.215,
+          0.1103,
+          0.0974,
+          17.7668,
+          0.2001,
+          14.8224
+        ],
+        [
+          0.1665,
+          0.1658,
+          18.9865,
+          0.1868,
+          15.4407,
+          0.112,
+          0.0996,
+          18.2514,
+          0.2031,
+          14.8906
+        ],
+        [
+          0.1715,
+          0.1702,
+          19.173,
+          0.1899,
+          16.058,
+          0.1121,
+          0.1009,
+          18.5753,
+          0.2043,
+          15.2515
+        ],
+        [
+          0.1686,
+          0.167,
+          19.4868,
+          0.186,
+          16.5219,
+          0.1102,
+          0.1032,
+          18.7877,
+          0.2036,
+          15.6051
+        ],
+        [
+          0.1632,
+          0.163,
+          19.0117,
+          0.179,
+          16.7657,
+          0.1063,
+          0.103,
+          18.6362,
+          0.208,
+          16.3227
+        ],
+        [
+          0.163,
+          0.1635,
+          19.531,
+          0.1793,
+          17.3298,
+          0.1072,
+          0.1078,
+          18.4437,
+          0.2088,
+          16.4383
+        ],
+        [
+          0.1642,
+          0.1682,
+          20.0638,
+          0.1776,
+          18.3929,
+          0.1121,
+          0.1128,
+          18.5116,
+          0.2052,
+          16.2855
+        ],
+        [
+          0.1654,
+          0.1748,
+          20.8964,
+          0.1755,
+          18.6246,
+          0.1174,
+          0.1188,
+          18.3654,
+          0.2083,
+          16.4861
+        ],
+        [
+          0.1631,
+          0.1726,
+          20.7863,
+          0.1724,
+          18.7364,
+          0.1178,
+          0.1213,
+          18.0483,
+          0.2087,
+          16.8984
+        ],
+        [
+          0.1572,
+          0.1671,
+          20.803,
+          0.1655,
+          18.0346,
+          0.1176,
+          0.1189,
+          17.7536,
+          0.2109,
+          17.264
+        ],
+        [
+          0.1531,
+          0.1632,
+          20.2092,
+          0.1608,
+          17.2057,
+          0.1162,
+          0.1149,
+          17.5837,
+          0.2115,
+          17.3
+        ],
+        [
+          0.1493,
+          0.1609,
+          18.5491,
+          0.1521,
+          15.8594,
+          0.1115,
+          0.111,
+          17.5545,
+          0.2102,
+          17.5306
+        ],
+        [
+          0.1414,
+          0.1525,
+          17.407,
+          0.1457,
+          14.818,
+          0.1074,
+          0.1079,
+          17.7678,
+          0.2125,
+          18.1171
+        ],
+        [
+          0.1245,
+          0.1393,
+          15.7618,
+          0.1269,
+          13.5994,
+          0.0979,
+          0.0998,
+          17.665,
+          0.2134,
+          18.5012
+        ],
+        [
+          0.1168,
+          0.133,
+          14.764,
+          0.1213,
+          12.3316,
+          0.0944,
+          0.0964,
+          17.6801,
+          0.2169,
+          18.5471
+        ],
+        [
+          0.1181,
+          0.1352,
+          14.3623,
+          0.1251,
+          11.9971,
+          0.0945,
+          0.0959,
+          17.9546,
+          0.2196,
+          18.7916
+        ],
+        [
+          0.1209,
+          0.1418,
+          13.9967,
+          0.1266,
+          11.352,
+          0.092,
+          0.0899,
+          18.2681,
+          0.219,
+          19.2794
+        ],
+        [
+          0.1195,
+          0.1412,
+          13.7508,
+          0.1248,
+          11.21,
+          0.0903,
+          0.0885,
+          18.5095,
+          0.2208,
+          19.4102
+        ]
+      ],
+      "threshold": 3.4233,
+      "required_events": [
+        {
+          "feature": "angle.elbow.dom",
+          "direction": "falls"
+        }
+      ]
+    },
+    "accuracy": {
+      "recall": 0.9759036144578314,
+      "recall_mode": "leave-one-clip-out",
+      "false_accept_rate_vs_other_activities": 0.002898550724637681,
+      "false_accept_rate_shape_only": 0.004347826086956522,
+      "recall_by_view": {
+        "front/back (<30)": 0.9803921568627451,
+        "oblique (30-60)": 0.9719626168224299,
+        "side (>60)": 0.978021978021978
+      },
+      "n_attempts": 249,
+      "n_clips": 23
+    },
+    "confusable_with": [
+      "plank",
+      "knee_push_up",
+      "incline_push_up",
+      "pike_push_up",
+      "tricep_dip",
+      "burpee",
+      "bench_press"
+    ]
+  },
+  "context_rules": [
+    {
+      "when": {
+        "field": "activity.match_confidence",
+        "op": "LESS_THAN",
+        "value": 0.6
+      },
+      "hint": "ask_to_confirm_activity"
+    },
+    {
+      "when": {
+        "field": "session_state",
+        "op": "IN",
+        "value": [
+          "rest",
+          "conversation"
+        ]
+      },
+      "hint": "hold_coaching_until_break"
+    }
+  ],
+  "movement_model": {
+    "signals": [
+      "angle.elbow.dom",
+      "angle.elbow.non",
+      "angle.hip.dom",
+      "angle.shoulder.dom",
+      "angle.shoulder.non",
+      "dist.wrist_width",
+      "height.hip",
+      "height.wrist.dom",
+      "height.wrist.non",
+      "height.wrist_mid",
+      "reach.wrist.dom",
+      "reach.wrist.non"
+    ],
+    "landmarks": [
+      {
+        "id": "L0",
+        "t": 0.0
+      },
+      {
+        "id": "L1",
+        "t": 0.5306
+      },
+      {
+        "id": "L2",
+        "t": 1.0
+      }
+    ],
+    "phases": [
+      {
+        "id": "lowering",
+        "start": "L0",
+        "end": "L1",
+        "description": "From the top plank position (arms extended, elbows near 150 degrees, hips high) the body lowers as one unit. The elbows bend to about 90 degrees and the chest approaches the floor. This ends at the bottom of the rep."
+      },
+      {
+        "id": "pushing_up",
+        "start": "L1",
+        "end": "L2",
+        "description": "From the bottom position the person presses through the hands. The elbows extend and the body rises as one unit back to the starting plank. This ends at the top of the rep."
+      }
+    ],
+    "key_poses": {
+      "L0": {
+        "height.wrist_mid": {
+          "median": -0.9324,
+          "sigma": 0.085,
+          "p5": -1.0222,
+          "p95": -0.6809
+        },
+        "height.wrist.non": {
+          "median": -0.9446,
+          "sigma": 0.0891,
+          "p5": -1.0535,
+          "p95": -0.691
+        },
+        "angle.elbow.non": {
+          "median": 154.099,
+          "sigma": 10.1321,
+          "p5": 132.5892,
+          "p95": 170.5735
+        },
+        "height.wrist.dom": {
+          "median": -0.9209,
+          "sigma": 0.095,
+          "p5": -1.0309,
+          "p95": -0.6613
+        },
+        "angle.elbow.dom": {
+          "median": 148.7573,
+          "sigma": 8.8543,
+          "p5": 133.6739,
+          "p95": 166.1255
+        },
+        "reach.wrist.non": {
+          "median": 0.9694,
+          "sigma": 0.0704,
+          "p5": 0.8028,
+          "p95": 1.0721
+        },
+        "reach.wrist.dom": {
+          "median": 0.9396,
+          "sigma": 0.084,
+          "p5": 0.7841,
+          "p95": 1.0577
+        },
+        "angle.shoulder.non": {
+          "median": 67.4865,
+          "sigma": 13.1958,
+          "p5": 46.0809,
+          "p95": 113.7381
+        },
+        "height.hip": {
+          "median": 0.4051,
+          "sigma": 0.1859,
+          "p5": 0.0729,
+          "p95": 0.7192
+        },
+        "angle.shoulder.dom": {
+          "median": 63.3443,
+          "sigma": 14.0395,
+          "p5": 43.0267,
+          "p95": 109.4742
+        }
+      },
+      "L1": {
+        "height.wrist_mid": {
+          "median": -0.3407,
+          "sigma": 0.1103,
+          "p5": -0.5731,
+          "p95": -0.1703
+        },
+        "height.wrist.non": {
+          "median": -0.3716,
+          "sigma": 0.1002,
+          "p5": -0.5823,
+          "p95": -0.2242
+        },
+        "angle.elbow.non": {
+          "median": 86.5736,
+          "sigma": 14.1422,
+          "p5": 66.798,
+          "p95": 118.8867
+        },
+        "height.wrist.dom": {
+          "median": -0.3133,
+          "sigma": 0.1305,
+          "p5": -0.5622,
+          "p95": -0.0685
+        },
+        "angle.elbow.dom": {
+          "median": 92.5387,
+          "sigma": 15.2325,
+          "p5": 67.6329,
+          "p95": 117.1827
+        },
+        "reach.wrist.non": {
+          "median": 0.6105,
+          "sigma": 0.0966,
+          "p5": 0.4897,
+          "p95": 0.8211
+        },
+        "reach.wrist.dom": {
+          "median": 0.6461,
+          "sigma": 0.1098,
+          "p5": 0.4763,
+          "p95": 0.8425
+        },
+        "angle.shoulder.non": {
+          "median": 27.6536,
+          "sigma": 12.2732,
+          "p5": 12.6999,
+          "p95": 65.0001
+        },
+        "height.hip": {
+          "median": -0.0409,
+          "sigma": 0.1699,
+          "p5": -0.3329,
+          "p95": 0.3258
+        },
+        "angle.shoulder.dom": {
+          "median": 38.7781,
+          "sigma": 14.0363,
+          "p5": 16.0639,
+          "p95": 64.674
+        }
+      },
+      "L2": {
+        "height.wrist_mid": {
+          "median": -0.9304,
+          "sigma": 0.083,
+          "p5": -1.0351,
+          "p95": -0.6968
+        },
+        "height.wrist.non": {
+          "median": -0.9424,
+          "sigma": 0.0948,
+          "p5": -1.0634,
+          "p95": -0.6817
+        },
+        "angle.elbow.non": {
+          "median": 153.7906,
+          "sigma": 11.9059,
+          "p5": 128.0765,
+          "p95": 171.3478
+        },
+        "height.wrist.dom": {
+          "median": -0.9178,
+          "sigma": 0.1,
+          "p5": -1.0462,
+          "p95": -0.6904
+        },
+        "angle.elbow.dom": {
+          "median": 148.9916,
+          "sigma": 9.2388,
+          "p5": 130.1087,
+          "p95": 163.4001
+        },
+        "reach.wrist.non": {
+          "median": 0.9718,
+          "sigma": 0.0815,
+          "p5": 0.8014,
+          "p95": 1.0792
+        },
+        "reach.wrist.dom": {
+          "median": 0.9456,
+          "sigma": 0.0911,
+          "p5": 0.7931,
+          "p95": 1.081
+        },
+        "angle.shoulder.non": {
+          "median": 66.6606,
+          "sigma": 12.6944,
+          "p5": 44.608,
+          "p95": 107.9186
+        },
+        "height.hip": {
+          "median": 0.3971,
+          "sigma": 0.1575,
+          "p5": 0.0772,
+          "p95": 0.7974
+        },
+        "angle.shoulder.dom": {
+          "median": 62.6317,
+          "sigma": 12.671,
+          "p5": 42.8718,
+          "p95": 110.9208
+        }
+      }
+    },
+    "view_coverage": {
+      "yaw_min": 8.0,
+      "yaw_max": 77.2,
+      "n_clips_by_view": {
+        "front/back (<30)": 5,
+        "oblique (30-60)": 10,
+        "side (>60)": 8
+      }
+    }
+  },
+  "outcomes": [
+    {
+      "id": "pressing_strength",
+      "description": "Chest, shoulder and triceps strength is built by pressing the body up through a full range of motion.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    },
+    {
+      "id": "body_line",
+      "description": "Head, trunk, hips and legs stay in one rigid line through the rep.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    },
+    {
+      "id": "range_of_motion",
+      "description": "The chest reaches near the floor and the arms extend again at the top.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    },
+    {
+      "id": "shoulder_loading",
+      "description": "The shoulders are loaded in a controlled, well-aligned way, without excessive strain.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.shoulder.dom",
+      "at": "L1",
+      "outcome": "shoulder_loading",
+      "effect": "mid_is_better",
+      "mechanism": "Elbows flared to a T put the upper arm perpendicular to the trunk and load the front of the shoulder, while a moderate angle spreads the load.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "angle.hip.dom",
+      "at": "L1",
+      "outcome": "body_line",
+      "effect": "higher_is_better",
+      "mechanism": "A hip angle near straight at the bottom means the trunk and legs stay in one line, so the core carries the load.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "height.hip",
+      "at": "L0",
+      "outcome": "body_line",
+      "effect": "mid_is_better",
+      "mechanism": "Hip height that is neither high nor low in the plank keeps the shoulder, hip and ankle line straight.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "angle.elbow.dom",
+      "at": "L1",
+      "outcome": "range_of_motion",
+      "effect": "lower_is_better",
+      "mechanism": "A smaller elbow angle at the bottom means the chest travels closer to the floor, so each rep covers a fuller range.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "dist.wrist_width",
+      "at": "L0",
+      "outcome": "pressing_strength",
+      "effect": "mid_is_better",
+      "mechanism": "Hand width changes the leverage of the chest versus the triceps, and very wide hands push the elbows out.",
+      "evidence": "prior_only"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "hips_sagging",
+      "goal": "Keep the body in a straight line from shoulders to ankles at the bottom, with the hips and lower back not dropping toward the floor.",
+      "severity": "high",
+      "kind": "form",
+      "priority": 1,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The hips and lower back sag toward the floor, or the hips pike, so the trunk and thigh are no longer in line at the bottom.",
+          "severity": "high"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.hip.dom",
+          "at": "L1",
+          "compare": {
+            "op": "GREATER_OR_EQUAL",
+            "value": 109.5438
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 8.0,
+            "yaw_max": 77.2
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "body_line",
+        "shoulder_loading"
+      ],
+      "cue_intent": "Cue the person to squeeze the glutes and brace the abs so the body stays like a plank.",
+      "ask_if_unsure_intent": "Ask whether the core or lower back tires first, or whether they would like to try an easier variation.",
+      "fix_intent": "Use a plank hold with glutes and abs braced, or move to an incline or knee variation until the straight line holds for the full rep.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 36,
+        "n_reference_clips": 4,
+        "low": 109.54380070080839,
+        "high": null,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "hips_too_high",
+      "goal": "Start each rep with the hips level with the shoulders and feet, not piked up like a downward dog.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 2,
+      "caused_by": [],
+      "sides": {
+        "above": {
+          "looks_like": "Hips pike above the shoulder-to-feet line, so the chest moves toward the floor but the hips stay high, which turns the push-up into a pike press.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "Hips are already sagging low in the starting plank.",
+          "severity": "medium"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M01",
+          "feature": "height.hip",
+          "at": "L0",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": 0.1066,
+            "high": 1.004
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 8.0,
+            "yaw_max": 77.2
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "body_line"
+      ],
+      "cue_intent": "Cue the person to lower the hips until the body is one straight board.",
+      "ask_if_unsure_intent": "Ask whether they set up with their feet far from their hands.",
+      "fix_intent": "Reset the plank with a tucked pelvis and ribs down, then check the line before starting the descent.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 36,
+        "n_reference_clips": 4,
+        "low": 0.10662920696089195,
+        "high": 1.0039630679492575,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "not_going_low_enough",
+      "goal": "Lower until the elbows reach about 90 degrees or the chest is close to the floor, then press back up.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 3,
+      "caused_by": [
+        "hips_sagging"
+      ],
+      "sides": {
+        "above": {
+          "looks_like": "The elbows bend only a little and the chest stops well short of the floor, giving a partial range of motion.",
+          "severity": "medium"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.elbow.dom",
+          "at": "L1",
+          "compare": {
+            "op": "LESS_OR_EQUAL",
+            "value": 114.4466
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 8.0,
+            "yaw_max": 77.2
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "range_of_motion",
+        "pressing_strength"
+      ],
+      "cue_intent": "Cue the person to go down until the chest nearly touches the floor.",
+      "ask_if_unsure_intent": "Ask whether the depth is limited by strength or by shoulder discomfort.",
+      "fix_intent": "Use a smaller number of full-depth reps, or an incline variation, rather than many partial reps.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 36,
+        "n_reference_clips": 4,
+        "low": null,
+        "high": 114.4466112956617,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "wrong_hand_placement",
+      "goal": "Place the hands on the floor about shoulder width apart, under or just outside the shoulders and not ahead of them.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 4,
+      "caused_by": [],
+      "sides": {
+        "above": {
+          "looks_like": "The hands are set much wider than the shoulders, which pushes the elbows out.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "The hands are set close together, narrower than the shoulders, which shifts the work toward the triceps and away from the chest.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M03",
+          "feature": "dist.wrist_width",
+          "at": "L0",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": -0.0023,
+            "high": 2.4271
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 8.0,
+            "yaw_max": 77.2
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "shoulder_loading",
+        "pressing_strength"
+      ],
+      "cue_intent": "Cue the person to set the hands about shoulder width apart, under the shoulders, before lowering.",
+      "ask_if_unsure_intent": "Ask whether the hand position is chosen to target the chest or the triceps.",
+      "fix_intent": "Reset the setup by putting the hands just outside the shoulders, with the fingers pointing forward, and check the elbow path.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 36,
+        "n_reference_clips": 4,
+        "low": -0.002281117535963162,
+        "high": 2.4271157444010876,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "elbow_flare",
+      "goal": "Keep the elbows angled back at a moderate angle from the body (not flared out to a T shape) as the chest lowers.",
+      "severity": "high",
+      "kind": "safety",
+      "priority": 5,
+      "caused_by": [
+        "wrong_hand_placement"
+      ],
+      "sides": {
+        "above": {
+          "looks_like": "Elbows flare out to the sides, forming a T shape with the upper arms nearly perpendicular to the trunk at the bottom.",
+          "severity": "high"
+        },
+        "below": {
+          "looks_like": "Elbows are pinned tight against the ribs, with the upper arms almost along the trunk. This is a different push-up variation and a smaller error.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.shoulder.dom",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": -16.3131,
+            "high": 94.9847
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 8.0,
+            "yaw_max": 77.2
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "shoulder_loading",
+        "pressing_strength"
+      ],
+      "cue_intent": "Remind the person to bring the elbows back toward the hips, at roughly 45 degrees from the body, instead of straight out to the sides.",
+      "ask_if_unsure_intent": "Ask whether they feel the strain in the front of the shoulders and whether the camera shows their body from the side or the front.",
+      "fix_intent": "Have them point the fingers forward, screw the hands into the floor, and think of bending the arms back toward the hips. Check the hand width.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 36,
+        "n_reference_clips": 4,
+        "low": -16.313057668687513,
+        "high": 94.98467398310947,
+        "basis": "good_form_demonstrations"
+      }
+    }
+  ],
+  "session_ideas": [
+    "Film from the side at hip height, with the whole body in view, and do 5 slow reps.",
+    "Do a set of 5 reps at a deliberate tempo with a pause at the bottom to check depth and the body line.",
+    "Compare standard hand width with a slightly narrower hand width while watching the elbow angle.",
+    "Try an incline variation if the body line breaks down before the target number of reps."
+  ],
+  "proposals": [
+    {
+      "kind": "measurement",
+      "name": "rep_tempo (descent and ascent duration, velocity)",
+      "why": "Fast, bouncy reps that use momentum can't be shown by a posture feature. This needs the duration of each phase and the speed of change of the elbow angle."
+    },
+    {
+      "kind": "feature",
+      "name": "angle.head_neck_alignment",
+      "why": "Head craning, poking forward or dropping needs a head-to-trunk angle (ear, shoulder, hip). No registered feature covers it."
+    },
+    {
+      "kind": "feature",
+      "name": "scapular_protraction / shoulder_blade_position",
+      "why": "Scapular control and shoulders collapsing forward can't be seen from the registered joint angles. This needs a shoulder-blade or back-view feature."
+    },
+    {
+      "kind": "feature",
+      "name": "angle.lumbar_extension (spine curvature)",
+      "why": "Arching of the lower back needs a spine curve measure, because the hip angle can't tell an arch from a pike."
+    },
+    {
+      "kind": "feature",
+      "name": "shoulder_height_difference (shoulder shrug)",
+      "why": "Shrugging toward the ears needs the distance between ear and shoulder."
+    },
+    {
+      "kind": "feature",
+      "name": "shoulder_vs_hip_descent_lag",
+      "why": "Chest and hips moving as one unit needs a comparison of the timing of shoulder-height and hip-height change."
+    },
+    {
+      "kind": "feature",
+      "name": "rot.hand_turnout",
+      "why": "Hands turned in or out on the floor need a hand-direction feature. Only foot turnout is registered."
+    }
+  ],
+  "metadata": {
+    "feasibility": {
+      "verdict": "experimental",
+      "reason": "built by the factory; not yet validated in real sessions"
+    },
+    "provenance": {
+      "sources": [
+        "-0eYiItN2D8",
+        "-w6r23P-fy8",
+        "4wS2kxDNPRA",
+        "7ODJboTuANY",
+        "7xVMkYjVpiA",
+        "I9fsqKE5XHo",
+        "IODxDxX7oi4",
+        "KpjTZemHB1U",
+        "MO10KOoQx5E",
+        "PS4wjX-5AtU",
+        "QBM2qG5o4Es",
+        "SwDe1e7Pz60",
+        "TYSCQRmJAYk",
+        "UoQWEgKu8ww",
+        "WkRyOOQCVbo",
+        "Z88Rl5bpnmI",
+        "_q_-adYzkh0",
+        "e8RJSXyN9MM",
+        "f6wZv1n4sSw",
+        "hwnsLAFDuHA",
+        "qqyquVlh03Y",
+        "w-fQXFSysVw",
+        "xeb5ZuCtnPI"
+      ],
+      "n_clips": 23,
+      "n_attempts": 249,
+      "runs": 5,
+      "agreement": 0.833,
+      "primary_features": [
+        "angle.elbow.dom",
+        "angle.elbow.non",
+        "height.hip",
+        "angle.shoulder.dom",
+        "height.wrist_mid",
+        "reach.wrist.dom"
+      ],
+      "calibration_basis": {
+        "good_form_demonstrations": 5
+      },
+      "attempt_events": [
+        {
+          "feature": "angle.elbow.dom",
+          "direction": "falls"
+        }
+      ],
+      "footage": {
+        "attempts": 860,
+        "clips_with_attempts": 41,
+        "clips": 45,
+        "target_reached": true,
+        "rounds": 2
+      },
+      "objective_support": {
+        "runs": 5,
+        "per_objective": {
+          "elbow_flare": 5,
+          "hips_sagging": 5,
+          "hips_too_high": 4,
+          "not_going_low_enough": 5,
+          "wrong_hand_placement": 5
+        },
+        "dropped": []
+      },
+      "footage_sources": {
+        "other": {
+          "clips": 7,
+          "attempts": 41,
+          "shows": {
+            "unknown": 41
+          }
+        },
+        "coach_demo": {
+          "clips": 6,
+          "attempts": 38,
+          "shows": {
+            "good_form": 38
+          }
+        },
+        "mistake_analysis": {
+          "clips": 6,
+          "attempts": 49,
+          "shows": {
+            "mixed": 49
+          }
+        },
+        "practice_session": {
+          "clips": 6,
+          "attempts": 83,
+          "shows": {
+            "unknown": 83
+          }
+        },
+        "pro_footage": {
+          "clips": 0,
+          "attempts": 0,
+          "shows": {}
+        },
+        "instruction_talk": {
+          "clips": 5,
+          "attempts": 45,
+          "shows": {
+            "unknown": 45
+          }
+        }
+      },
+      "reference_clips": [
+        "-w6r23P-fy8",
+        "7xVMkYjVpiA",
+        "I9fsqKE5XHo",
+        "IODxDxX7oi4"
+      ],
+      "coaching_sources": [
+        {
+          "id": "iIa2-uVHzM0",
+          "title": "STOP DOING PUSHUPS LIKE THIS | 10 Worst Mistakes!",
+          "channel": "ATHLEAN-X\u2122",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "xeb5ZuCtnPI",
+          "title": "You're doing push-ups wrong... this is why you're not getting stronger",
+          "channel": "Bro Pump",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "s8dcNFzoRXI",
+          "title": "7 Common Push Up Mistakes I Was Making",
+          "channel": "Bob & Brad",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "y5Q6D-w0ceA",
+          "title": "You're Doing Push-Ups WRONG! (Avoid These 4 Mistakes!)",
+          "channel": "MOVE with Dr. Mike",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "zfA8sF2_QM8",
+          "title": "How to Do Push Ups (STOP These 5 Mistakes!)",
+          "channel": "Captain Workout",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "8V-ZUMvQKr0",
+          "title": "Do a Proper Push Up (mistakes to avoid!)| Nerd Fitness",
+          "channel": "Nerd Fitness",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "Q5yvykiz468",
+          "title": "Push-Up Form | Quick Fix (Common Errors + Corrections)",
+          "channel": "Get Gymnast Fit",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "MO10KOoQx5E",
+          "title": "The Perfect Push-Up To Build Muscle (AVOID THESE MISTAKES!)",
+          "channel": "Jeremy Ethier",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "IKycM2aTMNk",
+          "title": "Coaching and Progressing The Push-Up with PT On The Net",
+          "channel": "Certified Functional Strength Coach",
+          "tier": "instruction_talk"
+        },
+        {
+          "id": "Kj5TpWaGyUs",
+          "title": "3 Biggest Pushup Mistakes Most People Make & And How To Fix Them Instantly - Sixpackfactory",
+          "channel": "Six Pack Factory",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "PS4wjX-5AtU",
+          "title": "The 5 WORST Push-Up Mistakes That RUIN Your Gains",
+          "channel": "Fitnessdy",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "W1LCL-Sw0yU",
+          "title": "3 Most Common Push-Up Mistakes (NEVER Do These!)",
+          "channel": "BarBend",
+          "tier": "mistake_analysis"
+        }
+      ]
+    },
+    "confidence_tier": "low",
+    "requires": {
+      "features": [
+        "angle.elbow.dom",
+        "angle.elbow.non",
+        "angle.hip.dom",
+        "angle.shoulder.dom",
+        "angle.shoulder.non",
+        "dist.wrist_width",
+        "height.hip",
+        "height.wrist.dom",
+        "height.wrist.non",
+        "height.wrist_mid",
+        "reach.wrist.dom",
+        "reach.wrist.non"
+      ],
+      "measures": [
+        "M01",
+        "M02",
+        "M03"
+      ]
+    },
+    "weak_check": {
+      "hips_sagging": {
+        "good": {
+          "attempts": 36,
+          "clips": 4,
+          "flagged": 0.028,
+          "flagged_per_clip": 0.062
+        },
+        "other": {
+          "attempts": 213,
+          "clips": 19,
+          "flagged": 0.014,
+          "flagged_per_clip": 0.012
+        },
+        "verdict": "opposite"
+      },
+      "hips_too_high": {
+        "good": {
+          "attempts": 36,
+          "clips": 4,
+          "flagged": 0.028,
+          "flagged_per_clip": 0.036
+        },
+        "other": {
+          "attempts": 213,
+          "clips": 19,
+          "flagged": 0.089,
+          "flagged_per_clip": 0.076
+        },
+        "verdict": "no_difference"
+      },
+      "not_going_low_enough": {
+        "good": {
+          "attempts": 36,
+          "clips": 4,
+          "flagged": 0.056,
+          "flagged_per_clip": 0.05
+        },
+        "other": {
+          "attempts": 213,
+          "clips": 19,
+          "flagged": 0.056,
+          "flagged_per_clip": 0.051
+        },
+        "verdict": "no_difference"
+      },
+      "wrong_hand_placement": {
+        "good": {
+          "attempts": 36,
+          "clips": 4,
+          "flagged": 0.0,
+          "flagged_per_clip": 0.0
+        },
+        "other": {
+          "attempts": 213,
+          "clips": 19,
+          "flagged": 0.019,
+          "flagged_per_clip": 0.021
+        },
+        "verdict": "no_difference"
+      },
+      "elbow_flare": {
+        "good": {
+          "attempts": 36,
+          "clips": 4,
+          "flagged": 0.0,
+          "flagged_per_clip": 0.0
+        },
+        "other": {
+          "attempts": 213,
+          "clips": 19,
+          "flagged": 0.0,
+          "flagged_per_clip": 0.0
+        },
+        "verdict": "no_difference"
+      }
+    },
+    "checks": [
+      {
+        "id": 1,
+        "name": "format",
+        "status": "pass",
+        "detail": "valid against the v0.7 schema"
+      },
+      {
+        "id": 2,
+        "name": "vocabulary",
+        "status": "pass",
+        "detail": "all features and measurements are registered and active"
+      },
+      {
+        "id": 3,
+        "name": "time budget",
+        "status": "pass",
+        "detail": "every test's time budget can be met by its path"
+      },
+      {
+        "id": 4,
+        "name": "recognition",
+        "status": "pass",
+        "detail": "recall 0.98 (leave-one-clip-out), false accepts 0.00 (shape alone 0.00), by view {'front/back (<30)': 0.9803921568627451, 'oblique (30-60)': 0.9719626168224299, 'side (>60)': 0.978021978021978}"
+      },
+      {
+        "id": 5,
+        "name": "plausibility",
+        "status": "fail",
+        "detail": "implausible: [('wrong_hand_placement', -0.0023), ('elbow_flare', -16.3131)]"
+      },
+      {
+        "id": 6,
+        "name": "discrimination",
+        "status": "not_testable",
+        "detail": "no labelled good/faulty examples, so no target range is validated; 5 of 5 come from good-form demonstrations, 0 from everyday footage (what is typical, not what is good)"
+      },
+      {
+        "id": 7,
+        "name": "outcome links",
+        "status": "pass",
+        "detail": "5 links, 5 prior-only (no data to test them yet)"
+      },
+      {
+        "id": 8,
+        "name": "agreement",
+        "status": "pass",
+        "detail": "agreement 0.83 across 5 runs"
+      },
+      {
+        "id": 9,
+        "name": "cross-references",
+        "status": "pass",
+        "detail": "ids, landmarks, priorities and requires are consistent"
+      }
+    ]
+  },
+  "coaching": {
+    "n_sources": 12,
+    "good_form": [
+      {
+        "point": "Keep elbows tucked at about 45\u00b0 (an arrow shape from above, not a T), but not squeezed to the sides.",
+        "n_sources": 8
+      },
+      {
+        "point": "Keep the whole body tight in one straight line: glutes squeezed, core braced, quads locked, pelvis slightly tucked.",
+        "n_sources": 8
+      },
+      {
+        "point": "Set hands about shoulder width or just outside, directly under the shoulders, with fingers spread.",
+        "n_sources": 5
+      },
+      {
+        "point": "Keep the head and neck in line with the spine.",
+        "n_sources": 5
+      },
+      {
+        "point": "Move with control, lowering slowly, with no bouncing and no rushing.",
+        "n_sources": 5
+      },
+      {
+        "point": "Keep the shoulder blades back and chest open at the bottom, and keep the shoulders from rolling forward.",
+        "n_sources": 5
+      },
+      {
+        "point": "Screw or corkscrew the hands into the floor for external shoulder rotation, and keep the hands from moving.",
+        "n_sources": 4
+      },
+      {
+        "point": "Engage the lats and set the shoulders down and away from the ears before lowering, and hold that position every rep.",
+        "n_sources": 4
+      },
+      {
+        "point": "Lower until the chest touches the floor, then press all the way up.",
+        "n_sources": 4
+      },
+      {
+        "point": "At the top, push the floor away and spread the shoulder blades so the serratus works.",
+        "n_sources": 4
+      },
+      {
+        "point": "Rock forward on the toes on the way down, then back at the top, so the path is like a bench press bar path.",
+        "n_sources": 3
+      },
+      {
+        "point": "Fully lock out the elbows at the top.",
+        "n_sources": 2
+      },
+      {
+        "point": "If wrists hurt, use handles, dumbbells or fists to keep the wrists neutral.",
+        "n_sources": 2
+      }
+    ],
+    "faults": [
+      {
+        "id": "elbow_flare",
+        "description": "Elbows flare out to the sides, making a T shape.",
+        "kind": "safety",
+        "n_sources": 9,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "Elbows are pushed out instead of tucked.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Hands are placed too wide.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Hands are not screwed into the floor.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Wrong form was learned early because it feels natural or easier.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Tuck the elbows to about 45\u00b0 so the body looks like an arrow.",
+            "type": "cue"
+          },
+          {
+            "idea": "Corkscrew the hands into the floor to pull the elbows in.",
+            "type": "cue"
+          },
+          {
+            "idea": "Press the elbows back as the chest nears the floor.",
+            "type": "cue"
+          },
+          {
+            "idea": "Move the hands in a bit, to about shoulder width.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "The upper arm jams into the shoulder, causing impingement, pain and rotator cuff wear.",
+          "Chest, triceps and upper back are less active and range is shortened.",
+          "The push-up is weaker."
+        ],
+        "disagreement": "",
+        "objective": "elbow_flare",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "hips_sagging",
+        "description": "Hips and lower back sag so the body is not in a straight line.",
+        "kind": "safety",
+        "n_sources": 9,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "Core and glutes are not braced.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Losing tension or tiring mid-set.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Feet set too wide, so the glutes can't squeeze.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Thinking the push-up only works the arms.",
+            "proximity": "fundamental"
+          },
+          {
+            "cause": "Weak anterior core stability.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Squeeze the glutes and brace the core as if about to be punched.",
+            "type": "cue"
+          },
+          {
+            "idea": "Tuck the pelvis slightly under.",
+            "type": "cue"
+          },
+          {
+            "idea": "Keep the feet close together.",
+            "type": "setup"
+          },
+          {
+            "idea": "Practice holding a strong plank first.",
+            "type": "drill"
+          },
+          {
+            "idea": "Use a stick along the back to check alignment.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "The lower back is compressed or takes the load.",
+          "Pressing force leaks and reps are lost.",
+          "The shoulders and neck are strained."
+        ],
+        "disagreement": "",
+        "objective": "hips_sagging",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "fast_bouncy_reps",
+        "description": "Reps are rushed and bouncy, using momentum.",
+        "kind": "safety",
+        "n_sources": 5,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "Dropping and bouncing off the floor, slamming into elbow extension.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Chasing rep counts or ego.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Push-ups feel easy, so they are rushed.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Lower for 2-4 seconds, pause briefly at the bottom, then press up with power.",
+            "type": "cue"
+          },
+          {
+            "idea": "Stop on the floor and squeeze the blades before pushing up.",
+            "type": "cue"
+          },
+          {
+            "idea": "Aim for at least 2.5 seconds per rep, and slower to make it harder.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Less time under tension and less muscle growth.",
+          "Higher elbow shear and torque, raising elbow pain risk.",
+          "Less muscle activation."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "rep tempo / angular velocity of the elbow angle (time per descent and ascent, bounce at the bottom)"
+      },
+      {
+        "id": "head_neck_out_of_line",
+        "description": "The head cranes up, pokes forward, or drops, instead of staying in line with the spine.",
+        "kind": "form",
+        "n_sources": 5,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "Letting the head drop or lift out of line.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Reaching the eyes to the floor to feel at the bottom sooner.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Keep the neck neutral and let the chest lead the descent.",
+            "type": "cue"
+          },
+          {
+            "idea": "Tuck the chin slightly.",
+            "type": "cue"
+          },
+          {
+            "idea": "Use a stick along the head and back to check alignment.",
+            "type": "drill"
+          },
+          {
+            "idea": "Lock the gaze on a floor spot just ahead of the hands.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "The spine is out of line and the neck is strained.",
+          "Shoulders and upper spine can collapse.",
+          "Range of motion is shortened."
+        ],
+        "disagreement": "Source 4 says look down at a spot ahead of the hands, while source 6 says look straight ahead rather than down.",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "head-to-trunk alignment angle (ear-shoulder-hip line)"
+      },
+      {
+        "id": "wrong_hand_placement",
+        "description": "Hands are too wide, too narrow, or ahead of the shoulders.",
+        "kind": "form",
+        "n_sources": 5,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "Hands are not set under the shoulders at the right width.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Wide hands are thought to target the chest better.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Width is not fitted to arm length and body type.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Set hands about shoulder width, using elbow tip to middle fingertip as a guide.",
+            "type": "setup"
+          },
+          {
+            "idea": "Stack the hands directly under the shoulders.",
+            "type": "setup"
+          },
+          {
+            "idea": "Find your width: lie flat with arms overhead, slide the elbows to 45-60\u00b0 and put the hands under the shoulders.",
+            "type": "drill"
+          },
+          {
+            "idea": "Set hand width first from all fours.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Elbow-wrist alignment is lost and joints are stressed.",
+          "Narrow hands shift work to the triceps.",
+          "Wide hands raise shoulder injury risk and weaken the push-up."
+        ],
+        "disagreement": "Source 3 says hands too narrow reduce chest work, while source 7 recommends just outside shoulder width or narrower.",
+        "objective": "wrong_hand_placement",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "hips_too_high",
+        "description": "Hips pike up above the shoulder-to-feet line, like a downward dog.",
+        "kind": "form",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Overcorrecting after being told to lift the hips.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Getting tired mid-set.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Lack of core strength.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Bring the hips back into one line from shoulders to feet.",
+            "type": "cue"
+          },
+          {
+            "idea": "Tighten the glutes and then the belly together.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Tension leaves the chest and triceps.",
+          "The push-up becomes an awkward downward dog."
+        ],
+        "disagreement": "",
+        "objective": "hips_too_high",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "not_going_low_enough",
+        "description": "The chest does not reach the floor, so range is partial.",
+        "kind": "form",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Rushing to get more reps.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Lack of awareness of full range.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Lacking strength to lower fully.",
+            "proximity": "fundamental"
+          },
+          {
+            "cause": "Limited shoulder and pec mobility.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Touch the chest to the floor on every rep.",
+            "type": "cue"
+          },
+          {
+            "idea": "Practice slow negatives and push back up from the knees.",
+            "type": "drill"
+          },
+          {
+            "idea": "Stretch the shoulders and pecs before training.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Less chest activation and a missed deep bottom stretch.",
+          "Fewer good reps and poorer results."
+        ],
+        "disagreement": "",
+        "objective": "not_going_low_enough",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "scapular_control_wrong",
+        "description": "The shoulder blades are poorly controlled, either frozen or moving the wrong way.",
+        "kind": "form",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Blades are not spreading at the top or squeezing at the bottom.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Stopping at lockout without pushing further.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Serratus anterior is not holding the blade to the rib cage.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "At the top, push the floor away until the upper back rounds slightly.",
+            "type": "cue"
+          },
+          {
+            "idea": "Squeeze the blades together at the bottom, then press up.",
+            "type": "cue"
+          },
+          {
+            "idea": "Do wall push-up blade drills with locked elbows.",
+            "type": "drill"
+          },
+          {
+            "idea": "Keep the shoulders set down and hold them in place all set.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "The chest and serratus are not fully trained.",
+          "The last inches of the movement are lost."
+        ],
+        "disagreement": "Sources 1, 2 and 3 want the blades to retract at the bottom and protract at the top. Source 0 says to keep them set and not retract and protract.",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "scapular protraction/retraction: change in shoulder-blade/shoulder-width spacing across the rep"
+      },
+      {
+        "id": "shoulders_collapsing_forward",
+        "description": "Shoulders roll or dump forward, especially at the bottom.",
+        "kind": "safety",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Shoulder blades are not controlled at the bottom.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Losing back tension and going loose.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Chest tension pulls the shoulders forward with little back support.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Pull the shoulder blades back and down, keeping the chest open.",
+            "type": "cue"
+          },
+          {
+            "idea": "Keep the back tight through the whole set.",
+            "type": "cue"
+          },
+          {
+            "idea": "Keep the blades back on the way up.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Rotator cuff grind and cumulative shoulder damage.",
+          "Chest is less involved and small stabilizers fatigue quickly.",
+          "Hard to reach the floor or press."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "fwd.trunk_shift (shoulder centre forward of ankles/wrists at the bottom)"
+      },
+      {
+        "id": "body_not_moving_as_one_unit",
+        "description": "Chest and hips do not move together, as in the worm or the chest touching first.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Hips lag behind the shoulders in the rise.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Losing midsection tension at the bottom.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Keep the midsection tight so everything moves in one line.",
+            "type": "cue"
+          },
+          {
+            "idea": "Press up with the hips and keep the core tight.",
+            "type": "cue"
+          },
+          {
+            "idea": "If too hard, use knee or incline push-ups.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "The body does not move as a solid unit.",
+          "Tension is lost."
+        ],
+        "disagreement": "Source 0 wants the chest zone to touch the floor first, not the hips, while source 11 wants chest and hips to touch together, not chest first.",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "relative timing of shoulder and hip vertical movement (chest-hip lag) across the rep"
+      },
+      {
+        "id": "shoulder_shrugging",
+        "description": "Shoulders shrug up toward the ears.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Shoulders are not set down before starting.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Fatigue while grinding out reps.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Use the lats to pull the shoulders down and away from the ears, and hold them there.",
+            "type": "cue"
+          },
+          {
+            "idea": "Think anti-shrug: blades down and together.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Tension shifts from the chest to the traps or shoulders.",
+          "Stability and pressing strength are lost."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "shoulder elevation: ear-to-shoulder distance / torso length"
+      },
+      {
+        "id": "arching_lower_back",
+        "description": "The lower back arches to compensate, so only the upper body pushes up.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Pushing the pelvis up by arching to make up for a drop.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Quads and core are not contracted.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Front of the body is not tight.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Contract the quads and core and keep that tension through the rep.",
+            "type": "cue"
+          },
+          {
+            "idea": "Think upper spine forward, lower spine back for a neutral spine.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "The body does not stay in a straight line.",
+          "The upper back is forced down, working against the press."
+        ],
+        "disagreement": "",
+        "objective": "hips_sagging",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "hands_turned_in",
+        "description": "Hands are turned inward on the floor.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Hands are placed turned in.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Turning in relieves wrist discomfort by needing less wrist extension.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Point the hands forward (12:00) or out slightly (about 2:00).",
+            "type": "cue"
+          },
+          {
+            "idea": "Screw the hands into the floor and weight the outer hand.",
+            "type": "cue"
+          },
+          {
+            "idea": "For sore wrists, use dumbbells or fists.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Elbows flare.",
+          "Shoulders are internally rotated, raising impingement risk and stressing the elbows.",
+          "Shoulder stability is reduced."
+        ],
+        "disagreement": "Source 0 allows fingers turned out to about 2:00, while source 7 wants the hands neutral.",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "hand direction relative to the body (hand turnout angle, from finger/hand landmarks)"
+      },
+      {
+        "id": "no_lockout",
+        "description": "The elbows are not fully extended at the top.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Shortchanging the top of the rep.",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Lock the elbows out fully at the top.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Incomplete range of motion."
+        ],
+        "disagreement": "Source 9 says not to worry about locking out at the top, and has trainees push past it for scapular strength.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "angle.elbow.dom at the top of the rep (max elbow angle)"
+      },
+      {
+        "id": "passive_hands_no_lats",
+        "description": "Hands are passive and the lats are not engaged, so the arms do all the work.",
+        "kind": "safety",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Not gripping the floor or paying attention to the hands.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Treating the push-up as only a chest and triceps exercise.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Grip the floor and spread the fingers to build upper back tension.",
+            "type": "cue"
+          },
+          {
+            "idea": "Squeeze the lats back and down before lowering, as if putting the hands in back pockets.",
+            "type": "cue"
+          },
+          {
+            "idea": "Twist the hands outward without moving them.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Reps are shaky with poor posture.",
+          "The shoulders take more strain and the core works less.",
+          "Chest pushing power is reduced."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "ask_user_or_other_sensor",
+        "note": ""
+      },
+      {
+        "id": "straight_up_down_path",
+        "description": "The body moves purely vertically, like an elevator.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Body position in space is not altered, since the hands are fixed.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Rock forward on the toes down and back up so the hands end under the shoulders.",
+            "type": "cue"
+          },
+          {
+            "idea": "Push slightly forward as well as up, as if shoving the floor away.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Less than full chest activation."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "fwd.trunk_shift (forward/back shoulder travel over the rep)"
+      },
+      {
+        "id": "wrist_strain",
+        "description": "Wrists are bent back with the hands flat on the floor, straining them.",
+        "kind": "safety",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Hands flat on the floor with the wrists bent back.",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Use push-up handles or grips.",
+            "type": "setup"
+          },
+          {
+            "idea": "Hold dumbbells or do push-ups on fists to keep the wrist neutral.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Wrist pain."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "wrist extension angle (forearm to hand), from hand landmarks"
+      },
+      {
+        "id": "arms_tense_on_way_up",
+        "description": "The forearms and elbows stay tense during the press.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Biceps stay tense and hold the elbow angle.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Triceps engage before the chest.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Tense the arms on the way down and relax the elbows and forearms on the way up.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Stuck at the bottom with tension but no upward movement.",
+          "The chest cannot finish the press."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "ask_user_or_other_sensor",
+        "note": ""
+      },
+      {
+        "id": "feet_too_wide",
+        "description": "The feet are set far apart.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [],
+        "fixes": [
+          {
+            "idea": "Keep the feet fairly close together.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "The glutes can't brace tightly."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "dist.stance_width"
+      },
+      {
+        "id": "poor_programming",
+        "description": "Doing 100 push-ups a day or always the same variation.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [],
+        "fixes": [],
+        "outcome_effects": [],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "ask_user_or_other_sensor",
+        "note": ""
+      }
+    ],
+    "objectives_no_coach_names": []
+  }
+}

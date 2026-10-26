@@ -1,0 +1,32 @@
+racket hand known from the frames for 116 videos; the skeleton-only guess agrees on 72/114; right-handed 101, left-handed 15
+labelled windows usable: 2467 {'no_stroke': 953, 'forehand': 757, 'backhand': 219, 'serve': 406, 'other': 10, 'volley': 86, 'smash': 30, 'slice': 6}
+what the frames show, by the activity each video was collected for:
+   tennis_backhand {'no_stroke': 136, 'forehand': 207, 'backhand': 130, 'serve': 25, 'other': 1, 'volley': 4, 'smash': 1}
+   tennis_drop_shot {'no_stroke': 78, 'serve': 9, 'forehand': 61, 'other': 2, 'backhand': 4}
+   tennis_forehand {'forehand': 118, 'volley': 3, 'no_stroke': 109, 'backhand': 19, 'serve': 23}
+   tennis_lob {'no_stroke': 40, 'forehand': 13, 'serve': 4, 'smash': 3}
+   tennis_overhead_smash {'serve': 175, 'forehand': 47, 'no_stroke': 76, 'smash': 17, 'backhand': 9, 'other': 2, 'volley': 2}
+   tennis_serve {'serve': 119, 'no_stroke': 80, 'backhand': 9, 'other': 1, 'forehand': 25, 'smash': 1, 'volley': 2}
+   tennis_slice {'no_stroke': 110, 'backhand': 30, 'serve': 31, 'forehand': 119, 'volley': 1, 'smash': 4, 'slice': 6, 'other': 1}
+   tennis_volley {'no_stroke': 324, 'smash': 4, 'forehand': 167, 'serve': 20, 'volley': 74, 'backhand': 18, 'other': 3}
+classes: {'backhand': 183, 'forehand': 550, 'no_stroke': 904, 'serve': 388, 'smash': 25, 'volley': 58} | videos 509
+
+[windows anchored on the detected event] held-out accuracy 0.685 on 2108 windows
+  recall: {'backhand': 0.37, 'forehand': 0.67, 'no_stroke': 0.78, 'serve': 0.79, 'smash': 0.0, 'volley': 0.0}
+  rows = what the frames show, cols = predicted: ['backhand', 'forehand', 'no_stroke', 'serve', 'smash', 'volley']
+    backhand   [68 84 19 12  0  0]
+    forehand   [ 55 366  98  21   3   7]
+    no_stroke  [ 30 106 703  64   0   1]
+    serve      [ 11  23  46 308   0   0]
+    smash      [ 0  5  5 15  0  0]
+    volley     [ 5 36 16  1  0  0]
+
+[windows shifted 0.3-0.6 s either way (what a live sliding window sees)] held-out accuracy 0.675 on 8433 windows
+  recall: {'backhand': 0.34, 'forehand': 0.63, 'no_stroke': 0.78, 'serve': 0.79, 'smash': 0.0, 'volley': 0.02}
+  rows = what the frames show, cols = predicted: ['backhand', 'forehand', 'no_stroke', 'serve', 'smash', 'volley']
+    backhand   [251 331  97  48   0   5]
+    forehand   [ 223 1381  460  113    6   22]
+    no_stroke  [ 118  413 2835  242    0    9]
+    serve      [  29   94  204 1218    3    0]
+    smash      [ 3 16 30 50  0  0]
+    volley     [ 29 120  74   4   0   5]

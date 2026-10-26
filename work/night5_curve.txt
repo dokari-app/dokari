@@ -1,0 +1,5 @@
+share of training videos | fh-vs-bh AUC | accuracy | backhand recall
+ 0.25                   | 0.697        | 0.601    | 0.53
+ 0.50                   | 0.766        | 0.635    | 0.60
+ 0.75                   | 0.795        | 0.660    | 0.62
+ 1.00                   | 0.805        | 0.670    | 0.65

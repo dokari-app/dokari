@@ -1,0 +1,1054 @@
+{
+  "n_sources": 12,
+  "good_form": [
+    {
+      "point": "Keep the volley compact and short, like a punch, push or block, not a groundstroke swing.",
+      "sources": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Use a continental grip for all volleys, forehand and backhand, with no grip change.",
+      "sources": [
+        1,
+        6,
+        7,
+        9,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Keep the preparation small, with only a modest shoulder or upper-body turn so you meet the ball outside the body.",
+      "sources": [
+        0,
+        7,
+        8,
+        9,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Keep the hand and elbow in front of the body.",
+      "sources": [
+        0,
+        7,
+        9,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Let the racket lag slightly behind the hand, with the hands close together, as if catching the ball on the strings.",
+      "sources": [
+        0,
+        3,
+        9,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Use a ready position with a knee bend, on the toes, racket in front, and the upper body tilted slightly down.",
+      "sources": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Step with the outside foot behind the ball and stride forward through it, transferring weight.",
+      "sources": [
+        1,
+        6,
+        7,
+        9
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Move forward through the ball with momentum and finish in front or toward the net.",
+      "sources": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Keep the wrist firm and the racket face flat at contact.",
+      "sources": [
+        1,
+        3,
+        8
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Split step before moving to the ball.",
+      "sources": [
+        1,
+        6,
+        11
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Hold the grip loose enough that the wrist can absorb pace.",
+      "sources": [
+        4,
+        11
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Watch the ball, looking forward and down, not at the target or opponent.",
+      "sources": [
+        3,
+        8
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Lead with the lower edge of the racket, with the tip to the side, to open the face on low balls.",
+      "sources": [
+        6,
+        9
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Stand tight to the net, or practice from the service line with transitional volleys.",
+      "sources": [
+        2,
+        9
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Keep the ball in front of you and hit low volleys straight ahead down the line.",
+      "sources": [
+        10
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "After an approach shot, follow the path of your ball and read the opponent's drive or lob cues.",
+      "sources": [
+        5
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "Set the strings early with the racket in front, using the non-hitting hand to steer it.",
+      "sources": [
+        7
+      ],
+      "n_sources": 1
+    },
+    {
+      "point": "For high volleys, set the racket high, finish high and hold the non-hitting hand out in front.",
+      "sources": [
+        10
+      ],
+      "n_sources": 1
+    }
+  ],
+  "faults": [
+    {
+      "id": "big_swing",
+      "description": "Taking a big backswing or groundstroke-style swing instead of a short punch, block or catch.",
+      "kind": "form",
+      "sources": [
+        1,
+        3,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Big preparation or racket taken back so the butt cap shows.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Elbow drifting back, or the racket going back as the legs step forward.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Racket starting low, strings not set early, or poor footwork.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Not treating the volley as a catch or push.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Pretend your back is against a wall so the racket cannot go back.",
+          "type": "cue"
+        },
+        {
+          "idea": "Think of the volley as a catch, push or step with no swing.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the preparation small and freeze the racket at contact.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practice quick-fire balls so there is no time to swing.",
+          "type": "drill"
+        },
+        {
+          "idea": "A partner feeds and you catch the ball with the racket held in front.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Ball goes out because the face angles up.",
+        "Loss of power.",
+        "Late contact.",
+        "Poor control."
+      ],
+      "disagreement": "Source 6 says a bit of swing is fine on higher, slower balls. Source 0 says a slight racket lag gives power.",
+      "n_sources": 7,
+      "support": "strong"
+    },
+    {
+      "id": "wrong_footwork",
+      "description": "Wrong footwork or rhythm: one step, a cross step, stepping then hitting as separate actions, or no body involvement.",
+      "kind": "form",
+      "sources": [
+        1,
+        2,
+        6,
+        7,
+        9,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Stepping in and stopping, or a single big sideways step.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Old advice such as 'step across and punch' or 'step in and hit'.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Practice that only needs one step, or only close to the net.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Split step, set the outside foot behind the ball, then stride forward in a hop-one-two rhythm.",
+          "type": "drill"
+        },
+        {
+          "idea": "Make contact while the front foot is still up, with the heel down in the follow-through.",
+          "type": "cue"
+        },
+        {
+          "idea": "If you step in early, drive forward off the back leg.",
+          "type": "cue"
+        },
+        {
+          "idea": "Move laterally only when stretched wide.",
+          "type": "cue"
+        },
+        {
+          "idea": "Skip the split step and keep the feet active when right on the net.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Pulled sideways.",
+        "Less pop and no weight transfer.",
+        "Poor control, framing."
+      ],
+      "disagreement": "Source 2 says not to split step when under a foot from the net. Sources 1, 6 and 11 say to split step. Source 11 makes contact and then steps, while source 7 wants contact before the foot lands.",
+      "n_sources": 6,
+      "support": "strong"
+    },
+    {
+      "id": "elbows_not_in_front",
+      "description": "Elbows tucked down or behind the body, or the swing pivoting around the shoulder.",
+      "kind": "form",
+      "sources": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Elbow drifting back on the forehand, or the left elbow moving back on the backhand.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "No proper ready position, elbows not set in front.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Squatting on the knees without tilting the upper body into a sprinter stance.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hold a broomstick under the elbows so they cannot go back, and volley for about five minutes.",
+          "type": "drill"
+        },
+        {
+          "idea": "Take the sprinter stance with a knee bend and a slight C shape.",
+          "type": "setup"
+        },
+        {
+          "idea": "Imagine the elbows resting on a table in front, and rotate around elbows and wrist.",
+          "type": "cue"
+        },
+        {
+          "idea": "Air out the elbows and armpits in the ready position.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the elbows in front while stepping in.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Swinging with wrist and forearm.",
+        "Late, inaccurate contact with too much power.",
+        "Poor control."
+      ],
+      "disagreement": "Source 1 wants elbows aired out, not down. Sources 0 and 11 want elbows in front, as if on a table.",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "wrist_unstable",
+      "description": "The wrist collapses, bends or lets the racket overtake the hand at contact.",
+      "kind": "form",
+      "sources": [
+        3,
+        8,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Wrist not locked or firm.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Going out to find the ball instead of waiting for it.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Racket not set to the side on a 45\u00b0 line (forehand).",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the wrist firm and just catch the volley.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the racket close to the body, with the hand in front and the racket lagging slightly.",
+          "type": "cue"
+        },
+        {
+          "idea": "Set the racket to the side at about 45\u00b0 on the forehand.",
+          "type": "setup"
+        },
+        {
+          "idea": "Use the body to punch with the racket.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Face goes down and the ball goes into the net.",
+        "Ball goes crooked.",
+        "Body disconnected from the shot."
+      ],
+      "disagreement": "Sources 3 and 8 want a locked wrist. Source 11 wants a loose grip so the wrist absorbs the ball.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "wrong_grip",
+      "description": "Volleying with an Eastern forehand or Western grip instead of Continental.",
+      "kind": "safety",
+      "sources": [
+        6,
+        7,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Habit of using a forehand grip.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Advice to switch between Eastern grips, or not having learned the continental grip first.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Use the Continental grip for all volleys, with the index-finger underside and palm base on bevel two.",
+          "type": "setup"
+        },
+        {
+          "idea": "Only try small grip changes when advanced and already volleying well.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Wrist strain and loss of control.",
+        "Nothing on backhand volleys.",
+        "Ball pops up or goes into the net.",
+        "Low volleys are awkward."
+      ],
+      "disagreement": "Source 1 uses a composite grip at bevel 2.5. Source 11 adjusts slightly toward the weaker side. Others say to keep a pure continental grip.",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "chopping_down",
+      "description": "Karate-chop high-to-low or jerky punch motion down on the ball.",
+      "kind": "form",
+      "sources": [
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Taking the high-to-low cue literally.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Racket not set behind the ball.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Poor footwork.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Set up behind the ball and punch straight forward by extending the elbow.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hit down only on high balls and lift on low volleys.",
+          "type": "cue"
+        },
+        {
+          "idea": "Step out and in, loading the outside foot, and think of catching the ball.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Face opens and the ball pops up.",
+        "Too much rotation, little penetration.",
+        "Loss of touch and feel."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "distance_from_ball",
+      "description": "Going out to find or reach for the ball, overextending the arm, or crowding the ball.",
+      "kind": "form",
+      "sources": [
+        8,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Arm extended in front, or moving toward the ball.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not waiting for the ball to come.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Stay a little away from the ball and let it come to you.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hit with the arm a little bent.",
+          "type": "cue"
+        },
+        {
+          "idea": "If the ball is far, take steps forward and step in at contact instead of reaching.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Cramped, with no space.",
+        "Body not with the shot."
+      ],
+      "disagreement": "Source 4 wants good extension toward the net at the finish.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "excessive_body_turn",
+      "description": "Turning the whole body as on a groundstroke, so the hand and elbow end up behind the body.",
+      "kind": "form",
+      "sources": [
+        0,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Turning the legs and whole body instead of just the upper body.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Treating the volley like a groundstroke.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Turn only from the waist up and let the legs carry you.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the turn minimal and the hand and elbow in front.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Big arm swing that is hard to control.",
+        "Late contact."
+      ],
+      "disagreement": "Source 0 says the backhand turn can be slightly larger than the forehand turn. Source 9 says to turn sideways like a groundstroke, but modestly.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "grip_too_tight",
+      "description": "Squeezing the grip, with tension running up the arm.",
+      "kind": "form",
+      "sources": [
+        4,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Squeezing the grip hard.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Concentrating or feeling pressure makes the player tense.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hold the racket loosely, so it could be pulled from your hand.",
+          "type": "cue"
+        },
+        {
+          "idea": "Feed-ball drill: loosen the grip and absorb power with the racket head.",
+          "type": "drill"
+        },
+        {
+          "idea": "Imagine the racket head and net are magnetized.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Can't absorb pace.",
+        "Loss of maneuverability.",
+        "Arm feels heavy."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "leaning_over_ball",
+      "description": "Leaning the upper body forward over the ball or too early.",
+      "kind": "form",
+      "sources": [
+        6,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Legs not under the upper body.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Reaching with the upper body instead of stepping.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the legs under the upper body.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the back straight, take one or two steps, and release weight forward only at contact.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Wasted momentum.",
+        "Loss of balance."
+      ],
+      "disagreement": "Source 8 says to lean forward and finish low and in front.",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "not_watching_ball",
+      "description": "Looking at the target or opponent, or turning the head to the side, instead of watching the ball.",
+      "kind": "form",
+      "sources": [
+        3,
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Focusing on the target or opponent.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Turning the head to the side.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Watch the ball, like catching it.",
+          "type": "cue"
+        },
+        {
+          "idea": "Look forward and down at the ball.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Volley not hit cleanly."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "racket_tip_up_open_body",
+      "description": "Facing the net with the racket tip pointing up instead of to the side.",
+      "kind": "form",
+      "sources": [
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Racket tip up and body open, not turned sideways.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Getting used to the forehand grip.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Point the racket tip to the side and lead with the lower edge.",
+          "type": "cue"
+        },
+        {
+          "idea": "Turn sideways modestly, with the elbow in line with the outside foot.",
+          "type": "cue"
+        },
+        {
+          "idea": "Open the face on low volleys and close it slightly on high ones.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball can only go down.",
+        "Can't get under the ball."
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "approach_positioning",
+      "description": "Not following the path of your approach ball, or ignoring the opponent's drive or lob cues.",
+      "kind": "form",
+      "sources": [
+        5
+      ],
+      "causes": [
+        {
+          "cause": "Deviating from the ball's path after an approach, especially cross court.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not watching the opponent after the deep ball.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Pretend you are tethered to your ball and follow its path.",
+          "type": "cue"
+        },
+        {
+          "idea": "Approach down the line most of the time.",
+          "type": "cue"
+        },
+        {
+          "idea": "Read the cues: racket back and stepping in means drive, weight on the back foot means topspin lob.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Opponent passes you down the line.",
+        "Getting lobbed.",
+        "Unprepared for the next shot."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "chest_high_forehand",
+      "description": "Taking a ball coming at the chest with the forehand volley.",
+      "kind": "form",
+      "sources": [
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Fast ball directly at the chest.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Take it on the backhand side, which is easier.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Pushed out of position."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "dumping_short",
+      "description": "Volley dies short because of an abrupt finish and a bent arm.",
+      "kind": "form",
+      "sources": [
+        4
+      ],
+      "causes": [
+        {
+          "cause": "Abrupt finish with the arm staying bent.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Squeezing the grip so the arm feels heavy.",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Pressure when the shot feels important.",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Imagine the racket head and net are magnetized and the net pulls the racket forward.",
+          "type": "cue"
+        },
+        {
+          "idea": "Extend toward the net and release the racket into the volley.",
+          "type": "cue"
+        },
+        {
+          "idea": "Loosen the grip.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball lands before the service line.",
+        "Opponent gets an easy next shot."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "low_volley_cross_court",
+      "description": "Angling a low volley cross court, so momentum carries you out of position.",
+      "kind": "form",
+      "sources": [
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Forward momentum pulling you to one side.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Trying to win the point from a low ball.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Hit low volleys straight ahead down the line.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the ball in front of you and stay in position for the next shot.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Opponent passes you down the line.",
+        "Ball goes out into the doubles alley."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "not_closing_forward",
+      "description": "Not moving forward through the ball.",
+      "kind": "form",
+      "sources": [
+        2
+      ],
+      "causes": [
+        {
+          "cause": "Not closing square and forward with linear momentum.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Close square and forward, moving through the ball to keep weight forward.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Volley pops up."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "racket_low_late_set",
+      "description": "Racket starts low and the strings are set late, so you flail up at the ball.",
+      "kind": "form",
+      "sources": [
+        7
+      ],
+      "causes": [
+        {
+          "cause": "Racket starting too low.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Strings not set as soon as the ball is seen.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Start with the racket in front and sit low.",
+          "type": "setup"
+        },
+        {
+          "idea": "Set the strings as soon as you see the ball.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hold the racket throat with the non-dominant hand to steer the strings.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Big swing.",
+        "Hitting all over the place."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "slicing_too_much",
+      "description": "Cutting down on the volley or half volley too early instead of pushing through.",
+      "kind": "form",
+      "sources": [
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Thinking a slice volley means cutting immediately.",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Being unbalanced or stopping at the hit point on half volleys.",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Keep the racket perpendicular and push through, going under the ball only at the end.",
+          "type": "cue"
+        },
+        {
+          "idea": "On half volleys, block and aim at the net tape while moving forward.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Ball lacks depth and punch.",
+        "Half volley doesn't stay low."
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "splitting_hands_early",
+      "description": "Separating the hands too early on the backhand preparation.",
+      "kind": "form",
+      "sources": [
+        8
+      ],
+      "causes": [
+        {
+          "cause": "Opening the arms before the last second.",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Rotate and wait with both hands on the racket.",
+          "type": "cue"
+        },
+        {
+          "idea": "Open at the last second to punch aggressively.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Arms less solid and the punch less aggressive."
+      ],
+      "disagreement": "Source 2 says a two-handed backhand volley is fine for high or fast balls.",
+      "n_sources": 1,
+      "support": "single"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Fm48pbfyl-4",
+      "title": "Two Common Mistakes On The Volley | Tennis Volley Technique",
+      "channel": "Intuitive Tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "cHBZ8U2Rtak",
+      "title": "Ultimate Tennis Volley Guide | Fix Mistakes With Simple Drills!",
+      "channel": "The Tennis Journal",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Rm5atdjlAoQ",
+      "title": "ATP Coach Exposes My Volley Mistakes (and How He Fixed Them)",
+      "channel": "MPTennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "WeYm9haIhp8",
+      "title": "Common Mistakes to Avoid on the Volley - Pro Tennis Tips with Coach Rhett",
+      "channel": "Tennis Plaza",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "RWUD5pK7TcU",
+      "title": "\"Dumpy\" Volley Fix | MORE QUICK FIXES",
+      "channel": "Daily Tennis Lesson",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Xvfn10AY2Gw",
+      "title": "2 Mistakes To Avoid To DOMINATE At The Net - Volley Tennis Lesson",
+      "channel": "PlayYourCourt.com",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "5c8I4lL_jjo",
+      "title": "5 Reasons Why You\u2019re Missing Tennis Volleys & How To Fix The Mistakes",
+      "channel": "Meike Babel Tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "GaGUF4447iM",
+      "title": "Your Volley Technique Is Wrong\u2014Here's Why",
+      "channel": "Patrik Broddfelt",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "A5zj-BpFJPg",
+      "title": "Fixing the Most Common Volley Mistake | Backhand Volley Lesson with Diana",
+      "channel": "Juan Scoppetta",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "-0HCUJQrwDo",
+      "title": "The Most Common Errors On The Volley And How To Fix Them",
+      "channel": "Patrick Smith Tennis Coaching",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "feCB0-CYqrI",
+      "title": "Avoid These 3 Common Volley & Overhead Mistakes (Singles Strategy Explained)",
+      "channel": "2MinuteTennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "QCepSZSpePU",
+      "title": "Volley Technique That Actually Works | No More Mistakes",
+      "channel": "Your Online Tennis Coach",
+      "tier": "coach_demo"
+    }
+  ]
+}

@@ -1,0 +1,1000 @@
+{
+  "n_sources": 12,
+  "good_form": [
+    {
+      "point": "Follow through fully, finishing high over the opposite shoulder with the racket tip up, then release and recover.",
+      "sources": [
+        0,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "n_sources": 6
+    },
+    {
+      "point": "Turn the shoulders (and hips less than shoulders) fully, until the front shoulder is under the chin, so the body powers the shot.",
+      "sources": [
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Keep the grip and wrists relaxed, so the racket can drop under the ball and accelerate.",
+      "sources": [
+        2,
+        4,
+        8,
+        10,
+        11
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Let the racket drop below the ball, then swing low to high to a contact point out in front.",
+      "sources": [
+        0,
+        2,
+        7,
+        9,
+        10
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Use the non-dominant hand as the leading, swinging hand, with the bottom hand only stabilizing.",
+      "sources": [
+        0,
+        2,
+        3,
+        8,
+        10
+      ],
+      "n_sources": 5
+    },
+    {
+      "point": "Stay low and athletic with bent legs, and transfer weight forward through the ball.",
+      "sources": [
+        0,
+        6,
+        9,
+        11
+      ],
+      "n_sources": 4
+    },
+    {
+      "point": "Start turning the shoulders early, as the ball leaves the opponent's strings, and finish the preparation by the bounce.",
+      "sources": [
+        5,
+        8,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Keep space between the elbows and the body in preparation and contact, not tucked in.",
+      "sources": [
+        1,
+        4,
+        5
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Power the swing from the ground up through the legs, hips and trunk, not the arms.",
+      "sources": [
+        0,
+        6,
+        11
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Step forward into the ball and get behind it, with the head steady and still until after contact.",
+      "sources": [
+        3,
+        5,
+        9
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Shorten the preparation on fast balls or returns.",
+      "sources": [
+        0,
+        8,
+        10
+      ],
+      "n_sources": 3
+    },
+    {
+      "point": "Move the non-dominant arm back as the hitting arm goes forward, to stay aligned and balanced and avoid over-rotating.",
+      "sources": [
+        6,
+        10
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Keep the racket on the hitting side of the hands through contact so the strings face the target longer.",
+      "sources": [
+        3,
+        7
+      ],
+      "n_sources": 2
+    },
+    {
+      "point": "Hit the ball high over the net for margin, spin and depth.",
+      "sources": [
+        5,
+        8
+      ],
+      "n_sources": 2
+    }
+  ],
+  "faults": [
+    {
+      "id": "tight_grip_or_wrists",
+      "description": "Squeezing the racket or tensing the wrists so the racket cannot drop and accelerate freely.",
+      "kind": "form",
+      "sources": [
+        2,
+        4,
+        8,
+        10,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Tension in the hands and small wrist muscles",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Focusing on small muscles instead of the big body muscles",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Relax the hands; use roughly 3 out of 10 grip pressure.",
+          "type": "cue"
+        },
+        {
+          "idea": "Imagine throwing the racket head and letting the arms follow.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the hand relaxed so the racket accelerates in a slapping motion.",
+          "type": "cue"
+        },
+        {
+          "idea": "Consciously use the legs, core, hips and shoulders and keep the wrist relaxed.",
+          "type": "cue"
+        },
+        {
+          "idea": "Practice with a cut-down preparation to force acceleration from a relaxed hand.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Swing stops short",
+        "Racket cannot get under the ball",
+        "Less racket head speed, spin, power and angles"
+      ],
+      "disagreement": "",
+      "n_sources": 5,
+      "support": "strong"
+    },
+    {
+      "id": "faulty_takeback",
+      "description": "The takeback is too high, too long, a straight down-and-back line, or has a straight hitting arm.",
+      "kind": "form",
+      "sources": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Top arm flaring out like a chicken wing",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Non-dominant hand far from the body, straightening the hitting arm",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Closed stance allowing a very long backswing",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Down-and-back is easier for newer players",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Drop the elbow toward the rib cage and dip the racket as if into a pool.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use a loop or C shape: head above the hands, drop below the ball, pull up and forward.",
+          "type": "drill"
+        },
+        {
+          "idea": "Keep the non-dominant hand close to the body so the hitting arm bends.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use an open stance and keep the preparation short.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "Slapping at or hitting down on the ball, missing in the net",
+        "Less rhythm, power and control",
+        "Little acceleration from arm extension",
+        "Short finish"
+      ],
+      "disagreement": "Source 0 wants the racket head above the hands at the start of the loop, source 2 wants a low takeback, and source 10 wants the racket head up; a down-and-back takeback is a fault for source 0 but acceptable on returns.",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "pulling_across_body",
+      "description": "Pulling the racket across the body instead of extending through the ball to a high finish.",
+      "kind": "form",
+      "sources": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "causes": [
+        {
+          "cause": "Bottom hand driving the swing",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Bending the elbows before the left arm extends",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Already extended on the front leg with no room to go forward",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Non-hitting arm hanging",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Let the top hand do all the swinging, with only a light bottom-hand hold.",
+          "type": "cue"
+        },
+        {
+          "idea": "Let the off arm dictate the extension; bend the elbows only once it is fairly straight.",
+          "type": "cue"
+        },
+        {
+          "idea": "Transfer weight forward and hold a definite finish.",
+          "type": "cue"
+        },
+        {
+          "idea": "Finish high with the elbow and butt cap pointing at the opponent.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Loss of control and power",
+        "Lack of depth and missing wide",
+        "Balls into the net, less topspin"
+      ],
+      "disagreement": "",
+      "n_sources": 4,
+      "support": "some"
+    },
+    {
+      "id": "arm_only_hitting",
+      "description": "Generating power with the arms rather than the legs, hips and trunk.",
+      "kind": "form",
+      "sources": [
+        0,
+        6,
+        11
+      ],
+      "causes": [
+        {
+          "cause": "Trying to hit harder with the arms because both hands are on the racket",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Short, rushed contact",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Not using body weight and legs",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Shift weight forward, drive off the front leg and rotate hips and trunk.",
+          "type": "cue"
+        },
+        {
+          "idea": "Push into the ground and let the energy flow up through the body.",
+          "type": "cue"
+        },
+        {
+          "idea": "Pull-rope drill with a rope fixed below hip height on a fence to engage the whole body.",
+          "type": "drill"
+        },
+        {
+          "idea": "Slow the motion down and hold the ball on the strings.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Fatigue and jerky swing",
+        "Poor control",
+        "Flat shots with less topspin",
+        "Balls into the net"
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "elbows_tucked_in",
+      "description": "Waiting for, preparing and hitting with the elbows jammed against the body or hip.",
+      "kind": "form",
+      "sources": [
+        1,
+        4,
+        5
+      ],
+      "causes": [
+        {
+          "cause": "Ball coming right at the body with no space",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Focusing on the right elbow and finish while neglecting the left elbow",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Waiting for the ball with the arms tucked in",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Move the left elbow away from the body on takeback, with a gap as on a forehand.",
+          "type": "cue"
+        },
+        {
+          "idea": "Start with the arms out, split step, then rotate while keeping the spacing.",
+          "type": "cue"
+        },
+        {
+          "idea": "Do the step-back drill, jumping backward and sideways to make space.",
+          "type": "drill"
+        },
+        {
+          "idea": "Practice one-handed left-handed forehands with the top hand.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "Late contact",
+        "Cramped takeback and follow-through",
+        "Swinging across the body"
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "excess_wrist_action",
+      "description": "Breaking, scooping or casting the wrist so the racket rolls over, instead of guiding through with the hands and arms.",
+      "kind": "safety",
+      "sources": [
+        3,
+        7,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Left wrist casting over and wrists flying after contact",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Right hand slipped to bevel 3, leaving the wrist too loose",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Not thinking of the left palm going to the target",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Imagine hitting with the left palm to the target, then release at the end.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the racket on the hitting side of the hands as you lift.",
+          "type": "cue"
+        },
+        {
+          "idea": "Return the right hand to bevel 2.",
+          "type": "setup"
+        },
+        {
+          "idea": "Let the hands follow through with the arms.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Inconsistency",
+        "Strings point down and change direction",
+        "Left arm cannot guide the ball",
+        "Sloppy shot"
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "late_preparation",
+      "description": "Starting the turn and preparation only after the ball has crossed the net or bounced.",
+      "kind": "form",
+      "sources": [
+        5,
+        8,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Waiting to turn until the ball crosses the net or bounces",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Start turning the shoulders the instant the ball leaves the opponent's strings.",
+          "type": "cue"
+        },
+        {
+          "idea": "Have the preparation finished when the ball bounces, so the bounce is the cue to accelerate.",
+          "type": "cue"
+        },
+        {
+          "idea": "Turn the shoulders first on fast balls and get the shoulder under the chin early.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Rushed swing",
+        "Contact too far back with weight going backward",
+        "Missed or short shot"
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "non_dominant_arm_inactive",
+      "description": "The non-dominant arm hangs or stays in place instead of moving back as the hitting arm goes forward or leading the extension.",
+      "kind": "form",
+      "sources": [
+        0,
+        6,
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Playing only with the hitting arm",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Swing the non-dominant arm back as the hitting arm goes forward, opening the chest.",
+          "type": "cue"
+        },
+        {
+          "idea": "Hold the finish with the arm behind.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep shoulders aligned with the ball, including down the line.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Loss of ball control and shanked balls",
+        "Over-rotation across the body"
+      ],
+      "disagreement": "",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "wrong_grip_position",
+      "description": "Hands on the wrong bevels or slid too far, which weakens the wrist and blocks the swing.",
+      "kind": "form",
+      "sources": [
+        3,
+        4,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Top hand rotated too far over, or bottom hand not Continental or Eastern",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Sliding the hand too far from the forehand grip",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Put the top hand back on its correct bevel with knuckle-to-palm on the bevel.",
+          "type": "setup"
+        },
+        {
+          "idea": "Keep the knuckle on the edge of the bevel for the Eastern backhand.",
+          "type": "setup"
+        },
+        {
+          "idea": "Beginners can hold the racket under the armpit and pull it out like a sword to find the grip.",
+          "type": "drill"
+        }
+      ],
+      "outcome_effects": [
+        "No power or swing, so the racket is pulled across",
+        "Cannot get under or maneuver the ball",
+        "Shot feels like a baseball swing"
+      ],
+      "disagreement": "The sources recommend different grips: left bevel 7 and right bevel 2 (3); bottom Continental or Eastern, top Eastern (4); dominant Eastern or semi-western, non-dominant Continental (5); dominant Continental, non-dominant mild Eastern or semi-western (11).",
+      "n_sources": 3,
+      "support": "some"
+    },
+    {
+      "id": "insufficient_turn",
+      "description": "Not turning the shoulders enough, or turning hips and shoulders as one block, or just poking the ball.",
+      "kind": "form",
+      "sources": [
+        5,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Turning the hips as much as the shoulders, with no gap",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Beginners just wanting to get the ball back",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Turn until the front shoulder touches the chin.",
+          "type": "cue"
+        },
+        {
+          "idea": "Do the mirror drill, turning fully with the eyes fixed on your own eyes.",
+          "type": "drill"
+        },
+        {
+          "idea": "Turn the hips less than the shoulders, like pulling a bowstring.",
+          "type": "cue"
+        },
+        {
+          "idea": "Turn, prep and step into the shot.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Reduced power",
+        "No stored elastic energy",
+        "No long-term improvement"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "poor_recovery",
+      "description": "Stepping out on wide balls, or stopping after the shot, so you are not ready for the next ball.",
+      "kind": "form",
+      "sources": [
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Moving the legs out rather than rotating on wide balls",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Assuming the shot is a winner",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Rotate out through the legs and push off the front leg to recover to the middle.",
+          "type": "cue"
+        },
+        {
+          "idea": "Always recover after every shot.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Slow recovery and off balance",
+        "Caught out if the ball returns"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "short_follow_through",
+      "description": "Stopping or checking the swing after contact, with the elbow tucked and the racket not finishing up.",
+      "kind": "form",
+      "sources": [
+        4,
+        5
+      ],
+      "causes": [
+        {
+          "cause": "Stopping the swing when the ball leaves the strings",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Elbow tucked into the body after contact",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Not lifting enough through the swing",
+          "proximity": "upstream"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Go through the ball and continue all the way up, finishing over the opposite shoulder.",
+          "type": "cue"
+        },
+        {
+          "idea": "Finish with the racket tip pointing at the sky, or the butt cap forward.",
+          "type": "cue"
+        },
+        {
+          "idea": "Imagine a volleyball under the armpit.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Loss of spin, direction and power",
+        "Less net clearance and depth"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "upright_not_low",
+      "description": "Standing tall on the front leg, with the back leg straight or the head and body popping up, so there is little weight transfer.",
+      "kind": "form",
+      "sources": [
+        6,
+        9
+      ],
+      "causes": [
+        {
+          "cause": "Head coming up early, bringing the body up",
+          "proximity": "direct"
+        },
+        {
+          "cause": "Being on the front leg before the swing starts",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Straight back leg locking the hip",
+          "proximity": "upstream"
+        },
+        {
+          "cause": "Not getting low with the legs",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Get low with bent legs and the front heel down.",
+          "type": "cue"
+        },
+        {
+          "idea": "Spread weight evenly on both legs, then transfer forward in a U shape.",
+          "type": "cue"
+        },
+        {
+          "idea": "Bend the back leg more to free the hip.",
+          "type": "cue"
+        },
+        {
+          "idea": "Keep the head down until contact and visualize the contact point in front.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use a side or crossover step to reach farther balls.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Mistimed balls, ball goes up or sprays",
+        "Short contact and hitting across the body",
+        "Inconsistency under pressure",
+        "Jammed mis-hits"
+      ],
+      "disagreement": "",
+      "n_sources": 2,
+      "support": "some"
+    },
+    {
+      "id": "eye_dominance_footwork_mismatch",
+      "description": "A left-eye dominant player uses right-eye footwork, so the dominant eye faces sideways.",
+      "kind": "form",
+      "sources": [
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Using the right-eye-dominant footwork pattern",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Land on the left leg so the dominant eye faces the court.",
+          "type": "cue"
+        },
+        {
+          "idea": "Use an open stance if short on time.",
+          "type": "setup"
+        }
+      ],
+      "outcome_effects": [
+        "Poor view of the ball and court"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "flat_low_clearance_ball",
+      "description": "The ball goes over the net flat and direct instead of high and loopy.",
+      "kind": "form",
+      "sources": [
+        8
+      ],
+      "causes": [],
+      "fixes": [
+        {
+          "idea": "Hit a loopy ball that goes high over the net.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Lack of the high, loopy shape wanted"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "high_balls_over_shoulder",
+      "description": "Waiting for a high-bouncing ball and hitting it over the shoulder.",
+      "kind": "form",
+      "sources": [
+        10
+      ],
+      "causes": [
+        {
+          "cause": "Waiting for the ball to drop instead of taking it early",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Step in and take the ball early on the rise.",
+          "type": "cue"
+        },
+        {
+          "idea": "Mix in slice or flat shots.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Short replies that can be attacked",
+        "Tiring and inefficient"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "lifting_arm_for_spin",
+      "description": "Lifting the ball with the arm instead of letting the racket head swing around the hand.",
+      "kind": "form",
+      "sources": [
+        6
+      ],
+      "causes": [
+        {
+          "cause": "Trying to lift the ball with the arm",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Finish high, with the racket head going around the hand after the low-to-high body move.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Less effective spin"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "rushing_or_reaching",
+      "description": "Rushing forward or stretching for the ball instead of letting it come.",
+      "kind": "form",
+      "sources": [
+        6
+      ],
+      "causes": [
+        {
+          "cause": "Not trusting there is enough time",
+          "proximity": "fundamental"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Let the ball come to you and stay calm.",
+          "type": "cue"
+        },
+        {
+          "idea": "Get closer to the ball with the legs.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Poor timing",
+        "Off-balance contact"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    },
+    {
+      "id": "stepping_across_stuck",
+      "description": "Stepping across the body and getting jammed so you cannot swing.",
+      "kind": "form",
+      "sources": [
+        3
+      ],
+      "causes": [
+        {
+          "cause": "Stepping across instead of getting behind the ball",
+          "proximity": "direct"
+        }
+      ],
+      "fixes": [
+        {
+          "idea": "Step out and then in, forward to the ball.",
+          "type": "cue"
+        },
+        {
+          "idea": "Get behind the ball.",
+          "type": "cue"
+        }
+      ],
+      "outcome_effects": [
+        "Cannot swing freely"
+      ],
+      "disagreement": "",
+      "n_sources": 1,
+      "support": "single"
+    }
+  ],
+  "sources": [
+    {
+      "id": "k1i21RvVCaQ",
+      "title": "Three Common Two-Handed TENNIS Backhand Issues & HOW TO FIX THEM!",
+      "channel": "Meike Babel Tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "k4DCZL1T6-0",
+      "title": "Turn Your Weak Backhand Into Reliable Weapon With This Tip!",
+      "channel": "PlayYourCourt.com",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "bXkWqfWuxlY",
+      "title": "FIX These 3 MISTAKES And IMPROVE Your Backhand",
+      "channel": "PlayYourCourt.com",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Us8NR4iFovs",
+      "title": "Top 5 | Most Common Backhand Mistakes \u274c\ufe0f\u2705\ufe0f",
+      "channel": "Pieter Becker Tennis Coaching",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "8d-wKLOUa7c",
+      "title": "The Tennis Backhand Technique- Common Mistakes",
+      "channel": "Tennis Haus",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "9TUH5o0wzqc",
+      "title": "Biggest tennis backhand mistakes (and how to fix them)",
+      "channel": "The Blue Guy",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "2I69YbzjrJg",
+      "title": "Insane Backhand Transformation in One Tennis Lesson",
+      "channel": "Top Tennis Training - Pro Tennis Lessons",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "H21XgFp750E",
+      "title": "How To Quickly Improve Your Backhand Consistency (Pro Tennis Technique)",
+      "channel": "2MinuteTennis",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "WNnW9Dd2vMY",
+      "title": "7 Steps to a Fluid Two-Handed Backhand",
+      "channel": "Patrick Mouratoglou",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "5M52JoEDtwY",
+      "title": "How To Hit A Tennis Backhand With Venus Williams",
+      "channel": "Venus Williams",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "5ahFrtq9g3I",
+      "title": "The one-handed backhand: Tennis Masterclass, Episode 5",
+      "channel": "Patrick Mouratoglou",
+      "tier": "coach_demo"
+    },
+    {
+      "id": "6Y5XZ9CZLAg",
+      "title": "How To Hit A Tennis Backhand: Simple Tips For a Perfect Backhand",
+      "channel": "Grant VanderHayden",
+      "tier": "coach_demo"
+    }
+  ]
+}

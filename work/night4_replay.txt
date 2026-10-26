@@ -1,0 +1,51 @@
+config work/net_final/final3d_config.json | models 5 | classes ['forehand', 'backhand', 'serve', 'no_stroke']
+
+IMG_2935 3.skeleton.npz: 12 events -> 7 strokes {'serve': 6, 'forehand': 1}
+   t=   1.7s over  -> serve     (0.95)   ok
+   t=   7.8s over  -> serve     (0.92)   ok
+   t=  14.9s over  -> serve     (0.91)   ok
+   t=  25.6s swing -> serve     (0.53)   ok
+   t=  28.0s swing -> forehand  (0.44)   WRONG (filmed serve)
+   t=  30.5s swing -> serve     (0.85)   ok
+   t=  32.3s swing -> serve     (0.46)   ok
+
+IMG_2935.skeleton.npz: 5 events -> 3 strokes {'serve': 1, 'forehand': 2}
+   t=   1.8s swing -> serve     (0.42)   WRONG (filmed forehand)
+   t=   5.8s swing -> forehand  (0.45)   ok
+   t=   9.4s swing -> forehand  (0.39)   ok
+
+IMG_2935 2.skeleton.npz: 91 events -> 34 strokes {'serve': 9, 'forehand': 24, 'backhand': 1}
+   t=  16.1s over  -> serve     (0.93)   ok
+   t=  22.3s over  -> serve     (0.92)   ok
+   t=  29.4s over  -> serve     (0.92)   ok
+   t=  40.1s swing -> serve     (0.58)   ok
+   t=  42.5s swing -> forehand  (0.44)   WRONG (filmed serve)
+   t=  45.0s swing -> serve     (0.86)   ok
+   t=  74.0s swing -> serve     (0.36)
+   t=  75.9s swing -> forehand  (0.62)
+   t=  77.6s swing -> forehand  (0.61)
+   t=  81.4s swing -> forehand  (0.55)
+   t=  83.2s swing -> forehand  (0.59)
+   t=  93.7s swing -> forehand  (0.72)
+   t=  97.5s swing -> forehand  (0.49)
+   t= 100.3s swing -> forehand  (0.58)
+   t= 102.2s swing -> serve     (0.35)
+   t= 122.4s swing -> forehand  (0.46)
+   t= 124.9s swing -> forehand  (0.38)
+   t= 135.6s swing -> forehand  (0.63)
+   t= 145.3s over  -> serve     (0.89)
+   t= 173.0s swing -> forehand  (0.45)
+   t= 176.6s swing -> forehand  (0.36)
+   t= 201.5s swing -> forehand  (0.65)
+   t= 203.5s swing -> forehand  (0.64)
+   t= 205.3s swing -> backhand  (0.56)
+   t= 207.4s swing -> forehand  (0.48)
+   t= 209.2s swing -> forehand  (0.52)
+   t= 210.8s swing -> forehand  (0.53)
+   t= 213.3s swing -> forehand  (0.43)
+   t= 214.8s swing -> forehand  (0.37)
+   t= 232.7s swing -> forehand  (0.41)
+   t= 234.7s swing -> serve     (0.43)
+   t= 236.7s swing -> forehand  (0.44)
+   t= 238.8s swing -> forehand  (0.53)
+   t= 240.4s swing -> forehand  (0.54)

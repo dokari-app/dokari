@@ -1,0 +1,10 @@
+[19:44] done base seed 0
+[19:44] done racket seed 0
+[19:45] done base seed 1
+[19:45] done racket seed 1
+[19:46] done base seed 2
+[19:46] done racket seed 2
+base   | seeds 3 | ~673 training windows | scored 185 human windows | acc 0.519 | side acc 0.627 (n=102) | recall {'fh': '23/35', 'bh': '41/86', 'serve': '8/10', 'none': '24/54'}
+racket | seeds 3 | ~673 training windows | scored 185 human windows | acc 0.486 | side acc 0.598 (n=102) | recall {'fh': '20/35', 'bh': '41/86', 'serve': '7/10', 'none': '22/54'}
+racket minus base on the same 185 windows: -0.032 accuracy (under about 0.05 = noise)
+all finished

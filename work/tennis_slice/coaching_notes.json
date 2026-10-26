@@ -1,0 +1,824 @@
+{
+  "sources": [
+    {
+      "id": "bGKXJZcwSEc",
+      "title": "Most Common Backhand Slice Mistakes & How To Fix Them (TENFITMEN - Episode 190)",
+      "channel": "TENFITMEN tennis impulse",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "12Km_yWVppw",
+      "title": "The Most Common Slice Backhand Mistake",
+      "channel": "TPA tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Zd_rWYHScAo",
+      "title": "How to Fix This Common Backhand Slice Problem",
+      "channel": "Intuitive Tennis 247",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Op-AV2OVt6Q",
+      "title": "The Most Common Slice Mistake and How to Fix It",
+      "channel": "The Tennis Menu",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Bd-5voKxrjc",
+      "title": "How to FIX your tennis slice...",
+      "channel": "Essential Tennis - Lessons and Instruction for Passionate Players",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "tYXGWgi8RK0",
+      "title": "Tennis | Backhand Slice | Most Common Mistakes: How to Fix Them",
+      "channel": "Jos\u00e9 Lopez",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "j3s-3XW2sck",
+      "title": "The #1 Reason Your Backhand Slice Is Weak - Tennis Lesson",
+      "channel": "PlayYourCourt.com",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "F6_La6iLKvo",
+      "title": "Three Most Common Backhand Slice Mistakes - How To Fix (TENFITMEN - Episode 86)",
+      "channel": "TENFITMEN tennis impulse",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "XEAMY5OyQH4",
+      "title": "Backhand Slice Technique Explained by Kei Nishikori\u2019s Coach | Glenn Weiner",
+      "channel": "Coachlife - Tennis",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "t6lmLmDL51E",
+      "title": "Backhand Slice Fix: What Most Players Get Wrong and How to Correct It",
+      "channel": "Road to Pro Tennis",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "h9OzcfVjErg",
+      "title": "How to NEVER get beat by a SLICER - Tennis Lesson",
+      "channel": "Meike Babel Tennis",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "d-vvTntnT54",
+      "title": "Fix your Slice Backhand technique lesson and drills...",
+      "channel": "Total Tennis Domination",
+      "tier": "mistake_analysis"
+    }
+  ],
+  "notes": [
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Turn early so you are ready before the ball arrives.",
+        "Get leverage with the racket held above the shoulder, then swing through.",
+        "As you lean toward the ball, drop the front shoulder so the racket comes behind the ball.",
+        "Make contact with the racket face square to the net.",
+        "Separate the arms and contract the back muscles, finishing in an eagle-like position with the chest stretched.",
+        "Keep the head still and stay sideways through the hit.",
+        "Keep the wrist firm and fixed with no change in angle, and lead forward with the bottom of the racket handle (the knuckles)."
+      ],
+      "faults": [
+        {
+          "name": "Late turn and no leverage",
+          "kind": "form",
+          "looks_like": "The turn is slow and the racket stays down at the side instead of being up above the shoulder.",
+          "why_it_matters": "You are too slow and not set up well when the ball arrives.",
+          "causes": [
+            "Turning too late",
+            "Not getting the racket above the shoulder to create leverage"
+          ],
+          "fixes": [
+            "Turn early",
+            "Set the racket above the shoulder to create leverage, then swing through"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Undercutting with level shoulders",
+          "kind": "form",
+          "looks_like": "The shoulders stay horizontal with no tilt as you swing toward the ball, so the racket goes under the ball.",
+          "why_it_matters": "The racket cuts under the ball instead of getting behind it, so the contact is poor.",
+          "causes": [
+            "No shoulder tilt when leaning toward the ball",
+            "Racket path going under the ball"
+          ],
+          "fixes": [
+            "Drop the front shoulder as you lean toward the ball so the racket comes behind it",
+            "Make contact square to the net"
+          ],
+          "outcome_effects": [
+            "The slice is too slicy",
+            "The ball floats upward"
+          ]
+        },
+        {
+          "name": "Overturning through the hit",
+          "kind": "form",
+          "looks_like": "The body rotates as you hit and the non-hitting arm stays at the side, so you open up too much.",
+          "why_it_matters": "It makes the direction of the ball very hard to control.",
+          "causes": [
+            "Body rotating open too much",
+            "Non-hitting arm staying on the side instead of separating"
+          ],
+          "fixes": [
+            "Separate the arms",
+            "Contract the back muscles",
+            "Finish in an eagle-like position with the head still, staying sideways and feeling the chest stretch"
+          ],
+          "outcome_effects": [
+            "Difficult to control the direction of the ball"
+          ]
+        },
+        {
+          "name": "Too much wrist",
+          "kind": "form",
+          "looks_like": "The wrist angle changes as you hit and you maneuver the racket with the wrist, so the racket head moves out in front.",
+          "why_it_matters": "It makes the shot inconsistent and unreliable.",
+          "causes": [
+            "Using the wrist to steer the racket",
+            "Wrist not held firm"
+          ],
+          "fixes": [
+            "Keep the wrist fixed and very firm with no change in angle",
+            "Lead forward with the bottom of the racket handle, with the knuckles leading"
+          ],
+          "outcome_effects": [
+            "Inconsistent, unreliable shot"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Use a Continental grip for the slice backhand so the racket and forearm stay in line.",
+        "With a Continental grip, a ball tube laid across the racket face sits on the forearm from preparation through contact and follow-through.",
+        "This alignment lets you work the ball cross court and hit the back of the ball without adding side spin.",
+        "Keep the contact point at your side rather than out in front.",
+        "Come down through the ball instead of cutting across it.",
+        "Some side-to-side cut is fine if the ball is low and you have a Continental grip, as the pros show, but the ball should still travel across the racket face.",
+        "Practice against a wall by slicing down the ball so it comes straight back to you. That shows there is no side spin."
+      ],
+      "faults": [
+        {
+          "name": "Grip too far behind the racket",
+          "kind": "form",
+          "looks_like": "Using an Eastern or topspin-backhand grip for the slice, which puts the hand slightly behind the handle and the racket out of line with the forearm.",
+          "why_it_matters": "It makes the stroke hard to work when stretched and limits shot variety, such as wide balls, shots hit under the ball and drop shots.",
+          "causes": [
+            "Eastern or topspin backhand grip used for a slice"
+          ],
+          "fixes": [
+            "Move toward a Continental grip.",
+            "Check the racket and forearm are in line, for example with the ball tube test.",
+            "Play around with the grip until it feels aligned."
+          ],
+          "outcome_effects": [
+            "The racket cuts across the ball a lot and adds heavy side spin.",
+            "Hitting cross court is difficult when stretched because you can't get around the ball and keep sliding across the back of it.",
+            "Wide shots are limited.",
+            "Hitting under the ball and drop shots are limited."
+          ]
+        },
+        {
+          "name": "Contact point too far in front",
+          "kind": "form",
+          "looks_like": "Meeting the ball out in front of the body, with the racket sliding across the ball.",
+          "why_it_matters": "It goes with the grip being behind the racket and leads to cutting across the ball instead of coming down it.",
+          "causes": [
+            "Grip too far behind the racket, which pulls the contact point forward"
+          ],
+          "fixes": [
+            "As you move toward Continental, keep the ball more at your side.",
+            "Make contact at the side and come down the ball, not across it."
+          ],
+          "outcome_effects": [
+            "Side spin on the ball.",
+            "On a practice wall the ball shoots off toward your forehand side."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Keep the racket tip toward the outside, then let it go down and then come up on the other side.",
+        "Think of a U-shape: start high, make contact around waist height, continue downward, and let the racket rise afterward.",
+        "Send the hand up to about the level of the non-dominant shoulder.",
+        "Don't let the racket tip come through the ball shortly after contact; keep the tip travelling down.",
+        "A slice with good underspin has bite and stays very low after the first bounce."
+      ],
+      "faults": [
+        {
+          "name": "Racket tip comes through the ball",
+          "kind": "form",
+          "looks_like": "The player approaches like a flat backhand, and soon after contact the racket tip whips through the ball. This may be a wrist movement or the whole arm moving across the ball in a horizontal plane.",
+          "why_it_matters": "It removes the slice and underspin from the ball, so it is hardly a slice at all.",
+          "causes": [
+            "Wrist movement that brings the tip through after contact",
+            "Whole-arm movement where the racket travels horizontally across the ball with the tip coming through",
+            "Approaching the slice like a flat backhand"
+          ],
+          "fixes": [
+            "Keep the racket tip toward the outside, then go down and up the other side (U-shape).",
+            "Start high, contact around the waist, keep going down, and let the racket come up toward the non-dominant shoulder level.",
+            "Don't let the tip come through shortly after contact."
+          ],
+          "outcome_effects": [
+            "Little or no underspin; at most traces of it",
+            "Ball is severely flattened out",
+            "Ball does not stay low after the bounce"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "The slice backhand adds variety by letting you change speed, spin, height and length, including a drop shot.",
+        "Keep the racket on the same side of the body as you play the slice.",
+        "Practising slices down the line helps keep the racket on that same side.",
+        "Aim to control and execute the slice where you want it to go, here into the tram lines."
+      ],
+      "faults": [
+        {
+          "name": "Slicing across the body",
+          "kind": "form",
+          "looks_like": "The player brings the racket across the body when slicing the backhand, instead of keeping it on the same side of the body.",
+          "why_it_matters": "The speaker calls it a common problem with the sliced backhand, and the drill is built to correct it.",
+          "causes": [],
+          "fixes": [
+            "Practise slicing down the line, which naturally keeps the racket on the same side of the body.",
+            "Play the down-the-line tram-line point game, scoring only if the slice lands in the tram lines."
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "The overall swing framework is down to the ball, down through it, then back up to the finish.",
+        "At full preparation, turn the body past parallel to the baseline, with the right shoulder leaning in toward the ball.",
+        "At the same point, the butt cap of the racket points along the baseline, not at the ball.",
+        "Turn to the side, take the racket back, and look at the incoming ball. You should feel a stretch in the neck.",
+        "This coil loads the shoulder, back and racket in a leveraged position that you can pull against.",
+        "Uncoil forward through the ball first, then let the racket come across the body.",
+        "The effort comes from the shoulder and back, not the arm.",
+        "Once you start the forward swing, relax the arm completely and let the shoulder and back power the shot.",
+        "Rotate forward into the shot as you uncoil, not away from it.",
+        "If you reach the full coil position, contact point and finish tend to fall into place."
+      ],
+      "faults": [
+        {
+          "name": "Weak, direct setup position",
+          "kind": "form",
+          "looks_like": "At setup, the shoulder points at the net and the butt cap points toward the ball. The body is only side-on, not turned past that, so there is little coil.",
+          "why_it_matters": "With no coil or lever, the player has to push the racket at the ball. Power comes from the arm and not the shoulder and back, and the stroke looks strained instead of athletic.",
+          "causes": [
+            "The coil of the hand and body is not wound tightly enough.",
+            "The racket is set up square behind the ball, so there is no lever to pull."
+          ],
+          "fixes": [
+            "Turn further, past parallel to the baseline, until the butt cap points along the baseline and the shoulder leans toward the ball.",
+            "Practice going from ready position to coil and hold it. Check the position in a screen.",
+            "Shadow swings, first with a pause, then continuous and slow, then fakes followed by hits.",
+            "Rally from the full coil, including from no man's land and while moving along the baseline."
+          ],
+          "outcome_effects": [
+            "The racket cuts sideways across the ball right away.",
+            "The swing uses less energy, because there is little travel to build speed.",
+            "The player pushes the racket forward with the forearm."
+          ]
+        },
+        {
+          "name": "Racket cuts across the body immediately",
+          "kind": "form",
+          "looks_like": "The racket pulls straight and then hits, cutting sideways across the side of the ball at once. It does not first uncoil forward.",
+          "why_it_matters": "The racket does not build speed before it reaches the ball, which is the opposite of the pull the coil provides.",
+          "causes": [
+            "The setup is too direct, with the butt cap pointing at the ball."
+          ],
+          "fixes": [
+            "Wind into a fuller coil so that the butt cap points along the baseline, then uncoil forward first and let the racket come across afterward."
+          ],
+          "outcome_effects": [
+            "Little energy is built up before contact."
+          ]
+        },
+        {
+          "name": "Stepping forward to set up then reverse pivoting",
+          "kind": "form",
+          "looks_like": "The player steps forward to set up, then steps backward during the swing, so the body turns away from the shot.",
+          "why_it_matters": "The body turns away from the shot, not into it.",
+          "causes": [],
+          "fixes": [
+            "As you uncoil, rotate forward and turn into the shot, not away from it."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Using the arm to power the shot",
+          "kind": "form",
+          "looks_like": "The player tenses the arm and tries to open the chest to add something extra to the shot.",
+          "why_it_matters": "It looks stressed and strained, and it costs power compared with using the shoulder and back.",
+          "causes": [
+            "The player starts from a weak, uncoiled position, so the arm has to supply the effort."
+          ],
+          "fixes": [
+            "Set up in the coiled, leveraged position, then relax the arm as much as possible once the forward swing starts."
+          ],
+          "outcome_effects": [
+            "The shot has less energy than one hit from a full coil."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Keep the wrist fairly steady through the slice and come straight through the motion without flicking or dropping it.",
+        "Finish by holding the position after contact, with the arm moving through the shot rather than around it.",
+        "Stay side on, with the chest turned away from the target, until contact; open up only after contact.",
+        "Keep the non-dominant hand back behind you to stop the body rotating round into the shot.",
+        "Pull the non-hitting arm back enough to feel a squeeze between the shoulder blades, as if holding a pencil there.",
+        "Drive through the line of the ball so your weight goes where you want the ball to go.",
+        "Keep the strings facing the target and feather the racket angle up or down for height control.",
+        "Come in slightly at the finish rather than dropping down."
+      ],
+      "faults": [
+        {
+          "name": "Dropping or flicking the wrist",
+          "kind": "form",
+          "looks_like": "The wrist flicks around or drops down through and after contact instead of staying steady.",
+          "why_it_matters": "The wrist should stay steady and come straight through the slice, which gives better control.",
+          "causes": [],
+          "fixes": [
+            "Go through the slice and freeze at the finish to check the wrist angle.",
+            "Keep the wrist up and steady rather than flicking it around or down.",
+            "Come in just slightly at the finish rather than dropping down."
+          ],
+          "outcome_effects": [
+            "Less control; the old slice felt all over the place."
+          ]
+        },
+        {
+          "name": "Opening up too early / big rotation",
+          "kind": "form",
+          "looks_like": "The whole body and chest rotate round and face the target before contact, with a big rotation.",
+          "why_it_matters": "Momentum goes across the ball instead of through it, so you lose control and power.",
+          "causes": [
+            "Being used to coming around the ball.",
+            "Believing a big rotation will add power.",
+            "Non-dominant arm not held back, so the chest opens early."
+          ],
+          "fixes": [
+            "Stay side on until contact and open up only afterward.",
+            "Keep the left arm back and pull it behind you so you feel a squeeze in your back.",
+            "Face more away from the target in preparation.",
+            "Hold the finish position after the slice, even if it feels jerky.",
+            "Release the left hand first, then go through the shot."
+          ],
+          "outcome_effects": [
+            "Ball pops up or goes anywhere.",
+            "Loss of control.",
+            "Loss of power because momentum goes across the ball rather than into it."
+          ]
+        },
+        {
+          "name": "Racket face too open",
+          "kind": "form",
+          "looks_like": "The racket face is a bit too open at the finish or through contact.",
+          "why_it_matters": "It sends the ball up.",
+          "causes": [
+            "Racket face more open than needed."
+          ],
+          "fixes": [
+            "Start a bit more side on.",
+            "Feather the racket angle up or down to adjust height."
+          ],
+          "outcome_effects": [
+            "Ball pops up too high."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Focus on how the slice should feel: know when to contract the grip and when to let go, since tension control governs the racket face.",
+        "Think of gripping like picking up a frying pan; the wrist is not passive.",
+        "On the load, cock the wrists back into a loaded joint position, not neutral and not passive.",
+        "Set the butt cap out to the side at the start, as seen in pros like Federer and Djokovic-style slice backhands.",
+        "Feel quite a bit of tension through the arm in the loaded position.",
+        "Hold that tension through contact.",
+        "After contact the arm relaxes on its own as the wrist moves into ulnar deviation, which lets the racket swing all the way through for a full swing path.",
+        "A useful image is pounding on a wall with the back of your hand.",
+        "Work the racket back a bit higher rather than just beside the body; getting the butt cap to the side helps the slice bite."
+      ],
+      "faults": [
+        {
+          "name": "Wrist going neutral too early",
+          "kind": "form",
+          "looks_like": "The wrist goes neutral/passive at or before contact instead of staying loaded, so the racket face is not controlled while moving.",
+          "why_it_matters": "Without control of the racket face, the slice is weak and floats instead of biting.",
+          "causes": [
+            "Not keeping tension in the grip and wrist through contact",
+            "Wrist releasing into a neutral, passive position too quickly",
+            "Not loading the wrist back in the setup"
+          ],
+          "fixes": [
+            "Load the wrists back into the tensioned joint position with the butt cap out to the side",
+            "Hold the tension through contact, then let it relax into ulnar deviation after",
+            "Think of gripping like a frying pan, not a passive wrist",
+            "Take the racket back a bit higher, not just at the side of the body"
+          ],
+          "outcome_effects": [
+            "Racket face opens up",
+            "Slice pops up and floats",
+            "Weak slice with no bite"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Use a true hammer/Continental grip so the racket face is square to the net at contact.",
+        "Take the racket back high, above the head/ball height, to create leverage, then swing downward through the ball.",
+        "Keep the angle between the racket and the forearm/wrist fixed, as if the racket is locked to the arm, throughout the swing.",
+        "Play the slice from the shoulder rather than using the elbow much.",
+        "Keep the non-dominant (left) arm back after the hit to counterbalance the swing, as Federer does, for balance and control."
+      ],
+      "faults": [
+        {
+          "name": "Wrong grip (forehand-ish grip)",
+          "kind": "form",
+          "looks_like": "Holding the racket in something close to an Eastern forehand grip, rotated toward the hammer grip but not fully.",
+          "why_it_matters": "The racket face stays too open at contact, so the slice does not work properly.",
+          "causes": [
+            "Amateurs are unsure how to hold the racket for a slice and only partly turn the grip toward Continental."
+          ],
+          "fixes": [
+            "Turn the grip fully to a solid hammer/Continental grip so the face is square to the net at contact."
+          ],
+          "outcome_effects": [
+            "The ball floats."
+          ]
+        },
+        {
+          "name": "Racket takeback too low, flat swing",
+          "kind": "form",
+          "looks_like": "Holding the racket low and swinging straight forward with the racket head staying at the same height, with no height difference.",
+          "why_it_matters": "The swing lacks leverage and the downward path needed for the slice.",
+          "causes": [
+            "Preparing with the racket low and straight back rather than lifting it."
+          ],
+          "fixes": [
+            "Lift the racket above head height in the takeback to get leverage, then swing downward through the ball."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Using elbow and changing racket-arm angle",
+          "kind": "form",
+          "looks_like": "Swinging from the elbow joint and straightening the racket/wrist on the way to contact, changing the angle between racket and arm.",
+          "why_it_matters": "The arm-racket structure isn't stable through contact; the slice should come from the shoulder.",
+          "causes": [
+            "Trying to swing mostly from the elbow and using the wrist, which alters the angle."
+          ],
+          "fixes": [
+            "Imagine the racket and arm are locked so the angle can't change.",
+            "Keep that angle constant and play the slice from the shoulder, not using much elbow."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Left arm flying back / not counterbalancing",
+          "kind": "form",
+          "looks_like": "After hitting, the body turns with the ball and the non-dominant left arm goes back or is not held to counterbalance.",
+          "why_it_matters": "The speaker calls it crucial for calmness, balance and control of the body during the shot, even if the swing is otherwise correct.",
+          "causes": [
+            "Lack of control over the left arm after contact."
+          ],
+          "fixes": [
+            "Maintain the left (non-dominant) arm back to counterbalance the swing, as Federer does, keeping the head steady."
+          ],
+          "outcome_effects": [
+            "Loss of balance and control of the body and shot."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Contact the slice a bit more to the side of the body and slightly further back than a regular backhand, which is hit more out in front.",
+        "Use that contact point to hold the ball on the strings a little longer, which gives control.",
+        "Change depth by pushing more with the body or by lengthening or shortening the follow through: longer goes deeper, shorter goes shorter.",
+        "Turn, push forward, then follow through and hold the finish.",
+        "Keep the L-shape at the end of the swing and don't let it drop through the whole stroke.",
+        "The slice is like a backhand volley with a longer stroke, so working on one improves the other."
+      ],
+      "faults": [
+        {
+          "name": "Dropping the L-shape",
+          "kind": "form",
+          "looks_like": "The racket and arm drop out of the L-shape during or at the end of the swing instead of being held through the finish.",
+          "why_it_matters": "The speaker wants the shape kept through the whole swing, along with a held follow through that gives control.",
+          "causes": [],
+          "fixes": [
+            "Hold the follow through and keep the L-shape at the end of the swing, without dropping it."
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Keep the elbow high throughout the slice.",
+        "Keep the racket high too, starting the stroke from up high.",
+        "Square out the racket face first; the speed and low skimming flight come from the square face.",
+        "Swing high to low (chop down), which produces slice even with a squared face.",
+        "Only after the square, high-to-low motion go underneath the ball to add lift; the forearm rotates so the path goes up, down, then up again.",
+        "Practise by hitting flat first, even into the net, so the ball travels fast, then add the underneath part gradually.",
+        "Hit about 70% flat rather than completely flat, staying fairly square on the ball.",
+        "Adjust trajectory by going from low to high on the ball, not by changing the high-to-low path.",
+        "Do not go underneath the ball; get to the ball from above and feel the slice after contact."
+      ],
+      "faults": [
+        {
+          "name": "Going underneath the ball too much",
+          "kind": "form",
+          "looks_like": "The racket drops under the ball early and the player swings underneath it, rather than coming down on it from high.",
+          "why_it_matters": "The ball pops up, which a good or intermediate junior can attack to take control of the point.",
+          "causes": [
+            "Trying to adjust ball flight or trajectory by going high to low instead of low to high",
+            "Not squaring the racket face first",
+            "Letting the elbow and racket drop"
+          ],
+          "fixes": [
+            "Keep the elbow and racket high.",
+            "Square out the racket face and chop down through the ball.",
+            "Hit flat first, even into the net, until the contact is right, then adjust from low to high.",
+            "Aim for about 70% flat and stay more on top of the ball.",
+            "Make the adjustment yourself, since you don't hit underneath a slice."
+          ],
+          "outcome_effects": [
+            "Slice pops up",
+            "Ball has little speed and sits up for the opponent",
+            "Ball does not travel through the court"
+          ]
+        },
+        {
+          "name": "Too little arm and forearm action",
+          "kind": "form",
+          "looks_like": "Only one small wrist or forearm movement, with not much arm movement at all.",
+          "why_it_matters": "The player doesn't get the power and low, fast slice.",
+          "causes": [
+            "Using only a single action of the wrist or forearm",
+            "Not squaring the racket face before going under"
+          ],
+          "fixes": [
+            "Learn to square out the racket face first, then go underneath.",
+            "Let the forearm rotate through the sequence: up, down, then up again."
+          ],
+          "outcome_effects": [
+            "Lack of power",
+            "Slice lacks speed and a low skimming flight"
+          ]
+        },
+        {
+          "name": "Going too flat / too much on top",
+          "kind": "form",
+          "looks_like": "Getting on top of the ball too much, completely flat, as a result of the flat-first drill.",
+          "why_it_matters": "The speaker says to avoid going fully flat once the player has the speed; the slice needs a bit of lift.",
+          "causes": [
+            "Overdoing the instruction to hit flat"
+          ],
+          "fixes": [
+            "Hit about 70% flat, staying a little more square on the ball, and feel it."
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Understand that a slice carries underspin, so the racket face moves under the ball, the opposite of topspin. To return it with topspin you must override that spin by getting well under the ball and rolling it forward.",
+        "Slicers also vary depth, height, pace and court width, so expect those controls as well as spin.",
+        "Tell two slices apart. The hacky, floaty slice goes up, sits and comes almost straight down, and it comes from a wrong grip or from chopping down with a very open face. The sticky, knifey slice skids low and still travels to you.",
+        "Read the slice early from the cues. These are a change to a Continental grip, a higher non-hitting arm, and an open racket face on the take-back. On the forehand the non-hitting hand separates early. On a two-handed backhand the player goes to one hand with the other hand at the racket throat.",
+        "Against a floaty slice, move up into it and let the racket head drop well under the ball to hit topspin.",
+        "Against a sticky slice, use the same ideas, but you may not need to move up as much and you may need to get even lower, because the ball is flatter and doesn't bounce up. Your whole body goes low and the racket comes under the ball so you can brush up steeply.",
+        "You can answer a slice with a slice to neutralize the rally. Get under the ball for that too.",
+        "If the sticky slice lands short, slice it back and move into the net.",
+        "When volleying a slice, move forward into the ball and keep moving through it, because the backspin bites into the strings."
+      ],
+      "faults": [
+        {
+          "name": "Not reading the slice and setting up as for topspin",
+          "kind": "form",
+          "looks_like": "The receiver swings as they would against a topspin ball and expects a high bounce that travels to them. They end up stretching for the ball.",
+          "why_it_matters": "The slice doesn't behave as expected after the bounce, so the contact is poor.",
+          "causes": [
+            "Not noticing the cues that a slice is coming (grip change, open racket face, non-hitting hand separating early, one-hand switch on a two-hander)",
+            "Expecting a topspin trajectory and bounce"
+          ],
+          "fixes": [
+            "Watch for the slicer's grip change and open-faced take-back",
+            "Adjust your position and swing to the slice you actually face"
+          ],
+          "outcome_effects": [
+            "Stretched frame",
+            "Outright miss",
+            "Very low-quality return"
+          ]
+        },
+        {
+          "name": "Not moving up to a floaty slice",
+          "kind": "form",
+          "looks_like": "The receiver stays back and stretches for the ball. The slice has a high incoming trajectory and sits down instead of coming to them.",
+          "why_it_matters": "Without getting to the ball, you can't get your racket under it.",
+          "causes": [
+            "Not recognizing the floaty slice from its high trajectory, open racket face or odd grip",
+            "Expecting the ball to travel to you after the bounce"
+          ],
+          "fixes": [
+            "Move up to the ball",
+            "Let the racket head come under the ball well"
+          ],
+          "outcome_effects": [
+            "Shanked ball",
+            "Ball bounces high instead of reaching you"
+          ]
+        },
+        {
+          "name": "Hitting flat into the backspin",
+          "kind": "form",
+          "looks_like": "The receiver hits the slice flat instead of getting the racket under it with topspin.",
+          "why_it_matters": "You need to override the slice's backspin.",
+          "causes": [
+            "Not getting the racket head under the ball",
+            "Not responding with topspin"
+          ],
+          "fixes": [
+            "Get the racket well under the ball",
+            "Brush up to impart topspin and roll the ball"
+          ],
+          "outcome_effects": [
+            "Backspin digs into the strings",
+            "Ball is lifted and sails out"
+          ]
+        },
+        {
+          "name": "Not getting low enough against a sticky slice",
+          "kind": "form",
+          "looks_like": "The body stays high when the low, skidding slice arrives, so the racket can't get under the ball.",
+          "why_it_matters": "If you are too high when the slice arrives, getting under it is really difficult. You can always brush up steeper if you misjudged, but you can't fix being too high.",
+          "causes": [
+            "Not allowing for the flatter, lower trajectory with no real bounce up"
+          ],
+          "fixes": [
+            "Get your whole body low",
+            "Bring the racket head under the ball and brush up steeply"
+          ],
+          "outcome_effects": [
+            "Difficulty overriding the slice",
+            "Poor-quality return"
+          ]
+        },
+        {
+          "name": "Hacking down on the slice return",
+          "kind": "form",
+          "looks_like": "The receiver stays upright and chops down on the ball when slicing back.",
+          "why_it_matters": "A floating ball sitting up gives a better opponent time to run around and hit a forehand, which puts you in trouble.",
+          "causes": [
+            "Staying upright instead of getting under the ball"
+          ],
+          "fixes": [
+            "Get under the ball when slicing back too"
+          ],
+          "outcome_effects": [
+            "Slice returns with float",
+            "Ball sits up for the opponent"
+          ]
+        },
+        {
+          "name": "Punching the volley without moving into a slice",
+          "kind": "form",
+          "looks_like": "The volleyer sticks the racket out and punches forward without moving in or working against the ball. This often happens when a counter-slice is dinked to the feet.",
+          "why_it_matters": "Backspin bites into the strings, so the ball needs to be driven through.",
+          "causes": [
+            "Misjudging the slice that comes back at the net",
+            "Not stepping forward into the ball"
+          ],
+          "fixes": [
+            "Move forward into the ball",
+            "Keep moving through the ball"
+          ],
+          "outcome_effects": [
+            "Ball twirls and rolls on the strings",
+            "Ball drops down and goes nowhere"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Racket face at contact decides where and how high the ball goes; the path adds spin (racket face sends it, path bends it).",
+        "An open face sends the ball up; a closed face sends it lower.",
+        "For a knifing slice the path is straight through the ball with a slightly open face; for more backspin start higher and come down while keeping the same face angle.",
+        "Use a continental grip, which gives range and feel to open or close the face and adjust for high and low balls.",
+        "Check the continental grip by holding the racket at head height with a flat wrist, not bowed up or hooked.",
+        "Line the racket up with the arm in a straight line, racket laid back, elbow up, like tilting a waiter's tray.",
+        "Let the forearm and big muscles control the face angle, with the wrist as a secondary adjuster.",
+        "Swing by pulling from the shoulder and extending the triceps, with a touch of supination just before contact to set the face.",
+        "Practise first with no supination (ball may go high but should be consistent), then add a little supination to close the face; supinate less on low balls and keep the face open.",
+        "Create force by pulling the racket back with the non-hitting hand to coil the shoulders against the hips, then turn the hips a little so the shoulders turn, and let the shoulder and triceps extend through the ball.",
+        "At contact the racket head should be slightly behind the hand; keep pulling the racket forward through contact.",
+        "Vary the slice by changing face openness, swing speed and spin: open face with a floaty ball for defensive, closed face with a softer swing for a short slice."
+      ],
+      "faults": [
+        {
+          "name": "Losing racket face control on the way down",
+          "kind": "form",
+          "looks_like": "While coming down to hit the slice, the racket face angle changes from one swing to the next, so shots vary ball to ball.",
+          "why_it_matters": "This is the main reason the backhand slice is inconsistent.",
+          "causes": [
+            "Trouble maintaining the face angle as the racket comes down"
+          ],
+          "fixes": [
+            "Keep the same face angle through the downward path",
+            "Work on stabilizing the racket with a continental grip and forearm control",
+            "Drop feed or use a ball machine to practise step by step"
+          ],
+          "outcome_effects": [
+            "One ball goes well, the next goes off, and the slice feels uncontrollable"
+          ]
+        },
+        {
+          "name": "Snatching at the ball with the wrist",
+          "kind": "form",
+          "looks_like": "Using only small muscles, especially the wrist, to snatch or chop at the ball, and taking risky adjustments that change the face angle.",
+          "why_it_matters": "Small muscles make the face angle hard to control, so the shot is not consistent.",
+          "causes": [
+            "Relying on the wrist instead of big muscles",
+            "Getting risky with the swing"
+          ],
+          "fixes": [
+            "Pull with the shoulder and triceps extension",
+            "Keep the wrist stable and flat",
+            "Use only small wrist adjustments",
+            "Add supination for the face angle"
+          ],
+          "outcome_effects": [
+            "The ball is hard to hit consistently",
+            "The stroke looks chopped"
+          ]
+        },
+        {
+          "name": "Over-supinating so the racket fights the ball",
+          "kind": "form",
+          "looks_like": "Supinating too much, so the racket head is not behind the hand at contact and has to battle the force of the ball.",
+          "why_it_matters": "The racket should be pulled forward through the ball, not forced to resist its pace.",
+          "causes": [
+            "Too much supination near contact"
+          ],
+          "fixes": [
+            "Find the racket angle with a little supination, then keep pulling the racket forward through contact",
+            "Practise pulling through at that angle"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Grip that limits variety (more eastern backhand grip)",
+          "kind": "form",
+          "looks_like": "With a stronger eastern backhand grip, the racket face has to be opened a lot for defensive or low slices, and it can get too flat when closed.",
+          "why_it_matters": "It reduces range and feel for different slices on high and low balls.",
+          "causes": [
+            "Using an eastern backhand grip instead of continental"
+          ],
+          "fixes": [
+            "Use a continental grip for more range and easy adjustment"
+          ],
+          "outcome_effects": [
+            "Awkward defensive slice",
+            "Face becomes really flat when closed"
+          ]
+        }
+      ]
+    }
+  ]
+}

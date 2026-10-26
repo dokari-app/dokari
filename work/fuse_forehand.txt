@@ -1,0 +1,12 @@
+usable forehand attempts: 748 videos: 114 {'talking': 152, 'mixed_demo': 136, 'wrong_demo': 105, 'right_demo': 276, 'other': 20, 'match_play': 59}
+shoulder-line sign (consistency): Counter({np.float64(1.0): 484, np.float64(-1.0): 264})
+hitting side: Counter({'r': 511, 'l': 237})
+right 276 videos 72 | wrong 105 videos 44
+held-out AUC wrong>right: 0.471 n 105 276
+median dist right 0.78 wrong 0.75
+within-video pairs: 37 wrong farther from template in 16
+mixed_demo 136 median dist 0.69
+match_play 59 median dist 0.82
+talking 152 median dist 0.81
+other 20 median dist 0.65
+largest wrong-vs-right shifts (phase 0-1, joint): [(np.float64(0.28), 'l_wrist', 0.34), (np.float64(0.45), 'l_elbow', 0.34), (np.float64(0.25), 'l_wrist', 0.34), (np.float64(0.35), 'l_wrist', 0.33), (np.float64(0.48), 'nose', 0.32), (np.float64(0.62), 'l_elbow', 0.32)]

@@ -1,0 +1,24 @@
+[18:46] waiting for night3
+[19:28] sweep starts
+[19:29] done cboth_aconv_hnone_pre1.6_ep60_s0
+[19:31] done cboth_agru_hnone_pre1.6_ep60_s0
+[19:33] done c3d_aconv_hnone_pre1.6_ep60_s0
+[19:35] done c3d_agru_hnone_pre1.6_ep60_s0
+[19:36] done c3d_aconv_hnone_pre1.0_ep60_s0
+[19:37] done c3d_aconv_hnone_pre2.4_ep60_s0
+[19:39] done cboth_aconv_hnone_pre1.6_ep60_s1
+[19:41] done cboth_agru_hnone_pre1.6_ep60_s1
+[19:42] done c3d_aconv_hnone_pre1.6_ep60_s1
+[19:44] done c3d_agru_hnone_pre1.6_ep60_s1
+[19:45] done c3d_aconv_hnone_pre1.0_ep60_s1
+[19:47] done c3d_aconv_hnone_pre2.4_ep60_s1
+[19:48] done cboth_aconv_hnone_pre1.6_ep60_s2
+[19:50] done cboth_agru_hnone_pre1.6_ep60_s2
+[19:51] done c3d_aconv_hnone_pre1.6_ep60_s2
+[19:54] done c3d_agru_hnone_pre1.6_ep60_s2
+[19:55] done c3d_aconv_hnone_pre1.0_ep60_s2
+[19:56] done c3d_aconv_hnone_pre2.4_ep60_s2
+[19:56] summary
+[19:56] final models: depth-pose only, arch=conv pre=2.4 epochs=60
+[19:58] replay
+[19:58] night4 finished

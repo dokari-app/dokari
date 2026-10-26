@@ -1,0 +1,8 @@
+148 windows with audio (forehand/backhand/serve, labeller confidence >= 2)
+peak-to-median flux ratio inside +-0.6 s of the skeleton event: median 272, share >= 20x: 0.82, share >= 50x: 0.78
+peak is the strongest of the 6 s: 0.24; at least half the 6 s maximum: 0.51
+clear peaks (>= 20x): offset from skeleton event median +0.08 s, within 0.1 s: 0.21, within 0.2 s: 0.42 (n=121)
+clear peaks (>= 50x): offset from skeleton event median +0.08 s, within 0.1 s: 0.21, within 0.2 s: 0.41 (n=116)
+forehand: n=50, share with clear peak (>= 20x) 0.90
+backhand: n=13, share with clear peak (>= 20x) 0.77
+serve: n=85, share with clear peak (>= 20x) 0.78

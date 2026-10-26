@@ -1,0 +1,7 @@
+numpy
+scipy
+jsonschema
+opencv-python
+mediapipe
+yt-dlp
+anthropic

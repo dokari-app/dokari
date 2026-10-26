@@ -1,0 +1,3282 @@
+{
+  "spec_version": "0.7",
+  "activity": "bodyweight_squat",
+  "version": "0.1.0",
+  "purpose": "Lower the hips under control by bending the knees and hips to a full, comfortable depth, then stand back up to full extension, with the knees tracking over the feet, the trunk stable, and the feet flat on the floor.",
+  "recognition": {
+    "signature": {
+      "features": [
+        "angle.hip.dom",
+        "angle.hip.non",
+        "angle.knee.non",
+        "angle.knee.dom",
+        "height.hip",
+        "dev.knee_inward.dom",
+        "angle.trunk_lean",
+        "angle.shoulder.non",
+        "dev.knee_inward.non",
+        "angle.shoulder.dom"
+      ],
+      "n_samples": 50,
+      "mean": [
+        [
+          163.8137,
+          160.6549,
+          162.1381,
+          165.1086,
+          1.5952,
+          0.0639,
+          11.2713,
+          31.3659,
+          0.0384,
+          27.6293
+        ],
+        [
+          163.018,
+          160.4641,
+          162.3549,
+          164.9141,
+          1.5994,
+          0.0544,
+          11.2343,
+          31.4041,
+          0.0381,
+          25.7753
+        ],
+        [
+          162.3245,
+          159.6686,
+          162.1857,
+          165.1316,
+          1.5995,
+          0.0497,
+          11.5568,
+          31.0406,
+          0.038,
+          26.9654
+        ],
+        [
+          161.988,
+          158.4546,
+          161.9618,
+          165.0615,
+          1.5937,
+          0.0463,
+          11.745,
+          32.3574,
+          0.041,
+          28.3028
+        ],
+        [
+          161.4938,
+          158.39,
+          161.5697,
+          164.7825,
+          1.5882,
+          0.0294,
+          11.8248,
+          33.1942,
+          0.0458,
+          29.179
+        ],
+        [
+          160.7653,
+          156.6788,
+          160.7257,
+          162.3128,
+          1.5854,
+          0.019,
+          12.426,
+          35.975,
+          0.0396,
+          29.5947
+        ],
+        [
+          159.0465,
+          155.4592,
+          159.3368,
+          160.5112,
+          1.5789,
+          -0.0121,
+          12.8838,
+          38.2328,
+          0.032,
+          31.2353
+        ],
+        [
+          153.7919,
+          155.2724,
+          155.7748,
+          156.5342,
+          1.5558,
+          -0.0455,
+          12.9302,
+          43.3937,
+          0.0268,
+          34.7655
+        ],
+        [
+          146.1682,
+          151.7157,
+          150.6149,
+          146.0199,
+          1.5069,
+          -0.0758,
+          13.5268,
+          49.2115,
+          0.0228,
+          40.6007
+        ],
+        [
+          139.4927,
+          144.9247,
+          142.6693,
+          138.8962,
+          1.4595,
+          -0.1,
+          14.9003,
+          49.9186,
+          0.0115,
+          46.4292
+        ],
+        [
+          133.2635,
+          136.3576,
+          135.2383,
+          132.6543,
+          1.4187,
+          -0.1385,
+          15.8095,
+          49.7959,
+          -0.0327,
+          49.4405
+        ],
+        [
+          124.4443,
+          125.7806,
+          127.1736,
+          125.6054,
+          1.3489,
+          -0.1852,
+          17.8855,
+          51.9398,
+          -0.0914,
+          50.4783
+        ],
+        [
+          117.7848,
+          118.4717,
+          121.3229,
+          120.2366,
+          1.2919,
+          -0.2243,
+          20.0008,
+          53.4481,
+          -0.1074,
+          54.383
+        ],
+        [
+          111.6835,
+          111.0292,
+          114.5761,
+          115.0044,
+          1.2317,
+          -0.2497,
+          22.0205,
+          56.0735,
+          -0.1442,
+          56.9347
+        ],
+        [
+          105.424,
+          103.7176,
+          108.0989,
+          106.9976,
+          1.1635,
+          -0.2928,
+          23.6193,
+          58.0054,
+          -0.1734,
+          60.7467
+        ],
+        [
+          99.7425,
+          98.9663,
+          100.5719,
+          101.6592,
+          1.1113,
+          -0.3317,
+          24.8163,
+          61.2942,
+          -0.2131,
+          61.495
+        ],
+        [
+          94.8557,
+          93.785,
+          97.0656,
+          97.4421,
+          1.0565,
+          -0.392,
+          26.1321,
+          61.5812,
+          -0.2419,
+          61.3391
+        ],
+        [
+          90.6194,
+          89.2153,
+          92.7072,
+          94.438,
+          0.989,
+          -0.4194,
+          27.4171,
+          62.9437,
+          -0.2748,
+          61.9399
+        ],
+        [
+          86.6087,
+          84.7865,
+          88.0223,
+          89.0055,
+          0.9249,
+          -0.4592,
+          29.1076,
+          64.3412,
+          -0.3008,
+          60.9985
+        ],
+        [
+          82.0374,
+          82.1212,
+          82.3298,
+          84.7086,
+          0.8749,
+          -0.5,
+          29.9422,
+          65.5986,
+          -0.3172,
+          62.0779
+        ],
+        [
+          76.6253,
+          80.5361,
+          79.5918,
+          81.0524,
+          0.8376,
+          -0.5088,
+          29.8968,
+          67.9752,
+          -0.3337,
+          62.4302
+        ],
+        [
+          72.858,
+          78.4772,
+          77.6053,
+          78.9048,
+          0.7829,
+          -0.5318,
+          30.3225,
+          68.7963,
+          -0.3337,
+          62.1084
+        ],
+        [
+          69.7228,
+          75.3353,
+          74.4901,
+          76.7642,
+          0.7541,
+          -0.5582,
+          31.0951,
+          69.378,
+          -0.3183,
+          64.9531
+        ],
+        [
+          67.3462,
+          71.9056,
+          72.4951,
+          74.7211,
+          0.7451,
+          -0.5802,
+          31.8773,
+          70.3426,
+          -0.3163,
+          66.821
+        ],
+        [
+          66.2416,
+          69.8891,
+          70.9297,
+          72.6473,
+          0.7299,
+          -0.5858,
+          32.4901,
+          70.4018,
+          -0.3093,
+          67.3008
+        ],
+        [
+          64.9951,
+          69.3303,
+          70.6235,
+          72.7925,
+          0.7211,
+          -0.5849,
+          32.2726,
+          71.7228,
+          -0.3145,
+          67.8866
+        ],
+        [
+          65.5173,
+          70.3281,
+          71.6329,
+          72.9375,
+          0.7396,
+          -0.5756,
+          32.5553,
+          72.0097,
+          -0.3099,
+          67.8327
+        ],
+        [
+          66.0376,
+          70.6874,
+          72.6992,
+          72.9436,
+          0.7425,
+          -0.5604,
+          32.4645,
+          70.7238,
+          -0.3035,
+          67.3299
+        ],
+        [
+          67.4741,
+          71.0628,
+          73.9354,
+          74.1143,
+          0.7577,
+          -0.5635,
+          31.9416,
+          70.1104,
+          -0.3062,
+          66.5843
+        ],
+        [
+          69.4971,
+          72.1826,
+          74.9108,
+          75.2591,
+          0.7887,
+          -0.5516,
+          31.6688,
+          70.7801,
+          -0.3,
+          68.0286
+        ],
+        [
+          73.4875,
+          75.0005,
+          78.3046,
+          78.1809,
+          0.816,
+          -0.5342,
+          31.3846,
+          70.3626,
+          -0.317,
+          70.1438
+        ],
+        [
+          76.2334,
+          79.1774,
+          82.3758,
+          81.1224,
+          0.8664,
+          -0.5283,
+          30.6363,
+          69.9136,
+          -0.3059,
+          69.5931
+        ],
+        [
+          80.9808,
+          82.7726,
+          86.6944,
+          85.3847,
+          0.9115,
+          -0.5017,
+          29.7416,
+          69.0923,
+          -0.2711,
+          68.8258
+        ],
+        [
+          87.2293,
+          87.2218,
+          89.2514,
+          89.6746,
+          0.9665,
+          -0.4629,
+          28.9695,
+          68.2723,
+          -0.2777,
+          70.502
+        ],
+        [
+          92.6168,
+          90.9712,
+          93.4977,
+          95.3419,
+          1.0302,
+          -0.4106,
+          27.7405,
+          66.2272,
+          -0.2755,
+          68.6311
+        ],
+        [
+          97.7557,
+          97.0686,
+          97.972,
+          98.7802,
+          1.0944,
+          -0.3691,
+          26.737,
+          63.3365,
+          -0.2396,
+          64.8799
+        ],
+        [
+          104.2296,
+          104.4023,
+          104.9382,
+          103.2049,
+          1.177,
+          -0.3169,
+          25.4095,
+          58.9117,
+          -0.1724,
+          59.82
+        ],
+        [
+          111.9109,
+          113.8427,
+          112.3326,
+          108.3997,
+          1.2609,
+          -0.2576,
+          24.1732,
+          56.727,
+          -0.1097,
+          56.3113
+        ],
+        [
+          119.2391,
+          122.5196,
+          121.7232,
+          120.1475,
+          1.3439,
+          -0.1928,
+          21.723,
+          53.8571,
+          -0.0528,
+          54.3115
+        ],
+        [
+          128.1292,
+          131.4049,
+          130.8752,
+          128.76,
+          1.4084,
+          -0.1487,
+          20.4691,
+          52.5618,
+          -0.0407,
+          50.8035
+        ],
+        [
+          139.2248,
+          139.6352,
+          139.6168,
+          137.0352,
+          1.4703,
+          -0.1027,
+          18.0272,
+          49.726,
+          -0.0137,
+          45.738
+        ],
+        [
+          145.8358,
+          148.2452,
+          147.3446,
+          144.824,
+          1.5162,
+          -0.0355,
+          14.8936,
+          44.8768,
+          0.0043,
+          37.4576
+        ],
+        [
+          152.8884,
+          152.7614,
+          154.0315,
+          154.2415,
+          1.5438,
+          0.0009,
+          13.5782,
+          39.3229,
+          0.0195,
+          33.7871
+        ],
+        [
+          158.1496,
+          156.2899,
+          158.432,
+          160.2221,
+          1.5615,
+          0.0312,
+          13.1071,
+          35.6251,
+          0.0383,
+          30.7381
+        ],
+        [
+          160.6319,
+          157.3838,
+          160.2431,
+          162.6819,
+          1.5737,
+          0.054,
+          12.992,
+          33.2908,
+          0.0458,
+          28.7218
+        ],
+        [
+          162.2164,
+          159.2491,
+          161.3319,
+          164.3628,
+          1.5922,
+          0.0672,
+          12.8887,
+          32.7656,
+          0.0369,
+          27.6792
+        ],
+        [
+          162.9888,
+          160.8295,
+          161.8536,
+          165.1029,
+          1.597,
+          0.0728,
+          12.4648,
+          31.7695,
+          0.0307,
+          27.8525
+        ],
+        [
+          163.4053,
+          161.754,
+          161.9963,
+          165.517,
+          1.6003,
+          0.0777,
+          12.32,
+          30.7755,
+          0.0378,
+          27.3683
+        ],
+        [
+          163.8454,
+          161.7861,
+          162.5867,
+          165.2591,
+          1.5976,
+          0.0753,
+          12.1152,
+          30.7282,
+          0.0335,
+          27.4276
+        ],
+        [
+          164.0641,
+          161.994,
+          162.5664,
+          165.7269,
+          1.6014,
+          0.0726,
+          12.1483,
+          30.6199,
+          0.031,
+          27.0853
+        ]
+      ],
+      "std": [
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1244,
+          7.9431,
+          23.6973,
+          0.0967,
+          27.5452
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1271,
+          7.6172,
+          23.6293,
+          0.0915,
+          27.6396
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1322,
+          7.6823,
+          23.7576,
+          0.0914,
+          27.8464
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1362,
+          7.7624,
+          23.9354,
+          0.0969,
+          28.1257
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1409,
+          7.9129,
+          24.1917,
+          0.102,
+          28.272
+        ],
+        [
+          14.8614,
+          14.2849,
+          13.7955,
+          15.0984,
+          0.1331,
+          0.1452,
+          8.0044,
+          24.1729,
+          0.1108,
+          28.2566
+        ],
+        [
+          15.2808,
+          15.5082,
+          14.2645,
+          16.6992,
+          0.1331,
+          0.1477,
+          7.9832,
+          24.5495,
+          0.1239,
+          28.2585
+        ],
+        [
+          16.1994,
+          17.1062,
+          15.6203,
+          18.1163,
+          0.1331,
+          0.1541,
+          8.082,
+          25.2198,
+          0.141,
+          28.0272
+        ],
+        [
+          17.0263,
+          18.1166,
+          16.8218,
+          19.5371,
+          0.1345,
+          0.1604,
+          8.3057,
+          25.4961,
+          0.1625,
+          27.9063
+        ],
+        [
+          17.6698,
+          18.8816,
+          17.9366,
+          20.4276,
+          0.1405,
+          0.1646,
+          8.7645,
+          25.9979,
+          0.182,
+          27.9512
+        ],
+        [
+          18.1482,
+          19.2609,
+          18.6781,
+          21.1871,
+          0.1492,
+          0.1762,
+          9.1765,
+          26.3506,
+          0.2044,
+          28.1036
+        ],
+        [
+          18.5659,
+          19.5407,
+          18.9008,
+          21.5852,
+          0.1564,
+          0.189,
+          9.5961,
+          26.5223,
+          0.2194,
+          27.9522
+        ],
+        [
+          18.497,
+          19.9636,
+          19.5988,
+          21.5456,
+          0.1676,
+          0.2004,
+          9.9206,
+          26.8714,
+          0.2343,
+          27.8495
+        ],
+        [
+          17.9347,
+          20.4216,
+          20.4905,
+          21.7124,
+          0.181,
+          0.2116,
+          10.1909,
+          27.2091,
+          0.2491,
+          28.2787
+        ],
+        [
+          17.45,
+          20.6459,
+          21.4115,
+          21.9327,
+          0.1956,
+          0.2275,
+          10.3929,
+          27.4563,
+          0.2629,
+          28.5763
+        ],
+        [
+          16.7429,
+          20.6818,
+          21.9245,
+          22.1381,
+          0.2061,
+          0.2382,
+          10.2489,
+          27.7784,
+          0.2796,
+          29.2102
+        ],
+        [
+          16.538,
+          20.9193,
+          22.1739,
+          22.0395,
+          0.2102,
+          0.2438,
+          10.7136,
+          28.3534,
+          0.2942,
+          29.9197
+        ],
+        [
+          16.9175,
+          21.0621,
+          22.1611,
+          22.3355,
+          0.2151,
+          0.2492,
+          11.5272,
+          28.6701,
+          0.3119,
+          30.3583
+        ],
+        [
+          16.8236,
+          21.3063,
+          22.5224,
+          22.5824,
+          0.2162,
+          0.2548,
+          12.248,
+          28.7664,
+          0.3315,
+          30.685
+        ],
+        [
+          17.1292,
+          21.9995,
+          22.8913,
+          22.6797,
+          0.2175,
+          0.2622,
+          12.7767,
+          28.7843,
+          0.3484,
+          30.9741
+        ],
+        [
+          17.3572,
+          22.7346,
+          23.3716,
+          22.9511,
+          0.2183,
+          0.2689,
+          13.2732,
+          28.813,
+          0.364,
+          31.4404
+        ],
+        [
+          17.5732,
+          23.3293,
+          23.7592,
+          23.2316,
+          0.2192,
+          0.2723,
+          13.7626,
+          28.9578,
+          0.3744,
+          31.9027
+        ],
+        [
+          17.8067,
+          23.8864,
+          24.0653,
+          23.3274,
+          0.2207,
+          0.2773,
+          14.1677,
+          29.0141,
+          0.3807,
+          31.7645
+        ],
+        [
+          17.8422,
+          23.9503,
+          23.9784,
+          23.2503,
+          0.221,
+          0.2797,
+          14.2844,
+          28.8051,
+          0.3861,
+          31.5467
+        ],
+        [
+          18.0279,
+          24.3818,
+          24.3588,
+          23.283,
+          0.2248,
+          0.2833,
+          14.4423,
+          28.5977,
+          0.3853,
+          31.3753
+        ],
+        [
+          18.3245,
+          24.7691,
+          24.6059,
+          23.428,
+          0.2272,
+          0.2856,
+          14.5428,
+          28.5396,
+          0.3826,
+          31.4871
+        ],
+        [
+          18.6154,
+          24.9097,
+          24.782,
+          23.309,
+          0.2278,
+          0.2883,
+          14.541,
+          28.6045,
+          0.3756,
+          31.5025
+        ],
+        [
+          19.3733,
+          24.8824,
+          24.9363,
+          23.6265,
+          0.2297,
+          0.297,
+          14.6787,
+          28.6493,
+          0.3701,
+          31.7106
+        ],
+        [
+          20.0389,
+          25.108,
+          25.105,
+          24.0978,
+          0.2319,
+          0.287,
+          14.6771,
+          28.7665,
+          0.3612,
+          31.5019
+        ],
+        [
+          20.4029,
+          25.2932,
+          25.3215,
+          24.3932,
+          0.2325,
+          0.2873,
+          14.5416,
+          28.6693,
+          0.3525,
+          31.0368
+        ],
+        [
+          21.028,
+          25.4467,
+          25.3901,
+          25.0061,
+          0.2372,
+          0.2824,
+          14.2559,
+          28.5206,
+          0.3421,
+          30.7474
+        ],
+        [
+          21.012,
+          24.977,
+          24.472,
+          24.6178,
+          0.2351,
+          0.277,
+          13.9806,
+          28.5553,
+          0.3319,
+          30.8261
+        ],
+        [
+          21.2862,
+          24.6092,
+          23.6228,
+          24.1488,
+          0.233,
+          0.2678,
+          13.4357,
+          28.7429,
+          0.3243,
+          30.8699
+        ],
+        [
+          21.2313,
+          24.1124,
+          22.9158,
+          23.8407,
+          0.2276,
+          0.2584,
+          12.9799,
+          28.943,
+          0.3142,
+          31.0825
+        ],
+        [
+          20.9997,
+          23.6995,
+          21.8645,
+          22.9981,
+          0.2151,
+          0.2485,
+          12.284,
+          29.2892,
+          0.3001,
+          30.9846
+        ],
+        [
+          20.2112,
+          22.7707,
+          20.4934,
+          21.9816,
+          0.1966,
+          0.231,
+          11.7443,
+          29.1648,
+          0.2863,
+          30.3227
+        ],
+        [
+          19.0731,
+          21.1539,
+          19.5121,
+          21.3494,
+          0.1803,
+          0.2125,
+          11.1681,
+          28.6095,
+          0.2743,
+          29.5904
+        ],
+        [
+          18.6797,
+          20.1773,
+          19.0386,
+          21.2399,
+          0.1758,
+          0.1999,
+          10.8213,
+          28.0688,
+          0.2649,
+          28.9112
+        ],
+        [
+          17.9518,
+          19.4027,
+          17.9864,
+          20.1158,
+          0.1682,
+          0.1885,
+          10.5335,
+          27.2065,
+          0.2514,
+          28.4344
+        ],
+        [
+          17.5239,
+          18.3449,
+          16.4182,
+          19.3329,
+          0.1569,
+          0.17,
+          10.2035,
+          26.4563,
+          0.2319,
+          28.4145
+        ],
+        [
+          17.0421,
+          17.6146,
+          14.6347,
+          17.9206,
+          0.1392,
+          0.149,
+          9.5218,
+          26.3483,
+          0.2094,
+          29.2425
+        ],
+        [
+          16.2447,
+          16.6245,
+          13.7955,
+          17.0721,
+          0.1332,
+          0.1326,
+          9.0216,
+          26.0899,
+          0.1788,
+          29.0993
+        ],
+        [
+          15.875,
+          15.7196,
+          13.7955,
+          16.3819,
+          0.1331,
+          0.1272,
+          8.8022,
+          25.8374,
+          0.1514,
+          29.1047
+        ],
+        [
+          15.0663,
+          14.164,
+          13.7955,
+          15.4274,
+          0.1331,
+          0.1325,
+          8.7014,
+          25.9585,
+          0.1303,
+          29.0344
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1289,
+          8.5494,
+          25.8811,
+          0.1151,
+          29.1063
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1212,
+          8.2035,
+          25.1598,
+          0.1033,
+          29.0457
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1158,
+          7.9044,
+          24.5189,
+          0.0997,
+          28.6194
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1158,
+          7.7497,
+          24.0734,
+          0.0982,
+          27.8629
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1145,
+          7.791,
+          23.6426,
+          0.0982,
+          27.3442
+        ],
+        [
+          14.8614,
+          13.9005,
+          13.7955,
+          13.9629,
+          0.1331,
+          0.1117,
+          7.9641,
+          23.1869,
+          0.0968,
+          27.2197
+        ]
+      ],
+      "threshold": 3.2852,
+      "required_events": [
+        {
+          "feature": "height.hip",
+          "direction": "falls"
+        }
+      ]
+    },
+    "accuracy": {
+      "recall": 0.9585062240663901,
+      "recall_mode": "leave-one-clip-out",
+      "false_accept_rate_vs_other_activities": 0.017985611510791366,
+      "false_accept_rate_shape_only": 0.019184652278177457,
+      "recall_by_view": {
+        "front/back (<30)": 0.9736842105263158,
+        "oblique (30-60)": 0.9306930693069307,
+        "side (>60)": 1.0
+      },
+      "n_attempts": 241,
+      "n_clips": 34
+    },
+    "confusable_with": [
+      "lunge",
+      "deadlift",
+      "good_morning",
+      "sit_to_stand",
+      "goblet_squat",
+      "jump_squat",
+      "wall_sit"
+    ]
+  },
+  "context_rules": [
+    {
+      "when": {
+        "field": "activity.match_confidence",
+        "op": "LESS_THAN",
+        "value": 0.6
+      },
+      "hint": "ask_to_confirm_activity"
+    },
+    {
+      "when": {
+        "field": "session_state",
+        "op": "IN",
+        "value": [
+          "rest",
+          "conversation"
+        ]
+      },
+      "hint": "hold_coaching_until_break"
+    }
+  ],
+  "movement_model": {
+    "signals": [
+      "angle.hip.dom",
+      "angle.hip.non",
+      "angle.knee.dom",
+      "angle.knee.non",
+      "angle.shoulder.dom",
+      "angle.shoulder.non",
+      "angle.trunk_lean",
+      "dev.knee_inward.dom",
+      "dev.knee_inward.non",
+      "dist.stance_width",
+      "height.heel.dom",
+      "height.hip",
+      "rot.foot_turnout.dom"
+    ],
+    "landmarks": [
+      {
+        "id": "L0",
+        "t": 0.0
+      },
+      {
+        "id": "L1",
+        "t": 0.4694
+      },
+      {
+        "id": "L2",
+        "t": 1.0
+      }
+    ],
+    "phases": [
+      {
+        "id": "descent",
+        "start": "L0",
+        "end": "L1",
+        "description": "From standing upright (L0) the hips and knees bend and the hips lower under control to the bottom of the squat (L1)."
+      },
+      {
+        "id": "ascent",
+        "start": "L1",
+        "end": "L2",
+        "description": "From the bottom position (L1) the legs and hips extend and the person stands back up to full standing (L2)."
+      }
+    ],
+    "key_poses": {
+      "L0": {
+        "angle.hip.dom": {
+          "median": 163.3371,
+          "sigma": 9.1759,
+          "p5": 142.3345,
+          "p95": 175.7665
+        },
+        "angle.hip.non": {
+          "median": 160.655,
+          "sigma": 9.8807,
+          "p5": 140.4227,
+          "p95": 171.9671
+        },
+        "angle.knee.non": {
+          "median": 162.3383,
+          "sigma": 6.8083,
+          "p5": 141.2649,
+          "p95": 173.5592
+        },
+        "angle.knee.dom": {
+          "median": 164.7799,
+          "sigma": 9.5862,
+          "p5": 141.7221,
+          "p95": 174.6753
+        },
+        "height.hip": {
+          "median": 1.5989,
+          "sigma": 0.086,
+          "p5": 1.4012,
+          "p95": 1.7139
+        },
+        "dev.knee_inward.dom": {
+          "median": 0.0604,
+          "sigma": 0.1319,
+          "p5": -0.1439,
+          "p95": 0.2016
+        },
+        "angle.trunk_lean": {
+          "median": 11.2675,
+          "sigma": 8.0181,
+          "p5": 2.7083,
+          "p95": 26.987
+        },
+        "angle.shoulder.non": {
+          "median": 31.2634,
+          "sigma": 13.0728,
+          "p5": 18.0021,
+          "p95": 95.1289
+        },
+        "dev.knee_inward.non": {
+          "median": 0.0391,
+          "sigma": 0.0955,
+          "p5": -0.1076,
+          "p95": 0.1644
+        },
+        "angle.shoulder.dom": {
+          "median": 26.8026,
+          "sigma": 19.4946,
+          "p5": 6.3329,
+          "p95": 93.512
+        }
+      },
+      "L1": {
+        "angle.hip.dom": {
+          "median": 67.4134,
+          "sigma": 12.0691,
+          "p5": 49.8098,
+          "p95": 100.9975
+        },
+        "angle.hip.non": {
+          "median": 71.9056,
+          "sigma": 19.5425,
+          "p5": 45.725,
+          "p95": 129.5761
+        },
+        "angle.knee.non": {
+          "median": 72.4951,
+          "sigma": 31.2119,
+          "p5": 40.0271,
+          "p95": 105.1052
+        },
+        "angle.knee.dom": {
+          "median": 74.7211,
+          "sigma": 27.7169,
+          "p5": 38.969,
+          "p95": 105.5089
+        },
+        "height.hip": {
+          "median": 0.7451,
+          "sigma": 0.2834,
+          "p5": 0.4676,
+          "p95": 1.0592
+        },
+        "dev.knee_inward.dom": {
+          "median": -0.579,
+          "sigma": 0.1902,
+          "p5": -0.9255,
+          "p95": 0.1148
+        },
+        "angle.trunk_lean": {
+          "median": 31.7005,
+          "sigma": 10.8929,
+          "p5": 5.4386,
+          "p95": 54.3932
+        },
+        "angle.shoulder.non": {
+          "median": 70.3426,
+          "sigma": 31.964,
+          "p5": 37.091,
+          "p95": 122.45
+        },
+        "dev.knee_inward.non": {
+          "median": -0.3163,
+          "sigma": 0.3924,
+          "p5": -0.9821,
+          "p95": 0.2187
+        },
+        "angle.shoulder.dom": {
+          "median": 66.821,
+          "sigma": 36.8664,
+          "p5": 25.2423,
+          "p95": 121.8092
+        }
+      },
+      "L2": {
+        "angle.hip.dom": {
+          "median": 163.9574,
+          "sigma": 8.2842,
+          "p5": 144.3242,
+          "p95": 174.7358
+        },
+        "angle.hip.non": {
+          "median": 161.9358,
+          "sigma": 10.9379,
+          "p5": 140.778,
+          "p95": 172.0047
+        },
+        "angle.knee.non": {
+          "median": 162.5705,
+          "sigma": 7.5194,
+          "p5": 142.0341,
+          "p95": 174.4928
+        },
+        "angle.knee.dom": {
+          "median": 165.4535,
+          "sigma": 8.868,
+          "p5": 144.8615,
+          "p95": 175.4088
+        },
+        "height.hip": {
+          "median": 1.6013,
+          "sigma": 0.0861,
+          "p5": 1.4496,
+          "p95": 1.7278
+        },
+        "dev.knee_inward.dom": {
+          "median": 0.0705,
+          "sigma": 0.1191,
+          "p5": -0.1138,
+          "p95": 0.202
+        },
+        "angle.trunk_lean": {
+          "median": 12.2419,
+          "sigma": 7.8022,
+          "p5": 2.0625,
+          "p95": 25.9898
+        },
+        "angle.shoulder.non": {
+          "median": 30.4405,
+          "sigma": 11.5912,
+          "p5": 17.6113,
+          "p95": 93.6224
+        },
+        "dev.knee_inward.non": {
+          "median": 0.0318,
+          "sigma": 0.0995,
+          "p5": -0.1183,
+          "p95": 0.1898
+        },
+        "angle.shoulder.dom": {
+          "median": 26.7957,
+          "sigma": 20.3185,
+          "p5": 5.6068,
+          "p95": 92.1926
+        }
+      }
+    },
+    "view_coverage": {
+      "yaw_min": 3.2,
+      "yaw_max": 78.1,
+      "n_clips_by_view": {
+        "front/back (<30)": 18,
+        "oblique (30-60)": 13,
+        "side (>60)": 3
+      }
+    }
+  },
+  "outcomes": [
+    {
+      "id": "balanced_controlled_squat",
+      "description": "The squat is performed with the weight balanced over the whole foot and the trunk steady, with no tipping or toe-loading.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    },
+    {
+      "id": "knee_alignment",
+      "description": "The knees track in line with the hips and ankles through the whole rep.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    },
+    {
+      "id": "full_depth_reached",
+      "description": "The person reaches a full, consistent depth and finishes each rep standing tall.",
+      "measure": "M01",
+      "requires_observable": [
+        "body"
+      ],
+      "status": "available"
+    }
+  ],
+  "links": [
+    {
+      "feature": "angle.trunk_lean",
+      "at": "L1",
+      "outcome": "balanced_controlled_squat",
+      "effect": "lower_is_better",
+      "mechanism": "A trunk that folds forward moves the centre of mass towards the toes and turns the squat into a hip-hinge, losing balance.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "height.heel.dom",
+      "at": "L1",
+      "outcome": "balanced_controlled_squat",
+      "effect": "lower_is_better",
+      "mechanism": "Heels rising shifts the load to the forefoot and reduces the base of support.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "dev.knee_inward.dom",
+      "at": "L1",
+      "outcome": "knee_alignment",
+      "effect": "lower_is_better",
+      "mechanism": "Knees drifting inward of the hip-ankle line put the knee out of line with the foot.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "height.hip",
+      "at": "L1",
+      "outcome": "full_depth_reached",
+      "effect": "lower_is_better",
+      "mechanism": "A lower hip height at the bottom means the person has reached greater squat depth.",
+      "evidence": "prior_only"
+    },
+    {
+      "feature": "angle.hip.dom",
+      "at": "L2",
+      "outcome": "full_depth_reached",
+      "effect": "higher_is_better",
+      "mechanism": "A more open hip angle at the top shows the person has stood up completely.",
+      "evidence": "prior_only"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "knees_caving_in",
+      "goal": "Keep the knees tracking out over the toes, in line with the hip and ankle, all the way down.",
+      "severity": "high",
+      "kind": "safety",
+      "priority": 1,
+      "caused_by": [],
+      "sides": {
+        "above": {
+          "looks_like": "The knee drifts inward past the line from hip to ankle at the bottom.",
+          "severity": "high"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M01",
+          "feature": "dev.knee_inward.dom",
+          "at": "L1",
+          "compare": {
+            "op": "LESS_OR_EQUAL",
+            "value": -0.0313
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "knee_alignment"
+      ],
+      "cue_intent": "Cue the person to push the knees out in the direction of the toes.",
+      "ask_if_unsure_intent": "Ask whether they feel the knees pulling inward as they get deeper or on the way up.",
+      "fix_intent": "Suggest actively spreading the floor with the feet and pushing the knees out over the toes; reduce depth until control is good.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 32,
+        "n_bad": 3,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": null,
+        "high": -0.031306916971669096,
+        "basis": "good_form_demonstrations",
+        "labelled": {
+          "n_good": 32,
+          "n_bad": 3,
+          "n_good_clips": 9,
+          "n_bad_clips": 3,
+          "auc": 0.875,
+          "held_out_accuracy": null,
+          "validated": false
+        }
+      }
+    },
+    {
+      "id": "heels_lift_ankle_limit",
+      "goal": "Keep the whole foot flat on the floor throughout the squat.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 2,
+      "caused_by": [],
+      "sides": {
+        "above": {
+          "looks_like": "The heel rises off the floor at the bottom, with the weight pushed onto the toes.",
+          "severity": "medium"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M01",
+          "feature": "height.heel.dom",
+          "at": "L1",
+          "compare": {
+            "op": "LESS_OR_EQUAL",
+            "value": 0.2196
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "balanced_controlled_squat"
+      ],
+      "cue_intent": "Cue the person to press through the whole foot, heels staying down.",
+      "ask_if_unsure_intent": "Ask whether the ankles feel tight or the heels want to come up when they go deep.",
+      "fix_intent": "Suggest a slightly wider stance with toes turned out, a shallower depth, or heel elevation and ankle mobility work.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 22,
+        "n_bad": 0,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": null,
+        "high": 0.21962789085239884,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "forward_chest_lean",
+      "goal": "Keep the chest up and the trunk steady as you go down, with only the natural lean needed to balance over the feet.",
+      "severity": "medium",
+      "kind": "form",
+      "priority": 3,
+      "caused_by": [
+        "heels_lift_ankle_limit"
+      ],
+      "sides": {
+        "above": {
+          "looks_like": "The chest drops and the torso folds or rocks forward over the thighs at the bottom.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "Torso held very upright; usually acceptable, though some coaches want a more inclined torso.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.trunk_lean",
+          "at": "L1",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": 5.3709,
+            "high": 59.6542
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "balanced_controlled_squat"
+      ],
+      "cue_intent": "Cue the person to keep the chest proud and tall as the hips go down.",
+      "ask_if_unsure_intent": "Ask whether they feel their weight shifting forward onto the toes or their chest folding at the bottom.",
+      "fix_intent": "Suggest lifting the chest, bracing, and sitting the hips down between the heels rather than folding forward; consider a slightly narrower or heel-elevated setup if the ankles are tight.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 18,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": 5.370900718452177,
+        "high": 59.65423976640248,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "incomplete_range",
+      "goal": "Lower the hips to a full, consistent depth at the bottom of every rep.",
+      "severity": "low",
+      "kind": "form",
+      "priority": 4,
+      "caused_by": [],
+      "sides": {
+        "above": {
+          "looks_like": "The person stops high, with the hips well above knee level, short of the usual depth.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M01",
+          "feature": "height.hip",
+          "at": "L1",
+          "compare": {
+            "op": "LESS_OR_EQUAL",
+            "value": 1.1485
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "full_depth_reached"
+      ],
+      "cue_intent": "Cue the person to sit lower until the thighs are about parallel or deeper, as comfort allows.",
+      "ask_if_unsure_intent": "Ask what limits their depth: mobility, balance, or discomfort.",
+      "fix_intent": "Suggest going down only as far as control and a flat back allow, working gradually towards deeper range.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 2,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": null,
+        "high": 1.148494286722595,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "full_lockout",
+      "goal": "Stand fully tall at the top of each rep with the hips and knees extended.",
+      "severity": "low",
+      "kind": "form",
+      "priority": 5,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The person stays partly bent at the hips and does not stand fully upright at the top.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "angle.hip.dom",
+          "at": "L2",
+          "compare": {
+            "op": "GREATER_OR_EQUAL",
+            "value": 153.4874
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "full_depth_reached"
+      ],
+      "cue_intent": "Cue the person to finish each rep standing tall with the hips fully open.",
+      "ask_if_unsure_intent": "Ask whether they are deliberately keeping tension by not standing all the way up.",
+      "fix_intent": "Suggest squeezing the glutes and standing completely upright before starting the next rep.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": 153.48739056794048,
+        "high": null,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "stance_not_matched_to_hips",
+      "goal": "Set the feet at a width that suits your own hips, about hip to shoulder width or a little wider.",
+      "severity": "low",
+      "kind": "form",
+      "priority": 6,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The feet are very close together, which limits depth and balance.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "A very wide or sumo stance for a standard squat.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M03",
+          "feature": "dist.stance_width",
+          "at": "L0",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": 1.1515,
+            "high": 2.3089
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "balanced_controlled_squat"
+      ],
+      "cue_intent": "Cue the person to set the feet around hip to shoulder width before starting.",
+      "ask_if_unsure_intent": "Ask whether the stance feels comfortable and whether they chose a wider or narrower stance on purpose.",
+      "fix_intent": "Suggest trying a slightly narrower or wider stance until the depth feels free and the knees track over the feet.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": 1.1515131728146575,
+        "high": 2.3088537248090804,
+        "basis": "good_form_demonstrations"
+      }
+    },
+    {
+      "id": "toe_angle_wrong",
+      "goal": "Set the toes at a consistent, comfortable angle (straight ahead to slightly turned out) and keep them there during the rep.",
+      "severity": "low",
+      "kind": "form",
+      "priority": 7,
+      "caused_by": [],
+      "sides": {
+        "below": {
+          "looks_like": "The toes point straight ahead or inward, which can limit depth for some people.",
+          "severity": "low"
+        },
+        "above": {
+          "looks_like": "The toes are turned out a lot, or screw outward during the rep.",
+          "severity": "low"
+        }
+      },
+      "tests": [
+        {
+          "measure": "M02",
+          "feature": "rot.foot_turnout.dom",
+          "at": "L0",
+          "compare": {
+            "op": "WITHIN_RANGE",
+            "low": -6.7974,
+            "high": 38.6789
+          },
+          "aggregate": {
+            "rule": "at_least",
+            "n": 3,
+            "of": 5
+          },
+          "min_confidence": 0.6,
+          "valid_views": {
+            "yaw_min": 3.2,
+            "yaw_max": 78.1
+          },
+          "time_budget": "per_attempt"
+        }
+      ],
+      "detection": {
+        "source": "pose",
+        "reliability": "C"
+      },
+      "outcome_links": [
+        "knee_alignment"
+      ],
+      "cue_intent": "Cue the person to set the feet with a consistent slight toe-out and keep the knees following the toes.",
+      "ask_if_unsure_intent": "Ask whether they set their toe angle on purpose or whether it changes through the rep.",
+      "fix_intent": "Suggest finding the toe angle that lets them reach depth comfortably, then keeping the knees over the toes.",
+      "calibration": {
+        "auc": null,
+        "validated": false,
+        "n_good": 0,
+        "n_bad": 0,
+        "n_reference_attempts": 47,
+        "n_reference_clips": 9,
+        "low": -6.797368174112128,
+        "high": 38.6788940023014,
+        "basis": "good_form_demonstrations"
+      }
+    }
+  ],
+  "session_ideas": [
+    "Record from the side and then from the front, for 5 slow reps each.",
+    "Practise a box or chair squat to learn depth and hip-back movement.",
+    "Try a few reps with the arms held forward to help keep the chest up.",
+    "Compare reps at hip-width and slightly wider stance."
+  ],
+  "proposals": [
+    {
+      "kind": "feature",
+      "name": "angle.lumbar_flexion (pelvic tilt / spine curvature)",
+      "why": "Lumbar rounding or butt wink at the bottom, and arching of the lower back, cannot be seen with the current features, which have no spine curvature or pelvis tilt."
+    },
+    {
+      "kind": "feature",
+      "name": "timing.hip_vs_shoulder_rise",
+      "why": "The 'hips rise first' fault (good-morning squat) needs the relative timing of hip and shoulder rise during the ascent."
+    },
+    {
+      "kind": "measurement",
+      "name": "centre_of_pressure_front_back",
+      "why": "Weight too far on the heels or toes, and tipping backward, need foot pressure or a balance estimate that the body-frame features cannot give."
+    },
+    {
+      "kind": "feature",
+      "name": "knee_toe_direction_alignment",
+      "why": "A fault where the feet turn out but the knees stay pointing forward needs the knee direction compared with the foot direction."
+    },
+    {
+      "kind": "measurement",
+      "name": "breathing_and_bracing",
+      "why": "Bracing and breathing cannot be observed from body landmarks on a phone camera."
+    }
+  ],
+  "metadata": {
+    "feasibility": {
+      "verdict": "experimental",
+      "reason": "built by the factory; not yet validated in real sessions"
+    },
+    "provenance": {
+      "sources": [
+        "0euDDJu6GnQ",
+        "3GTp-HYp4MY",
+        "4pI_6Wi6okE",
+        "965Fwq2aVIo",
+        "AhfgIM8YWBY",
+        "Dua9h7wsFVI",
+        "E2z5zK5V-MM",
+        "HFnSsLIB7a4",
+        "JTMFAYNoAxM",
+        "M6_dNPSP2dQ",
+        "MODXeW-a_uc",
+        "MnPuHBh48bA",
+        "MnboqiN-4ng",
+        "P-yaD24bUE8",
+        "U3HlEF_E9fo",
+        "YN_XnIhEjQw",
+        "YaXPRqUwItQ",
+        "ckvHymGK3s0",
+        "ektFAcztVLc",
+        "jmqbh-i2SGQ",
+        "m0GcZ24pK6k",
+        "ndhOueWuCB0",
+        "niWFDg6wyD0",
+        "nmUof3vszxM",
+        "o4D4LqdpYfQ",
+        "ovxI_waWQcI",
+        "p5nE_Yahbto",
+        "plvV-xAQZRo",
+        "rMvwVtlqjTE",
+        "tfqMxAhSfE8",
+        "u0r0b6NK7HY",
+        "vW99IkimKDI",
+        "xqvCmoLULNY",
+        "zdrYdfrWn1c"
+      ],
+      "n_clips": 34,
+      "n_attempts": 241,
+      "runs": 5,
+      "agreement": 0.725,
+      "primary_features": [
+        "height.hip",
+        "angle.knee.dom",
+        "angle.hip.dom",
+        "angle.trunk_lean"
+      ],
+      "calibration_basis": {
+        "good_form_demonstrations": 7
+      },
+      "objectives_without_usable_range": [],
+      "attempt_events": [
+        {
+          "feature": "height.hip",
+          "direction": "falls"
+        }
+      ],
+      "footage": {
+        "attempts": 872,
+        "clips_with_attempts": 40,
+        "clips": 43,
+        "target_reached": true,
+        "rounds": 2
+      },
+      "objective_support": {
+        "runs": 5,
+        "per_objective": {
+          "forward_chest_lean": 5,
+          "knees_caving_in": 5,
+          "heels_lift_ankle_limit": 5,
+          "incomplete_range": 3,
+          "full_lockout": 4,
+          "stance_not_matched_to_hips": 5,
+          "toe_angle_wrong": 3
+        },
+        "dropped": []
+      },
+      "labels": {
+        "videos": 28,
+        "attempts": 259,
+        "not_attempts": 134,
+        "per_fault": {
+          "arching_lower_back": {
+            "present": 0,
+            "absent": 4,
+            "videos_present": 0,
+            "videos_absent": 1
+          },
+          "arm_counterbalance": {
+            "present": 42,
+            "absent": 12,
+            "videos_present": 14,
+            "videos_absent": 4
+          },
+          "falling_backward_weight_on_heels": {
+            "present": 0,
+            "absent": 5,
+            "videos_present": 0,
+            "videos_absent": 4
+          },
+          "forward_chest_lean": {
+            "present": 18,
+            "absent": 6,
+            "videos_present": 11,
+            "videos_absent": 4
+          },
+          "heels_lift_ankle_limit": {
+            "present": 0,
+            "absent": 22,
+            "videos_present": 0,
+            "videos_absent": 10
+          },
+          "hips_rise_first_good_morning": {
+            "present": 4,
+            "absent": 0,
+            "videos_present": 3,
+            "videos_absent": 0
+          },
+          "incomplete_range": {
+            "present": 2,
+            "absent": 31,
+            "videos_present": 2,
+            "videos_absent": 14
+          },
+          "knees_caving_in": {
+            "present": 3,
+            "absent": 32,
+            "videos_present": 3,
+            "videos_absent": 9
+          },
+          "lumbar_rounding_butt_wink": {
+            "present": 2,
+            "absent": 5,
+            "videos_present": 1,
+            "videos_absent": 2
+          }
+        }
+      },
+      "footage_sources": {
+        "other": {
+          "clips": 11,
+          "attempts": 67,
+          "shows": {
+            "unknown": 67
+          }
+        },
+        "mistake_analysis": {
+          "clips": 20,
+          "attempts": 66,
+          "shows": {
+            "mixed": 66
+          }
+        },
+        "instruction_talk": {
+          "clips": 5,
+          "attempts": 36,
+          "shows": {
+            "unknown": 36
+          }
+        },
+        "practice_session": {
+          "clips": 3,
+          "attempts": 39,
+          "shows": {
+            "unknown": 39
+          }
+        },
+        "coach_demo": {
+          "clips": 11,
+          "attempts": 49,
+          "shows": {
+            "good_form": 49
+          }
+        }
+      },
+      "reference_clips": [
+        "HFnSsLIB7a4",
+        "P-yaD24bUE8",
+        "YaXPRqUwItQ",
+        "ckvHymGK3s0",
+        "m0GcZ24pK6k",
+        "ovxI_waWQcI",
+        "p5nE_Yahbto",
+        "rMvwVtlqjTE",
+        "xqvCmoLULNY"
+      ],
+      "coaching_sources": [
+        {
+          "id": "BZ1TUVr4LFk",
+          "title": "NEVER DO SQUATS LIKE THIS! | 10 Most Common Mistakes!",
+          "channel": "ATHLEAN-X\u2122",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "U3HlEF_E9fo",
+          "title": "How To Squat Properly: 3 Mistakes Harming Your Lower Back (FIX THESE!)",
+          "channel": "Jeremy Ethier",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "k-0OYcoyASk",
+          "title": "I Couldn\u2019t SQUAT For Years...Until I Did This",
+          "channel": "Oscar Moves",
+          "tier": "instruction_talk"
+        },
+        {
+          "id": "ULz4PCu0o0I",
+          "title": "Fixing Common Squat Mistakes (Are You Squatting Wrong?)",
+          "channel": "Renew Medical Fitness",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "niWFDg6wyD0",
+          "title": "STOP Doing Squats Like This After 60 \u2013 Do THIS Instead",
+          "channel": "Will Harlow \u2013\u00a0Over-Fifties Specialist Physio",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "M6_dNPSP2dQ",
+          "title": "Incorrect Squat Technique | Number One Biggest Squat Mistake",
+          "channel": "Cavemantraining\u2122",
+          "tier": "mistake_analysis"
+        },
+        {
+          "id": "Y7QEmD5MgDQ",
+          "title": "Can\u2019t Deep Squat? Here's The Fix",
+          "channel": "Dr. Alyssa Lu  ",
+          "tier": "instruction_talk"
+        },
+        {
+          "id": "BqF90pMpjb4",
+          "title": "Increase Squat Mobility FOREVER!",
+          "channel": "FitnessFAQs",
+          "tier": "instruction_talk"
+        },
+        {
+          "id": "0KtrNQre5rQ",
+          "title": "Fix Your Squat | Correct Bodyweight Squat Technique // School of Calisthenics",
+          "channel": "School of Calisthenics",
+          "tier": "coach_demo"
+        },
+        {
+          "id": "nhoikoUEI8U",
+          "title": "Learning to Squat | The Starting Strength Method",
+          "channel": "Starting Strength",
+          "tier": "coach_demo"
+        },
+        {
+          "id": "pRacPxOvzho",
+          "title": "Bodyweight Fundaments - Bodyweight Squat",
+          "channel": "Mark Wildman",
+          "tier": "coach_demo"
+        }
+      ]
+    },
+    "confidence_tier": "low",
+    "requires": {
+      "features": [
+        "angle.hip.dom",
+        "angle.hip.non",
+        "angle.knee.dom",
+        "angle.knee.non",
+        "angle.shoulder.dom",
+        "angle.shoulder.non",
+        "angle.trunk_lean",
+        "dev.knee_inward.dom",
+        "dev.knee_inward.non",
+        "dist.stance_width",
+        "height.heel.dom",
+        "height.hip",
+        "rot.foot_turnout.dom"
+      ],
+      "measures": [
+        "M01",
+        "M02",
+        "M03"
+      ]
+    },
+    "weak_check": {
+      "knees_caving_in": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.021,
+          "flagged_per_clip": 0.056
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.082,
+          "flagged_per_clip": 0.046
+        },
+        "verdict": "no_difference"
+      },
+      "heels_lift_ankle_limit": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.0,
+          "flagged_per_clip": 0.0
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.046,
+          "flagged_per_clip": 0.05
+        },
+        "verdict": "supports"
+      },
+      "forward_chest_lean": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.106,
+          "flagged_per_clip": 0.107
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.077,
+          "flagged_per_clip": 0.088
+        },
+        "verdict": "no_difference"
+      },
+      "incomplete_range": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.0,
+          "flagged_per_clip": 0.0
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.036,
+          "flagged_per_clip": 0.063
+        },
+        "verdict": "supports"
+      },
+      "full_lockout": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.021,
+          "flagged_per_clip": 0.022
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.18,
+          "flagged_per_clip": 0.245
+        },
+        "verdict": "supports"
+      },
+      "stance_not_matched_to_hips": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.213,
+          "flagged_per_clip": 0.149
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.505,
+          "flagged_per_clip": 0.387
+        },
+        "verdict": "supports"
+      },
+      "toe_angle_wrong": {
+        "good": {
+          "attempts": 47,
+          "clips": 9,
+          "flagged": 0.106,
+          "flagged_per_clip": 0.067
+        },
+        "other": {
+          "attempts": 194,
+          "clips": 25,
+          "flagged": 0.098,
+          "flagged_per_clip": 0.108
+        },
+        "verdict": "no_difference"
+      }
+    },
+    "checks": [
+      {
+        "id": 1,
+        "name": "format",
+        "status": "pass",
+        "detail": "valid against the v0.7 schema"
+      },
+      {
+        "id": 2,
+        "name": "vocabulary",
+        "status": "pass",
+        "detail": "all features and measurements are registered and active"
+      },
+      {
+        "id": 3,
+        "name": "time budget",
+        "status": "pass",
+        "detail": "every test's time budget can be met by its path"
+      },
+      {
+        "id": 4,
+        "name": "recognition",
+        "status": "pass",
+        "detail": "recall 0.96 (leave-one-clip-out), false accepts 0.02 (shape alone 0.02), by view {'front/back (<30)': 0.9736842105263158, 'oblique (30-60)': 0.9306930693069307, 'side (>60)': 1.0}"
+      },
+      {
+        "id": 5,
+        "name": "plausibility",
+        "status": "pass",
+        "detail": "all thresholds and key poses are inside plausible ranges"
+      },
+      {
+        "id": 6,
+        "name": "discrimination",
+        "status": "not_testable",
+        "detail": "0/1 objectives with enough labelled examples separate good from faulty on videos left out (AUC>=0.75); too few wrong examples in different videos to test: ['knees_caving_in']; 6 without enough labels"
+      },
+      {
+        "id": 7,
+        "name": "outcome links",
+        "status": "pass",
+        "detail": "5 links, 5 prior-only (no data to test them yet)"
+      },
+      {
+        "id": 8,
+        "name": "agreement",
+        "status": "pass",
+        "detail": "agreement 0.72 across 5 runs"
+      },
+      {
+        "id": 9,
+        "name": "cross-references",
+        "status": "pass",
+        "detail": "ids, landmarks, priorities and requires are consistent"
+      }
+    ]
+  },
+  "coaching": {
+    "n_sources": 11,
+    "good_form": [
+      {
+        "point": "Set feet about shoulder width, or just outside hip width, and tune the width to your own hips and limb proportions.",
+        "n_sources": 8
+      },
+      {
+        "point": "Turn the toes out slightly to open the hips, with knees tracking the same way (one coach prefers toes straight ahead).",
+        "n_sources": 6
+      },
+      {
+        "point": "Push the knees out so they track in line with the toes and do not cave in.",
+        "n_sources": 6
+      },
+      {
+        "point": "Hold a light weight at the chest or raise the arms to aid balance and chest position, and build depth gradually, e.g. with heel elevation or support.",
+        "n_sources": 6
+      },
+      {
+        "point": "Keep the whole foot grounded, with weight balanced over the midfoot and not on the heels or toes.",
+        "n_sources": 5
+      },
+      {
+        "point": "Let the knees travel forward over the toes as needed for depth and balance.",
+        "n_sources": 5
+      },
+      {
+        "point": "Keep the chest tall and posture upright, with the torso roughly parallel to the shins.",
+        "n_sources": 5
+      },
+      {
+        "point": "Squat as deep as you can control, to at least parallel.",
+        "n_sources": 5
+      },
+      {
+        "point": "Start by sending the hips back, with the chest staying up, before or as the knees bend.",
+        "n_sources": 4
+      },
+      {
+        "point": "Keep the spine and pelvis neutral and avoid rounding or arching at the bottom.",
+        "n_sources": 4
+      },
+      {
+        "point": "Brace the core before descending, as if about to be punched, and hold the breath on heavy sets.",
+        "n_sources": 4
+      },
+      {
+        "point": "Move the chest and hips together out of the bottom so the bar path stays straight.",
+        "n_sources": 3
+      },
+      {
+        "point": "Finish by standing fully and squeezing the glutes.",
+        "n_sources": 2
+      },
+      {
+        "point": "Film yourself from the side or use a mirror to check your form.",
+        "n_sources": 2
+      }
+    ],
+    "faults": [
+      {
+        "id": "forward_chest_lean",
+        "description": "The chest drops and the torso folds or rocks forward.",
+        "kind": "form",
+        "n_sources": 5,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "No arm position or weight to encourage a lifted chest.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Trying to counterbalance when the hips go back and the toes lift.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Limited ankle, calf and hip mobility.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Keep the chest up and the torso parallel to the shin.",
+            "type": "cue"
+          },
+          {
+            "idea": "Raise the arms to shoulder height, thumbs up.",
+            "type": "cue"
+          },
+          {
+            "idea": "Stop the shoulders when the hips stop descending.",
+            "type": "cue"
+          },
+          {
+            "idea": "Improve ankle and hip mobility.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Squat position and control are lost.",
+          "Fake range comes from the shoulders instead of the hips."
+        ],
+        "disagreement": "",
+        "objective": "forward_chest_lean",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "knees_caving_in",
+        "description": "Knees collapse inward or drift out of line with the ankle and hip.",
+        "kind": "safety",
+        "n_sources": 5,
+        "support": "strong",
+        "causes": [
+          {
+            "cause": "Not actively pushing the knees out.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Letting go of support without actively planting the feet.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Weak glutes and limited hip flexor and abductor range.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Push the knees out over the toes, using elbows against the knees at the bottom.",
+            "type": "cue"
+          },
+          {
+            "idea": "Use a mini loop band above the knees and push out against it.",
+            "type": "setup"
+          },
+          {
+            "idea": "Imagine splitting the floor apart with your feet.",
+            "type": "cue"
+          },
+          {
+            "idea": "Build glute strength and hip mobility.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Extra stress on the knee.",
+          "Staying high and failing to reach depth."
+        ],
+        "disagreement": "",
+        "objective": "knees_caving_in",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "lumbar_rounding_butt_wink",
+        "description": "The pelvis tucks under and the lower back rounds at the bottom.",
+        "kind": "safety",
+        "n_sources": 4,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Forcing depth beyond your active range.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Limited ankle mobility stopping the knees travelling forward.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Limited hip or spine mobility, or hip anatomy.",
+            "proximity": "fundamental"
+          },
+          {
+            "cause": "Weak hip flexors.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Film yourself and test with heels raised on plates.",
+            "type": "drill"
+          },
+          {
+            "idea": "Do ankle mobility work and use a wider stance.",
+            "type": "drill"
+          },
+          {
+            "idea": "Strengthen the hip flexors with hip flexor marches.",
+            "type": "drill"
+          },
+          {
+            "idea": "Limit depth to parallel until it improves.",
+            "type": "setup"
+          },
+          {
+            "idea": "Wear lifting shoes with a heel lift.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "More lumbar flexion and lower back stress, with disc injury risk under heavy load.",
+          "Unnecessary lower back tension."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "lumbar spine / pelvic tilt angle (pelvis tuck relative to spine) at the bottom; the skeleton has only a trunk line, not a lumbar curve"
+      },
+      {
+        "id": "heels_lift_ankle_limit",
+        "description": "Heels rise or the knee can't travel forward because of limited ankle dorsiflexion.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Insufficient ankle dorsiflexion.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Tight calf and Achilles, and weak tibialis anterior.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Raise the heels on plates or a rolled towel and lower them gradually.",
+            "type": "setup"
+          },
+          {
+            "idea": "Do knee-to-wall drills and calf stretches.",
+            "type": "drill"
+          },
+          {
+            "idea": "Rock in a deep squat to strengthen the tibialis.",
+            "type": "drill"
+          },
+          {
+            "idea": "Hold the bottom position daily, with light support if needed.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Cannot squat as deep.",
+          "Cannot keep the heels down and chest tall."
+        ],
+        "disagreement": "",
+        "objective": "heels_lift_ankle_limit",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "stance_not_matched_to_hips",
+        "description": "Stance width does not suit your hips: too narrow, too wide, or sumo.",
+        "kind": "form",
+        "n_sources": 3,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Defaulting to a stance without testing it.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Long femurs with a narrow straight-footed stance.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Limited hip flexion and rotation.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Find your stance by pulling the knees toward the chest on your back, then adjust and test.",
+            "type": "drill"
+          },
+          {
+            "idea": "Use a slightly wider stance with some toe-out for long femurs.",
+            "type": "setup"
+          },
+          {
+            "idea": "Stay just outside hip width and avoid a sumo stance.",
+            "type": "setup"
+          }
+        ],
+        "outcome_effects": [
+          "Low back rounding or tipping back.",
+          "Instability and falling sideways.",
+          "A sumo stance doesn't suit progression to weighted or overhead squats."
+        ],
+        "disagreement": "Source 5 rejects wide sumo stances, while source 6 recommends a wider stance for long femurs; all agree the width should suit the individual.",
+        "objective": "stance_not_matched_to_hips",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "arm_counterbalance",
+        "description": "Reaching the arms out in front to stay balanced.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Hips go back without the knees travelling forward, so weight shifts back.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Limited knee and ankle forward movement.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Hold a weight at the chest (goblet squat) or keep the arms at the chest or overhead.",
+            "type": "setup"
+          },
+          {
+            "idea": "Stop where you feel the need to counterbalance and work from there.",
+            "type": "drill"
+          },
+          {
+            "idea": "Use hips back, chest out, then bend the knees.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Poor balance is reinforced and progress stalls.",
+          "Load shifts to the knees, with less glute use."
+        ],
+        "disagreement": "Sources 8 and 10 put the arms out in front as part of normal technique.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "reach.wrist.dom / height.wrist_mid / angle.shoulder.dom show arms reaching forward; no objective tests it"
+      },
+      {
+        "id": "falling_backward_weight_on_heels",
+        "description": "Tipping backward, with weight too far on the heels or toes.",
+        "kind": "safety",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Pressure too far back on the heels or toes rather than the whole foot.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Not sequencing hips back and chest out before the knees bend.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Long femurs with a narrow stance, or limited hip and ankle mobility.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Use the tripod foot: big toe, little toe and heel.",
+            "type": "setup"
+          },
+          {
+            "idea": "Widen the stance with some toe-out and raise the heels.",
+            "type": "setup"
+          },
+          {
+            "idea": "Do daily bottom-position holds.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "The centre of mass shifts back and you tip over.",
+          "Toe pressure stresses the knees."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "fwd.trunk_shift (shoulder centre vs ankle) and height.heel show balance shift; no objective tests it"
+      },
+      {
+        "id": "hips_rise_first_good_morning",
+        "description": "The hips rise or move first and the chest lags, turning the squat into a good morning.",
+        "kind": "safety",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Letting the hips move first at the bottom, breaking the chest-pelvis link.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Fatigue later in a set and poor coordination.",
+            "proximity": "upstream"
+          },
+          {
+            "cause": "Weak quads relative to glutes and lower back.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Move chest and pelvis as one unit so they rise at the same rate.",
+            "type": "cue"
+          },
+          {
+            "idea": "Use pause squats with lighter weight, pausing halfway up.",
+            "type": "drill"
+          },
+          {
+            "idea": "Drive the chest up out of the bottom.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Bar drifts forward and the torso leans far forward.",
+          "More lumbar and shear stress, and a weaker, less efficient squat."
+        ],
+        "disagreement": "",
+        "objective": "forward_chest_lean",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "incomplete_range",
+        "description": "Stopping high at the bottom or not standing fully at the top.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Knees not shoved out.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Cutting the squat short instead of standing all the way up.",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Shove the knees out more and squat to full depth every rep.",
+            "type": "cue"
+          },
+          {
+            "idea": "Push the hips forward and squeeze the glutes at the top.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Squats are small and incomplete."
+        ],
+        "disagreement": "",
+        "objective": "incomplete_range",
+        "measurable": "measured",
+        "note": ""
+      },
+      {
+        "id": "poor_bracing_and_breathing",
+        "description": "Not bracing the core, or breathing out on the way up during heavy sets, causing wobble.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Following the advice to breathe in on the way down and out on the way up.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Letting go of support without bracing.",
+            "proximity": "upstream"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Take a big breath into the abdomen, brace and hold it down and up, then exhale at the top.",
+            "type": "cue"
+          },
+          {
+            "idea": "Brace the core before lowering.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Instability and a less stable squat.",
+          "Less protection for the lower back."
+        ],
+        "disagreement": "Source 3 says to brace on the way down and breathe out as you finish coming up.",
+        "objective": null,
+        "measurable": "not_visible",
+        "note": ""
+      },
+      {
+        "id": "toe_angle_wrong",
+        "description": "Foot angle is wrong: toes screw out mid-rep, or point straight ahead when they should turn out.",
+        "kind": "form",
+        "n_sources": 2,
+        "support": "some",
+        "causes": [
+          {
+            "cause": "Assuming a forward-pointing stance by default.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "The body takes the path of least resistance when restricted or tight.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Point the toes out about 30 degrees.",
+            "type": "cue"
+          },
+          {
+            "idea": "Reset the feet forward each rep and work on mobility.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [],
+        "disagreement": "Source 8 treats toes turning out as a compensation and wants them forward. Source 9 says toes straight ahead is the fault and wants about 30 degrees out.",
+        "objective": "toe_angle_wrong",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "arching_lower_back",
+        "description": "The lower back extends into a big arch at the bottom.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Loss of core control.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Hip flexor and quad tension pulling the pelvis into anterior tilt.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Keep the ribs stacked over the pelvis, as if bracing for a punch.",
+            "type": "cue"
+          },
+          {
+            "idea": "Do mobility work for the hip flexors and quads.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Control of the squat is lost."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "needs_new_feature",
+        "note": "lumbar extension / spine curvature angle at the bottom; trunk lean alone does not show lower back arch"
+      },
+      {
+        "id": "back_too_vertical",
+        "description": "Torso held upright instead of inclined at about 45 degrees.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Not leaning forward or sitting back enough.",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Sit back, lean forward and point the nipples at the floor.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Balance is lost at the bottom."
+        ],
+        "disagreement": "Source 9 wants a torso inclined about 45 degrees, but sources 3, 6, 8 and 10 want an upright torso and chest.",
+        "objective": "forward_chest_lean",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "feet_out_knees_straight",
+        "description": "The feet turn out but the knees stay pointing straight ahead.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Rotating only the foot and forgetting the rest of the leg.",
+            "proximity": "direct"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Think about rotating the knees outward instead of the feet.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Torque at the knee and disrupted tracking.",
+          "Patella problems and pain."
+        ],
+        "disagreement": "",
+        "objective": "toe_angle_wrong",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "forcing_depth_passively",
+        "description": "Forcing depth through passive stretching instead of controlled range.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Relying on stretching rather than strength.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Hold the bottom with light weight to build active flexibility.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Heels pop up and the back rounds.",
+          "The range is not usable."
+        ],
+        "disagreement": "",
+        "objective": "incomplete_range",
+        "measurable": "proxy",
+        "note": ""
+      },
+      {
+        "id": "hip_shift_leg_imbalance",
+        "description": "Sliding to one side at the bottom or on the way up.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Trying to shift onto the stronger leg.",
+            "proximity": "direct"
+          },
+          {
+            "cause": "Strength differences between the legs.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Add unilateral work such as Bulgarian split squats, step-ups or lunges.",
+            "type": "drill"
+          },
+          {
+            "idea": "Use that work to find and fix imbalances.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "Uneven loading toward the stronger leg, with a risk of hip impingement or labral tear."
+        ],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "lat.com_shift shows lateral shift; no objective tests it"
+      },
+      {
+        "id": "knees_held_back",
+        "description": "Holding the knees back so they can't pass the toes.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Having heard that knees shouldn't go past the toes.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Let the shins track forward over the toes naturally.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Can't reach proper depth."
+        ],
+        "disagreement": "Source 3 calls knees shooting far past the toes bad for the knees, though it accepts this at low depth. Sources 0, 1, 5 and 7 want the knees to travel forward.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "fwd.knee_over_toe.dom/non and angle.shin_lean show knee travel; no objective tests it"
+      },
+      {
+        "id": "knees_too_far_forward",
+        "description": "Knees shoot forward excessively over the toes, breaking the straight shin line.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [],
+        "fixes": [
+          {
+            "idea": "Hinge the hips back and keep the shins in a straight line.",
+            "type": "cue"
+          }
+        ],
+        "outcome_effects": [
+          "Stress on the knees."
+        ],
+        "disagreement": "Source 0 says holding the knees back is the fault, and sources 1, 5 and 7 want the knees travelling forward.",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "fwd.knee_over_toe.dom/non and angle.shin_lean show it; no objective tests it"
+      },
+      {
+        "id": "no_hip_hinge",
+        "description": "Starting the squat by bending the knees instead of hinging the hips back.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Believing the squat is mainly a knee-bending movement.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Practise hinging so the hips go back and down before the knees bend.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [],
+        "disagreement": "",
+        "objective": null,
+        "measurable": "feature_available",
+        "note": "angle.hip.dom vs angle.knee.dom timing shows hinge order; no objective tests it"
+      },
+      {
+        "id": "pinchy_tight_hips",
+        "description": "Hips feel pinchy and tight at the front in the squat.",
+        "kind": "form",
+        "n_sources": 1,
+        "support": "single",
+        "causes": [
+          {
+            "cause": "Limited hip internal rotation.",
+            "proximity": "fundamental"
+          },
+          {
+            "cause": "Poor spine and core stability.",
+            "proximity": "fundamental"
+          }
+        ],
+        "fixes": [
+          {
+            "idea": "Do side planks for the outer hip muscles and spine stability.",
+            "type": "drill"
+          },
+          {
+            "idea": "Practise hip internal rotation on the floor and in a squat.",
+            "type": "drill"
+          },
+          {
+            "idea": "Do single-leg glute bridges.",
+            "type": "drill"
+          }
+        ],
+        "outcome_effects": [
+          "An uncomfortable squat."
+        ],
+        "disagreement": "Source 7 says constant hip stretching is not the answer for most people.",
+        "objective": null,
+        "measurable": "not_visible",
+        "note": ""
+      }
+    ],
+    "objectives_no_coach_names": [
+      "full_lockout"
+    ]
+  }
+}

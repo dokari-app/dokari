@@ -1,0 +1,33 @@
+windows 2154 Counter({'forehand': 762, 'no_stroke': 646, 'serve': 551, 'backhand': 195})
+
+[image-plane pose, all features] n=2154 accuracy 0.634  recall: {np.str_('backhand'): 0.29, np.str_('forehand'): 0.68, np.str_('no_stroke'): 0.59, np.str_('serve'): 0.74}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [57, 89, 35, 14]
+   forehand   [34, 520, 155, 53]
+   no_stroke  [16, 170, 378, 82]
+   serve      [6, 75, 60, 410]
+   forehand-vs-backhand when both called a groundstroke: 0.824 (n=700)
+
+[image-plane pose, confidence>=2 labels only] n=1496 accuracy 0.701  recall: {np.str_('backhand'): 0.27, np.str_('forehand'): 0.61, np.str_('no_stroke'): 0.74, np.str_('serve'): 0.8}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [27, 36, 12, 25]
+   forehand   [22, 201, 79, 28]
+   no_stroke  [10, 48, 398, 84]
+   serve      [4, 31, 68, 423]
+   forehand-vs-backhand when both called a groundstroke: 0.797 (n=286)
+
+[depth pose only, same windows] n=2039 accuracy 0.654  recall: {np.str_('backhand'): 0.24, np.str_('forehand'): 0.68, np.str_('no_stroke'): 0.68, np.str_('serve'): 0.76}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [46, 97, 40, 12]
+   forehand   [39, 518, 161, 43]
+   no_stroke  [30, 132, 438, 46]
+   serve      [4, 36, 66, 331]
+   forehand-vs-backhand when both called a groundstroke: 0.806 (n=700)
+
+[image-plane + depth pose] n=2039 accuracy 0.672  recall: {np.str_('backhand'): 0.27, np.str_('forehand'): 0.73, np.str_('no_stroke'): 0.66, np.str_('serve'): 0.77}
+   rows=truth cols=pred [np.str_('backhand'), np.str_('forehand'), np.str_('no_stroke'), np.str_('serve')]
+   backhand   [52, 97, 35, 11]
+   forehand   [35, 555, 130, 41]
+   no_stroke  [17, 143, 426, 60]
+   serve      [3, 38, 58, 338]
+   forehand-vs-backhand when both called a groundstroke: 0.821 (n=739)

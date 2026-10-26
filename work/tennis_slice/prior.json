@@ -1,0 +1,386 @@
+{
+  "activity_id": "tennis_slice",
+  "purpose": "Hit a slice groundstroke: a high-to-low, forward swing that puts backspin on the ball so it flies low and stable over the net, skids on landing and is controlled in depth and direction, while the player stays balanced and moves through the shot.",
+  "search_queries": [
+    {
+      "query": "tennis slice backhand technique tutorial",
+      "kind": "instruction"
+    },
+    {
+      "query": "tennis slice backhand good form slow motion side view",
+      "kind": "good_form"
+    },
+    {
+      "query": "tennis slice backhand common mistakes",
+      "kind": "common_mistakes"
+    },
+    {
+      "query": "tennis slice forehand technique lesson",
+      "kind": "instruction"
+    },
+    {
+      "query": "tennis slice backhand practice drill baseline one player",
+      "kind": "demonstration"
+    },
+    {
+      "query": "how to hit a slice backhand fix floating slice",
+      "kind": "common_mistakes"
+    }
+  ],
+  "primary_features": [
+    "height.wrist.dom",
+    "angle.shoulder.dom",
+    "angle.elbow.dom",
+    "reach.wrist.dom",
+    "angle.shoulder_hip_twist"
+  ],
+  "attempt_events": [
+    {
+      "feature": "height.wrist.dom",
+      "direction": "rises",
+      "seconds": 1.2,
+      "peak_at_least": 0.0
+    }
+  ],
+  "phases": [
+    {
+      "id": "unit_turn",
+      "description": "From ready position, shoulders and hips turn sideways and the non-hitting hand guides the racquet back; knees soften."
+    },
+    {
+      "id": "backswing",
+      "description": "Racquet is taken back and up, with the hitting hand around or above shoulder height and the racquet head above the hand, while the player steps toward the ball."
+    },
+    {
+      "id": "forward_swing",
+      "description": "Hitting arm swings forward and downward from high to low through the ball; weight moves forward into the step; ends at contact in front of the body."
+    },
+    {
+      "id": "follow_through",
+      "description": "Arm extends forward and out after contact along the line of the shot, the body stays balanced and then recovers."
+    }
+  ],
+  "objectives": [
+    {
+      "id": "turn_shoulders",
+      "goal": "Turn the shoulders sideways to the net during the preparation so the swing is driven by the body, not the arm alone.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.shoulder_hip_twist",
+        "at_phase": "unit_turn",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "Shoulders stay square to the net and the racquet is pulled back with the arm only; the swing is cramped and weak.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "Shoulders wind far past sideways and the player is over-rotated, making timing harder.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Remind the player to turn the shoulders sideways early, before the ball arrives.",
+      "ask_if_unsure_intent": "Ask whether the player feels the body turn or only the arm going back.",
+      "fix_intent": "Give a shadow-swing cue: take the chest sideways to the net first and then let the racquet follow."
+    },
+    {
+      "id": "non_hand_guides_racquet",
+      "goal": "Keep the non-hitting hand on the racquet throat during the turn, so the hands travel together and the turn is made with the body.",
+      "caused_by": [],
+      "test": {
+        "feature": "dist.wrist_width",
+        "at_phase": "unit_turn",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Hands separate early; the racquet is dragged back by the hitting arm alone.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue the non-hitting hand to carry the racquet back during the turn.",
+      "ask_if_unsure_intent": "Ask where the non-hitting hand is during the turn.",
+      "fix_intent": "Suggest holding the racquet throat with the free hand until the shoulders have turned."
+    },
+    {
+      "id": "racquet_back_high",
+      "goal": "Take the racquet back high, with the hitting hand near or above shoulder height, so the swing can travel downward through the ball.",
+      "caused_by": [
+        "turn_shoulders"
+      ],
+      "test": {
+        "feature": "height.wrist.dom",
+        "at_phase": "backswing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "The racquet is taken back low, so the swing can only go level or upward and the ball loses backspin and floats or sits up.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The hand goes very high and the swing becomes long and steep, harder to time.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue the player to set the racquet up high behind the ball, above the hitting hand.",
+      "ask_if_unsure_intent": "Ask whether the player's racquet starts above or below the ball height.",
+      "fix_intent": "Prescribe a drill starting from a high racquet set position and swinging down and forward."
+    },
+    {
+      "id": "stay_low_knees_bent",
+      "goal": "Keep the knees bent through the shot so the body stays low and balanced and the swing can stay on a downward-forward path to the ball.",
+      "caused_by": [],
+      "test": {
+        "feature": "angle.knee.dom",
+        "at_phase": "backswing",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "Legs are straight and stiff, the player stands up and reaches for low balls with the upper body.",
+          "severity": "medium"
+        },
+        "below": {
+          "looks_like": "A very deep knee bend that makes recovery slow.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue the player to bend the legs, not the back, to get down to the ball.",
+      "ask_if_unsure_intent": "Ask whether they feel they are standing tall or sitting into the shot.",
+      "fix_intent": "Suggest slow shadow slices with the knees bent and held through contact."
+    },
+    {
+      "id": "contact_in_front_extended",
+      "goal": "Meet the ball in front of the body with the hitting arm comfortably extended away from the body.",
+      "caused_by": [
+        "racquet_back_high"
+      ],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "The ball is hit cramped or late, close to the body with a bent arm, giving a weak, short or mis-hit slice.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The arm is over-stretched and the player is reaching, off balance.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue the player to make contact out in front with space between the body and the hand.",
+      "ask_if_unsure_intent": "Ask whether the ball feels late or jammed into the body.",
+      "fix_intent": "Suggest moving the feet to place the ball in front, then drop-feed contact drills."
+    },
+    {
+      "id": "weight_forward",
+      "goal": "Move the body weight forward into the shot, stepping toward the target, rather than leaning back.",
+      "caused_by": [
+        "stay_low_knees_bent"
+      ],
+      "test": {
+        "feature": "fwd.trunk_shift",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "The weight stays on the back foot, the player falls away from the ball and the slice lacks penetration and depth.",
+          "severity": "medium"
+        },
+        "above": {
+          "looks_like": "The player lunges forward and tips over the front foot, losing balance and recovery.",
+          "severity": "low"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue stepping into the shot and moving through the ball toward the target.",
+      "ask_if_unsure_intent": "Ask which foot the player feels most of the weight on at contact.",
+      "fix_intent": "Prescribe a step-and-hit drill, focusing on transferring weight onto the front foot."
+    },
+    {
+      "id": "upright_trunk_at_contact",
+      "goal": "Hold the trunk steady and fairly upright, not leaning back, at contact.",
+      "caused_by": [
+        "weight_forward"
+      ],
+      "test": {
+        "feature": "angle.trunk_lean",
+        "at_phase": "forward_swing",
+        "at_point": "end"
+      },
+      "sides": {
+        "above": {
+          "looks_like": "The upper body falls sideways or backward at contact, so the swing path and contact point become inconsistent.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue keeping the head and chest steady through contact.",
+      "ask_if_unsure_intent": "Ask whether the player feels they are falling away or staying still at contact.",
+      "fix_intent": "Suggest holding the finish for two seconds to check balance."
+    },
+    {
+      "id": "extend_through_ball",
+      "goal": "Extend the hitting arm forward after contact, along the line of the shot, instead of stopping or wrapping the racquet around the body.",
+      "caused_by": [
+        "contact_in_front_extended"
+      ],
+      "test": {
+        "feature": "reach.wrist.dom",
+        "at_phase": "follow_through",
+        "at_point": "end"
+      },
+      "sides": {
+        "below": {
+          "looks_like": "The swing stops at contact or is pulled in toward the body, so the ball loses depth and direction control.",
+          "severity": "medium"
+        }
+      },
+      "outcome_links": [
+        "controlled_backspin_slice"
+      ],
+      "cue_intent": "Cue pushing the hand out toward the target after contact.",
+      "ask_if_unsure_intent": "Ask whether the swing finishes out toward the target or is held back.",
+      "fix_intent": "Suggest a drill that finishes with the arm extended toward the target and held."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "controlled_backspin_slice",
+      "description": "The ball goes low over the net with backspin, lands in the intended area with good depth and direction, and the player stays balanced.",
+      "requires_observable": [
+        "body",
+        "ball",
+        "net",
+        "landing_area"
+      ]
+    },
+    {
+      "id": "slice_form",
+      "description": "The body goes through a high-to-low, balanced, forward slice swing, whatever the ball does.",
+      "requires_observable": [
+        "body"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "feature": "height.wrist.dom",
+      "at_phase": "backswing",
+      "at_point": "end",
+      "outcome": "controlled_backspin_slice",
+      "effect": "mid_is_better",
+      "mechanism": "A racquet set high gives a downward swing path that creates backspin, while a very high set makes the swing long and harder to time."
+    },
+    {
+      "feature": "reach.wrist.dom",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "controlled_backspin_slice",
+      "effect": "mid_is_better",
+      "mechanism": "Contact in front with a comfortably extended arm gives a clean strike and control of direction, while over-reaching or cramping disrupts timing."
+    },
+    {
+      "feature": "fwd.trunk_shift",
+      "at_phase": "forward_swing",
+      "at_point": "end",
+      "outcome": "controlled_backspin_slice",
+      "effect": "mid_is_better",
+      "mechanism": "Moving the body weight forward into the ball adds penetration and depth to the slice, while too much shift loses balance."
+    },
+    {
+      "feature": "angle.shoulder_hip_twist",
+      "at_phase": "unit_turn",
+      "at_point": "end",
+      "outcome": "controlled_backspin_slice",
+      "effect": "mid_is_better",
+      "mechanism": "A good shoulder turn lets the body, not only the arm, power and time the swing."
+    },
+    {
+      "feature": "angle.knee.dom",
+      "at_phase": "backswing",
+      "at_point": "end",
+      "outcome": "controlled_backspin_slice",
+      "effect": "mid_is_better",
+      "mechanism": "Bent knees lower the body to the ball and allow a downward-forward swing path without bending the trunk."
+    }
+  ],
+  "confusable_with": [
+    "tennis_backhand_topspin",
+    "tennis_forehand",
+    "tennis_volley",
+    "tennis_drop_shot",
+    "badminton_clear",
+    "table_tennis_chop"
+  ],
+  "session_ideas": [
+    "Shadow-swing slices in slow motion, checking the high racquet set, contact in front and the held finish.",
+    "Drop-feed slices from a partner or basket, 10 balls at a time, focusing on one cue per set.",
+    "Slice rallies cross-court with a low-net target, aiming to keep the ball below a marked height over the net.",
+    "Step-and-hit drill to practise moving the weight forward into the slice."
+  ],
+  "vocabulary_proposals": [
+    {
+      "kind": "trackable",
+      "name": "racquet",
+      "why": "Racquet face angle and swing path (high to low) define slice and cannot be seen from the wrist and body features."
+    },
+    {
+      "kind": "trackable",
+      "name": "ball",
+      "why": "Needed for contact point, ball height over the net, and landing area."
+    },
+    {
+      "kind": "measurement",
+      "name": "racquet_path_slope",
+      "why": "The downward-to-forward slope of the racquet head through contact shows the backspin-creating path."
+    },
+    {
+      "kind": "measurement",
+      "name": "racquet_face_angle_at_contact",
+      "why": "Open face at contact is a defining fault or feature of slice, and joint angles do not show it."
+    },
+    {
+      "kind": "feature",
+      "name": "wrist_to_foot_forwardness",
+      "why": "The wrist-to-front-foot distance (the contact point in front of the body) is not directly shown by reach.wrist."
+    },
+    {
+      "kind": "feature",
+      "name": "dominant_wrist_angle",
+      "why": "Wrist firmness and lag at contact cannot be seen with the registered features."
+    }
+  ],
+  "events_rule": 6,
+  "footage": {
+    "attempts": 1794,
+    "clips_with_attempts": 90,
+    "clips": 94,
+    "target_reached": true,
+    "rounds": 2
+  }
+}

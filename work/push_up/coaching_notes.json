@@ -1,0 +1,1305 @@
+{
+  "sources": [
+    {
+      "id": "iIa2-uVHzM0",
+      "title": "STOP DOING PUSHUPS LIKE THIS | 10 Worst Mistakes!",
+      "channel": "ATHLEAN-X\u2122",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "xeb5ZuCtnPI",
+      "title": "You're doing push-ups wrong... this is why you're not getting stronger",
+      "channel": "Bro Pump",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "s8dcNFzoRXI",
+      "title": "7 Common Push Up Mistakes I Was Making",
+      "channel": "Bob & Brad",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "y5Q6D-w0ceA",
+      "title": "You're Doing Push-Ups WRONG! (Avoid These 4 Mistakes!)",
+      "channel": "MOVE with Dr. Mike",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "zfA8sF2_QM8",
+      "title": "How to Do Push Ups (STOP These 5 Mistakes!)",
+      "channel": "Captain Workout",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "8V-ZUMvQKr0",
+      "title": "Do a Proper Push Up (mistakes to avoid!)| Nerd Fitness",
+      "channel": "Nerd Fitness",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "Q5yvykiz468",
+      "title": "Push-Up Form | Quick Fix (Common Errors + Corrections)",
+      "channel": "Get Gymnast Fit",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "MO10KOoQx5E",
+      "title": "The Perfect Push-Up To Build Muscle (AVOID THESE MISTAKES!)",
+      "channel": "Jeremy Ethier",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "IKycM2aTMNk",
+      "title": "Coaching and Progressing The Push-Up with PT On The Net",
+      "channel": "Certified Functional Strength Coach",
+      "tier": "instruction_talk"
+    },
+    {
+      "id": "Kj5TpWaGyUs",
+      "title": "3 Biggest Pushup Mistakes Most People Make & And How To Fix Them Instantly - Sixpackfactory",
+      "channel": "Six Pack Factory",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "PS4wjX-5AtU",
+      "title": "The 5 WORST Push-Up Mistakes That RUIN Your Gains",
+      "channel": "Fitnessdy",
+      "tier": "mistake_analysis"
+    },
+    {
+      "id": "W1LCL-Sw0yU",
+      "title": "3 Most Common Push-Up Mistakes (NEVER Do These!)",
+      "channel": "BarBend",
+      "tier": "mistake_analysis"
+    }
+  ],
+  "notes": [
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Lower until the chest touches the ground on every rep, then press up to full elbow lockout.",
+        "Have the target zone (above the waistline up to the upper chest line) touch the floor first, not the hips.",
+        "Use a tuck and squeeze: posterior pelvic tilt, then lock in the body so the area below the waist is lifted.",
+        "Keep the neck neutral and use the target zone as your guide.",
+        "Place hands at a width that keeps the elbow stacked over the wrist.",
+        "To find your width, lie flat with arms overhead, slide them down until elbows are 45-60 degrees from your sides, slide hands under shoulders and lift up.",
+        "Point fingers straight ahead (12:00) or turn them out slightly to about 2:00, which adds external rotation at the shoulder.",
+        "If wrists hurt, hold dumbbells or do pushups on fists to keep the wrist neutral.",
+        "Set the shoulders down (unshrugged) from the top position and keep them there the whole rep, so the chest does the work.",
+        "At the top, imagine turning the biceps forward and squeezing yourself off the floor.",
+        "Let your body rock forward on the toes on the way down so hands sit lower on the chest line, then rock back so hands are under the shoulders at the top.",
+        "Use two seconds down and two seconds up."
+      ],
+      "faults": [
+        {
+          "name": "Partial range of motion",
+          "kind": "form",
+          "looks_like": "Not going all the way down to the floor or not reaching full elbow extension at the top.",
+          "why_it_matters": "Full range on every rep is needed for the pushup to be done right.",
+          "causes": [
+            "Lack of body awareness of what full range feels like"
+          ],
+          "fixes": [
+            "Touch the chest to the ground and lock out the elbows on every rep"
+          ],
+          "outcome_effects": [
+            "Shortchanged range of motion"
+          ]
+        },
+        {
+          "name": "Hips dropping or staying too high",
+          "kind": "form",
+          "looks_like": "Hips drop to the floor first, or hips are held way too high, so something other than the target zone touches down.",
+          "why_it_matters": "Neither gives the results wanted; the chest is not worked through full range.",
+          "causes": [
+            "Not controlling pelvis and body line"
+          ],
+          "fixes": [
+            "Aim to touch the target zone (above waist to upper chest) first",
+            "Tuck and squeeze with a posterior pelvic tilt and lock in the body"
+          ],
+          "outcome_effects": [
+            "Not a full range of motion pushup",
+            "Chest not worked through full range"
+          ]
+        },
+        {
+          "name": "Craning the neck toward the floor",
+          "kind": "form",
+          "looks_like": "Reaching the head/eyes toward the floor.",
+          "why_it_matters": "It shortchanges range of motion and undoes the target zone fix.",
+          "causes": [
+            "Wanting the eyes to reach the floor fast to feel at the bottom of the rep, making the exercise easier"
+          ],
+          "fixes": [
+            "Keep the neck neutral and let the target zone guide the descent"
+          ],
+          "outcome_effects": [
+            "Shortened range of motion",
+            "Goes with high hips"
+          ]
+        },
+        {
+          "name": "Wrong hand width",
+          "kind": "safety",
+          "looks_like": "Hands too narrow or too wide so the elbow is no longer stacked over the wrist.",
+          "why_it_matters": "Puts unnecessary stress on the joints.",
+          "causes": [
+            "Not customizing width to arm length and body type"
+          ],
+          "fixes": [
+            "Find your width: lie flat, arms overhead, slide arms to elbows 45-60 degrees from sides, place hands under shoulders and lift up"
+          ],
+          "outcome_effects": [
+            "Elbow-wrist alignment lost",
+            "Joint stress"
+          ]
+        },
+        {
+          "name": "Hands turned inward",
+          "kind": "safety",
+          "looks_like": "Hands rotated in, elbows flaring out and elevating.",
+          "why_it_matters": "Messes up pushup mechanics and adds shoulder impingement stress over many reps.",
+          "causes": [
+            "Turning hands in to relieve wrist discomfort, since it needs less wrist extension"
+          ],
+          "fixes": [
+            "Rotate hands out, fingers at 12:00 or about 2:00",
+            "For sore wrists, use dumbbells or fists to keep wrists neutral"
+          ],
+          "outcome_effects": [
+            "Elbows flare",
+            "Shoulder impingement stress",
+            "Less shoulder stability"
+          ]
+        },
+        {
+          "name": "Shrugging the shoulders",
+          "kind": "form",
+          "looks_like": "Shoulders shrugged up during the pushup.",
+          "why_it_matters": "Ruins stability and shifts load from the chest to the shoulders.",
+          "causes": [
+            "Not setting the shoulders down before starting"
+          ],
+          "fixes": [
+            "Pull the shoulders down from the top position, not from the bottom",
+            "Hold them there throughout"
+          ],
+          "outcome_effects": [
+            "Loss of torso stability",
+            "Load shifts from chest to shoulders",
+            "Trying to unshrug at the bottom pulls elbows too close to sides"
+          ]
+        },
+        {
+          "name": "Shoulder blades retracting and protracting",
+          "kind": "form",
+          "looks_like": "Shoulder blades fold together at the bottom and spread apart at the top each rep.",
+          "why_it_matters": "Takes the main effort away from the chest, which matters for chest development.",
+          "causes": [
+            "Following advice from others to let the blades retract and protract"
+          ],
+          "fixes": [
+            "Keep shoulders set down and held in place for the whole set",
+            "Imagine turning biceps forward at the top and squeezing off the ground"
+          ],
+          "outcome_effects": [
+            "Chest dips back and caves in",
+            "Shoulders come forward and take over the movement"
+          ]
+        },
+        {
+          "name": "Straight up-and-down body path",
+          "kind": "form",
+          "looks_like": "Body not rocking, so hands don't travel from lower chest at bottom to higher at top.",
+          "why_it_matters": "The correct path has hands lower on the chest line at the bottom and higher at the top, like a bench press bar path.",
+          "causes": [
+            "Not altering body position in space since hands are fixed"
+          ],
+          "fixes": [
+            "Rock forward on the toes while lowering, rock back while rising so hands align under shoulders"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Rushing reps",
+          "kind": "safety",
+          "looks_like": "Doing reps fast, cutting range at the bottom or top, and slamming the elbow into extension.",
+          "why_it_matters": "Speed undermines full range of motion, and slamming the joint into extension invites problems.",
+          "causes": [
+            "Trying to do more reps more quickly"
+          ],
+          "fixes": [
+            "Slow down: two seconds down and two seconds up"
+          ],
+          "outcome_effects": [
+            "Shortchanged reps from bottom or top",
+            "Poor form"
+          ]
+        },
+        {
+          "name": "Poor programming of pushups",
+          "kind": "form",
+          "looks_like": "Doing 100 pushups a day or always the same pushup variation.",
+          "why_it_matters": "The speaker says it aggravates him most and refers to another video for correct programming.",
+          "causes": [],
+          "fixes": [
+            "Watch the referenced video on how to program the pushup"
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Place hands just outside the shoulders with fingers spread.",
+        "Keep elbows tucked at about 45\u00b0, so the body looks like an arrow from above, not a T.",
+        "Before lowering, squeeze the glutes hard, brace the core as if about to be punched, and tuck the hips slightly under so the body is a rigid plank.",
+        "Lower for 2\u20133 seconds, pause 1 second at the bottom with the chest hovering about an inch off the floor, then press up for 1\u20132 seconds (4\u20136 seconds per rep).",
+        "At the bottom, pull the shoulder blades together and down (into the back pockets) with the chest open.",
+        "At the top, push further after locking the elbows: spread the shoulder blades apart and push the floor away until the upper back rounds slightly.",
+        "If reps get easy, progress by adding a weighted vest, elevating the feet or slowing the tempo rather than adding reps."
+      ],
+      "faults": [
+        {
+          "name": "Flared elbows (T shape)",
+          "kind": "safety",
+          "looks_like": "Seen from above, the arms point straight out to the sides so the body forms a T.",
+          "why_it_matters": "The upper arm bone jams into the front of the shoulder socket each rep, pinching tendons and wearing down the rotator cuff until the shoulder stops cooperating.",
+          "causes": [
+            "Wrong form learned early that feels natural and powerful and was never corrected"
+          ],
+          "fixes": [
+            "Tuck elbows to about 45\u00b0 so the body forms an arrow, not a T"
+          ],
+          "outcome_effects": [
+            "Shoulder pain and grinding that worsens over time",
+            "Fewer reps and less chest activation than with tucked elbows"
+          ]
+        },
+        {
+          "name": "Frozen shoulder blades",
+          "kind": "form",
+          "looks_like": "The arms move and the body goes up and down, but the shoulder blades stay completely still, with no spreading at the top.",
+          "why_it_matters": "The chest needs the shoulder blades to slide forward to contract fully, so every rep is only a partial rep.",
+          "causes": [
+            "Stopping at locked elbows at the top instead of pushing further"
+          ],
+          "fixes": [
+            "At the top, push beyond locked elbows, spread the shoulder blades apart, push the floor away until the upper back rounds slightly"
+          ],
+          "outcome_effects": [
+            "Chest never fully squeezes and doesn't grow",
+            "The last couple of inches of the movement are lost"
+          ]
+        },
+        {
+          "name": "Soft core / sagging hips",
+          "kind": "form",
+          "looks_like": "Hips sag and the lower back dips, with the core hanging like a hammock between shoulders and toes.",
+          "why_it_matters": "Pressing force leaks through the midsection instead of going into the floor, and energy is wasted holding the body together.",
+          "causes": [
+            "Loose core",
+            "Treating the push-up as an arm exercise rather than a full-body one"
+          ],
+          "fixes": [
+            "Squeeze the glutes hard before going down",
+            "Brace the core as if about to be punched",
+            "Tuck the hips slightly under, like a plank that could break a board"
+          ],
+          "outcome_effects": [
+            "Lost reps and wasted energy",
+            "Less of the effort goes into the chest"
+          ]
+        },
+        {
+          "name": "Fast bouncy reps",
+          "kind": "form",
+          "looks_like": "Each rep takes about half a second, dropping with gravity and bouncing off the floor.",
+          "why_it_matters": "Momentum does the work and the muscles are barely involved, so there is little time under tension.",
+          "causes": [
+            "Chasing rep numbers",
+            "Ego"
+          ],
+          "fixes": [
+            "Lower for 2\u20133 seconds, pause 1 second at the bottom with chest hovering, press up in 1\u20132 seconds, 4\u20136 seconds per rep",
+            "Focus on time under tension rather than rep count"
+          ],
+          "outcome_effects": [
+            "Large rep counts but a flat chest and little muscle growth"
+          ]
+        },
+        {
+          "name": "Collapsed bottom position",
+          "kind": "safety",
+          "looks_like": "At the bottom the shoulders dump forward past the wrist line, the front of the shoulder collapses and the shoulder blades wing off the back.",
+          "why_it_matters": "The rotator cuff holds load in a position it wasn't built for, causing a silent, painless grind that damages the shoulders over time.",
+          "causes": [
+            "Letting the shoulders drop forward at the bottom without control of the shoulder blades"
+          ],
+          "fixes": [
+            "At the bottom, pull the shoulder blades together and down, as if into the back pockets, keeping the chest open"
+          ],
+          "outcome_effects": [
+            "Slow cumulative shoulder damage",
+            "Less chest activation, since a pre-stretched start position is lost"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Get the serratus anterior working so the shoulder blade stays against the rib cage and spine, giving a stable base.",
+        "Practice shoulder blade motion first, such as wall push-ups with locked elbows: round forward (protract), then squeeze the blades back together (retract), without shrugging.",
+        "Think 'anti-shrug': shoulder blades down and squeezed together.",
+        "Keep the head and neck lined up with the spine, chin slightly tucked.",
+        "A stick along the head and back can be used as a drill to check alignment.",
+        "Tighten the buttocks and abdomen together to hold the body in line, so the push-up works core and arms.",
+        "Keep the arms at roughly 45 degrees from the body or closer, whichever is comfortable.",
+        "Keep the forearms fairly vertical.",
+        "Lower until you touch the floor and pause, squeeze the shoulder blades together, then push back up. Do not bounce.",
+        "Warm up with wall push-ups or knee push-ups before full ones."
+      ],
+      "faults": [
+        {
+          "name": "Poor shoulder blade control",
+          "kind": "form",
+          "looks_like": "Shoulder blades not working properly or shrugging instead of gliding across the rib cage.",
+          "why_it_matters": "The rotator cuff sits within the shoulder blade and needs it positioned correctly. The blade must be stable for the push-up.",
+          "causes": [
+            "Serratus anterior not working to hold the blade against the rib cage"
+          ],
+          "fixes": [
+            "Do wall push-up shoulder blade drills with locked elbows, protracting then retracting.",
+            "Think anti-shrug: down and squeeze together.",
+            "Do these before starting to warm up the shoulder blade."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Head and neck out of line",
+          "kind": "form",
+          "looks_like": "Head pushed up or forward instead of chin tucked in line with the body.",
+          "why_it_matters": "Alignment of the neck and head is part of doing the push-up correctly.",
+          "causes": [],
+          "fixes": [
+            "Keep the chin slightly tucked.",
+            "Use a stick touching the head and back as a drill to stay honest."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Hips sagging or butt up",
+          "kind": "form",
+          "looks_like": "Rump raised or body not held in a line.",
+          "why_it_matters": "Without a tight trunk the push-up is not a complete exercise for core and arms.",
+          "causes": [
+            "Not tightening the back, buttocks and abdomen"
+          ],
+          "fixes": [
+            "Tighten the rump and then the belly at the same time."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Arms too far out",
+          "kind": "form",
+          "looks_like": "Elbows flared wide out from the body.",
+          "why_it_matters": "The speaker names it as a common mistake. He prefers arms in close to the body.",
+          "causes": [],
+          "fixes": [
+            "Keep arms at about 45 degrees or closer.",
+            "Keep forearms relatively vertical."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Bouncing off the floor",
+          "kind": "form",
+          "looks_like": "Bouncing at the bottom instead of stopping.",
+          "why_it_matters": "The shoulder blade squeeze at the bottom is skipped.",
+          "causes": [],
+          "fixes": [
+            "Stop on the floor, squeeze the shoulder blades together, then push up."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Wrist strain",
+          "kind": "safety",
+          "looks_like": "Pushing up with hands flat on the floor with the wrists bent back.",
+          "why_it_matters": "Push-ups can be hard on the wrists.",
+          "causes": [],
+          "fixes": [
+            "Use push-up handles or grips to hold on to."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Back-extension warm-up with spinal conditions",
+          "kind": "safety",
+          "looks_like": "Getting down and arching the back as a warm-up for the back.",
+          "why_it_matters": "It can hurt the low back for people with spondylolisthesis or spinal stenosis.",
+          "causes": [
+            "Having spondylolisthesis or spinal stenosis"
+          ],
+          "fixes": [
+            "Do not do it if it hurts the low back."
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Set hands about shoulder width apart; check by lining up the elbow tip with the tip of the middle finger.",
+        "Stack hands directly under the shoulders so the elbows stay aligned on the way down.",
+        "Grip the ground and spread the fingers to create tension through the upper back before lowering.",
+        "Keep elbows between tucked at the sides and flared far out, somewhere in the middle.",
+        "Keep full body tension: quads locked, glutes and core braced, body in one straight line.",
+        "Lower until the chest touches the ground.",
+        "At the top, actively push the hands into the ground so the shoulder blades separate (protract), working the serratus anterior."
+      ],
+      "faults": [
+        {
+          "name": "Hands too narrow",
+          "kind": "form",
+          "looks_like": "Hands set too close together, elbows drop toward the sides.",
+          "why_it_matters": "Shifts work to the triceps and reduces chest involvement, though it may feel easier at first.",
+          "causes": [
+            "Improper hand setup",
+            "Hands placed too close together"
+          ],
+          "fixes": [
+            "Set hands about shoulder width, using elbow tip to middle fingertip as a guide."
+          ],
+          "outcome_effects": [
+            "Triceps dominate instead of the chest"
+          ]
+        },
+        {
+          "name": "Hands too wide",
+          "kind": "safety",
+          "looks_like": "Hands placed too wide, elbows flare out to the side.",
+          "why_it_matters": "Increases the risk of a shoulder injury, especially with shoulder impingement or rotator cuff problems.",
+          "causes": [
+            "Hand placement too wide"
+          ],
+          "fixes": [
+            "Set hands about shoulder width apart.",
+            "Keep elbows between the side and fully flared out."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Hands above the shoulders",
+          "kind": "form",
+          "looks_like": "Hands placed ahead of or above the shoulders instead of directly under them.",
+          "why_it_matters": "Elbows don't align well as you lower to the bottom of the push-up.",
+          "causes": [
+            "Poor hand placement setup"
+          ],
+          "fixes": [
+            "Stack the hands right underneath the shoulders."
+          ],
+          "outcome_effects": [
+            "Poor elbow alignment at the bottom"
+          ]
+        },
+        {
+          "name": "Passive hands",
+          "kind": "form",
+          "looks_like": "Not thinking about the hands; no grip or finger spread on the floor.",
+          "why_it_matters": "The hands are the foundation in a closed-chain exercise, and gripping creates upper back tension before the descent.",
+          "causes": [
+            "Not paying attention to what the hands are doing"
+          ],
+          "fixes": [
+            "Grip the ground and spread the fingers to build upper back tension."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Improper elbow alignment",
+          "kind": "safety",
+          "looks_like": "Elbows either tucked toward the sides or flared far out to the side while lowering.",
+          "why_it_matters": "Tucked elbows bias the triceps and cut down chest use; flared elbows raise shoulder injury risk, especially with impingement or rotator cuff injury.",
+          "causes": [
+            "Hands too close together or too wide"
+          ],
+          "fixes": [
+            "Fix the hand width first.",
+            "Meet in the middle, with elbows neither at the sides nor flared out."
+          ],
+          "outcome_effects": [
+            "Less chest work and less exercise benefit"
+          ]
+        },
+        {
+          "name": "Not tightening the whole body",
+          "kind": "form",
+          "looks_like": "Slight bend in the knees, lower back curving and belly sagging toward the floor.",
+          "why_it_matters": "The push-up involves the lower body and core too; full tension lets you do more reps and makes each rep smoother.",
+          "causes": [
+            "Thinking the push-up only works the upper body",
+            "Quads not locked out",
+            "Core and glutes not activated"
+          ],
+          "fixes": [
+            "Lock out the quads, brace the glutes and core, and keep the body in a straight line throughout."
+          ],
+          "outcome_effects": [
+            "Fewer reps possible",
+            "Less smooth repetitions"
+          ]
+        },
+        {
+          "name": "Incomplete range of motion",
+          "kind": "form",
+          "looks_like": "Chest doesn't reach the floor, or shoulder blades stay retracted at the top without finishing the movement.",
+          "why_it_matters": "Limits training of triceps, chest and serratus anterior, which helps core stability and lets you do more reps with good form.",
+          "causes": [
+            "Inability to go all the way down",
+            "Shoulder blades staying retracted at the top"
+          ],
+          "fixes": [
+            "Lower until the chest touches the ground.",
+            "At the top, push the hands into the ground to separate the shoulder blades."
+          ],
+          "outcome_effects": [
+            "Serratus anterior not trained",
+            "Fewer reps with proper form"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Look down at a spot on the floor just ahead of your hands to keep your head in line with your spine.",
+        "Tuck elbows back at about 45\u00b0 to your torso, so from above your body forms an arrow shape.",
+        "Engage your core and squeeze your glutes to keep a straight line from head to heels, with no dipping in the middle.",
+        "Pull your shoulders back and keep them tight for the whole set.",
+        "Push slightly forward as well as up, as if shoving the floor away from you."
+      ],
+      "faults": [
+        {
+          "name": "Looking up",
+          "kind": "safety",
+          "looks_like": "Craning the neck to look up or forward.",
+          "why_it_matters": "It throws the spine out of alignment and strains the neck muscles.",
+          "causes": [],
+          "fixes": [
+            "Look down at a spot on the floor just ahead of your hands and keep your gaze locked there so the head stays in line with the spine."
+          ],
+          "outcome_effects": [
+            "Spine out of alignment",
+            "Neck muscle strain"
+          ]
+        },
+        {
+          "name": "Elbows flared out",
+          "kind": "safety",
+          "looks_like": "Elbows flaring out to the sides at 90\u00b0 from the body, like a T.",
+          "why_it_matters": "It puts the shoulder joint in a vulnerable position.",
+          "causes": [],
+          "fixes": [
+            "Tuck the elbows back to about 45\u00b0 to your torso, so your body looks like an arrow from above."
+          ],
+          "outcome_effects": [
+            "Shoulder joint left vulnerable"
+          ]
+        },
+        {
+          "name": "Hip sagging",
+          "kind": "safety",
+          "looks_like": "Hips dipping in the middle so the body is not in a straight line.",
+          "why_it_matters": "It crushes the lower back and makes the rep easier in the wrong way.",
+          "causes": [],
+          "fixes": [
+            "Engage the core and squeeze the glutes.",
+            "Keep a straight line from head to heels with no dip in the middle."
+          ],
+          "outcome_effects": [
+            "Lower back is compressed",
+            "Rep becomes easier in an unhelpful way"
+          ]
+        },
+        {
+          "name": "Shoulders rolled forward",
+          "kind": "form",
+          "looks_like": "Shoulders rounding forward during the push-up.",
+          "why_it_matters": "It takes the chest out of the movement and puts the load on smaller stabilizer muscles that fatigue quickly.",
+          "causes": [],
+          "fixes": [
+            "Pull the shoulders back and stay tight through the whole set."
+          ],
+          "outcome_effects": [
+            "Chest is less involved",
+            "Smaller stabilizer muscles take the load and quit fast"
+          ]
+        },
+        {
+          "name": "Moving straight up and down",
+          "kind": "form",
+          "looks_like": "Pushing purely vertically, like an elevator ride.",
+          "why_it_matters": "It misses full chest activation.",
+          "causes": [],
+          "fixes": [
+            "Push slightly forward as well as up, as if shoving the floor away from you."
+          ],
+          "outcome_effects": [
+            "Less than full chest activation"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Place hands about shoulder width apart, directly under the shoulders.",
+        "Keep one solid line from shoulders through hips, knees and feet.",
+        "Keep the head in line with the shoulders and hips, not chin poking forward.",
+        "Keep the back tight and the midsection and hips tight throughout.",
+        "Lower all the way down with shoulders in a good position, not rounded forward.",
+        "Keep the upper arms at roughly 45\u00b0 to the body, elbows tucked slightly but not squeezed against the sides.",
+        "Push up so the whole body rises as one solid unit.",
+        "Knee push-up: same cues, with the line running from shoulders to hips to knees.",
+        "Incline push-up: keep the same shoulders-to-feet line and set foot distance so the bar or box meets mid to lower chest."
+      ],
+      "faults": [
+        {
+          "name": "Hands too wide",
+          "kind": "form",
+          "looks_like": "Hands placed wider than shoulder width.",
+          "why_it_matters": "It sets you up for further errors in the movement and makes the push-up weaker.",
+          "causes": [],
+          "fixes": [
+            "Put hands underneath the shoulders, about shoulder width apart."
+          ],
+          "outcome_effects": [
+            "Further errors later in the motion",
+            "Not very strong"
+          ]
+        },
+        {
+          "name": "Hips sagging too low",
+          "kind": "form",
+          "looks_like": "Hips drop below the shoulder-to-feet line, lower back overly arched.",
+          "why_it_matters": "It causes problems in the lower back, shoulders and neck.",
+          "causes": [],
+          "fixes": [
+            "Raise the hips into one line from shoulders to hips, knees and feet."
+          ],
+          "outcome_effects": [
+            "Arched lower back",
+            "Issues in shoulders and neck"
+          ]
+        },
+        {
+          "name": "Hips too high",
+          "kind": "form",
+          "looks_like": "Overcorrecting by lifting the hips up above the line (butt in the air).",
+          "why_it_matters": "The body is not in a straight line.",
+          "causes": [
+            "Overcorrecting after being told to lift the hips"
+          ],
+          "fixes": [
+            "Bring the hips back into a straight line with shoulders and feet."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Chin jutting forward",
+          "kind": "form",
+          "looks_like": "Head pokes forward, chin out like a chicken.",
+          "why_it_matters": "The head is out of line with the shoulders and hips.",
+          "causes": [],
+          "fixes": [
+            "Keep the head in line with the shoulders and hips."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Rounded shoulders / loose back",
+          "kind": "form",
+          "looks_like": "Shoulders roll forward at the bottom as tension in the back is lost.",
+          "why_it_matters": "Tension in the back is lost and the shoulders are in a poor position.",
+          "causes": [
+            "Losing tension in the back",
+            "Going loose at the bottom"
+          ],
+          "fixes": [
+            "Keep the back tight and the midsection and hips tight at the bottom."
+          ],
+          "outcome_effects": [
+            "Loss of back tension"
+          ]
+        },
+        {
+          "name": "Flared elbows",
+          "kind": "form",
+          "looks_like": "Arms and elbows pushed far out to the sides.",
+          "why_it_matters": "It is the most common error the speaker sees, and it makes the push-up weak and takes shoulders and back out of good line.",
+          "causes": [
+            "Hands placed too wide"
+          ],
+          "fixes": [
+            "Move hands in a bit and tuck elbows in so upper arms sit around 45\u00b0 to the body.",
+            "Keep elbows tucked slightly, not squeezed tight to the sides."
+          ],
+          "outcome_effects": [
+            "Not very strong"
+          ]
+        },
+        {
+          "name": "The worm",
+          "kind": "form",
+          "looks_like": "At the bottom the shoulders lift first while the hips stay down too low, so the body rises in a wave.",
+          "why_it_matters": "Tension is lost and the body doesn't move as a solid unit.",
+          "causes": [
+            "Losing tension at the bottom",
+            "Midsection not tight"
+          ],
+          "fixes": [
+            "Drop all the way down keeping the midsection tight so everything rises together as one unit.",
+            "If too hard, use knee push-ups or incline push-ups."
+          ],
+          "outcome_effects": [
+            "Hips lag behind the shoulders"
+          ]
+        },
+        {
+          "name": "Incline push-up: feet too close",
+          "kind": "form",
+          "looks_like": "Standing too far forward so the bar or box hits around the belly button.",
+          "why_it_matters": "It is awkward and the box doesn't meet the right part of the chest.",
+          "causes": [
+            "Moving too far forward"
+          ],
+          "fixes": [
+            "Step back until the edge of the box or bar hits mid to lower chest."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Incline push-up: feet too far back",
+          "kind": "form",
+          "looks_like": "Standing too far from the box so you lower toward the upper chest or face, elbows flaring out.",
+          "why_it_matters": "It hurts the chance of keeping the back tight and the arms and elbows in a good position.",
+          "causes": [
+            "Moving back too far"
+          ],
+          "fixes": [
+            "Adjust foot position until the bar or box hits mid to lower chest."
+          ],
+          "outcome_effects": [
+            "Elbows flare out",
+            "Back tension harder to keep"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Keep a tall neutral spine: upper spine reaches forward/up, lower spine reaches back/down toward the tailbone.",
+        "Pelvis stays in place and moves in one piece with the torso on the way down and up.",
+        "Keep shoulders open, tilted back, by tilting the shoulder blades diagonally down toward the mid back without arching the spine; this pre-stretches the chest.",
+        "Keep the shoulder blades back especially on the way up, so the chest tension does not pull the shoulders forward.",
+        "Keep the head and neck in one line with the spine and look straight ahead rather than down.",
+        "Keep the arms (elbows) relatively tense on the way down, going through triceps resistance for control.",
+        "Relax the elbows and forearms on the way up as you press, so the elbows can straighten.",
+        "Breathe normally and do not tense up."
+      ],
+      "faults": [
+        {
+          "name": "Sagging pelvis / lower spine losing stability",
+          "kind": "form",
+          "looks_like": "Torso drops or the pelvis sags, especially on the way up, with the lower back collapsing.",
+          "why_it_matters": "Without a neutral spine the chest and leg muscles lose optimal strength and the pelvis is not supported.",
+          "causes": [
+            "No stability in the lower spine"
+          ],
+          "fixes": [
+            "Think upper spine forward, lower spine back",
+            "Keep the pelvis moving in one piece with the torso"
+          ],
+          "outcome_effects": [
+            "No amount of leg effort keeps the pelvis up"
+          ]
+        },
+        {
+          "name": "Arching the lower back to compensate",
+          "kind": "form",
+          "looks_like": "Pushing the tailbone/pelvis up by arching the lower back to make up for the drop.",
+          "why_it_matters": "Pushing the lower back up pushes the upper back down, so you fight yourself when the goal is to raise the upper back.",
+          "causes": [
+            "Trying to compensate for the pelvis dropping"
+          ],
+          "fixes": [
+            "Think upper spine forward, lower spine back to keep a neutral spine"
+          ],
+          "outcome_effects": [
+            "Upper back is forced down, working against the press"
+          ]
+        },
+        {
+          "name": "Shoulders collapsing forward",
+          "kind": "form",
+          "looks_like": "Shoulders roll forward, especially on the way up or down, as chest tension pulls them.",
+          "why_it_matters": "It can collapse the neutral spine, leaves no joint space for free movement, and makes it hard to reach the floor with the chest; the speaker calls it sometimes impossible and painful.",
+          "causes": [
+            "Tension in the chest and shoulder-attached muscles pulling the shoulders forward",
+            "Lack of support from the back muscles",
+            "Not pulling the shoulders/blades back on the way down"
+          ],
+          "fixes": [
+            "Tilt the shoulder blades diagonally down toward mid back to open the shoulders",
+            "Keep the blades back on the way up and down"
+          ],
+          "outcome_effects": [
+            "Hard to go all the way down or press",
+            "Rest of the reps become challenging",
+            "Whole setup collapses"
+          ]
+        },
+        {
+          "name": "Head dropping",
+          "kind": "form",
+          "looks_like": "Head goes down, looking at the floor.",
+          "why_it_matters": "It can collapse the shoulders and upper spine.",
+          "causes": [
+            "Letting the head drop"
+          ],
+          "fixes": [
+            "Keep the neck in line with the spine and look straight ahead"
+          ],
+          "outcome_effects": [
+            "Shoulders and upper spine collapse"
+          ]
+        },
+        {
+          "name": "Keeping arms tense on the way up",
+          "kind": "form",
+          "looks_like": "Forearms and elbows stay tense during the press, with the elbow staying near 90 degrees and trying to push the floor away.",
+          "why_it_matters": "Active biceps stop the elbow from straightening, and the triceps engage first and pull sideways, so the chest cannot finish the press and you get stuck.",
+          "causes": [
+            "Biceps staying too tense, holding elbow angle",
+            "Engaging triceps first instead of the chest"
+          ],
+          "fixes": [
+            "Relax the forearms and elbows on the way up while pressing",
+            "Tense the arms on the way down, relax on the way up"
+          ],
+          "outcome_effects": [
+            "Stuck at the bottom with lots of tension but no upward movement",
+            "Chest cannot effectively finish the movement"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Use a hand position roughly just outside shoulder width or narrower.",
+        "Tuck the elbows in toward the body instead of flaring them, keeping them below 60 degrees and ideally around 45 degrees.",
+        "With tucked elbows the body moves forward and back rather than straight up and down, like a bench press bar path.",
+        "Keep the hands neutral, pointed neither in nor out.",
+        "Screw the hands into the ground to promote external rotation of the shoulders, as in a squat foot setup, and keep that by putting weight toward the outside of the hands.",
+        "Use the lats to pull the shoulders down and away from the ears, and hold that locked position through each rep.",
+        "For a chest focus, set the hands slightly back and keep the elbows stacked over the wrists to limit elbow flexion.",
+        "For a triceps and arms focus, tuck the elbows and drop them down and back away from the hands to maximize elbow flexion.",
+        "For a shoulder focus, raise the feet on a platform or do pike push-ups to add shoulder flexion.",
+        "Perform each rep slowly, at least 2.5 seconds, and up to 5-6 seconds for extra difficulty."
+      ],
+      "faults": [
+        {
+          "name": "Flaring the elbows / wide hand position",
+          "kind": "safety",
+          "looks_like": "Hands placed too wide and elbows flaring out to the sides at the bottom of the push-up.",
+          "why_it_matters": "It puts the shoulders at greater injury risk and reduces chest and triceps work. Elbows beyond 60 degrees put the shoulder in a compromised position that can lead to impingement.",
+          "causes": [
+            "Using a hand position that is too wide, thinking it will target the chest better",
+            "Not tucking the elbows toward the body"
+          ],
+          "fixes": [
+            "Use a grip just outside shoulder width or narrower",
+            "Tuck the elbows toward the body",
+            "Keep the elbow angle below 60 degrees, ideally around 45"
+          ],
+          "outcome_effects": [
+            "Shortened range of motion",
+            "Tension lines up with the front delts instead of the chest",
+            "Less chest and triceps activation",
+            "Smaller strength and power gains"
+          ]
+        },
+        {
+          "name": "Hands turned inward",
+          "kind": "safety",
+          "looks_like": "Hands turned in slightly on the floor.",
+          "why_it_matters": "It puts the shoulders in an internally rotated position with greater risk of impingement, and adds shear stress on the elbows.",
+          "causes": [
+            "Hand placement turned in"
+          ],
+          "fixes": [
+            "Keep the hands neutral, pointed neither in nor out",
+            "Screw the hands into the ground to create external rotation of the shoulders before the rep",
+            "Think about distributing weight toward the outside of the hands during the rep"
+          ],
+          "outcome_effects": [
+            "Encourages elbow flaring",
+            "Less shoulder stability and comfort"
+          ]
+        },
+        {
+          "name": "Shrugging the shoulders",
+          "kind": "form",
+          "looks_like": "Shoulders creeping up toward the ears as fatigue sets in during the reps.",
+          "why_it_matters": "Tension moves from the chest to the traps, and stability and pressing strength are lost.",
+          "causes": [
+            "Fatigue while grinding out reps"
+          ],
+          "fixes": [
+            "Use the lats to pull the shoulders down and away from the ears into a locked, stable position",
+            "Maintain that position on every rep"
+          ],
+          "outcome_effects": [
+            "Tension shifts from chest to traps",
+            "Loss of stability",
+            "Reduced pressing strength"
+          ]
+        },
+        {
+          "name": "Doing push-ups too fast",
+          "kind": "safety",
+          "looks_like": "Knocking out reps as fast as possible with a quick tempo.",
+          "why_it_matters": "A fast tempo produced 135% greater shear force and 163% greater torque on the elbow joints, which over high volume can cause excessive stress and elbow pain. It also gives less muscle activation.",
+          "causes": [
+            "Push-ups feeling easy for experienced lifters, so they rush through reps"
+          ],
+          "fixes": [
+            "Slow down to at least 2.5 seconds per rep",
+            "Go to 5-6 seconds per rep for more difficulty"
+          ],
+          "outcome_effects": [
+            "Less chest, triceps and rear delt activation than slower tempos",
+            "Less muscle stress and growth over time"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Set hand position first: hands just outside the shoulders, not too close or too far, fingers spread wide for lots of ground contact.",
+        "Create shoulder tension, finding a happy medium between slouching and pushing too far away.",
+        "Engage the lats by screwing the hands into the ground (as if turning them outward) without letting them move.",
+        "Brace the abs, easiest from the quadruped position, before extending the legs.",
+        "Keep a straight spinal line with three points of contact: head, thoracic spine and top of the sacrum; a stick along the back gives feedback, and tucking the chin helps.",
+        "Keep the feet fairly close together so the glutes can squeeze tight.",
+        "Squeeze the glutes and keep abs tight throughout.",
+        "Lower slowly to a couple of inches off the floor, then press away from the floor.",
+        "Regress with hands on a squat rack bar (higher is easier), same setup, keeping a long torso rather than kneeling push-ups.",
+        "On the incline, lower to about an inch off the bar, cueing lats by trying to bend the bar.",
+        "Progress once the client does 3 sets of 10-15 good reps: raise feet up to about a 12-inch box, then add load with a plate, sandbag or bands.",
+        "When loading with a plate, place it on the upper-mid back, not directly over the shoulder blades or down at the hips, and make sure it doesn't dig in; a sandbag lengthwise along the spine is more comfortable."
+      ],
+      "faults": [
+        {
+          "name": "Hands too close or too far / slouching shoulders",
+          "kind": "form",
+          "looks_like": "Hands lined up too close or too far away; shoulders slouch or the body is pushed too far away from the hands.",
+          "why_it_matters": "A poor setup makes it hard to perform the exercise correctly.",
+          "causes": [
+            "Client doesn't know where to place the hands"
+          ],
+          "fixes": [
+            "Establish hand width first from all fours, just outside the shoulders with fingers spread",
+            "Find a happy medium for shoulder tension",
+            "Screw the hands into the ground to turn on the lats"
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Sagging hips",
+          "kind": "form",
+          "looks_like": "Hips sag toward the floor during the push-up.",
+          "why_it_matters": "It shows the core isn't bracing; the speaker says anterior core stability is usually the limiting factor rather than upper body strength.",
+          "causes": [
+            "Poor anterior core stability",
+            "Inability to brace the core effectively"
+          ],
+          "fixes": [
+            "Squeeze a pad between the knees to get adductor and core activation",
+            "Use an incline regression and slowly lower the height over weeks",
+            "Keep glutes tight and feet close together",
+            "Use a stick to check the spinal alignment"
+          ],
+          "outcome_effects": [
+            "Loss of the straight line from head to hips"
+          ]
+        },
+        {
+          "name": "Feet too wide",
+          "kind": "form",
+          "looks_like": "Feet set far apart in the push-up position.",
+          "why_it_matters": "It prevents a tight glute contraction.",
+          "causes": [],
+          "fixes": [
+            "Keep the feet fairly close together"
+          ],
+          "outcome_effects": [
+            "Glutes can't brace tightly"
+          ]
+        },
+        {
+          "name": "Kneeling push-ups as regression",
+          "kind": "form",
+          "looks_like": "Client does push-ups from the knees.",
+          "why_it_matters": "It shortens the core lever, so the speaker prefers incline push-ups with a long torso.",
+          "causes": [],
+          "fixes": [
+            "Use incline push-ups on a squat rack instead"
+          ],
+          "outcome_effects": [
+            "Shortened core lever"
+          ]
+        },
+        {
+          "name": "Raising the feet too high",
+          "kind": "form",
+          "looks_like": "Feet elevated much higher than about a 12-inch box.",
+          "why_it_matters": "It turns the push-up into something like a handstand push-up, which they don't want.",
+          "causes": [],
+          "fixes": [
+            "Limit foot elevation to about a 12-inch box"
+          ],
+          "outcome_effects": []
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Corkscrew the hands into the floor as you set up so the elbows and arms sit much closer to the body.",
+        "Keep the whole front of the body tight by contracting the quads and the core, so the body forms a straight line.",
+        "Use full range of motion: lower until the chest touches the floor, then push all the way back up.",
+        "Don't worry about locking out the arms at the top, since they can lock in this position.",
+        "For technique practice, the speaker has trainees push even further past the normal top position to build straight-arm scapular strength and reach a hollow-hold plank position."
+      ],
+      "faults": [
+        {
+          "name": "Flaring the elbows",
+          "kind": "safety",
+          "looks_like": "Elbows point out away from the body during the push-up.",
+          "why_it_matters": "It is bad form and, according to the speaker, bad for the elbow and especially the shoulder because it is not a natural movement.",
+          "causes": [],
+          "fixes": [
+            "Corkscrew the hands in as you go into the push-up position, which brings the elbows and arms closer to the body."
+          ],
+          "outcome_effects": []
+        },
+        {
+          "name": "Arching the back",
+          "kind": "form",
+          "looks_like": "Only the upper body pushes up while the back arches, so the body is not in a straight line.",
+          "why_it_matters": "It is not a proper push-up; the body should move as one straight line.",
+          "causes": [
+            "Not having complete anterior chain tension, so the front of the body is not tight.",
+            "Quads and core not contracted."
+          ],
+          "fixes": [
+            "Contract the quads and the core; you should feel yourself lift off the floor even at the bottom position.",
+            "Keep that tension while pressing up and down to keep a straight line."
+          ],
+          "outcome_effects": [
+            "Body does not stay in a straight line."
+          ]
+        },
+        {
+          "name": "Limited range of movement",
+          "kind": "form",
+          "looks_like": "Going up and down in a very small range of motion.",
+          "why_it_matters": "Fixing it is part of getting much better results from push-ups.",
+          "causes": [],
+          "fixes": [
+            "Go all the way down until the chest touches the floor, then push all the way back up.",
+            "Don't fear locking the arms out at the top.",
+            "For technique work, push past the normal top position to build straight-arm scapular strength."
+          ],
+          "outcome_effects": [
+            "Poorer results from the push-ups."
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Lower all the way until you touch the floor to get the deep stretch at the bottom where the chest works hardest.",
+        "Move with control: lower for a slow count of about 4 seconds, pause briefly at the bottom, then press up with power.",
+        "Think of pushing the floor away rather than just moving the body up and down.",
+        "Engage the lats before lowering by squeezing them back and down, as if pulling shoulders into hips or sticking hands in back pockets.",
+        "Grip the floor with fingers and twist hands outward without moving them to create external rotation, which fires the lats and stabilizes the shoulders.",
+        "Keep elbows at about a 45 degree angle from the body, helped by screwing the hands into the floor.",
+        "Keep a straight line from head to heels.",
+        "Brace the core laterally as if about to take a punch, tuck the pelvis under slightly and squeeze the glutes."
+      ],
+      "faults": [
+        {
+          "name": "Not going low enough",
+          "kind": "form",
+          "looks_like": "Not lowering the body far enough to touch the floor.",
+          "why_it_matters": "Not dangerous, but it reduces full muscle activation and misses the deep bottom stretch where the chest works hardest.",
+          "causes": [
+            "Trying to get more reps in quickly",
+            "Not having the strength to lower all the way",
+            "Limited shoulder and pec mobility"
+          ],
+          "fixes": [
+            "Practice slow negatives: lower as slowly as possible to the bottom, then use knees to push back up.",
+            "If mobility is the issue, actively stretch the shoulders and pecs before training."
+          ],
+          "outcome_effects": [
+            "Less chest activation",
+            "Missing the deep stretch at the bottom"
+          ]
+        },
+        {
+          "name": "Doing push-ups too fast",
+          "kind": "form",
+          "looks_like": "Cranking out reps quickly, using momentum instead of muscle control.",
+          "why_it_matters": "Muscles are not under tension long enough, which decreases hypertrophy; slower controlled reps build more muscle.",
+          "causes": [
+            "Rushing reps and relying on momentum"
+          ],
+          "fixes": [
+            "Lower for a slow count of 4 seconds, pause briefly at the bottom, then press up with power.",
+            "Think about pushing the floor away."
+          ],
+          "outcome_effects": [
+            "Less time under tension",
+            "Reduced muscle building"
+          ]
+        },
+        {
+          "name": "Not engaging the lats",
+          "kind": "safety",
+          "looks_like": "Arms feel like they do all the work; reps are shaky with poor posture and lats are not activated.",
+          "why_it_matters": "Lats keep the body stable; without them the shoulders take more strain and the core works less effectively.",
+          "causes": [
+            "Treating push-ups as only a chest and triceps exercise"
+          ],
+          "fixes": [
+            "Squeeze lats back and down before lowering, imagining pulling shoulders into hips or hands into back pockets.",
+            "Grip the floor with fingers and twist hands outward without moving them."
+          ],
+          "outcome_effects": [
+            "Shaky reps",
+            "Poor posture",
+            "Less powerful push-ups through the chest",
+            "Core works less effectively"
+          ]
+        },
+        {
+          "name": "Flaring elbows too wide",
+          "kind": "safety",
+          "looks_like": "Upper arms perpendicular to the body.",
+          "why_it_matters": "Puts unnecessary stress on the shoulders and can lead to shoulder pain and long-term joint issues over time.",
+          "causes": [
+            "It feels easier at first because a wider elbow position shortens the range of motion"
+          ],
+          "fixes": [
+            "Keep elbows at about 45 degrees from the body.",
+            "Think about screwing hands into the floor to pull elbows into a safer position."
+          ],
+          "outcome_effects": [
+            "Reduced chest activation",
+            "Shortened range of motion"
+          ]
+        },
+        {
+          "name": "Sagging or piking hips",
+          "kind": "safety",
+          "looks_like": "Hips drop down or rise too high, breaking the straight line from head to heels; high hips look like downward dog.",
+          "why_it_matters": "Sagging hips load the lower back instead of the core; high hips take tension off the chest and triceps.",
+          "causes": [
+            "Lack of core strength",
+            "Getting tired mid-set"
+          ],
+          "fixes": [
+            "Stay in a straight line from head to heels.",
+            "Brace the core laterally as if about to take a punch.",
+            "Tuck the pelvis under slightly and squeeze the glutes.",
+            "Practice holding a strong plank before doing push-ups."
+          ],
+          "outcome_effects": [
+            "Lower back takes the load",
+            "Less tension on chest and triceps",
+            "Push-up turns into an awkward downward dog position"
+          ]
+        }
+      ]
+    },
+    {
+      "about_this_activity": true,
+      "good_form": [
+        "Tuck the elbows in rather than flaring them out.",
+        "Think about pressing the elbows back as the chest touches the floor, which engages the upper back and chest.",
+        "Keep the core tight and press the hips up and down so the body moves as one line.",
+        "Chest and hips should touch the ground together, not chest first.",
+        "Lock the elbows out fully at the top before the chest touches the ground."
+      ],
+      "faults": [
+        {
+          "name": "Elbow flare",
+          "kind": "form",
+          "looks_like": "The elbows flare out to the sides as the person lowers to the floor.",
+          "why_it_matters": "It puts the athlete in a compromised position and stops the upper back and chest from engaging.",
+          "causes": [],
+          "fixes": [
+            "Tuck the elbows in.",
+            "Think about pressing the elbows back as the chest touches the ground."
+          ],
+          "outcome_effects": [
+            "Upper back and chest are not engaged."
+          ]
+        },
+        {
+          "name": "Losing the core (chest before hips)",
+          "kind": "form",
+          "looks_like": "The chest touches the ground before the hips do, so the midline sags and the body is not moving as one unit.",
+          "why_it_matters": "The body should move in one line, which is better for the midline.",
+          "causes": [
+            "Losing core tension"
+          ],
+          "fixes": [
+            "Press up with the hips and keep the core tight.",
+            "Press down with everything moving in one line."
+          ],
+          "outcome_effects": [
+            "Body does not move in one line."
+          ]
+        },
+        {
+          "name": "Bro reps (no lockout)",
+          "kind": "form",
+          "looks_like": "The elbows are not fully locked out at the top of the rep.",
+          "why_it_matters": "Proper movement requires a full lockout at the top.",
+          "causes": [],
+          "fixes": [
+            "Lock the elbows out fully at the top before the chest touches the ground."
+          ],
+          "outcome_effects": [
+            "Incomplete range of motion."
+          ]
+        }
+      ]
+    }
+  ]
+}
